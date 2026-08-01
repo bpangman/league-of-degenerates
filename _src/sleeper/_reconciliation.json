@@ -1,0 +1,485 @@
+{
+ "all_match": true,
+ "rows": [
+  {
+   "year": 2020,
+   "manager": "Tony Loff",
+   "roster_id": 1,
+   "computed": "6-7-0",
+   "roster_settings": "6-7-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "BlakeBro",
+   "roster_id": 2,
+   "computed": "7-6-0",
+   "roster_settings": "7-6-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "David",
+   "roster_id": 3,
+   "computed": "4-9-0",
+   "roster_settings": "4-9-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Mathieu",
+   "roster_id": 4,
+   "computed": "6-7-0",
+   "roster_settings": "6-7-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Mikey Loff",
+   "roster_id": 5,
+   "computed": "5-8-0",
+   "roster_settings": "5-8-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Mac",
+   "roster_id": 6,
+   "computed": "7-6-0",
+   "roster_settings": "7-6-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Levon",
+   "roster_id": 7,
+   "computed": "5-8-0",
+   "roster_settings": "5-8-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Hannah",
+   "roster_id": 8,
+   "computed": "6-7-0",
+   "roster_settings": "6-7-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Tony Busch",
+   "roster_id": 9,
+   "computed": "9-4-0",
+   "roster_settings": "9-4-0",
+   "match": true
+  },
+  {
+   "year": 2020,
+   "manager": "Ryan M",
+   "roster_id": 10,
+   "computed": "10-3-0",
+   "roster_settings": "10-3-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Tony Loff",
+   "roster_id": 1,
+   "computed": "9-5-0",
+   "roster_settings": "9-5-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "BlakeBro",
+   "roster_id": 2,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "David",
+   "roster_id": 3,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Mathieu",
+   "roster_id": 4,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Mikey Loff",
+   "roster_id": 5,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Mac",
+   "roster_id": 6,
+   "computed": "9-5-0",
+   "roster_settings": "9-5-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Levon",
+   "roster_id": 7,
+   "computed": "3-11-0",
+   "roster_settings": "3-11-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Hannah",
+   "roster_id": 8,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Tony Busch",
+   "roster_id": 9,
+   "computed": "9-5-0",
+   "roster_settings": "9-5-0",
+   "match": true
+  },
+  {
+   "year": 2021,
+   "manager": "Ryan M",
+   "roster_id": 10,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Tony Loff",
+   "roster_id": 1,
+   "computed": "3-11-0",
+   "roster_settings": "3-11-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "BlakeBro",
+   "roster_id": 2,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "David",
+   "roster_id": 3,
+   "computed": "13-1-0",
+   "roster_settings": "13-1-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Mathieu",
+   "roster_id": 4,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Mikey Loff",
+   "roster_id": 5,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Mac",
+   "roster_id": 6,
+   "computed": "11-3-0",
+   "roster_settings": "11-3-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Levon",
+   "roster_id": 7,
+   "computed": "4-10-0",
+   "roster_settings": "4-10-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Hannah",
+   "roster_id": 8,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Tony Busch",
+   "roster_id": 9,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2022,
+   "manager": "Ryan M",
+   "roster_id": 10,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Tony Loff",
+   "roster_id": 1,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "BlakeBro",
+   "roster_id": 2,
+   "computed": "4-10-0",
+   "roster_settings": "4-10-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "David",
+   "roster_id": 3,
+   "computed": "10-4-0",
+   "roster_settings": "10-4-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Mathieu",
+   "roster_id": 4,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Mikey Loff",
+   "roster_id": 5,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Team Barbie",
+   "roster_id": 6,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Levon",
+   "roster_id": 7,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Hannah",
+   "roster_id": 8,
+   "computed": "10-4-0",
+   "roster_settings": "10-4-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Tony Busch",
+   "roster_id": 9,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2023,
+   "manager": "Ryan M",
+   "roster_id": 10,
+   "computed": "4-10-0",
+   "roster_settings": "4-10-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Tony Loff",
+   "roster_id": 1,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "BlakeBro",
+   "roster_id": 2,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "David",
+   "roster_id": 3,
+   "computed": "10-4-0",
+   "roster_settings": "10-4-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Mathieu",
+   "roster_id": 4,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Mikey Loff",
+   "roster_id": 5,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Team Barbie",
+   "roster_id": 6,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Levon",
+   "roster_id": 7,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Hannah",
+   "roster_id": 8,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Tony Busch",
+   "roster_id": 9,
+   "computed": "10-4-0",
+   "roster_settings": "10-4-0",
+   "match": true
+  },
+  {
+   "year": 2024,
+   "manager": "Ryan M",
+   "roster_id": 10,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Tony Loff",
+   "roster_id": 1,
+   "computed": "11-3-0",
+   "roster_settings": "11-3-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "BlakeBro",
+   "roster_id": 2,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "David",
+   "roster_id": 3,
+   "computed": "9-5-0",
+   "roster_settings": "9-5-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Mathieu",
+   "roster_id": 4,
+   "computed": "3-11-0",
+   "roster_settings": "3-11-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Mikey Loff",
+   "roster_id": 5,
+   "computed": "8-6-0",
+   "roster_settings": "8-6-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Team Barbie",
+   "roster_id": 6,
+   "computed": "6-8-0",
+   "roster_settings": "6-8-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Levon",
+   "roster_id": 7,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Hannah",
+   "roster_id": 8,
+   "computed": "9-5-0",
+   "roster_settings": "9-5-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Tony Busch",
+   "roster_id": 9,
+   "computed": "5-9-0",
+   "roster_settings": "5-9-0",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "manager": "Ryan M",
+   "roster_id": 10,
+   "computed": "7-7-0",
+   "roster_settings": "7-7-0",
+   "match": true
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+[
+ {
+  "created": 1593971265771,
+  "creators": [
+   "453493103592992768",
+   "585627790750040064"
+  ],
+  "draft_id": "585561565747519488",
+  "draft_order": {
+   "453493103592992768": 10,
+   "585627790750040064": 7,
+   "585643393061785600": 2,
+   "586698314242621440": 3,
+   "586749933239971840": 9,
+   "587120763782336512": 4,
+   "588165481005887488": 5,
+   "589277672534745088": 1,
+   "590711236740550656": 8,
+   "591683884287049728": 6
+  },
+  "last_message_id": "600543173680316416",
+  "last_message_time": 1597543159563,
+  "last_picked": 1597543159147,
+  "league_id": "585561564715728896",
+  "metadata": {
+   "description": "",
+   "name": "Degenerate GM League",
+   "scoring_type": "dynasty"
+  },
+  "season": "2020",
+  "season_type": "regular",
+  "settings": {
+   "alpha_sort": 0,
+   "cpu_autopick": 1,
+   "pick_timer": 60,
+   "player_type": 0,
+   "reversal_round": 0,
+   "rounds": 24,
+   "slots_bn": 15,
+   "slots_def": 1,
+   "slots_flex": 2,
+   "slots_k": 1,
+   "slots_qb": 1,
+   "slots_rb": 2,
+   "slots_wr": 2,
+   "teams": 10
+  },
+  "sport": "nfl",
+  "start_time": 1597537348972,
+  "status": "complete",
+  "type": "snake"
+ }
+]

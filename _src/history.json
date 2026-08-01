@@ -1,0 +1,106 @@
+{
+  "note": "Final standings 2022-2024 transcribed from Commissioner BlakeBro's annual league memos (8/25/23, 8/19/24, 8/13/25). 2025 from Sleeper screenshots.",
+  "seasons": [
+    {
+      "year": 2022,
+      "champion": "Hannah",
+      "source": "League Memo 8/25/2023",
+      "standings": [
+        {"place": 1, "owner": "Hannah", "record": "8-6", "note": "Champion"},
+        {"place": 2, "owner": "David Loff", "record": "13-1", "note": "13-1 and did not win. Read that again."},
+        {"place": 3, "owner": "*Vacated*", "record": "11-3", "note": "Mac's seat. Vacated."},
+        {"place": 4, "owner": "Vivek McCusker", "record": "7-7", "note": ""},
+        {"place": 5, "owner": "Mikey Loff", "record": "7-7", "note": ""},
+        {"place": 6, "owner": "Mathieu", "record": "6-8", "note": ""},
+        {"place": 7, "owner": "Levon", "record": "4-10", "note": "Toilet Bowl"},
+        {"place": 8, "owner": "Tony Loff", "record": "3-11", "note": ""},
+        {"place": 9, "owner": "BlakeBro", "record": "5-9", "note": ""},
+        {"place": 10, "owner": "TB", "record": "6-8", "note": "yikes"}
+      ]
+    },
+    {
+      "year": 2023,
+      "champion": "Hannah",
+      "source": "League Memo 8/19/2024",
+      "standings": [
+        {"place": 1, "owner": "Hannah", "record": "10-4", "note": "2x Champ. Back to back."},
+        {"place": 2, "owner": "Dave Loff", "record": "10-4", "note": "2x runner-up"},
+        {"place": 3, "owner": "Team Barbie", "record": "7-7", "note": "2x 3rd, in their debut era"},
+        {"place": 4, "owner": "Tony Busch", "record": "8-6", "note": ""},
+        {"place": 5, "owner": "Mikey Loff", "record": "7-7", "note": ""},
+        {"place": 6, "owner": "Mathieu", "record": "8-6", "note": ""},
+        {"place": 7, "owner": "BlakeBro", "record": "4-10", "note": "Toilet Bowl"},
+        {"place": 8, "owner": "Tony Loff", "record": "6-8", "note": ""},
+        {"place": 9, "owner": "Ryan M", "record": "4-10", "note": ""},
+        {"place": 10, "owner": "Levon", "record": "6-8", "note": ""}
+      ]
+    },
+    {
+      "year": 2024,
+      "champion": "David Loff",
+      "source": "League Memo 8/13/2025",
+      "standings": [
+        {"place": 1, "owner": "David Loff", "record": "10-4", "note": "Champion. The Great Fantasy Robbery."},
+        {"place": 2, "owner": "Tony Busch", "record": "10-4", "note": ""},
+        {"place": 3, "owner": "Team Barbie", "record": "7-7", "note": "back-to-back 3rd"},
+        {"place": 4, "owner": "Mikey Loff", "record": "8-6", "note": "deployed most of the year"},
+        {"place": 5, "owner": "Levon", "record": "7-7", "note": ""},
+        {"place": 6, "owner": "BlakeBro", "record": "7-7", "note": ""},
+        {"place": 7, "owner": "Hannah", "record": "6-8", "note": "Toilet Bowl. The Duchess of the Drain."},
+        {"place": 8, "owner": "Tony Loff", "record": "5-9", "note": "led at week 8, lost 6 straight"},
+        {"place": 9, "owner": "Ryan M", "record": "5-9", "note": "9th place. again."},
+        {"place": 10, "owner": "Mathieu", "record": "5-9", "note": ""}
+      ]
+    },
+    {
+      "year": 2025,
+      "champion": "Levon",
+      "source": "Sleeper",
+      "standings": [
+        {"place": 1, "owner": "Levon", "record": "7-7", "note": "CHAMPION as the 5 seed"},
+        {"place": 2, "owner": "Tony Loff", "record": "11-3", "note": "1 seed, lost the Final"},
+        {"place": 3, "owner": "David", "record": "9-5", "note": ""},
+        {"place": 4, "owner": "Ryan M", "record": "7-7", "note": "scored 79.52 in the 3rd place game"},
+        {"place": 5, "owner": "Hannah", "record": "9-5", "note": "led the league in scoring"},
+        {"place": 6, "owner": "Mikey Loff", "record": "8-6", "note": ""},
+        {"place": 7, "owner": "Team Barbie", "record": "6-8", "note": "Toilet Bowl Champion"},
+        {"place": 8, "owner": "Tony Busch", "record": "5-9", "note": ""},
+        {"place": 9, "owner": "Mathieu", "record": "3-11", "note": ""},
+        {"place": 10, "owner": "BlakeBro", "record": "5-9", "note": "The Commissioner. Dead last."}
+      ]
+    }
+  ],
+  "draft_order_2026": [
+    {"pick": 1, "owner": "Team Barbie", "from": "7th place", "bonus": "+4 contract years"},
+    {"pick": 2, "owner": "Tony Busch", "from": "8th place", "bonus": "+3 contract years"},
+    {"pick": 3, "owner": "Mathieu", "from": "9th place", "bonus": "+2 contract years"},
+    {"pick": 4, "owner": "BlakeBro", "from": "10th place", "bonus": "+1 contract year"},
+    {"pick": 5, "owner": "Hannah", "from": "5th place", "bonus": ""},
+    {"pick": 6, "owner": "Mikey Loff", "from": "6th place", "bonus": ""},
+    {"pick": 7, "owner": "Ryan M", "from": "4th place", "bonus": ""},
+    {"pick": 8, "owner": "David", "from": "3rd place", "bonus": ""},
+    {"pick": 9, "owner": "Tony Loff", "from": "2nd place", "bonus": ""},
+    {"pick": 10, "owner": "Levon", "from": "1st place", "bonus": "Champion picks last. Article 4.02."}
+  ],
+  "titles_note": "Full title history 2020-2025, confirmed against the Sleeper API. The 2020 and 2021 seasons predate the memo archive.",
+  "titles": [
+    {"owner": "Hannah", "titles": 2, "years": [2022, 2023]},
+    {"owner": "David", "titles": 2, "years": [2021, 2024]},
+    {"owner": "Ryan M", "titles": 1, "years": [2020]},
+    {"owner": "Levon", "titles": 1, "years": [2025]},
+    {"owner": "BlakeBro", "titles": 0, "years": []},
+    {"owner": "Tony Loff", "titles": 0, "years": []},
+    {"owner": "Tony Busch", "titles": 0, "years": []},
+    {"owner": "Mikey Loff", "titles": 0, "years": []},
+    {"owner": "Mathieu", "titles": 0, "years": []},
+    {"owner": "Team Barbie", "titles": 0, "years": []}
+  ],
+  "champions_by_year": [
+    {"year": 2020, "champion": "Ryan M", "runner_up": "Tony Busch", "toilet_bowl": "Mikey Loff"},
+    {"year": 2021, "champion": "David", "runner_up": "Mac", "toilet_bowl": "Mikey Loff"},
+    {"year": 2022, "champion": "Hannah", "runner_up": "David", "toilet_bowl": "Levon"},
+    {"year": 2023, "champion": "Hannah", "runner_up": "David", "toilet_bowl": "BlakeBro"},
+    {"year": 2024, "champion": "David", "runner_up": "Tony Busch", "toilet_bowl": "Hannah"},
+    {"year": 2025, "champion": "Levon", "runner_up": "Tony Loff", "toilet_bowl": "Team Barbie"}
+  ]
+}

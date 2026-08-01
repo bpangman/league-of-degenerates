@@ -1,0 +1,1020 @@
+[
+ {
+  "year": "2021",
+  "week": 1,
+  "transaction_id": "698628563124957184",
+  "created": 1620928538641,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Joe Mixon (RB-None)",
+     "2021 R1 pick (orig 5)"
+    ]
+   ],
+   "5": [
+    "Mikey Loff",
+    [
+     "Marquise Brown (WR-PHI)",
+     "2021 R1 pick (orig 1)",
+     "2022 R1 pick (orig 1)",
+     "2021 R1 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 6
+ },
+ {
+  "year": "2021",
+  "week": 9,
+  "transaction_id": "763828676491087872",
+  "created": 1636473457027,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Chris Carson (RB-None)",
+     "AJ Dillon (RB-CAR)",
+     "2022 R1 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Odell Beckham (WR-NYG)",
+     "Devontae Booker (RB-None)",
+     "2022 R1 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 6
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "1004165186971910144",
+  "created": 1693774146362,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Cooper Kupp (WR-SEA)",
+     "Kareem Hunt (RB-None)",
+     "2024 R1 pick (orig 3)",
+     "2025 R1 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Chris Olave (WR-NO)",
+     "2024 R1 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 6
+ },
+ {
+  "year": "2025",
+  "week": 1,
+  "transaction_id": "1261936674833702912",
+  "created": 1755231658231,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Calvin Ridley (WR-TEN)",
+     "Keaton Mitchell (RB-LAC)",
+     "2025 R1 pick (orig 2)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "Kyren Williams (RB-LAR)",
+     "Tank Bigsby (RB-PHI)",
+     "Dontayvion Wicks (WR-PHI)"
+    ]
+   ]
+  },
+  "n_assets": 6
+ },
+ {
+  "year": "2022",
+  "week": 9,
+  "transaction_id": "895768161008549888",
+  "created": 1667930281453,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "2023 R1 pick (orig 6)",
+     "2023 R2 pick (orig 6)",
+     "2024 R1 pick (orig 6)"
+    ]
+   ],
+   "6": [
+    "Mac",
+    [
+     "Davante Adams (WR-LAR)",
+     "Josh Jacobs (RB-GB)"
+    ]
+   ]
+  },
+  "n_assets": 5
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "1004172752854585344",
+  "created": 1693775950209,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Justin Herbert (QB-LAC)",
+     "2023 R1 pick (orig 6)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "Alvin Kamara (RB-NO)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "2023 R1 pick (orig 3)",
+     "2023 R1 pick (orig 5)"
+    ]
+   ]
+  },
+  "n_assets": 5
+ },
+ {
+  "year": "2026",
+  "week": 1,
+  "transaction_id": "1384926629146406912",
+  "created": 1784554748383,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "David Montgomery (RB-HOU)",
+     "J.K. Dobbins (RB-DEN)"
+    ]
+   ],
+   "10": [
+    "Ryan M",
+    [
+     "Michael Wilson (WR-ARI)",
+     "Jordan Mason (RB-MIN)",
+     "2026 R1 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 5
+ },
+ {
+  "year": "2023",
+  "week": 7,
+  "transaction_id": "1020478119360184320",
+  "created": 1697663452523,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Calvin Ridley (WR-TEN)",
+     "Jordan Addison (WR-MIN)",
+     "2024 R3 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Cooper Kupp (WR-SEA)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2023",
+  "week": 10,
+  "transaction_id": "1028006070716907520",
+  "created": 1699458255989,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Saquon Barkley (RB-PHI)",
+     "Jason Sanders (K-NYJ)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Alvin Kamara (RB-NO)",
+     "Jake Elliott (K-PHI)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2024",
+  "week": 1,
+  "transaction_id": "1079544725952237568",
+  "created": 1711746028939,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2024 R1 pick (orig 1)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "Rhamondre Stevenson (RB-NE)",
+     "George Pickens (WR-DAL)",
+     "2024 R2 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2024",
+  "week": 9,
+  "transaction_id": "1158059888891985920",
+  "created": 1730465502525,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "De'Von Achane (RB-MIA)"
+    ]
+   ],
+   "10": [
+    "Ryan M",
+    [
+     "J.K. Dobbins (RB-DEN)",
+     "Brian Robinson (RB-ATL)",
+     "2026 R1 pick (orig 3)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2024",
+  "week": 13,
+  "transaction_id": "1169008589282291712",
+  "created": 1733075876115,
+  "parties": {
+   "4": [
+    "Mathieu",
+    [
+     "Tank Dell (WR-HOU)",
+     "2025 R4 pick (orig 7)"
+    ]
+   ],
+   "7": [
+    "Levon",
+    [
+     "Javonte Williams (RB-DAL)",
+     "2025 R3 pick (orig 4)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2025",
+  "week": 7,
+  "transaction_id": "1284349021082640384",
+  "created": 1760575177978,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "Stefon Diggs (WR-None)",
+     "2026 R5 pick (orig 10)"
+    ]
+   ],
+   "10": [
+    "Ryan M",
+    [
+     "Marquise Brown (WR-PHI)",
+     "2026 R2 pick (orig 3)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2026",
+  "week": 1,
+  "transaction_id": "1344387974720147456",
+  "created": 1774889579995,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "De'Von Achane (RB-MIA)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Jonathon Brooks (RB-CAR)",
+     "Jordan Addison (WR-MIN)",
+     "2026 R1 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 4
+ },
+ {
+  "year": "2021",
+  "week": 11,
+  "transaction_id": "767852500530405376",
+  "created": 1637432811437,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Kyler Murray (QB-MIN)"
+    ]
+   ],
+   "7": [
+    "Levon",
+    [
+     "Diontae Johnson (WR-None)",
+     "2022 R4 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2021",
+  "week": 11,
+  "transaction_id": "767267451460382720",
+  "created": 1637293324869,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "2022 R1 pick (orig 6)",
+     "2022 R4 pick (orig 6)"
+    ]
+   ],
+   "6": [
+    "Mac",
+    [
+     "2023 R1 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2022",
+  "week": 1,
+  "transaction_id": "874660914245328896",
+  "created": 1662897921671,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Joshua Palmer (WR-BUF)",
+     "2023 R4 pick (orig 9)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "2023 R3 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2022",
+  "week": 1,
+  "transaction_id": "869313155560587264",
+  "created": 1661622916644,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2022 R2 pick (orig 8)"
+    ]
+   ],
+   "8": [
+    "Hannah",
+    [
+     "Matthew Stafford (QB-LAR)",
+     "2022 R2 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2022",
+  "week": 7,
+  "transaction_id": "890501806390714368",
+  "created": 1666674684668,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "George Pickens (WR-DAL)",
+     "2023 R1 pick (orig 5)"
+    ]
+   ],
+   "5": [
+    "Mikey Loff",
+    [
+     "Joe Mixon (RB-None)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2022",
+  "week": 8,
+  "transaction_id": "891473238528724992",
+  "created": 1666906292138,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Christian Watson (WR-GB)",
+     "2023 R2 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Tyler Boyd (WR-None)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "1006661560821497856",
+  "created": 1694369328268,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Chris Olave (WR-NO)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Calvin Ridley (WR-TEN)",
+     "2024 R1 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "1005180993705185280",
+  "created": 1694016333560,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Jaylen Warren (RB-PIT)"
+    ]
+   ],
+   "7": [
+    "Levon",
+    [
+     "Brandin Cooks (WR-None)",
+     "Tank Dell (WR-HOU)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "1004174436716617728",
+  "created": 1693776351673,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Derrick Henry (RB-BAL)"
+    ]
+   ],
+   "4": [
+    "Mathieu",
+    [
+     "2023 R2 pick (orig 2)",
+     "2023 R2 pick (orig 6)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2023",
+  "week": 2,
+  "transaction_id": "1007815420461649920",
+  "created": 1694644429844,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "2024 R1 pick (orig 1)",
+     "2024 R2 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Derrick Henry (RB-BAL)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2024",
+  "week": 1,
+  "transaction_id": "1133644299725377536",
+  "created": 1724644372448,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "2024 R1 pick (orig 10)"
+    ]
+   ],
+   "10": [
+    "Ryan M",
+    [
+     "2024 R2 pick (orig 2)",
+     "2024 R1 pick (orig 6)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2024",
+  "week": 1,
+  "transaction_id": "1133554554437513216",
+  "created": 1724622975504,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "Brian Robinson (RB-ATL)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "Dameon Pierce (RB-PHI)",
+     "2025 R2 pick (orig 3)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2024",
+  "week": 1,
+  "transaction_id": "1124098811149840384",
+  "created": 1722368550625,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2024 R3 pick (orig 4)"
+    ]
+   ],
+   "4": [
+    "Mathieu",
+    [
+     "DeMario Douglas (WR-NE)",
+     "2024 R4 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2024",
+  "week": 12,
+  "transaction_id": "1166464153717755904",
+  "created": 1732469235403,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Tyrone Tracy (RB-NYG)"
+    ]
+   ],
+   "4": [
+    "Mathieu",
+    [
+     "2025 R2 pick (orig 1)",
+     "2025 R3 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2025",
+  "week": 1,
+  "transaction_id": "1266625236162330624",
+  "created": 1756349498361,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Nico Collins (WR-HOU)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "DK Metcalf (WR-PIT)",
+     "Deebo Samuel (WR-SF)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2025",
+  "week": 3,
+  "transaction_id": "1276380031953666048",
+  "created": 1758675222914,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2026 R4 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "Calvin Ridley (WR-TEN)",
+     "2026 R5 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 3
+ },
+ {
+  "year": "2021",
+  "week": 1,
+  "transaction_id": "731736232010346496",
+  "created": 1628822022014,
+  "parties": {
+   "6": [
+    "Mac",
+    [
+     "Mike Evans (WR-SF)"
+    ]
+   ],
+   "7": [
+    "Levon",
+    [
+     "2021 R1 pick (orig 6)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2021",
+  "week": 1,
+  "transaction_id": "728324470246350848",
+  "created": 1628008594622,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "Travis Kelce (TE-KC)"
+    ]
+   ],
+   "5": [
+    "Mikey Loff",
+    [
+     "Chase Claypool (WR-None)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2021",
+  "week": 1,
+  "transaction_id": "682387143615655936",
+  "created": 1617056282479,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2021 R1 pick (orig 2)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "Josh Jacobs (RB-GB)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2021",
+  "week": 1,
+  "transaction_id": "650161385233276928",
+  "created": 1609373062955,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "Josh Allen (QB-BUF)"
+    ]
+   ],
+   "5": [
+    "Mikey Loff",
+    [
+     "Lamar Jackson (QB-BAL)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2022",
+  "week": 7,
+  "transaction_id": "890440527773114368",
+  "created": 1666660074707,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2023 R1 pick (orig 3)"
+    ]
+   ],
+   "3": [
+    "David",
+    [
+     "James Robinson (RB-None)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2022",
+  "week": 13,
+  "transaction_id": "905161028172853248",
+  "created": 1670169715496,
+  "parties": {
+   "2": [
+    "BlakeBro",
+    [
+     "Ezekiel Elliott (RB-None)"
+    ]
+   ],
+   "4": [
+    "Mathieu",
+    [
+     "2023 R3 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2022",
+  "week": 13,
+  "transaction_id": "904517624699088896",
+  "created": 1670016316154,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Garrett Wilson (WR-NYJ)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "Isiah Pacheco (RB-DET)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "1004179276586938368",
+  "created": 1693777505588,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "2023 R1 pick (orig 5)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "2024 R1 pick (orig 2)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2023",
+  "week": 1,
+  "transaction_id": "993634369799524352",
+  "created": 1691263403895,
+  "parties": {
+   "3": [
+    "David",
+    [
+     "Tyreek Hill (WR-None)"
+    ]
+   ],
+   "5": [
+    "Mikey Loff",
+    [
+     "A.J. Brown (WR-NE)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2024",
+  "week": 1,
+  "transaction_id": "1133273342187872256",
+  "created": 1724555929279,
+  "parties": {
+   "5": [
+    "Mikey Loff",
+    [
+     "James Conner (RB-ARI)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "D'Andre Swift (RB-CHI)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2024",
+  "week": 1,
+  "transaction_id": "1054988870556667904",
+  "created": 1705891456787,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Kendre Miller (RB-NO)"
+    ]
+   ],
+   "9": [
+    "Tony Busch",
+    [
+     "2024 R3 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2025",
+  "week": 11,
+  "transaction_id": "1296431484776747008",
+  "created": 1763455861805,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "Jaxson Dart (QB-NYG)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "2026 R2 pick (orig 1)"
+    ]
+   ]
+  },
+  "n_assets": 2
+ },
+ {
+  "year": "2020",
+  "week": 4,
+  "transaction_id": "617000442269900800",
+  "created": 1601466878052,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    []
+   ],
+   "3": [
+    "David",
+    [
+     "Rex Burkhead (RB-None)"
+    ]
+   ]
+  },
+  "n_assets": 1
+ },
+ {
+  "year": "2020",
+  "week": 10,
+  "transaction_id": "634453658154676224",
+  "created": 1605628048984,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    []
+   ],
+   "2": [
+    "BlakeBro",
+    [
+     "Antonio Brown (WR-None)"
+    ]
+   ]
+  },
+  "n_assets": 1
+ },
+ {
+  "year": "2021",
+  "week": 12,
+  "transaction_id": "771554045092610048",
+  "created": 1638315328432,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    []
+   ],
+   "3": [
+    "David",
+    [
+     "Alex Collins (RB-None)"
+    ]
+   ]
+  },
+  "n_assets": 1
+ },
+ {
+  "year": "2022",
+  "week": 1,
+  "transaction_id": "797320200499335168",
+  "created": 1644458458593,
+  "parties": {
+   "1": [
+    "Tony Loff",
+    [
+     "2022 R4 pick (orig 2)"
+    ]
+   ],
+   "2": [
+    "BlakeBro",
+    []
+   ]
+  },
+  "n_assets": 1
+ }
+]

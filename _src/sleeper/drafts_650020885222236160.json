@@ -1,0 +1,53 @@
+[
+ {
+  "created": 1609339565142,
+  "creators": [
+   "453493103592992768",
+   "585627790750040064"
+  ],
+  "draft_id": "650020885222236161",
+  "draft_order": {
+   "453493103592992768": 4,
+   "585627790750040064": 8,
+   "585643393061785600": 2,
+   "586698314242621440": 5,
+   "586749933239971840": 1,
+   "587120763782336512": 7,
+   "588165481005887488": 3,
+   "589277672534745088": 6,
+   "590711236740550656": 9,
+   "591683884287049728": 10
+  },
+  "last_message_id": "732803302407860224",
+  "last_message_time": 1629076431423,
+  "last_picked": 1629076430935,
+  "league_id": "650020885222236160",
+  "metadata": {
+   "description": "",
+   "name": "Degenerate GM League",
+   "scoring_type": "dynasty_half_ppr"
+  },
+  "season": "2021",
+  "season_type": "regular",
+  "settings": {
+   "alpha_sort": 0,
+   "cpu_autopick": 1,
+   "pick_timer": 90,
+   "player_type": 0,
+   "reversal_round": 0,
+   "rounds": 10,
+   "slots_bn": 15,
+   "slots_def": 1,
+   "slots_flex": 2,
+   "slots_k": 1,
+   "slots_qb": 1,
+   "slots_rb": 2,
+   "slots_wr": 2,
+   "teams": 10
+  },
+  "sport": "nfl",
+  "start_time": 1629073384421,
+  "status": "complete",
+  "type": "linear"
+ }
+]

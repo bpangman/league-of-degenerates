@@ -1,0 +1,261 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "source_file": "season_15_Screenshot_2026-08-01_at_3.32.03_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 98.08, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 112.64},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 109.42, "home": "Stroud Boys", "home_manager": "matthewbuckets", "home_score": 105.52},
+        {"away": "Team Barbie", "away_manager": "MadDawg6969", "away_score": 121.28, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 124.82},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 116.66, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 145.82},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 164.86, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 115.12}
+      ]
+    },
+    {
+      "week": 2,
+      "source_file": "season_14_Screenshot_2026-08-01_at_3.31.51_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 116.70, "home": "Band-Aid Brigade", "home_manager": "TonyLoff", "home_score": 145.78},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 134.48, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 152.74},
+        {"away": "Better Bijaness Burrow", "away_manager": "levonthelight", "away_score": 181.64, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 120.40},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 128.52, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 122.54},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 121.50, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 114.98}
+      ]
+    },
+    {
+      "week": 3,
+      "source_file": "season_13_Screenshot_2026-08-01_at_3.31.41_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 143.32, "home": "Stroud Boys", "home_manager": "matthewbuckets", "home_score": 96.96},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 149.30, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 122.54},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 149.42, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 116.72},
+        {"away": "Team Barbie", "away_manager": "MadDawg6969", "away_score": 122.44, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 148.56},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 129.52, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 108.68}
+      ]
+    },
+    {
+      "week": 4,
+      "source_file": "season_11_Screenshot_2026-08-01_at_3.30.15_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 157.36, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 107.10},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 106.32, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 156.38},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 134.02, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 114.40},
+        {"away": "Tis The Lamb Season", "away_manager": "hannah77808", "away_score": 195.96, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 164.42},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 142.66, "home": "Brock Hard", "home_manager": "Mloffredo10", "home_score": 114.78}
+      ]
+    },
+    {
+      "week": 5,
+      "source_file": "season_12_Screenshot_2026-08-01_at_3.31.24_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 144.16, "home": "DavidBeckham", "home_manager": "DavidBeckham", "home_score": 122.32},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 128.56, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 165.30},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 113.94, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 172.42},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 101.30, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 169.68},
+        {"away": "The Fumblin’ Faucis", "away_manager": "tbusch74", "away_score": 100.34, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 128.24}
+      ]
+    },
+    {
+      "week": 6,
+      "source_file": "season_10_Screenshot_2026-08-01_at_3.29.47_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 144.54, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 156.72},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 96.90, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 104.44},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 80.36, "home": "Brock Hard", "home_manager": "Mloffredo10", "home_score": 108.16},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 162.80, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 117.14},
+        {"away": "Better Bijaness Burrow", "away_manager": "levonthelight", "away_score": 109.50, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 119.38}
+      ]
+    },
+    {
+      "week": 7,
+      "source_file": "season_09_Screenshot_2026-08-01_at_3.29.36_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 70.22, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 153.12},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 83.52, "home": "Brock Hard", "home_manager": "Mloffredo10", "home_score": 155.98},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 178.80, "home": "DavidBeckham", "home_manager": "DavidBeckham", "home_score": 129.12},
+        {"away": "Tis The Lamb Season", "away_manager": "hannah77808", "away_score": 181.56, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 114.64},
+        {"away": "Team Barbie", "away_manager": "MadDawg6969", "away_score": 193.34, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 115.94}
+      ]
+    },
+    {
+      "week": 8,
+      "source_file": "season_08_Screenshot_2026-08-01_at_3.29.25_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 105.68, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 188.52},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 112.42, "home": "Stroud Boys", "home_manager": "matthewbuckets", "home_score": 120.92},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 82.98, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 118.36},
+        {"away": "Better Bijaness Burrow", "away_manager": "levonthelight", "away_score": 115.48, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 133.42},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 163.42, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 137.96}
+      ]
+    },
+    {
+      "week": 9,
+      "source_file": "season_07_Screenshot_2026-08-01_at_3.29.13_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 156.10, "home": "Brock Hard", "home_manager": "Mloffredo10", "home_score": 123.96},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 98.34, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 103.50},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 116.00, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 102.62},
+        {"away": "Team Barbie", "away_manager": "MadDawg6969", "away_score": 149.52, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 148.50},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 138.42, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 83.28}
+      ]
+    },
+    {
+      "week": 10,
+      "source_file": "season_06_Screenshot_2026-08-01_at_3.29.01_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 126.98, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 167.60},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 149.90, "home": "Stroud Boys", "home_manager": "matthewbuckets", "home_score": 76.22},
+        {"away": "Team Barbie", "away_manager": "MadDawg6969", "away_score": 149.02, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 134.00},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 108.64, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 106.20},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 174.54, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 130.92}
+      ]
+    },
+    {
+      "week": 11,
+      "source_file": "season_05_Screenshot_2026-08-01_at_3.28.49_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 127.12, "home": "Band-Aid Brigade", "home_manager": "TonyLoff", "home_score": 130.64},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 111.26, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 128.84},
+        {"away": "Better Bijaness Burrow", "away_manager": "levonthelight", "away_score": 116.14, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 103.00},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 187.98, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 109.00},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 68.92, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 108.94}
+      ]
+    },
+    {
+      "week": 12,
+      "source_file": "season_04_Screenshot_2026-08-01_at_3.28.39_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 99.14, "home": "Stroud Boys", "home_manager": "matthewbuckets", "home_score": 150.06},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 160.78, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 144.26},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 135.72, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 120.94},
+        {"away": "Team Barbie", "away_manager": "MadDawg6969", "away_score": 172.86, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 111.58},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 105.72, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 132.56}
+      ]
+    },
+    {
+      "week": 13,
+      "source_file": "season_03_Screenshot_2026-08-01_at_3.28.10_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 110.36, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 144.24},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 86.12, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 166.34},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 124.74, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 102.90},
+        {"away": "Tis The Lamb Season", "away_manager": "hannah77808", "away_score": 138.38, "home": "The Fumblin’ Faucis", "home_manager": "tbusch74", "home_score": 120.14},
+        {"away": "DavidBeckham", "away_manager": "DavidBeckham", "away_score": 126.62, "home": "Brock Hard", "home_manager": "Mloffredo10", "home_score": 119.42}
+      ]
+    },
+    {
+      "week": 14,
+      "source_file": "season_02_Screenshot_2026-08-01_at_3.27.58_PM.png",
+      "matchups": [
+        {"away": "Shake & Bake(r)", "away_manager": "pangdaddy", "away_score": 141.58, "home": "DavidBeckham", "home_manager": "DavidBeckham", "home_score": 116.64},
+        {"away": "Stroud Boys", "away_manager": "matthewbuckets", "away_score": 132.86, "home": "Team Barbie", "home_manager": "MadDawg6969", "home_score": 122.70},
+        {"away": "Band-Aid Brigade", "away_manager": "TonyLoff", "away_score": 165.04, "home": "Better Bijaness Burrow", "home_manager": "levonthelight", "home_score": 126.16},
+        {"away": "Brock Hard", "away_manager": "Mloffredo10", "away_score": 131.56, "home": "Tis The Lamb Season", "home_manager": "hannah77808", "home_score": 115.28},
+        {"away": "The Fumblin’ Faucis", "away_manager": "tbusch74", "away_score": 149.36, "home": "Cus Cus", "home_manager": "ryanmccusker", "home_score": 107.20}
+      ]
+    }
+  ],
+  "playoffs": {
+    "source_file": "season_00_image.png",
+    "note": "Bracket displays manager usernames only, not team nicknames. See standings for manager-to-team mapping.",
+    "rounds": [
+      {
+        "round": "Round 1",
+        "week": 15,
+        "matchups": [
+          {"team1": "TonyLoff", "team1_score": 132.74, "team2": null, "team2_score": null, "note": "BYE"},
+          {"team1": "Mloffredo10", "team1_score": 95.80, "team2": "ryanmccusker", "team2_score": 110.26, "winner": "ryanmccusker"},
+          {"team1": "DavidBeckham", "team1_score": 130.82, "team2": null, "team2_score": null, "note": "BYE"},
+          {"team1": "levonthelight", "team1_score": 159.00, "team2": "hannah77808", "team2_score": 139.80, "winner": "levonthelight"}
+        ]
+      },
+      {
+        "round": "Round 2",
+        "week": 16,
+        "matchups": [
+          {"team1": "TonyLoff", "team1_score": 160.42, "team2": "ryanmccusker", "team2_score": 100.94, "winner": "TonyLoff"},
+          {"team1": "DavidBeckham", "team1_score": 132.40, "team2": "levonthelight", "team2_score": 153.96, "winner": "levonthelight"}
+        ]
+      },
+      {
+        "round": "Championship",
+        "week": 17,
+        "matchups": [
+          {"team1": "TonyLoff", "team1_score": 117.22, "team2": "levonthelight", "team2_score": 147.00, "winner": "levonthelight"}
+        ]
+      },
+      {
+        "round": "5th Place",
+        "week": 16,
+        "matchups": [
+          {"team1": "Mloffredo10", "team1_score": 91.54, "team2": "hannah77808", "team2_score": 169.80, "winner": "hannah77808"}
+        ]
+      },
+      {
+        "round": "3rd Place",
+        "week": 16,
+        "matchups": [
+          {"team1": "ryanmccusker", "team1_score": 79.52, "team2": "DavidBeckham", "team2_score": 172.98, "winner": "DavidBeckham"}
+        ]
+      }
+    ],
+    "final_order": [
+      {"place": 1, "manager": "levonthelight", "team": "Better Bijaness Burrow"},
+      {"place": 2, "manager": "TonyLoff", "team": "Band-Aid Brigade"},
+      {"place": 3, "manager": "DavidBeckham", "team": "DavidBeckham"},
+      {"place": 4, "manager": "ryanmccusker", "team": "Cus Cus"},
+      {"place": 5, "manager": "hannah77808", "team": "Tis The Lamb Season"},
+      {"place": 6, "manager": "Mloffredo10", "team": "Brock Hard"}
+    ]
+  },
+  "toilet_bowl": {
+    "source_file": "season_00_image.png",
+    "note": "Consolation bracket, labeled 'CONSOLATION BRACKET' on the same image as the playoff bracket. Displays manager usernames only, not team nicknames.",
+    "rounds": [
+      {
+        "round": "Round 1",
+        "week": 15,
+        "matchups": [
+          {"team1": "MadDawg6969", "team1_score": 140.30, "team2": "matthewbuckets", "team2_score": 91.34, "winner": "MadDawg6969"},
+          {"team1": "tbusch74", "team1_score": 147.72, "team2": "pangdaddy", "team2_score": 99.38, "winner": "tbusch74"}
+        ]
+      },
+      {
+        "round": "7th Place",
+        "week": 16,
+        "matchups": [
+          {"team1": "MadDawg6969", "team1_score": 147.10, "team2": "tbusch74", "team2_score": 137.56, "winner": "MadDawg6969"}
+        ]
+      },
+      {
+        "round": "9th Place",
+        "week": 16,
+        "matchups": [
+          {"team1": "matthewbuckets", "team1_score": 174.70, "team2": "pangdaddy", "team2_score": 114.50, "winner": "matthewbuckets"}
+        ]
+      }
+    ],
+    "final_order": [
+      {"place": 7, "manager": "MadDawg6969", "team": "Team Barbie"},
+      {"place": 8, "manager": "tbusch74", "team": "The Fumblin’ Faucis"},
+      {"place": 9, "manager": "matthewbuckets", "team": "Stroud Boys"},
+      {"place": 10, "manager": "pangdaddy", "team": "Shake & Bake(r)"}
+    ]
+  },
+  "standings": {
+    "source_file": "season_01_image.png",
+    "teams": [
+      {"rank": 1, "team": "Band-Aid Brigade", "manager": "TonyLoff", "wins": 11, "losses": 3, "pf": 1841.7, "pa": 1666.5, "waiver_budget": "$0", "waiver_priority": 10},
+      {"rank": 2, "team": "Tis The Lamb Season", "manager": "hannah77808", "wins": 9, "losses": 5, "pf": 2028.54, "pa": 1840.74, "waiver_budget": "$200", "waiver_priority": 5},
+      {"rank": 3, "team": "DavidBeckham", "manager": "DavidBeckham", "wins": 9, "losses": 5, "pf": 1942.14, "pa": 1738.9, "waiver_budget": "$17", "waiver_priority": 8},
+      {"rank": 4, "team": "Brock Hard", "manager": "Mloffredo10", "wins": 8, "losses": 6, "pf": 1719.44, "pa": 1725.78, "waiver_budget": "$200", "waiver_priority": 3},
+      {"rank": 5, "team": "Better Bijaness Burrow", "manager": "levonthelight", "wins": 7, "losses": 7, "pf": 1876.94, "pa": 1711.7, "waiver_budget": "$0", "waiver_priority": 9},
+      {"rank": 6, "team": "Cus Cus", "manager": "ryanmccusker", "wins": 7, "losses": 7, "pf": 1672.76, "pa": 1814.92, "waiver_budget": "$200", "waiver_priority": 4},
+      {"rank": 7, "team": "Team Barbie", "manager": "MadDawg6969", "wins": 6, "losses": 8, "pf": 1939.98, "pa": 1928.04, "waiver_budget": "$200", "waiver_priority": 2},
+      {"rank": 8, "team": "The Fumblin’ Faucis", "manager": "tbusch74", "wins": 5, "losses": 9, "pf": 1762.44, "pa": 1840.02, "waiver_budget": "$200", "waiver_priority": 1},
+      {"rank": 9, "team": "Shake & Bake(r)", "manager": "pangdaddy", "wins": 5, "losses": 9, "pf": 1741.34, "pa": 1916.3, "waiver_budget": "$175", "waiver_priority": 7},
+      {"rank": 10, "team": "Stroud Boys", "manager": "matthewbuckets", "wins": 3, "losses": 11, "pf": 1528.04, "pa": 1870.42, "waiver_budget": "$178", "waiver_priority": 6}
+    ]
+  },
+  "uncertain": []
+}

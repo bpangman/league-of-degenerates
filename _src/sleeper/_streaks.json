@@ -1,0 +1,266 @@
+{
+ "BlakeBro": {
+  "best_win_streak": 4,
+  "win_span": [
+   [
+    2021,
+    11
+   ],
+   [
+    2021,
+    14
+   ]
+  ],
+  "best_loss_streak": 9,
+  "loss_span": [
+   [
+    2021,
+    2
+   ],
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "Tony Loff": {
+  "best_win_streak": 7,
+  "win_span": [
+   [
+    2025,
+    9
+   ],
+   [
+    2025,
+    16
+   ]
+  ],
+  "best_loss_streak": 6,
+  "loss_span": [
+   [
+    2024,
+    9
+   ],
+   [
+    2024,
+    14
+   ]
+  ]
+ },
+ "Hannah": {
+  "best_win_streak": 7,
+  "win_span": [
+   [
+    2022,
+    15
+   ],
+   [
+    2023,
+    4
+   ]
+  ],
+  "best_loss_streak": 7,
+  "loss_span": [
+   [
+    2020,
+    12
+   ],
+   [
+    2021,
+    3
+   ]
+  ]
+ },
+ "David": {
+  "best_win_streak": 11,
+  "win_span": [
+   [
+    2021,
+    14
+   ],
+   [
+    2022,
+    7
+   ]
+  ],
+  "best_loss_streak": 5,
+  "loss_span": [
+   [
+    2021,
+    9
+   ],
+   [
+    2021,
+    13
+   ]
+  ]
+ },
+ "Mathieu": {
+  "best_win_streak": 5,
+  "win_span": [
+   [
+    2021,
+    2
+   ],
+   [
+    2021,
+    6
+   ]
+  ],
+  "best_loss_streak": 11,
+  "loss_span": [
+   [
+    2024,
+    13
+   ],
+   [
+    2025,
+    7
+   ]
+  ]
+ },
+ "Mac": {
+  "best_win_streak": 8,
+  "win_span": [
+   [
+    2022,
+    7
+   ],
+   [
+    2022,
+    14
+   ]
+  ],
+  "best_loss_streak": 2,
+  "loss_span": [
+   [
+    2020,
+    5
+   ],
+   [
+    2020,
+    6
+   ]
+  ]
+ },
+ "Ryan M": {
+  "best_win_streak": 11,
+  "win_span": [
+   [
+    2020,
+    8
+   ],
+   [
+    2021,
+    3
+   ]
+  ],
+  "best_loss_streak": 5,
+  "loss_span": [
+   [
+    2021,
+    12
+   ],
+   [
+    2021,
+    16
+   ]
+  ]
+ },
+ "Mikey Loff": {
+  "best_win_streak": 4,
+  "win_span": [
+   [
+    2023,
+    5
+   ],
+   [
+    2023,
+    8
+   ]
+  ],
+  "best_loss_streak": 4,
+  "loss_span": [
+   [
+    2020,
+    4
+   ],
+   [
+    2020,
+    7
+   ]
+  ]
+ },
+ "Tony Busch": {
+  "best_win_streak": 6,
+  "win_span": [
+   [
+    2020,
+    3
+   ],
+   [
+    2020,
+    8
+   ]
+  ],
+  "best_loss_streak": 4,
+  "loss_span": [
+   [
+    2022,
+    2
+   ],
+   [
+    2022,
+    5
+   ]
+  ]
+ },
+ "Levon": {
+  "best_win_streak": 3,
+  "win_span": [
+   [
+    2020,
+    6
+   ],
+   [
+    2020,
+    8
+   ]
+  ],
+  "best_loss_streak": 5,
+  "loss_span": [
+   [
+    2021,
+    7
+   ],
+   [
+    2021,
+    11
+   ]
+  ]
+ },
+ "Team Barbie": {
+  "best_win_streak": 4,
+  "win_span": [
+   [
+    2024,
+    12
+   ],
+   [
+    2024,
+    15
+   ]
+  ],
+  "best_loss_streak": 4,
+  "loss_span": [
+   [
+    2024,
+    3
+   ],
+   [
+    2024,
+    6
+   ]
+  ]
+ }
+}

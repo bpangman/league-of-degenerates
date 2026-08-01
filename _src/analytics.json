@@ -1,0 +1,497 @@
+{
+ "top_scores": [
+  {
+   "score": 195.96,
+   "team": "Tis The Lamb Season",
+   "week": 4,
+   "opp": "The Fumblin\u2019 Faucis",
+   "opp_score": 164.42
+  },
+  {
+   "score": 193.34,
+   "team": "Team Barbie",
+   "week": 7,
+   "opp": "The Fumblin\u2019 Faucis",
+   "opp_score": 115.94
+  },
+  {
+   "score": 188.52,
+   "team": "The Fumblin\u2019 Faucis",
+   "week": 8,
+   "opp": "Shake & Bake(r)",
+   "opp_score": 105.68
+  },
+  {
+   "score": 187.98,
+   "team": "DavidBeckham",
+   "week": 11,
+   "opp": "Team Barbie",
+   "opp_score": 109.0
+  },
+  {
+   "score": 181.64,
+   "team": "Better Bijaness Burrow",
+   "week": 2,
+   "opp": "The Fumblin\u2019 Faucis",
+   "opp_score": 120.4
+  },
+  {
+   "score": 181.56,
+   "team": "Tis The Lamb Season",
+   "week": 7,
+   "opp": "Cus Cus",
+   "opp_score": 114.64
+  },
+  {
+   "score": 178.8,
+   "team": "Band-Aid Brigade",
+   "week": 7,
+   "opp": "DavidBeckham",
+   "opp_score": 129.12
+  },
+  {
+   "score": 174.54,
+   "team": "DavidBeckham",
+   "week": 10,
+   "opp": "Cus Cus",
+   "opp_score": 130.92
+  },
+  {
+   "score": 172.86,
+   "team": "Team Barbie",
+   "week": 12,
+   "opp": "Cus Cus",
+   "opp_score": 111.58
+  },
+  {
+   "score": 172.42,
+   "team": "Better Bijaness Burrow",
+   "week": 5,
+   "opp": "Band-Aid Brigade",
+   "opp_score": 113.94
+  }
+ ],
+ "low_scores": [
+  {
+   "score": 68.92,
+   "team": "Brock Hard",
+   "week": 11,
+   "opp": "Cus Cus",
+   "opp_score": 108.94
+  },
+  {
+   "score": 70.22,
+   "team": "Shake & Bake(r)",
+   "week": 7,
+   "opp": "Better Bijaness Burrow",
+   "opp_score": 153.12
+  },
+  {
+   "score": 76.22,
+   "team": "Stroud Boys",
+   "week": 10,
+   "opp": "Band-Aid Brigade",
+   "opp_score": 149.9
+  },
+  {
+   "score": 80.36,
+   "team": "Band-Aid Brigade",
+   "week": 6,
+   "opp": "Brock Hard",
+   "opp_score": 108.16
+  },
+  {
+   "score": 82.98,
+   "team": "Band-Aid Brigade",
+   "week": 8,
+   "opp": "Cus Cus",
+   "opp_score": 118.36
+  },
+  {
+   "score": 83.28,
+   "team": "Better Bijaness Burrow",
+   "week": 9,
+   "opp": "DavidBeckham",
+   "opp_score": 138.42
+  },
+  {
+   "score": 83.52,
+   "team": "Stroud Boys",
+   "week": 7,
+   "opp": "Brock Hard",
+   "opp_score": 155.98
+  },
+  {
+   "score": 86.12,
+   "team": "Stroud Boys",
+   "week": 13,
+   "opp": "Better Bijaness Burrow",
+   "opp_score": 166.34
+  }
+ ],
+ "advanced": [
+  {
+   "team": "Tis The Lamb Season",
+   "manager": "hannah77808",
+   "allplay_w": 87,
+   "allplay_l": 39,
+   "allplay_pct": 0.69,
+   "expected_wins": 9.67,
+   "actual_wins": 9,
+   "luck": -0.67,
+   "pf": 2028.54,
+   "pa": 1840.74,
+   "ppg": 144.9,
+   "weekly_prizes": 1
+  },
+  {
+   "team": "Team Barbie",
+   "manager": "MadDawg6969",
+   "allplay_w": 76,
+   "allplay_l": 50,
+   "allplay_pct": 0.603,
+   "expected_wins": 8.44,
+   "actual_wins": 6,
+   "luck": -2.44,
+   "pf": 1939.98,
+   "pa": 1928.04,
+   "ppg": 138.57,
+   "weekly_prizes": 2
+  },
+  {
+   "team": "DavidBeckham",
+   "manager": "DavidBeckham",
+   "allplay_w": 75,
+   "allplay_l": 51,
+   "allplay_pct": 0.595,
+   "expected_wins": 8.33,
+   "actual_wins": 9,
+   "luck": 0.67,
+   "pf": 1942.14,
+   "pa": 1738.9,
+   "ppg": 138.72,
+   "weekly_prizes": 4
+  },
+  {
+   "team": "Band-Aid Brigade",
+   "manager": "TonyLoff",
+   "allplay_w": 71,
+   "allplay_l": 55,
+   "allplay_pct": 0.563,
+   "expected_wins": 7.89,
+   "actual_wins": 11,
+   "luck": 3.11,
+   "pf": 1841.7,
+   "pa": 1666.5,
+   "ppg": 131.55,
+   "weekly_prizes": 1
+  },
+  {
+   "team": "Better Bijaness Burrow",
+   "manager": "levonthelight",
+   "allplay_w": 71,
+   "allplay_l": 55,
+   "allplay_pct": 0.563,
+   "expected_wins": 7.89,
+   "actual_wins": 7,
+   "luck": -0.89,
+   "pf": 1876.94,
+   "pa": 1711.7,
+   "ppg": 134.07,
+   "weekly_prizes": 3
+  },
+  {
+   "team": "Brock Hard",
+   "manager": "Mloffredo10",
+   "allplay_w": 58,
+   "allplay_l": 68,
+   "allplay_pct": 0.46,
+   "expected_wins": 6.44,
+   "actual_wins": 8,
+   "luck": 1.56,
+   "pf": 1719.44,
+   "pa": 1725.78,
+   "ppg": 122.82,
+   "weekly_prizes": 1
+  },
+  {
+   "team": "Shake & Bake(r)",
+   "manager": "pangdaddy",
+   "allplay_w": 55,
+   "allplay_l": 71,
+   "allplay_pct": 0.437,
+   "expected_wins": 6.11,
+   "actual_wins": 5,
+   "luck": -1.11,
+   "pf": 1741.34,
+   "pa": 1916.3,
+   "ppg": 124.38,
+   "weekly_prizes": 1
+  },
+  {
+   "team": "The Fumblin\u2019 Faucis",
+   "manager": "tbusch74",
+   "allplay_w": 53,
+   "allplay_l": 73,
+   "allplay_pct": 0.421,
+   "expected_wins": 5.89,
+   "actual_wins": 5,
+   "luck": -0.89,
+   "pf": 1762.44,
+   "pa": 1840.02,
+   "ppg": 125.89,
+   "weekly_prizes": 1
+  },
+  {
+   "team": "Cus Cus",
+   "manager": "ryanmccusker",
+   "allplay_w": 47,
+   "allplay_l": 79,
+   "allplay_pct": 0.373,
+   "expected_wins": 5.22,
+   "actual_wins": 7,
+   "luck": 1.78,
+   "pf": 1672.76,
+   "pa": 1814.92,
+   "ppg": 119.48,
+   "weekly_prizes": 0
+  },
+  {
+   "team": "Stroud Boys",
+   "manager": "matthewbuckets",
+   "allplay_w": 37,
+   "allplay_l": 89,
+   "allplay_pct": 0.294,
+   "expected_wins": 4.11,
+   "actual_wins": 3,
+   "luck": -1.11,
+   "pf": 1528.04,
+   "pa": 1870.42,
+   "ppg": 109.15,
+   "weekly_prizes": 0
+  }
+ ],
+ "closest": [
+  {
+   "week": 9,
+   "away": "Team Barbie",
+   "away_score": 149.52,
+   "home": "Tis The Lamb Season",
+   "home_score": 148.5,
+   "margin": 1.02
+  },
+  {
+   "week": 10,
+   "away": "Brock Hard",
+   "away_score": 108.64,
+   "home": "The Fumblin\u2019 Faucis",
+   "home_score": 106.2,
+   "margin": 2.44
+  },
+  {
+   "week": 11,
+   "away": "Shake & Bake(r)",
+   "away_score": 127.12,
+   "home": "Band-Aid Brigade",
+   "home_score": 130.64,
+   "margin": 3.52
+  },
+  {
+   "week": 1,
+   "away": "Team Barbie",
+   "away_score": 121.28,
+   "home": "Better Bijaness Burrow",
+   "home_score": 124.82,
+   "margin": 3.54
+  },
+  {
+   "week": 1,
+   "away": "Band-Aid Brigade",
+   "away_score": 109.42,
+   "home": "Stroud Boys",
+   "home_score": 105.52,
+   "margin": 3.9
+  }
+ ],
+ "blowouts": [
+  {
+   "week": 7,
+   "away": "Shake & Bake(r)",
+   "away_score": 70.22,
+   "home": "Better Bijaness Burrow",
+   "home_score": 153.12,
+   "margin": 82.9
+  },
+  {
+   "week": 8,
+   "away": "Shake & Bake(r)",
+   "away_score": 105.68,
+   "home": "The Fumblin\u2019 Faucis",
+   "home_score": 188.52,
+   "margin": 82.84
+  },
+  {
+   "week": 13,
+   "away": "Stroud Boys",
+   "away_score": 86.12,
+   "home": "Better Bijaness Burrow",
+   "home_score": 166.34,
+   "margin": 80.22
+  },
+  {
+   "week": 11,
+   "away": "DavidBeckham",
+   "away_score": 187.98,
+   "home": "Team Barbie",
+   "home_score": 109.0,
+   "margin": 78.98
+  },
+  {
+   "week": 7,
+   "away": "Team Barbie",
+   "away_score": 193.34,
+   "home": "The Fumblin\u2019 Faucis",
+   "home_score": 115.94,
+   "margin": 77.4
+  }
+ ],
+ "weekly_high": [
+  {
+   "week": 1,
+   "team": "DavidBeckham",
+   "score": 164.86
+  },
+  {
+   "week": 2,
+   "team": "Better Bijaness Burrow",
+   "score": 181.64
+  },
+  {
+   "week": 3,
+   "team": "Brock Hard",
+   "score": 149.42
+  },
+  {
+   "week": 4,
+   "team": "Tis The Lamb Season",
+   "score": 195.96
+  },
+  {
+   "week": 5,
+   "team": "Better Bijaness Burrow",
+   "score": 172.42
+  },
+  {
+   "week": 6,
+   "team": "DavidBeckham",
+   "score": 162.8
+  },
+  {
+   "week": 7,
+   "team": "Team Barbie",
+   "score": 193.34
+  },
+  {
+   "week": 8,
+   "team": "The Fumblin\u2019 Faucis",
+   "score": 188.52
+  },
+  {
+   "week": 9,
+   "team": "Shake & Bake(r)",
+   "score": 156.1
+  },
+  {
+   "week": 10,
+   "team": "DavidBeckham",
+   "score": 174.54
+  },
+  {
+   "week": 11,
+   "team": "DavidBeckham",
+   "score": 187.98
+  },
+  {
+   "week": 12,
+   "team": "Team Barbie",
+   "score": 172.86
+  },
+  {
+   "week": 13,
+   "team": "Better Bijaness Burrow",
+   "score": 166.34
+  },
+  {
+   "week": 14,
+   "team": "Band-Aid Brigade",
+   "score": 165.04
+  }
+ ],
+ "final_order": [
+  {
+   "place": 1,
+   "team": "Better Bijaness Burrow",
+   "manager": "levonthelight",
+   "result": "CHAMPION"
+  },
+  {
+   "place": 2,
+   "team": "Band-Aid Brigade",
+   "manager": "TonyLoff",
+   "result": "Lost Championship"
+  },
+  {
+   "place": 3,
+   "team": "DavidBeckham",
+   "manager": "DavidBeckham",
+   "result": "Won 3rd place game"
+  },
+  {
+   "place": 4,
+   "team": "Cus Cus",
+   "manager": "ryanmccusker",
+   "result": "Lost 3rd place game"
+  },
+  {
+   "place": 5,
+   "team": "Tis The Lamb Season",
+   "manager": "hannah77808",
+   "result": "Won 5th place game"
+  },
+  {
+   "place": 6,
+   "team": "Brock Hard",
+   "manager": "Mloffredo10",
+   "result": "Lost 5th place game"
+  },
+  {
+   "place": 7,
+   "team": "Team Barbie",
+   "manager": "MadDawg6969",
+   "result": "TOILET BOWL CHAMPION (+4 contract yrs)"
+  },
+  {
+   "place": 8,
+   "team": "The Fumblin\u2019 Faucis",
+   "manager": "tbusch74",
+   "result": "Lost 7th place game (+3 contract yrs)"
+  },
+  {
+   "place": 9,
+   "team": "Stroud Boys",
+   "manager": "matthewbuckets",
+   "result": "Won 9th place game (+2 contract yrs)"
+  },
+  {
+   "place": 10,
+   "team": "Shake & Bake(r)",
+   "manager": "pangdaddy",
+   "result": "DEAD LAST (+1 contract yr)"
+  }
+ ],
+ "league_totals": {
+  "total_points": 18053.32,
+  "games": 70,
+  "avg_score": 128.95
+ }
+}

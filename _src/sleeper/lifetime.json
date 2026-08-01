@@ -1,0 +1,5005 @@
+{
+ "seasons": [
+  {
+   "year": 2020,
+   "league_id": "585561564715728896",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 14
+  },
+  {
+   "year": 2021,
+   "league_id": "650020885222236160",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 15
+  },
+  {
+   "year": 2022,
+   "league_id": "792853368795136000",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 15
+  },
+  {
+   "year": 2023,
+   "league_id": "917505683824787456",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 15
+  },
+  {
+   "year": 2024,
+   "league_id": "1048316328567816192",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 15
+  },
+  {
+   "year": 2025,
+   "league_id": "1180328979696623616",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 15
+  },
+  {
+   "year": 2026,
+   "league_id": "1312165709102448640",
+   "name": "Degenerate GM League",
+   "playoff_week_start": 15
+  }
+ ],
+ "managers": [
+  {
+   "user_id": "585627790750040064",
+   "display_name": "pangdaddy",
+   "known_as": "BlakeBro",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "585643393061785600",
+   "display_name": "DavidBeckham",
+   "known_as": "David",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "589277672534745088",
+   "display_name": "hannah77808",
+   "known_as": "Hannah",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "588165481005887488",
+   "display_name": "levonthelight",
+   "known_as": "Levon",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "587120763782336512",
+   "display_name": "macf",
+   "known_as": "Mac",
+   "seasons_played": [
+    2020,
+    2021,
+    2022
+   ]
+  },
+  {
+   "user_id": "586698314242621440",
+   "display_name": "matthewbuckets",
+   "known_as": "Mathieu",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "586749933239971840",
+   "display_name": "Mloffredo10",
+   "known_as": "Mikey Loff",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "591683884287049728",
+   "display_name": "ryanmccusker",
+   "known_as": "Ryan M",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "1001338259739369472",
+   "display_name": "MadDawg6969",
+   "known_as": "Team Barbie",
+   "seasons_played": [
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "590711236740550656",
+   "display_name": "tbusch74",
+   "known_as": "Tony Busch",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  },
+  {
+   "user_id": "453493103592992768",
+   "display_name": "TonyLoff",
+   "known_as": "Tony Loff",
+   "seasons_played": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ]
+  }
+ ],
+ "lifetime": [
+  {
+   "manager": "Mac",
+   "regular_season": {
+    "wins": 27,
+    "losses": 14,
+    "ties": 0,
+    "pct": 0.6585,
+    "pf": 5787.62,
+    "pa": 5134.02
+   },
+   "playoff": {
+    "wins": 4,
+    "losses": 4
+   },
+   "best_season": {
+    "year": 2022,
+    "record": "11-3",
+    "pf": 2098.66
+   },
+   "worst_season": {
+    "year": 2020,
+    "record": "7-6",
+    "pf": 1799.26
+   },
+   "highest_week": {
+    "year": 2020,
+    "week": 3,
+    "points": 225.48
+   },
+   "lowest_week": {
+    "year": 2022,
+    "week": 6,
+    "points": 92.4
+   }
+  },
+  {
+   "manager": "David",
+   "regular_season": {
+    "wins": 54,
+    "losses": 29,
+    "ties": 0,
+    "pct": 0.6506,
+    "pf": 11971.82,
+    "pa": 10516.82
+   },
+   "playoff": {
+    "wins": 9,
+    "losses": 4
+   },
+   "best_season": {
+    "year": 2022,
+    "record": "13-1",
+    "pf": 2125.32
+   },
+   "worst_season": {
+    "year": 2020,
+    "record": "4-9",
+    "pf": 1561.28
+   },
+   "highest_week": {
+    "year": 2023,
+    "week": 13,
+    "points": 226.28
+   },
+   "lowest_week": {
+    "year": 2020,
+    "week": 8,
+    "points": 73.22
+   }
+  },
+  {
+   "manager": "Tony Busch",
+   "regular_season": {
+    "wins": 47,
+    "losses": 36,
+    "ties": 0,
+    "pct": 0.5663,
+    "pf": 10587.2,
+    "pa": 10570.74
+   },
+   "playoff": {
+    "wins": 4,
+    "losses": 9
+   },
+   "best_season": {
+    "year": 2024,
+    "record": "10-4",
+    "pf": 1844.62
+   },
+   "worst_season": {
+    "year": 2025,
+    "record": "5-9",
+    "pf": 1762.44
+   },
+   "highest_week": {
+    "year": 2020,
+    "week": 3,
+    "points": 200.78
+   },
+   "lowest_week": {
+    "year": 2023,
+    "week": 9,
+    "points": 72.3
+   }
+  },
+  {
+   "manager": "Hannah",
+   "regular_season": {
+    "wins": 44,
+    "losses": 39,
+    "ties": 0,
+    "pct": 0.5301,
+    "pf": 11179.16,
+    "pa": 10990.82
+   },
+   "playoff": {
+    "wins": 9,
+    "losses": 4
+   },
+   "best_season": {
+    "year": 2023,
+    "record": "10-4",
+    "pf": 1998.8
+   },
+   "worst_season": {
+    "year": 2021,
+    "record": "5-9",
+    "pf": 1789.1
+   },
+   "highest_week": {
+    "year": 2025,
+    "week": 4,
+    "points": 195.96
+   },
+   "lowest_week": {
+    "year": 2022,
+    "week": 7,
+    "points": 70.6
+   }
+  },
+  {
+   "manager": "Mikey Loff",
+   "regular_season": {
+    "wins": 41,
+    "losses": 42,
+    "ties": 0,
+    "pct": 0.494,
+    "pf": 10714.68,
+    "pa": 10802.04
+   },
+   "playoff": {
+    "wins": 7,
+    "losses": 6
+   },
+   "best_season": {
+    "year": 2024,
+    "record": "8-6",
+    "pf": 1870.5
+   },
+   "worst_season": {
+    "year": 2020,
+    "record": "5-8",
+    "pf": 1832.8
+   },
+   "highest_week": {
+    "year": 2022,
+    "week": 2,
+    "points": 187.12
+   },
+   "lowest_week": {
+    "year": 2025,
+    "week": 11,
+    "points": 68.92
+   }
+  },
+  {
+   "manager": "Ryan M",
+   "regular_season": {
+    "wins": 41,
+    "losses": 42,
+    "ties": 0,
+    "pct": 0.494,
+    "pf": 10632.06,
+    "pa": 10678.74
+   },
+   "playoff": {
+    "wins": 6,
+    "losses": 8
+   },
+   "best_season": {
+    "year": 2020,
+    "record": "10-3",
+    "pf": 1965.98
+   },
+   "worst_season": {
+    "year": 2023,
+    "record": "4-10",
+    "pf": 1528.52
+   },
+   "highest_week": {
+    "year": 2022,
+    "week": 5,
+    "points": 214.58
+   },
+   "lowest_week": {
+    "year": 2022,
+    "week": 8,
+    "points": 54.0
+   }
+  },
+  {
+   "manager": "Tony Loff",
+   "regular_season": {
+    "wins": 40,
+    "losses": 43,
+    "ties": 0,
+    "pct": 0.4819,
+    "pf": 10953.6,
+    "pa": 10870.24
+   },
+   "playoff": {
+    "wins": 5,
+    "losses": 7
+   },
+   "best_season": {
+    "year": 2025,
+    "record": "11-3",
+    "pf": 1841.7
+   },
+   "worst_season": {
+    "year": 2022,
+    "record": "3-11",
+    "pf": 1711.68
+   },
+   "highest_week": {
+    "year": 2020,
+    "week": 5,
+    "points": 192.26
+   },
+   "lowest_week": {
+    "year": 2025,
+    "week": 6,
+    "points": 80.36
+   }
+  },
+  {
+   "manager": "Team Barbie",
+   "regular_season": {
+    "wins": 20,
+    "losses": 22,
+    "ties": 0,
+    "pct": 0.4762,
+    "pf": 5647.84,
+    "pa": 5622.86
+   },
+   "playoff": {
+    "wins": 6,
+    "losses": 2
+   },
+   "best_season": {
+    "year": 2024,
+    "record": "7-7",
+    "pf": 1865.76
+   },
+   "worst_season": {
+    "year": 2025,
+    "record": "6-8",
+    "pf": 1939.98
+   },
+   "highest_week": {
+    "year": 2024,
+    "week": 15,
+    "points": 202.44
+   },
+   "lowest_week": {
+    "year": 2023,
+    "week": 14,
+    "points": 86.8
+   }
+  },
+  {
+   "manager": "Mathieu",
+   "regular_season": {
+    "wins": 36,
+    "losses": 47,
+    "ties": 0,
+    "pct": 0.4337,
+    "pf": 10275.04,
+    "pa": 11091.72
+   },
+   "playoff": {
+    "wins": 3,
+    "losses": 9
+   },
+   "best_season": {
+    "year": 2023,
+    "record": "8-6",
+    "pf": 1880.22
+   },
+   "worst_season": {
+    "year": 2025,
+    "record": "3-11",
+    "pf": 1528.04
+   },
+   "highest_week": {
+    "year": 2021,
+    "week": 2,
+    "points": 194.08
+   },
+   "lowest_week": {
+    "year": 2020,
+    "week": 9,
+    "points": 63.72
+   }
+  },
+  {
+   "manager": "BlakeBro",
+   "regular_season": {
+    "wins": 33,
+    "losses": 50,
+    "ties": 0,
+    "pct": 0.3976,
+    "pf": 10755.8,
+    "pa": 11465.56
+   },
+   "playoff": {
+    "wins": 5,
+    "losses": 8
+   },
+   "best_season": {
+    "year": 2020,
+    "record": "7-6",
+    "pf": 1941.94
+   },
+   "worst_season": {
+    "year": 2023,
+    "record": "4-10",
+    "pf": 1818.62
+   },
+   "highest_week": {
+    "year": 2020,
+    "week": 4,
+    "points": 219.18
+   },
+   "lowest_week": {
+    "year": 2022,
+    "week": 6,
+    "points": 62.44
+   }
+  },
+  {
+   "manager": "Levon",
+   "regular_season": {
+    "wins": 32,
+    "losses": 51,
+    "ties": 0,
+    "pct": 0.3855,
+    "pf": 10451.04,
+    "pa": 11212.3
+   },
+   "playoff": {
+    "wins": 8,
+    "losses": 5
+   },
+   "best_season": {
+    "year": 2024,
+    "record": "7-7",
+    "pf": 1885.68
+   },
+   "worst_season": {
+    "year": 2021,
+    "record": "3-11",
+    "pf": 1642.9
+   },
+   "highest_week": {
+    "year": 2024,
+    "week": 15,
+    "points": 182.94
+   },
+   "lowest_week": {
+    "year": 2021,
+    "week": 11,
+    "points": 73.02
+   }
+  }
+ ],
+ "head_to_head": [
+  {
+   "a": "BlakeBro",
+   "b": "David",
+   "a_wins": 5,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1355.32,
+   "b_points": 1381.8,
+   "games": [
+    {
+     "year": 2020,
+     "week": 3,
+     "a_score": 160.92,
+     "b_score": 104.48,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 12,
+     "a_score": 126.14,
+     "b_score": 112.08,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 8,
+     "a_score": 118.7,
+     "b_score": 170.06,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 3,
+     "a_score": 132.6,
+     "b_score": 145.9,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 12,
+     "a_score": 129.4,
+     "b_score": 129.92,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 5,
+     "a_score": 154.48,
+     "b_score": 215.76,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 14,
+     "a_score": 110.74,
+     "b_score": 128.42,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 7,
+     "a_score": 136.6,
+     "b_score": 136.22,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 5,
+     "a_score": 144.16,
+     "b_score": 122.32,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 14,
+     "a_score": 141.58,
+     "b_score": 116.64,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Hannah",
+   "a_wins": 5,
+   "b_wins": 7,
+   "ties": 0,
+   "a_points": 1657.48,
+   "b_points": 1675.8,
+   "games": [
+    {
+     "year": 2020,
+     "week": 2,
+     "a_score": 128.1,
+     "b_score": 133.2,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 11,
+     "a_score": 122.34,
+     "b_score": 158.06,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 14,
+     "a_score": 163.1,
+     "b_score": 142.64,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 5,
+     "a_score": 144.96,
+     "b_score": 180.9,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 14,
+     "a_score": 174.54,
+     "b_score": 118.96,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 15,
+     "a_score": 105.42,
+     "b_score": 111.42,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 2,
+     "a_score": 125.36,
+     "b_score": 151.28,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 11,
+     "a_score": 135.22,
+     "b_score": 129.76,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 9,
+     "a_score": 154.46,
+     "b_score": 140.36,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 9,
+     "a_score": 178.92,
+     "b_score": 128.98,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 1,
+     "a_score": 98.08,
+     "b_score": 112.64,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 10,
+     "a_score": 126.98,
+     "b_score": 167.6,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Levon",
+   "a_wins": 6,
+   "b_wins": 7,
+   "ties": 0,
+   "a_points": 1746.34,
+   "b_points": 1710.86,
+   "games": [
+    {
+     "year": 2020,
+     "week": 4,
+     "a_score": 219.18,
+     "b_score": 130.82,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 13,
+     "a_score": 183.5,
+     "b_score": 90.92,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 6,
+     "a_score": 107.0,
+     "b_score": 153.86,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 16,
+     "a_score": 106.68,
+     "b_score": 137.9,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 1,
+     "a_score": 86.9,
+     "b_score": 103.32,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 10,
+     "a_score": 154.68,
+     "b_score": 130.52,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 15,
+     "a_score": 119.38,
+     "b_score": 124.9,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 8,
+     "a_score": 152.16,
+     "b_score": 141.42,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 15,
+     "a_score": 149.16,
+     "b_score": 101.28,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 4,
+     "a_score": 95.94,
+     "b_score": 154.66,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 13,
+     "a_score": 150.86,
+     "b_score": 122.26,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 16,
+     "a_score": 150.68,
+     "b_score": 165.88,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 7,
+     "a_score": 70.22,
+     "b_score": 153.12,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Mac",
+   "a_wins": 2,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 545.06,
+   "b_points": 528.96,
+   "games": [
+    {
+     "year": 2020,
+     "week": 9,
+     "a_score": 171.3,
+     "b_score": 114.9,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 16,
+     "a_score": 141.74,
+     "b_score": 109.28,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 9,
+     "a_score": 111.2,
+     "b_score": 139.78,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 8,
+     "a_score": 120.82,
+     "b_score": 165.0,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Mathieu",
+   "a_wins": 2,
+   "b_wins": 9,
+   "ties": 0,
+   "a_points": 1331.12,
+   "b_points": 1593.66,
+   "games": [
+    {
+     "year": 2020,
+     "week": 6,
+     "a_score": 119.6,
+     "b_score": 132.92,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 2,
+     "a_score": 104.6,
+     "b_score": 194.08,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 11,
+     "a_score": 157.8,
+     "b_score": 121.62,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 7,
+     "a_score": 139.76,
+     "b_score": 152.52,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 2,
+     "a_score": 92.24,
+     "b_score": 156.82,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 11,
+     "a_score": 140.86,
+     "b_score": 159.64,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 1,
+     "a_score": 132.2,
+     "b_score": 143.96,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 10,
+     "a_score": 87.1,
+     "b_score": 110.38,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 3,
+     "a_score": 143.32,
+     "b_score": 96.96,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 12,
+     "a_score": 99.14,
+     "b_score": 150.06,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 16,
+     "a_score": 114.5,
+     "b_score": 174.7,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Mikey Loff",
+   "a_wins": 4,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1127.22,
+   "b_points": 1203.7,
+   "games": [
+    {
+     "year": 2020,
+     "week": 7,
+     "a_score": 181.56,
+     "b_score": 147.02,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 4,
+     "a_score": 110.92,
+     "b_score": 153.74,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 13,
+     "a_score": 129.84,
+     "b_score": 113.52,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 5,
+     "a_score": 145.68,
+     "b_score": 110.76,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 14,
+     "a_score": 79.92,
+     "b_score": 117.86,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 6,
+     "a_score": 111.32,
+     "b_score": 133.62,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 6,
+     "a_score": 109.42,
+     "b_score": 119.92,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 15,
+     "a_score": 102.46,
+     "b_score": 183.3,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 9,
+     "a_score": 156.1,
+     "b_score": 123.96,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Ryan M",
+   "a_wins": 6,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 1335.36,
+   "b_points": 1322.98,
+   "games": [
+    {
+     "year": 2020,
+     "week": 8,
+     "a_score": 135.64,
+     "b_score": 197.64,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 3,
+     "a_score": 111.64,
+     "b_score": 117.7,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 12,
+     "a_score": 140.28,
+     "b_score": 134.58,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 9,
+     "a_score": 111.24,
+     "b_score": 132.14,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 4,
+     "a_score": 138.2,
+     "b_score": 137.62,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 13,
+     "a_score": 138.96,
+     "b_score": 84.0,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 3,
+     "a_score": 152.06,
+     "b_score": 148.3,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 12,
+     "a_score": 139.62,
+     "b_score": 119.66,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 4,
+     "a_score": 157.36,
+     "b_score": 107.1,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 13,
+     "a_score": 110.36,
+     "b_score": 144.24,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Team Barbie",
+   "a_wins": 1,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 637.6,
+   "b_points": 748.6,
+   "games": [
+    {
+     "year": 2023,
+     "week": 3,
+     "a_score": 107.46,
+     "b_score": 186.82,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 12,
+     "a_score": 148.14,
+     "b_score": 160.5,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 2,
+     "a_score": 98.62,
+     "b_score": 121.82,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 11,
+     "a_score": 138.84,
+     "b_score": 122.74,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 6,
+     "a_score": 144.54,
+     "b_score": 156.72,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Tony Busch",
+   "a_wins": 2,
+   "b_wins": 8,
+   "ties": 0,
+   "a_points": 1153.66,
+   "b_points": 1371.8,
+   "games": [
+    {
+     "year": 2020,
+     "week": 5,
+     "a_score": 116.3,
+     "b_score": 139.62,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 15,
+     "a_score": 137.22,
+     "b_score": 146.86,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 7,
+     "a_score": 118.46,
+     "b_score": 149.18,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 6,
+     "a_score": 62.44,
+     "b_score": 102.52,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 16,
+     "a_score": 115.16,
+     "b_score": 81.6,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 7,
+     "a_score": 121.8,
+     "b_score": 138.66,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 5,
+     "a_score": 134.58,
+     "b_score": 159.72,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 14,
+     "a_score": 142.64,
+     "b_score": 117.4,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 8,
+     "a_score": 105.68,
+     "b_score": 188.52,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 15,
+     "a_score": 99.38,
+     "b_score": 147.72,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "BlakeBro",
+   "b": "Tony Loff",
+   "a_wins": 5,
+   "b_wins": 7,
+   "ties": 0,
+   "a_points": 1552.84,
+   "b_points": 1687.78,
+   "games": [
+    {
+     "year": 2020,
+     "week": 1,
+     "a_score": 175.16,
+     "b_score": 173.2,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 10,
+     "a_score": 102.2,
+     "b_score": 144.52,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 1,
+     "a_score": 154.32,
+     "b_score": 134.54,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 10,
+     "a_score": 82.98,
+     "b_score": 119.72,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 4,
+     "a_score": 132.24,
+     "b_score": 131.88,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 13,
+     "a_score": 146.86,
+     "b_score": 130.94,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 1,
+     "a_score": 115.14,
+     "b_score": 128.16,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 10,
+     "a_score": 132.66,
+     "b_score": 160.22,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 16,
+     "a_score": 181.32,
+     "b_score": 132.9,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 8,
+     "a_score": 86.14,
+     "b_score": 155.28,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 2,
+     "a_score": 116.7,
+     "b_score": 145.78,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 11,
+     "a_score": 127.12,
+     "b_score": 130.64,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Hannah",
+   "a_wins": 5,
+   "b_wins": 6,
+   "ties": 0,
+   "a_points": 1372.92,
+   "b_points": 1341.02,
+   "games": [
+    {
+     "year": 2020,
+     "week": 1,
+     "a_score": 128.2,
+     "b_score": 136.92,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 10,
+     "a_score": 123.26,
+     "b_score": 87.42,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 4,
+     "a_score": 113.22,
+     "b_score": 114.4,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 13,
+     "a_score": 123.62,
+     "b_score": 126.68,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 7,
+     "a_score": 127.2,
+     "b_score": 70.6,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 17,
+     "a_score": 78.22,
+     "b_score": 167.62,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 8,
+     "a_score": 147.26,
+     "b_score": 157.78,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 17,
+     "a_score": 92.26,
+     "b_score": 142.58,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 3,
+     "a_score": 146.22,
+     "b_score": 95.82,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 12,
+     "a_score": 130.66,
+     "b_score": 124.06,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 6,
+     "a_score": 162.8,
+     "b_score": 117.14,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Levon",
+   "a_wins": 7,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 1422.1,
+   "b_points": 1256.2,
+   "games": [
+    {
+     "year": 2020,
+     "week": 8,
+     "a_score": 73.22,
+     "b_score": 109.26,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 3,
+     "a_score": 168.62,
+     "b_score": 119.04,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 12,
+     "a_score": 117.1,
+     "b_score": 131.5,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 5,
+     "a_score": 190.66,
+     "b_score": 133.28,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 14,
+     "a_score": 125.98,
+     "b_score": 107.96,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 3,
+     "a_score": 158.92,
+     "b_score": 143.16,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 12,
+     "a_score": 171.06,
+     "b_score": 153.1,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 8,
+     "a_score": 145.72,
+     "b_score": 121.66,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 9,
+     "a_score": 138.42,
+     "b_score": 83.28,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 16,
+     "a_score": 132.4,
+     "b_score": 153.96,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Mac",
+   "a_wins": 3,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 713.86,
+   "b_points": 651.12,
+   "games": [
+    {
+     "year": 2020,
+     "week": 7,
+     "a_score": 106.1,
+     "b_score": 154.46,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 2,
+     "a_score": 172.54,
+     "b_score": 156.58,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 11,
+     "a_score": 100.86,
+     "b_score": 121.04,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 17,
+     "a_score": 170.2,
+     "b_score": 126.64,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 6,
+     "a_score": 164.16,
+     "b_score": 92.4,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Mathieu",
+   "a_wins": 4,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 1017.86,
+   "b_points": 908.94,
+   "games": [
+    {
+     "year": 2020,
+     "week": 4,
+     "a_score": 134.32,
+     "b_score": 118.24,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 13,
+     "a_score": 121.38,
+     "b_score": 149.56,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 7,
+     "a_score": 176.74,
+     "b_score": 111.5,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 9,
+     "a_score": 158.8,
+     "b_score": 135.78,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 7,
+     "a_score": 156.4,
+     "b_score": 107.86,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 6,
+     "a_score": 157.8,
+     "b_score": 165.08,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 8,
+     "a_score": 112.42,
+     "b_score": 120.92,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Mikey Loff",
+   "a_wins": 8,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 1653.16,
+   "b_points": 1465.22,
+   "games": [
+    {
+     "year": 2020,
+     "week": 5,
+     "a_score": 147.1,
+     "b_score": 128.08,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 15,
+     "a_score": 126.62,
+     "b_score": 132.44,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 1,
+     "a_score": 150.0,
+     "b_score": 140.76,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 10,
+     "a_score": 107.6,
+     "b_score": 109.22,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 8,
+     "a_score": 145.22,
+     "b_score": 177.92,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 4,
+     "a_score": 133.68,
+     "b_score": 132.84,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 13,
+     "a_score": 226.28,
+     "b_score": 111.44,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 1,
+     "a_score": 162.88,
+     "b_score": 155.02,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 10,
+     "a_score": 184.5,
+     "b_score": 143.3,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 4,
+     "a_score": 142.66,
+     "b_score": 114.78,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 13,
+     "a_score": 126.62,
+     "b_score": 119.42,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Ryan M",
+   "a_wins": 12,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 2215.74,
+   "b_points": 1789.66,
+   "games": [
+    {
+     "year": 2020,
+     "week": 2,
+     "a_score": 125.86,
+     "b_score": 148.98,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 11,
+     "a_score": 135.94,
+     "b_score": 142.02,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 5,
+     "a_score": 170.4,
+     "b_score": 99.48,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 14,
+     "a_score": 166.52,
+     "b_score": 152.02,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 15,
+     "a_score": 139.86,
+     "b_score": 120.2,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 2,
+     "a_score": 154.98,
+     "b_score": 110.3,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 11,
+     "a_score": 124.88,
+     "b_score": 108.86,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 16,
+     "a_score": 109.58,
+     "b_score": 99.76,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 1,
+     "a_score": 134.04,
+     "b_score": 136.44,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 10,
+     "a_score": 119.78,
+     "b_score": 72.5,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 4,
+     "a_score": 174.5,
+     "b_score": 130.5,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 13,
+     "a_score": 147.02,
+     "b_score": 143.04,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 1,
+     "a_score": 164.86,
+     "b_score": 115.12,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 10,
+     "a_score": 174.54,
+     "b_score": 130.92,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 17,
+     "a_score": 172.98,
+     "b_score": 79.52,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Team Barbie",
+   "a_wins": 5,
+   "b_wins": 1,
+   "ties": 0,
+   "a_points": 901.78,
+   "b_points": 772.88,
+   "games": [
+    {
+     "year": 2023,
+     "week": 6,
+     "a_score": 143.76,
+     "b_score": 103.6,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 16,
+     "a_score": 130.16,
+     "b_score": 124.6,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 9,
+     "a_score": 172.1,
+     "b_score": 186.4,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 16,
+     "a_score": 139.26,
+     "b_score": 126.74,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 2,
+     "a_score": 128.52,
+     "b_score": 122.54,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 11,
+     "a_score": 187.98,
+     "b_score": 109.0,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Tony Busch",
+   "a_wins": 8,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 1711.24,
+   "b_points": 1478.42,
+   "games": [
+    {
+     "year": 2020,
+     "week": 9,
+     "a_score": 126.1,
+     "b_score": 99.44,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 6,
+     "a_score": 155.62,
+     "b_score": 116.4,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 16,
+     "a_score": 147.96,
+     "b_score": 137.84,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 4,
+     "a_score": 163.62,
+     "b_score": 106.0,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 13,
+     "a_score": 162.22,
+     "b_score": 88.4,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 2,
+     "a_score": 125.76,
+     "b_score": 142.04,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 11,
+     "a_score": 118.2,
+     "b_score": 132.08,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 2,
+     "a_score": 151.76,
+     "b_score": 166.76,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 11,
+     "a_score": 172.08,
+     "b_score": 119.14,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 17,
+     "a_score": 152.68,
+     "b_score": 129.08,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 3,
+     "a_score": 129.52,
+     "b_score": 108.68,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 12,
+     "a_score": 105.72,
+     "b_score": 132.56,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "David",
+   "b": "Tony Loff",
+   "a_wins": 6,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 1342.96,
+   "b_points": 1142.6,
+   "games": [
+    {
+     "year": 2020,
+     "week": 6,
+     "a_score": 123.24,
+     "b_score": 149.58,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 14,
+     "a_score": 169.42,
+     "b_score": 103.58,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 9,
+     "a_score": 94.46,
+     "b_score": 145.16,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 1,
+     "a_score": 213.08,
+     "b_score": 126.42,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 10,
+     "a_score": 118.7,
+     "b_score": 94.1,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 9,
+     "a_score": 112.52,
+     "b_score": 95.94,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 5,
+     "a_score": 162.84,
+     "b_score": 106.4,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 14,
+     "a_score": 219.58,
+     "b_score": 142.62,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 7,
+     "a_score": 129.12,
+     "b_score": 178.8,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Levon",
+   "a_wins": 6,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 1338.64,
+   "b_points": 1269.06,
+   "games": [
+    {
+     "year": 2020,
+     "week": 7,
+     "a_score": 120.96,
+     "b_score": 139.3,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 9,
+     "a_score": 140.56,
+     "b_score": 79.38,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 3,
+     "a_score": 121.46,
+     "b_score": 113.5,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 12,
+     "a_score": 150.16,
+     "b_score": 123.1,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 1,
+     "a_score": 146.66,
+     "b_score": 112.98,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 10,
+     "a_score": 127.42,
+     "b_score": 141.18,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 5,
+     "a_score": 117.1,
+     "b_score": 145.88,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 14,
+     "a_score": 141.1,
+     "b_score": 139.26,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 8,
+     "a_score": 133.42,
+     "b_score": 115.48,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 15,
+     "a_score": 139.8,
+     "b_score": 159.0,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Mac",
+   "a_wins": 3,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 664.92,
+   "b_points": 625.1,
+   "games": [
+    {
+     "year": 2020,
+     "week": 6,
+     "a_score": 156.6,
+     "b_score": 117.24,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 8,
+     "a_score": 99.82,
+     "b_score": 134.52,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 5,
+     "a_score": 137.74,
+     "b_score": 121.16,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 14,
+     "a_score": 129.06,
+     "b_score": 138.98,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 16,
+     "a_score": 141.7,
+     "b_score": 113.2,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Mathieu",
+   "a_wins": 7,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1696.64,
+   "b_points": 1618.04,
+   "games": [
+    {
+     "year": 2020,
+     "week": 5,
+     "a_score": 141.26,
+     "b_score": 143.2,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 15,
+     "a_score": 148.22,
+     "b_score": 174.62,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 6,
+     "a_score": 140.36,
+     "b_score": 143.24,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 4,
+     "a_score": 131.46,
+     "b_score": 154.72,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 13,
+     "a_score": 157.38,
+     "b_score": 126.5,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 15,
+     "a_score": 138.12,
+     "b_score": 129.08,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 5,
+     "a_score": 89.18,
+     "b_score": 148.46,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 14,
+     "a_score": 139.86,
+     "b_score": 125.54,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 8,
+     "a_score": 177.2,
+     "b_score": 106.7,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 15,
+     "a_score": 152.02,
+     "b_score": 120.24,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 2,
+     "a_score": 152.74,
+     "b_score": 134.48,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 11,
+     "a_score": 128.84,
+     "b_score": 111.26,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Mikey Loff",
+   "a_wins": 4,
+   "b_wins": 8,
+   "ties": 0,
+   "a_points": 1627.48,
+   "b_points": 1646.72,
+   "games": [
+    {
+     "year": 2020,
+     "week": 3,
+     "a_score": 95.96,
+     "b_score": 138.2,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 12,
+     "a_score": 154.42,
+     "b_score": 176.1,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 7,
+     "a_score": 98.98,
+     "b_score": 161.78,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 16,
+     "a_score": 135.78,
+     "b_score": 151.84,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 6,
+     "a_score": 123.72,
+     "b_score": 146.4,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 2,
+     "a_score": 166.3,
+     "b_score": 95.58,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 11,
+     "a_score": 137.04,
+     "b_score": 167.26,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 2,
+     "a_score": 140.44,
+     "b_score": 125.08,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 11,
+     "a_score": 120.08,
+     "b_score": 160.08,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 5,
+     "a_score": 169.68,
+     "b_score": 101.3,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 14,
+     "a_score": 115.28,
+     "b_score": 131.56,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 16,
+     "a_score": 169.8,
+     "b_score": 91.54,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Ryan M",
+   "a_wins": 5,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 1327.18,
+   "b_points": 1199.16,
+   "games": [
+    {
+     "year": 2020,
+     "week": 4,
+     "a_score": 156.88,
+     "b_score": 129.54,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 13,
+     "a_score": 123.38,
+     "b_score": 130.82,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 1,
+     "a_score": 133.98,
+     "b_score": 144.68,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 10,
+     "a_score": 155.24,
+     "b_score": 174.44,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 1,
+     "a_score": 148.7,
+     "b_score": 167.4,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 10,
+     "a_score": 195.6,
+     "b_score": 151.94,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 7,
+     "a_score": 144.84,
+     "b_score": 105.56,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 7,
+     "a_score": 87.0,
+     "b_score": 80.14,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 7,
+     "a_score": 181.56,
+     "b_score": 114.64,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Team Barbie",
+   "a_wins": 3,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 689.94,
+   "b_points": 628.26,
+   "games": [
+    {
+     "year": 2023,
+     "week": 4,
+     "a_score": 121.5,
+     "b_score": 96.38,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 13,
+     "a_score": 159.46,
+     "b_score": 146.82,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 4,
+     "a_score": 148.48,
+     "b_score": 115.02,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 13,
+     "a_score": 112.0,
+     "b_score": 120.52,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 9,
+     "a_score": 148.5,
+     "b_score": 149.52,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Tony Busch",
+   "a_wins": 6,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1432.98,
+   "b_points": 1340.86,
+   "games": [
+    {
+     "year": 2020,
+     "week": 8,
+     "a_score": 86.9,
+     "b_score": 127.22,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 3,
+     "a_score": 116.44,
+     "b_score": 128.74,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 12,
+     "a_score": 74.82,
+     "b_score": 148.02,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 9,
+     "a_score": 125.0,
+     "b_score": 79.4,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 3,
+     "a_score": 145.06,
+     "b_score": 108.66,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 12,
+     "a_score": 175.3,
+     "b_score": 139.66,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 16,
+     "a_score": 176.12,
+     "b_score": 101.34,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 1,
+     "a_score": 101.36,
+     "b_score": 124.68,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 10,
+     "a_score": 97.64,
+     "b_score": 98.58,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 4,
+     "a_score": 195.96,
+     "b_score": 164.42,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 13,
+     "a_score": 138.38,
+     "b_score": 120.14,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Hannah",
+   "b": "Tony Loff",
+   "a_wins": 6,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 1333.3,
+   "b_points": 1271.66,
+   "games": [
+    {
+     "year": 2020,
+     "week": 9,
+     "a_score": 136.94,
+     "b_score": 136.4,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 2,
+     "a_score": 118.22,
+     "b_score": 144.12,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 11,
+     "a_score": 169.74,
+     "b_score": 130.94,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 8,
+     "a_score": 164.04,
+     "b_score": 132.1,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 6,
+     "a_score": 148.04,
+     "b_score": 137.38,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 6,
+     "a_score": 146.6,
+     "b_score": 122.06,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 16,
+     "a_score": 182.92,
+     "b_score": 158.58,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 3,
+     "a_score": 122.54,
+     "b_score": 149.3,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 12,
+     "a_score": 144.26,
+     "b_score": 160.78,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Mac",
+   "a_wins": 0,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 551.64,
+   "b_points": 743.08,
+   "games": [
+    {
+     "year": 2020,
+     "week": 3,
+     "a_score": 152.2,
+     "b_score": 225.48,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 12,
+     "a_score": 88.3,
+     "b_score": 114.52,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 1,
+     "a_score": 120.86,
+     "b_score": 146.72,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 10,
+     "a_score": 85.94,
+     "b_score": 115.64,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 9,
+     "a_score": 104.34,
+     "b_score": 140.72,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Mathieu",
+   "a_wins": 5,
+   "b_wins": 6,
+   "ties": 0,
+   "a_points": 1382.92,
+   "b_points": 1479.88,
+   "games": [
+    {
+     "year": 2020,
+     "week": 2,
+     "a_score": 133.34,
+     "b_score": 122.68,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 11,
+     "a_score": 138.06,
+     "b_score": 134.66,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 4,
+     "a_score": 138.62,
+     "b_score": 172.92,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 13,
+     "a_score": 124.9,
+     "b_score": 148.66,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 8,
+     "a_score": 90.98,
+     "b_score": 178.44,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 4,
+     "a_score": 94.4,
+     "b_score": 177.04,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 13,
+     "a_score": 113.48,
+     "b_score": 118.86,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 3,
+     "a_score": 140.26,
+     "b_score": 107.2,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 12,
+     "a_score": 86.16,
+     "b_score": 126.98,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 4,
+     "a_score": 156.38,
+     "b_score": 106.32,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 13,
+     "a_score": 166.34,
+     "b_score": 86.12,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Mikey Loff",
+   "a_wins": 3,
+   "b_wins": 8,
+   "ties": 0,
+   "a_points": 1258.72,
+   "b_points": 1406.48,
+   "games": [
+    {
+     "year": 2020,
+     "week": 9,
+     "a_score": 128.12,
+     "b_score": 157.5,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 14,
+     "a_score": 88.06,
+     "b_score": 151.64,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 2,
+     "a_score": 125.1,
+     "b_score": 104.12,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 11,
+     "a_score": 73.02,
+     "b_score": 107.18,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 15,
+     "a_score": 96.08,
+     "b_score": 97.48,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 4,
+     "a_score": 125.58,
+     "b_score": 127.96,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 13,
+     "a_score": 130.94,
+     "b_score": 103.14,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 9,
+     "a_score": 137.62,
+     "b_score": 100.58,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 7,
+     "a_score": 116.54,
+     "b_score": 171.74,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 3,
+     "a_score": 116.72,
+     "b_score": 149.42,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 12,
+     "a_score": 120.94,
+     "b_score": 135.72,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Ryan M",
+   "a_wins": 4,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 950.58,
+   "b_points": 973.82,
+   "games": [
+    {
+     "year": 2020,
+     "week": 6,
+     "a_score": 117.42,
+     "b_score": 109.9,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 8,
+     "a_score": 119.06,
+     "b_score": 132.1,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 6,
+     "a_score": 101.3,
+     "b_score": 184.82,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 2,
+     "a_score": 123.68,
+     "b_score": 79.4,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 11,
+     "a_score": 116.54,
+     "b_score": 80.38,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 16,
+     "a_score": 92.64,
+     "b_score": 125.2,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 9,
+     "a_score": 170.44,
+     "b_score": 142.64,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 6,
+     "a_score": 109.5,
+     "b_score": 119.38,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Team Barbie",
+   "a_wins": 4,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 972.38,
+   "b_points": 922.26,
+   "games": [
+    {
+     "year": 2023,
+     "week": 5,
+     "a_score": 101.78,
+     "b_score": 111.92,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 14,
+     "a_score": 141.26,
+     "b_score": 86.8,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 1,
+     "a_score": 135.76,
+     "b_score": 115.32,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 10,
+     "a_score": 151.82,
+     "b_score": 135.48,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 15,
+     "a_score": 182.94,
+     "b_score": 202.44,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 1,
+     "a_score": 124.82,
+     "b_score": 121.28,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 10,
+     "a_score": 134.0,
+     "b_score": 149.02,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Tony Busch",
+   "a_wins": 4,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1180.82,
+   "b_points": 1236.18,
+   "games": [
+    {
+     "year": 2020,
+     "week": 1,
+     "a_score": 125.9,
+     "b_score": 137.46,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 10,
+     "a_score": 115.5,
+     "b_score": 127.48,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 5,
+     "a_score": 115.56,
+     "b_score": 190.12,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 14,
+     "a_score": 118.12,
+     "b_score": 197.6,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 7,
+     "a_score": 128.74,
+     "b_score": 103.52,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 6,
+     "a_score": 157.5,
+     "b_score": 123.84,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 6,
+     "a_score": 121.72,
+     "b_score": 132.76,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 2,
+     "a_score": 181.64,
+     "b_score": 120.4,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 11,
+     "a_score": 116.14,
+     "b_score": 103.0,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Levon",
+   "b": "Tony Loff",
+   "a_wins": 6,
+   "b_wins": 6,
+   "ties": 0,
+   "a_points": 1639.64,
+   "b_points": 1666.1,
+   "games": [
+    {
+     "year": 2020,
+     "week": 5,
+     "a_score": 137.6,
+     "b_score": 192.26,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 15,
+     "a_score": 137.84,
+     "b_score": 135.2,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 7,
+     "a_score": 137.94,
+     "b_score": 173.56,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 2,
+     "a_score": 138.66,
+     "b_score": 117.08,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 11,
+     "a_score": 115.6,
+     "b_score": 173.72,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 16,
+     "a_score": 134.3,
+     "b_score": 95.3,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 7,
+     "a_score": 112.86,
+     "b_score": 125.46,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 2,
+     "a_score": 125.82,
+     "b_score": 160.64,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 11,
+     "a_score": 153.44,
+     "b_score": 96.68,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 5,
+     "a_score": 172.42,
+     "b_score": 113.94,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 14,
+     "a_score": 126.16,
+     "b_score": 165.04,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 17,
+     "a_score": 147.0,
+     "b_score": 117.22,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Mac",
+   "b": "Mathieu",
+   "a_wins": 6,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 1050.32,
+   "b_points": 883.9,
+   "games": [
+    {
+     "year": 2020,
+     "week": 1,
+     "a_score": 92.64,
+     "b_score": 115.7,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 10,
+     "a_score": 104.82,
+     "b_score": 96.38,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 14,
+     "a_score": 147.34,
+     "b_score": 144.68,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 5,
+     "a_score": 150.78,
+     "b_score": 156.28,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 14,
+     "a_score": 169.24,
+     "b_score": 130.94,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 15,
+     "a_score": 110.68,
+     "b_score": 72.62,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 1,
+     "a_score": 119.72,
+     "b_score": 79.86,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 10,
+     "a_score": 155.1,
+     "b_score": 87.44,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mac",
+   "b": "Mikey Loff",
+   "a_wins": 4,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 909.48,
+   "b_points": 761.68,
+   "games": [
+    {
+     "year": 2020,
+     "week": 4,
+     "a_score": 174.08,
+     "b_score": 155.3,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 13,
+     "a_score": 144.46,
+     "b_score": 142.02,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 3,
+     "a_score": 133.42,
+     "b_score": 104.08,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 12,
+     "a_score": 105.5,
+     "b_score": 126.9,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 3,
+     "a_score": 148.9,
+     "b_score": 153.42,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 12,
+     "a_score": 203.12,
+     "b_score": 79.96,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mac",
+   "b": "Ryan M",
+   "a_wins": 4,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 783.76,
+   "b_points": 718.3,
+   "games": [
+    {
+     "year": 2020,
+     "week": 5,
+     "a_score": 109.34,
+     "b_score": 146.9,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 15,
+     "a_score": 128.92,
+     "b_score": 134.66,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 7,
+     "a_score": 108.14,
+     "b_score": 98.44,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 4,
+     "a_score": 153.06,
+     "b_score": 117.86,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 13,
+     "a_score": 164.5,
+     "b_score": 104.72,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 17,
+     "a_score": 119.8,
+     "b_score": 115.72,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Mac",
+   "b": "Tony Busch",
+   "a_wins": 4,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 1008.36,
+   "b_points": 806.94,
+   "games": [
+    {
+     "year": 2020,
+     "week": 2,
+     "a_score": 209.3,
+     "b_score": 134.58,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 11,
+     "a_score": 136.6,
+     "b_score": 140.44,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 4,
+     "a_score": 138.92,
+     "b_score": 116.58,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 13,
+     "a_score": 151.62,
+     "b_score": 155.38,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 2,
+     "a_score": 202.22,
+     "b_score": 140.96,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 11,
+     "a_score": 169.7,
+     "b_score": 119.0,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mac",
+   "b": "Tony Loff",
+   "a_wins": 2,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 526.2,
+   "b_points": 521.22,
+   "games": [
+    {
+     "year": 2020,
+     "week": 8,
+     "a_score": 101.42,
+     "b_score": 119.74,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 6,
+     "a_score": 117.8,
+     "b_score": 170.04,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 16,
+     "a_score": 182.9,
+     "b_score": 112.18,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 7,
+     "a_score": 124.08,
+     "b_score": 119.26,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mathieu",
+   "b": "Mikey Loff",
+   "a_wins": 2,
+   "b_wins": 7,
+   "ties": 0,
+   "a_points": 967.82,
+   "b_points": 1226.76,
+   "games": [
+    {
+     "year": 2020,
+     "week": 8,
+     "a_score": 117.92,
+     "b_score": 149.24,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 8,
+     "a_score": 109.1,
+     "b_score": 73.74,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 2,
+     "a_score": 92.2,
+     "b_score": 187.12,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 11,
+     "a_score": 112.56,
+     "b_score": 92.26,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 16,
+     "a_score": 147.8,
+     "b_score": 148.46,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 8,
+     "a_score": 107.0,
+     "b_score": 170.58,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 16,
+     "a_score": 103.48,
+     "b_score": 124.28,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 9,
+     "a_score": 94.24,
+     "b_score": 125.1,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 7,
+     "a_score": 83.52,
+     "b_score": 155.98,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mathieu",
+   "b": "Ryan M",
+   "a_wins": 2,
+   "b_wins": 8,
+   "ties": 0,
+   "a_points": 1024.4,
+   "b_points": 1314.62,
+   "games": [
+    {
+     "year": 2020,
+     "week": 9,
+     "a_score": 63.72,
+     "b_score": 153.38,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 9,
+     "a_score": 64.02,
+     "b_score": 99.54,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 16,
+     "a_score": 119.16,
+     "b_score": 114.92,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 5,
+     "a_score": 111.46,
+     "b_score": 214.58,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 14,
+     "a_score": 152.7,
+     "b_score": 102.08,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 6,
+     "a_score": 82.56,
+     "b_score": 123.94,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 2,
+     "a_score": 117.6,
+     "b_score": 129.84,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 11,
+     "a_score": 117.48,
+     "b_score": 150.64,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 16,
+     "a_score": 97.36,
+     "b_score": 122.2,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 9,
+     "a_score": 98.34,
+     "b_score": 103.5,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mathieu",
+   "b": "Team Barbie",
+   "a_wins": 3,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1039.0,
+   "b_points": 1163.92,
+   "games": [
+    {
+     "year": 2023,
+     "week": 1,
+     "a_score": 130.62,
+     "b_score": 126.8,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 10,
+     "a_score": 151.44,
+     "b_score": 181.04,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 15,
+     "a_score": 130.52,
+     "b_score": 147.38,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 5,
+     "a_score": 138.84,
+     "b_score": 122.96,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 14,
+     "a_score": 134.82,
+     "b_score": 157.44,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 5,
+     "a_score": 128.56,
+     "b_score": 165.3,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 14,
+     "a_score": 132.86,
+     "b_score": 122.7,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 15,
+     "a_score": 91.34,
+     "b_score": 140.3,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Mathieu",
+   "b": "Tony Busch",
+   "a_wins": 4,
+   "b_wins": 6,
+   "ties": 0,
+   "a_points": 1194.32,
+   "b_points": 1271.14,
+   "games": [
+    {
+     "year": 2020,
+     "week": 3,
+     "a_score": 109.7,
+     "b_score": 200.78,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 12,
+     "a_score": 148.24,
+     "b_score": 111.64,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 1,
+     "a_score": 109.38,
+     "b_score": 116.58,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 10,
+     "a_score": 127.58,
+     "b_score": 120.0,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 3,
+     "a_score": 104.04,
+     "b_score": 101.68,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 12,
+     "a_score": 132.0,
+     "b_score": 147.36,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 9,
+     "a_score": 124.8,
+     "b_score": 72.3,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 4,
+     "a_score": 108.9,
+     "b_score": 123.52,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 13,
+     "a_score": 132.78,
+     "b_score": 172.84,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 6,
+     "a_score": 96.9,
+     "b_score": 104.44,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mathieu",
+   "b": "Tony Loff",
+   "a_wins": 3,
+   "b_wins": 6,
+   "ties": 0,
+   "a_points": 1070.68,
+   "b_points": 1244.84,
+   "games": [
+    {
+     "year": 2020,
+     "week": 7,
+     "a_score": 132.1,
+     "b_score": 124.0,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 3,
+     "a_score": 176.78,
+     "b_score": 158.82,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 12,
+     "a_score": 99.48,
+     "b_score": 145.68,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 6,
+     "a_score": 86.16,
+     "b_score": 127.38,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 3,
+     "a_score": 141.42,
+     "b_score": 151.2,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 12,
+     "a_score": 148.16,
+     "b_score": 135.24,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 7,
+     "a_score": 104.84,
+     "b_score": 143.2,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 1,
+     "a_score": 105.52,
+     "b_score": 109.42,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 10,
+     "a_score": 76.22,
+     "b_score": 149.9,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mikey Loff",
+   "b": "Ryan M",
+   "a_wins": 4,
+   "b_wins": 8,
+   "ties": 0,
+   "a_points": 1368.68,
+   "b_points": 1546.28,
+   "games": [
+    {
+     "year": 2020,
+     "week": 1,
+     "a_score": 123.98,
+     "b_score": 174.84,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 10,
+     "a_score": 126.32,
+     "b_score": 184.18,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 6,
+     "a_score": 113.38,
+     "b_score": 157.48,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 7,
+     "a_score": 91.9,
+     "b_score": 138.62,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 15,
+     "a_score": 119.3,
+     "b_score": 141.94,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 3,
+     "a_score": 168.68,
+     "b_score": 97.98,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 12,
+     "a_score": 92.08,
+     "b_score": 108.72,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 5,
+     "a_score": 128.22,
+     "b_score": 103.64,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 14,
+     "a_score": 118.6,
+     "b_score": 104.7,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 2,
+     "a_score": 121.5,
+     "b_score": 114.98,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 11,
+     "a_score": 68.92,
+     "b_score": 108.94,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 15,
+     "a_score": 95.8,
+     "b_score": 110.26,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Mikey Loff",
+   "b": "Team Barbie",
+   "a_wins": 2,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 540.78,
+   "b_points": 496.44,
+   "games": [
+    {
+     "year": 2023,
+     "week": 7,
+     "a_score": 153.38,
+     "b_score": 92.96,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 8,
+     "a_score": 131.96,
+     "b_score": 147.44,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 17,
+     "a_score": 92.02,
+     "b_score": 118.08,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 8,
+     "a_score": 163.42,
+     "b_score": 137.96,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mikey Loff",
+   "b": "Tony Busch",
+   "a_wins": 2,
+   "b_wins": 10,
+   "ties": 0,
+   "a_points": 1409.98,
+   "b_points": 1650.62,
+   "games": [
+    {
+     "year": 2020,
+     "week": 6,
+     "a_score": 106.28,
+     "b_score": 171.24,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 9,
+     "a_score": 105.34,
+     "b_score": 156.96,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 1,
+     "a_score": 122.12,
+     "b_score": 127.16,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 10,
+     "a_score": 94.28,
+     "b_score": 133.04,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 1,
+     "a_score": 112.16,
+     "b_score": 117.74,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 10,
+     "a_score": 119.12,
+     "b_score": 123.1,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 15,
+     "a_score": 118.04,
+     "b_score": 163.26,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 3,
+     "a_score": 100.68,
+     "b_score": 92.88,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 12,
+     "a_score": 155.48,
+     "b_score": 157.8,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 16,
+     "a_score": 151.18,
+     "b_score": 155.42,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 1,
+     "a_score": 116.66,
+     "b_score": 145.82,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 10,
+     "a_score": 108.64,
+     "b_score": 106.2,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Mikey Loff",
+   "b": "Tony Loff",
+   "a_wins": 7,
+   "b_wins": 3,
+   "ties": 0,
+   "a_points": 1342.0,
+   "b_points": 1223.86,
+   "games": [
+    {
+     "year": 2020,
+     "week": 2,
+     "a_score": 154.72,
+     "b_score": 157.98,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 11,
+     "a_score": 128.04,
+     "b_score": 112.78,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 5,
+     "a_score": 172.08,
+     "b_score": 147.3,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 14,
+     "a_score": 76.28,
+     "b_score": 105.72,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 9,
+     "a_score": 182.82,
+     "b_score": 130.3,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 5,
+     "a_score": 139.84,
+     "b_score": 101.72,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 14,
+     "a_score": 144.74,
+     "b_score": 118.84,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 4,
+     "a_score": 116.94,
+     "b_score": 157.98,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 13,
+     "a_score": 118.38,
+     "b_score": 110.88,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 6,
+     "a_score": 108.16,
+     "b_score": 80.36,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Ryan M",
+   "b": "Team Barbie",
+   "a_wins": 2,
+   "b_wins": 2,
+   "ties": 0,
+   "a_points": 516.6,
+   "b_points": 543.74,
+   "games": [
+    {
+     "year": 2023,
+     "week": 9,
+     "a_score": 120.3,
+     "b_score": 139.38,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 6,
+     "a_score": 136.16,
+     "b_score": 109.06,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 3,
+     "a_score": 148.56,
+     "b_score": 122.44,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 12,
+     "a_score": 111.58,
+     "b_score": 172.86,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Ryan M",
+   "b": "Tony Busch",
+   "a_wins": 5,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1246.66,
+   "b_points": 1280.5,
+   "games": [
+    {
+     "year": 2020,
+     "week": 7,
+     "a_score": 94.4,
+     "b_score": 131.42,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 16,
+     "a_score": 180.22,
+     "b_score": 159.92,
+     "playoff": true
+    },
+    {
+     "year": 2021,
+     "week": 2,
+     "a_score": 138.92,
+     "b_score": 87.42,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 11,
+     "a_score": 144.0,
+     "b_score": 123.38,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 8,
+     "a_score": 54.0,
+     "b_score": 122.62,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 5,
+     "a_score": 174.14,
+     "b_score": 76.42,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 14,
+     "a_score": 89.04,
+     "b_score": 152.88,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 8,
+     "a_score": 136.5,
+     "b_score": 176.74,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 5,
+     "a_score": 128.24,
+     "b_score": 100.34,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 14,
+     "a_score": 107.2,
+     "b_score": 149.36,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Ryan M",
+   "b": "Tony Loff",
+   "a_wins": 7,
+   "b_wins": 6,
+   "ties": 0,
+   "a_points": 1634.38,
+   "b_points": 1658.54,
+   "games": [
+    {
+     "year": 2020,
+     "week": 3,
+     "a_score": 211.2,
+     "b_score": 138.38,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 12,
+     "a_score": 142.18,
+     "b_score": 111.86,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 4,
+     "a_score": 151.22,
+     "b_score": 161.6,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 13,
+     "a_score": 98.86,
+     "b_score": 129.6,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 3,
+     "a_score": 112.58,
+     "b_score": 83.66,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 12,
+     "a_score": 134.4,
+     "b_score": 123.48,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 8,
+     "a_score": 118.5,
+     "b_score": 136.12,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 15,
+     "a_score": 74.7,
+     "b_score": 162.84,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 1,
+     "a_score": 132.84,
+     "b_score": 127.88,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 10,
+     "a_score": 128.44,
+     "b_score": 108.56,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 15,
+     "a_score": 110.16,
+     "b_score": 131.16,
+     "playoff": true
+    },
+    {
+     "year": 2025,
+     "week": 8,
+     "a_score": 118.36,
+     "b_score": 82.98,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 16,
+     "a_score": 100.94,
+     "b_score": 160.42,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Team Barbie",
+   "b": "Tony Busch",
+   "a_wins": 5,
+   "b_wins": 0,
+   "ties": 0,
+   "a_points": 735.94,
+   "b_points": 548.16,
+   "games": [
+    {
+     "year": 2023,
+     "week": 8,
+     "a_score": 129.46,
+     "b_score": 97.28,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 17,
+     "a_score": 125.28,
+     "b_score": 118.84,
+     "playoff": true
+    },
+    {
+     "year": 2024,
+     "week": 7,
+     "a_score": 140.76,
+     "b_score": 78.54,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 7,
+     "a_score": 193.34,
+     "b_score": 115.94,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 16,
+     "a_score": 147.1,
+     "b_score": 137.56,
+     "playoff": true
+    }
+   ]
+  },
+  {
+   "a": "Team Barbie",
+   "b": "Tony Loff",
+   "a_wins": 2,
+   "b_wins": 4,
+   "ties": 0,
+   "a_points": 767.72,
+   "b_points": 799.26,
+   "games": [
+    {
+     "year": 2023,
+     "week": 2,
+     "a_score": 154.52,
+     "b_score": 131.2,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 11,
+     "a_score": 125.1,
+     "b_score": 127.6,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 3,
+     "a_score": 96.04,
+     "b_score": 155.88,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 12,
+     "a_score": 174.76,
+     "b_score": 125.82,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 4,
+     "a_score": 114.4,
+     "b_score": 134.02,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 13,
+     "a_score": 102.9,
+     "b_score": 124.74,
+     "playoff": false
+    }
+   ]
+  },
+  {
+   "a": "Tony Busch",
+   "b": "Tony Loff",
+   "a_wins": 6,
+   "b_wins": 5,
+   "ties": 0,
+   "a_points": 1298.92,
+   "b_points": 1338.58,
+   "games": [
+    {
+     "year": 2020,
+     "week": 4,
+     "a_score": 137.56,
+     "b_score": 111.64,
+     "playoff": false
+    },
+    {
+     "year": 2020,
+     "week": 13,
+     "a_score": 78.16,
+     "b_score": 124.4,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 8,
+     "a_score": 129.12,
+     "b_score": 124.1,
+     "playoff": false
+    },
+    {
+     "year": 2021,
+     "week": 17,
+     "a_score": 108.98,
+     "b_score": 174.96,
+     "playoff": true
+    },
+    {
+     "year": 2022,
+     "week": 5,
+     "a_score": 120.82,
+     "b_score": 122.6,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 14,
+     "a_score": 108.58,
+     "b_score": 98.76,
+     "playoff": false
+    },
+    {
+     "year": 2022,
+     "week": 15,
+     "a_score": 107.92,
+     "b_score": 116.5,
+     "playoff": true
+    },
+    {
+     "year": 2023,
+     "week": 4,
+     "a_score": 111.68,
+     "b_score": 108.28,
+     "playoff": false
+    },
+    {
+     "year": 2023,
+     "week": 13,
+     "a_score": 170.22,
+     "b_score": 136.88,
+     "playoff": false
+    },
+    {
+     "year": 2024,
+     "week": 9,
+     "a_score": 123.26,
+     "b_score": 104.46,
+     "playoff": false
+    },
+    {
+     "year": 2025,
+     "week": 9,
+     "a_score": 102.62,
+     "b_score": 116.0,
+     "playoff": false
+    }
+   ]
+  }
+ ],
+ "season_summaries": [
+  {
+   "year": 2020,
+   "standings": [
+    {
+     "manager": "Ryan M",
+     "wins": 10,
+     "losses": 3,
+     "pf": 1965.98,
+     "pa": 1600.14
+    },
+    {
+     "manager": "Tony Busch",
+     "wins": 9,
+     "losses": 4,
+     "pf": 1737.04,
+     "pa": 1611.26
+    },
+    {
+     "manager": "BlakeBro",
+     "wins": 7,
+     "losses": 6,
+     "pf": 1941.94,
+     "pa": 1779.38
+    },
+    {
+     "manager": "Mac",
+     "wins": 7,
+     "losses": 6,
+     "pf": 1799.26,
+     "pa": 1725.56
+    },
+    {
+     "manager": "Tony Loff",
+     "wins": 6,
+     "losses": 7,
+     "pf": 1796.74,
+     "pa": 1760.52
+    },
+    {
+     "manager": "Hannah",
+     "wins": 6,
+     "losses": 7,
+     "pf": 1688.9,
+     "pa": 1739.92
+    },
+    {
+     "manager": "Mathieu",
+     "wins": 6,
+     "losses": 7,
+     "pf": 1585.02,
+     "pa": 1724.46
+    },
+    {
+     "manager": "Mikey Loff",
+     "wins": 5,
+     "losses": 8,
+     "pf": 1832.8,
+     "pa": 1944.64
+    },
+    {
+     "manager": "Levon",
+     "wins": 5,
+     "losses": 8,
+     "pf": 1606.74,
+     "pa": 1918.8
+    },
+    {
+     "manager": "David",
+     "wins": 4,
+     "losses": 9,
+     "pf": 1561.28,
+     "pa": 1711.02
+    }
+   ],
+   "champion": "Ryan M",
+   "runner_up": "Tony Busch",
+   "toilet_bowl_winner": "Mikey Loff"
+  },
+  {
+   "year": 2021,
+   "standings": [
+    {
+     "manager": "Tony Loff",
+     "wins": 9,
+     "losses": 5,
+     "pf": 1990.9,
+     "pa": 1779.28
+    },
+    {
+     "manager": "Tony Busch",
+     "wins": 9,
+     "losses": 5,
+     "pf": 1935.48,
+     "pa": 1738.88
+    },
+    {
+     "manager": "Mac",
+     "wins": 9,
+     "losses": 5,
+     "pf": 1889.7,
+     "pa": 1749.86
+    },
+    {
+     "manager": "David",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1987.36,
+     "pa": 1762.48
+    },
+    {
+     "manager": "Mathieu",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1865.58,
+     "pa": 1877.4
+    },
+    {
+     "manager": "Ryan M",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1843.46,
+     "pa": 1784.66
+    },
+    {
+     "manager": "Mikey Loff",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1662.12,
+     "pa": 1710.94
+    },
+    {
+     "manager": "Hannah",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1789.1,
+     "pa": 1946.2
+    },
+    {
+     "manager": "BlakeBro",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1767.24,
+     "pa": 2002.24
+    },
+    {
+     "manager": "Levon",
+     "wins": 3,
+     "losses": 11,
+     "pf": 1642.9,
+     "pa": 2021.9
+    }
+   ],
+   "champion": "David",
+   "runner_up": "Mac",
+   "toilet_bowl_winner": "Mikey Loff"
+  },
+  {
+   "year": 2022,
+   "standings": [
+    {
+     "manager": "David",
+     "wins": 13,
+     "losses": 1,
+     "pf": 2125.32,
+     "pa": 1614.02
+    },
+    {
+     "manager": "Mac",
+     "wins": 11,
+     "losses": 3,
+     "pf": 2098.66,
+     "pa": 1658.6
+    },
+    {
+     "manager": "Hannah",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1935.96,
+     "pa": 1842.98
+    },
+    {
+     "manager": "Ryan M",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1834.3,
+     "pa": 1840.08
+    },
+    {
+     "manager": "Mikey Loff",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1787.92,
+     "pa": 1836.96
+    },
+    {
+     "manager": "Mathieu",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1706.38,
+     "pa": 1925.66
+    },
+    {
+     "manager": "Tony Busch",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1601.06,
+     "pa": 1741.74
+    },
+    {
+     "manager": "BlakeBro",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1703.12,
+     "pa": 1834.32
+    },
+    {
+     "manager": "Levon",
+     "wins": 4,
+     "losses": 10,
+     "pf": 1647.82,
+     "pa": 1959.24
+    },
+    {
+     "manager": "Tony Loff",
+     "wins": 3,
+     "losses": 11,
+     "pf": 1711.68,
+     "pa": 1898.62
+    }
+   ],
+   "champion": "Hannah",
+   "runner_up": "David",
+   "toilet_bowl_winner": "Levon"
+  },
+  {
+   "year": 2023,
+   "standings": [
+    {
+     "manager": "David",
+     "wins": 10,
+     "losses": 4,
+     "pf": 2091.84,
+     "pa": 1754.0
+    },
+    {
+     "manager": "Hannah",
+     "wins": 10,
+     "losses": 4,
+     "pf": 1998.8,
+     "pa": 1827.18
+    },
+    {
+     "manager": "Mathieu",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1880.22,
+     "pa": 1787.52
+    },
+    {
+     "manager": "Tony Busch",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1706.56,
+     "pa": 1837.5
+    },
+    {
+     "manager": "Team Barbie",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1842.1,
+     "pa": 1835.18
+    },
+    {
+     "manager": "Mikey Loff",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1841.9,
+     "pa": 1780.3
+    },
+    {
+     "manager": "Tony Loff",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1794.24,
+     "pa": 1875.4
+    },
+    {
+     "manager": "Levon",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1790.96,
+     "pa": 1760.5
+    },
+    {
+     "manager": "BlakeBro",
+     "wins": 4,
+     "losses": 10,
+     "pf": 1818.62,
+     "pa": 2072.02
+    },
+    {
+     "manager": "Ryan M",
+     "wins": 4,
+     "losses": 10,
+     "pf": 1528.52,
+     "pa": 1764.16
+    }
+   ],
+   "champion": "Hannah",
+   "runner_up": "David",
+   "toilet_bowl_winner": "BlakeBro"
+  },
+  {
+   "year": 2024,
+   "standings": [
+    {
+     "manager": "David",
+     "wins": 10,
+     "losses": 4,
+     "pf": 2263.88,
+     "pa": 1936.4
+    },
+    {
+     "manager": "Tony Busch",
+     "wins": 10,
+     "losses": 4,
+     "pf": 1844.62,
+     "pa": 1801.34
+    },
+    {
+     "manager": "Mikey Loff",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1870.5,
+     "pa": 1803.42
+    },
+    {
+     "manager": "Levon",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1885.68,
+     "pa": 1840.16
+    },
+    {
+     "manager": "Team Barbie",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1865.76,
+     "pa": 1859.64
+    },
+    {
+     "manager": "BlakeBro",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1783.54,
+     "pa": 1861.3
+    },
+    {
+     "manager": "Hannah",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1737.86,
+     "pa": 1793.8
+    },
+    {
+     "manager": "Tony Loff",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1818.34,
+     "pa": 1889.92
+    },
+    {
+     "manager": "Ryan M",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1787.04,
+     "pa": 1874.78
+    },
+    {
+     "manager": "Mathieu",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1709.8,
+     "pa": 1906.26
+    }
+   ],
+   "champion": "David",
+   "runner_up": "Tony Busch",
+   "toilet_bowl_winner": "Hannah"
+  },
+  {
+   "year": 2025,
+   "standings": [
+    {
+     "manager": "Tony Loff",
+     "wins": 11,
+     "losses": 3,
+     "pf": 1841.7,
+     "pa": 1666.5
+    },
+    {
+     "manager": "Hannah",
+     "wins": 9,
+     "losses": 5,
+     "pf": 2028.54,
+     "pa": 1840.74
+    },
+    {
+     "manager": "David",
+     "wins": 9,
+     "losses": 5,
+     "pf": 1942.14,
+     "pa": 1738.9
+    },
+    {
+     "manager": "Mikey Loff",
+     "wins": 8,
+     "losses": 6,
+     "pf": 1719.44,
+     "pa": 1725.78
+    },
+    {
+     "manager": "Levon",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1876.94,
+     "pa": 1711.7
+    },
+    {
+     "manager": "Ryan M",
+     "wins": 7,
+     "losses": 7,
+     "pf": 1672.76,
+     "pa": 1814.92
+    },
+    {
+     "manager": "Team Barbie",
+     "wins": 6,
+     "losses": 8,
+     "pf": 1939.98,
+     "pa": 1928.04
+    },
+    {
+     "manager": "Tony Busch",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1762.44,
+     "pa": 1840.02
+    },
+    {
+     "manager": "BlakeBro",
+     "wins": 5,
+     "losses": 9,
+     "pf": 1741.34,
+     "pa": 1916.3
+    },
+    {
+     "manager": "Mathieu",
+     "wins": 3,
+     "losses": 11,
+     "pf": 1528.04,
+     "pa": 1870.42
+    }
+   ],
+   "champion": "Levon",
+   "runner_up": "Tony Loff",
+   "toilet_bowl_winner": "Team Barbie"
+  }
+ ]
+}
