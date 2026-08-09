@@ -55,6 +55,11 @@ a{color:var(--gold);}
   white-space:nowrap;
 }
 .topnav .brand .lod-red{color:var(--red);}
+.topnav .brand .brand-short{display:none;}
+@media (max-width:640px){
+  .topnav .brand .brand-full{display:none;}
+  .topnav .brand .brand-short{display:inline;}
+}
 .topnav a.navlink{
   color:var(--text-dim);
   text-decoration:none;
@@ -335,6 +340,87 @@ section:last-of-type{border-bottom:none;}
   color:var(--text-dim);
   font-size:.95rem;
   letter-spacing:.03em;
+}
+
+/* ---------- MEMO - COLLAPSIBLE SECTIONS ---------- */
+.memo-toggle-row{
+  display:flex;
+  justify-content:flex-end;
+  margin:8px 0 22px;
+}
+.memo-toggle-btn{
+  background:var(--bg-raised);
+  border:1px solid var(--border);
+  color:var(--gold);
+  font-weight:800;
+  font-size:.8rem;
+  letter-spacing:.03em;
+  text-transform:uppercase;
+  font-family:inherit;
+  padding:10px 18px;
+  border-radius:99px;
+  cursor:pointer;
+  min-height:44px;
+}
+.memo-toggle-btn:hover{border-color:var(--gold-dim);}
+.memo-sections{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:8px;
+}
+.memo-section{
+  background:var(--bg-raised);
+  border:1px solid var(--border);
+  border-radius:12px;
+  overflow:hidden;
+}
+.memo-section summary{
+  list-style:none;
+  cursor:pointer;
+  display:grid;
+  grid-template-columns:1fr auto;
+  align-items:center;
+  column-gap:12px;
+  row-gap:3px;
+  min-height:44px;
+  padding:14px 18px;
+}
+.memo-section summary::-webkit-details-marker{display:none;}
+.memo-section summary::marker{content:'';}
+.memo-section .ms-title{
+  grid-column:1;
+  grid-row:1;
+  font-size:1.02rem;
+  font-weight:800;
+  letter-spacing:.01em;
+  color:var(--text);
+}
+.memo-section .ms-chevron{
+  grid-column:2;
+  grid-row:1;
+  width:9px;height:9px;
+  border-right:2px solid var(--text-dim);
+  border-bottom:2px solid var(--text-dim);
+  transform:rotate(45deg);
+  transition:transform .18s ease;
+  flex:0 0 auto;
+}
+.memo-section[open] .ms-chevron{transform:rotate(-135deg);}
+.memo-section summary:hover{background:rgba(255,255,255,.03);}
+.memo-section .ms-teaser{
+  grid-column:1/-1;
+  grid-row:2;
+  font-size:.82rem;
+  font-weight:600;
+  color:var(--text-dim);
+}
+.memo-section .ms-body{padding:0 18px 24px;}
+.memo-section .ms-body p:last-child{margin-bottom:0;}
+.memo-closing{
+  margin-top:28px;
+  padding-top:22px;
+  border-top:1px solid var(--border-soft);
 }
 
 /* ---------- TABLES ---------- */

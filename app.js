@@ -168,6 +168,11 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
    data.js's MEMO_MD into the memo-body HTML. Handles: ## headers, **bold**,
    *italic* asides, and blank-line-separated paragraphs. Nothing here changes
    the words themselves - it only wraps them in tags.
+
+   Each ## section becomes a collapsible <details>/<summary> block, closed by
+   default. The material before the first ## (the "finished tenth" opening)
+   and the material from "One final note" onward at the very end stay always
+   visible and are never wrapped in <details>.
    ========================================================================= */
 (function renderMemo(){
   const el = document.getElementById('memo-body');
@@ -181,18 +186,100 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
     return s;
   }
 
-  const blocks = MEMO_MD.split(/\n\n+/);
-  let html = '';
-  blocks.forEach(block => {
-    const b = block.trim();
-    if (!b) return;
-    if (b.startsWith('## ')){
-      html += '<h3>' + inline(b.slice(3).trim()) + '</h3>';
-    } else {
-      html += '<p>' + inline(b) + '</p>';
+  function paragraphsHtml(blocks){
+    return blocks.map(b => '<p>' + inline(b) + '</p>').join('');
+  }
+
+  function slugify(s){
+    return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  }
+
+  // Stable ids + short teasers for the nine named sections, in memo order.
+  const SECTION_IDS = ['levon', 'tony-loff', 'david', 'hannah-mathieu', 'team-barbie', 'mikey', 'ryan-m', 'tb', 'commissioner'];
+  const SECTION_TEASERS = [
+    "Won the title. Nobody noticed. Now he's moving home.",
+    '11-3, best record in the league. Lost the Final.',
+    'Announced victory early again. Lyla came early too.',
+    "Hannah's best-ever season. Mathieu's worst.",
+    'Unluckiest team in the league. Toilet Bowl champs.',
+    'Home from deployment. Playoffs on auto-draft.',
+    'Getting married. Quietly hoarding 3 first-rounders.',
+    'Baby Ellis arrived. His team went 5-9.',
+    "Finished 10th. Gave his consolation pick away."
+  ];
+
+  // Split MEMO_MD into: intro (before first ##), named sections, and the
+  // always-visible closing block (from "One final note" through the end).
+  const blocks = MEMO_MD.split(/\n\n+/).map(b => b.trim()).filter(Boolean);
+  const introBlocks = [];
+  const sections = [];
+  const closingBlocks = [];
+  let mode = 'intro';
+  let current = null;
+
+  blocks.forEach(b => {
+    if (mode !== 'closing' && b.startsWith('## ')){
+      current = { title: b.slice(3).trim(), bodyBlocks: [] };
+      sections.push(current);
+      mode = 'section';
+      return;
     }
+    if (mode === 'section' && b.startsWith('One final note')){
+      mode = 'closing';
+      closingBlocks.push(b);
+      return;
+    }
+    if (mode === 'intro'){ introBlocks.push(b); return; }
+    if (mode === 'section'){ current.bodyBlocks.push(b); return; }
+    closingBlocks.push(b);
   });
+
+  let html = paragraphsHtml(introBlocks);
+
+  html += '<div class="memo-toggle-row"><button type="button" id="memo-toggle-all" class="memo-toggle-btn">Expand all</button></div>';
+
+  html += '<div class="memo-sections">';
+  sections.forEach((sec, i) => {
+    const id = SECTION_IDS[i] || slugify(sec.title);
+    const teaser = SECTION_TEASERS[i] || '';
+    html += '<details class="memo-section" id="' + id + '">' +
+      '<summary>' +
+        '<span class="ms-title">' + inline(sec.title) + '</span>' +
+        '<span class="ms-chevron" aria-hidden="true"></span>' +
+        (teaser ? '<span class="ms-teaser">' + inline(teaser) + '</span>' : '') +
+      '</summary>' +
+      '<div class="ms-body">' + paragraphsHtml(sec.bodyBlocks) + '</div>' +
+    '</details>';
+  });
+  html += '</div>';
+
+  html += '<div class="memo-closing">' + paragraphsHtml(closingBlocks) + '</div>';
+
   el.innerHTML = html;
+
+  // Expand all / collapse all toggle.
+  const detailsEls = Array.prototype.slice.call(el.querySelectorAll('details.memo-section'));
+  const toggleBtn = document.getElementById('memo-toggle-all');
+  if (toggleBtn && detailsEls.length){
+    toggleBtn.addEventListener('click', function(){
+      const anyClosed = detailsEls.some(function(d){ return !d.open; });
+      detailsEls.forEach(function(d){ d.open = anyClosed; });
+      toggleBtn.textContent = anyClosed ? 'Collapse all' : 'Expand all';
+    });
+  }
+
+  // Deep-link support: #<section-id> opens and scrolls to that section.
+  function openFromHash(){
+    const hash = window.location.hash.replace('#', '');
+    if (!hash) return;
+    const target = document.getElementById(hash);
+    if (target && target.tagName === 'DETAILS'){
+      target.open = true;
+      target.scrollIntoView({ block: 'start' });
+    }
+  }
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 })();
 
 /* =========================================================================
