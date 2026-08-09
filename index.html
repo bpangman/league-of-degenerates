@@ -1,472 +1,87 @@
+<meta charset="utf-8">
 <title>League of Degenerates - 2025 Season in Review</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-:root{
-  --bg:#0a0a0d;
-  --bg-raised:#131319;
-  --bg-card:#16161d;
-  --border:#26262f;
-  --border-soft:#1c1c24;
-  --text:#eceef2;
-  --text-dim:#9a9ba8;
-  --text-faint:#6c6d7a;
-  --gold:#e8b64a;
-  --gold-dim:#8a6a2a;
-  --red:#e4483f;
-  --red-dim:#7a2b26;
-  --mono: ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-*,*::before,*::after{box-sizing:border-box;}
-html{background:var(--bg);}
-body{
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:var(--sans);
-  line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-  overflow-x:hidden;
-  width:100%;
-}
-img,svg{max-width:100%;}
-a{color:var(--gold);}
-.wrap{max-width:1120px;margin:0 auto;padding:0 20px;}
-.tabular{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1;}
-.mono{font-family:var(--mono);}
+<meta name="description" content="Degenerate GM Dynasty League - 2025 season in review, the Commissioner's memo, standings, all-play, the 2026 draft board, dynasty board, history, and the record book.">
+<link rel="stylesheet" href="./style.css">
 
-/* ---------- HERO ---------- */
-.hero{
-  padding:56px 0 40px;
-  border-bottom:1px solid var(--border);
-  background:
-    radial-gradient(ellipse at 20% -10%, rgba(232,182,74,0.10), transparent 55%),
-    radial-gradient(ellipse at 90% 0%, rgba(228,72,63,0.08), transparent 50%);
-}
-.eyebrow{
-  font-size:12px;
-  letter-spacing:.18em;
-  text-transform:uppercase;
-  color:var(--text-dim);
-  font-weight:700;
-  margin:0 0 10px;
-}
-.hero h1{
-  font-size:clamp(2rem,7vw,3.6rem);
-  line-height:1.02;
-  margin:0 0 6px;
-  font-weight:800;
-  letter-spacing:-0.02em;
-}
-.hero .sub{
-  font-size:clamp(1rem,3vw,1.25rem);
-  color:var(--text-dim);
-  margin:0 0 28px;
-  font-weight:500;
-}
-.champ-callout{
-  display:flex;
-  flex-wrap:wrap;
-  gap:16px;
-  align-items:center;
-  background:linear-gradient(135deg, rgba(232,182,74,.14), rgba(232,182,74,.02));
-  border:1px solid var(--gold-dim);
-  border-radius:14px;
-  padding:18px 20px;
-  margin-bottom:28px;
-}
-.champ-callout .ring{font-size:2.2rem;line-height:1;}
-.champ-callout .cc-text{flex:1;min-width:220px;}
-.champ-callout .cc-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:800;margin-bottom:2px;}
-.champ-callout .cc-name{font-size:1.4rem;font-weight:800;}
-.champ-callout .cc-detail{color:var(--text-dim);font-size:.92rem;margin-top:2px;}
-.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
-.stat-tile{
-  background:var(--bg-card);
-  border:1px solid var(--border);
-  border-radius:12px;
-  padding:14px 12px;
-  text-align:center;
-}
-.stat-tile .num{font-size:clamp(1.3rem,4.5vw,1.9rem);font-weight:800;letter-spacing:-0.01em;}
-.stat-tile .lbl{font-size:11px;color:var(--text-dim);letter-spacing:.06em;text-transform:uppercase;margin-top:2px;}
-
-/* ---------- SECTIONS GENERIC ---------- */
-main{padding-bottom:40px;}
-section{padding:52px 0;border-bottom:1px solid var(--border-soft);}
-section:last-of-type{border-bottom:none;}
-.section-head{margin-bottom:28px;}
-.section-kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:800;margin:0 0 8px;}
-.section-title{font-size:clamp(1.5rem,4.5vw,2.1rem);font-weight:800;margin:0;letter-spacing:-0.01em;}
-.section-desc{color:var(--text-dim);margin:10px 0 0;max-width:640px;font-size:.96rem;}
-
-/* ---------- MEMO ---------- */
-.memo-shell{
-  background:var(--bg-card);
-  border:1px solid var(--border);
-  border-radius:16px;
-  overflow:hidden;
-}
-.letterhead{
-  padding:28px 24px 24px;
-  border-bottom:2px solid var(--gold-dim);
-  background:linear-gradient(180deg, rgba(232,182,74,.06), transparent);
-}
-.letterhead .lh-mark{
-  font-size:11px;
-  letter-spacing:.22em;
-  text-transform:uppercase;
-  color:var(--gold);
-  font-weight:800;
-  margin-bottom:16px;
-}
-.lh-grid{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem;}
-.lh-grid dt{color:var(--text-faint);text-transform:uppercase;font-size:11px;letter-spacing:.08em;font-weight:700;align-self:start;padding-top:2px;}
-.lh-grid dd{margin:0;color:var(--text);}
-.memo-body{padding:8px 24px 36px;max-width:680px;margin:0 auto;}
-.memo-body h3{
-  font-size:1.15rem;
-  font-weight:800;
-  letter-spacing:.01em;
-  margin:44px 0 16px;
-  padding-top:20px;
-  border-top:1px solid var(--border-soft);
-  color:var(--text);
-}
-.memo-body h3:first-child{margin-top:24px;padding-top:0;border-top:none;}
-.memo-body p{
-  font-size:1.02rem;
-  line-height:1.75;
-  color:#d7d8de;
-  margin:0 0 18px;
-}
-.memo-body strong{color:var(--text);font-weight:800;}
-.memo-body em{color:var(--text-dim);}
-.pullquote{
-  margin:28px 0;
-  padding:18px 22px;
-  border-left:3px solid var(--gold);
-  background:rgba(232,182,74,.06);
-  border-radius:0 10px 10px 0;
-  font-size:1.12rem;
-  line-height:1.55;
-  font-weight:600;
-  color:#f2e4c2;
-}
-.pullquote.red{border-left-color:var(--red);background:rgba(228,72,63,.07);color:#f2cfcb;}
-.memo-sign{
-  padding:22px 24px 28px;
-  text-align:right;
-  font-weight:800;
-  color:var(--text-dim);
-  font-size:.95rem;
-  letter-spacing:.03em;
-}
-
-/* ---------- TABLES ---------- */
-.table-scroll{
-  overflow-x:auto;
-  border:1px solid var(--border);
-  border-radius:12px;
-  -webkit-overflow-scrolling:touch;
-}
-table{
-  border-collapse:collapse;
-  width:100%;
-  min-width:560px;
-  font-size:.92rem;
-}
-table.narrow{min-width:0;}
-table.wrap-col2 td:nth-child(2){white-space:normal;min-width:220px;}
-th,td{
-  padding:9px 12px;
-  text-align:left;
-  border-bottom:1px solid var(--border-soft);
-  white-space:nowrap;
-}
-thead th{
-  position:sticky;top:0;
-  background:var(--bg-raised);
-  color:var(--text-dim);
-  font-size:11px;
-  letter-spacing:.06em;
-  text-transform:uppercase;
-  font-weight:700;
-  border-bottom:1px solid var(--border);
-  z-index:1;
-}
-tbody tr:nth-child(even){background:rgba(255,255,255,.015);}
-tbody tr:hover{background:rgba(255,255,255,.035);}
-td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1;font-family:var(--mono);}
-.scroll-body{max-height:520px;overflow-y:auto;}
-tr.row-champ td{background:rgba(232,182,74,.10);}
-tr.row-champ td:first-child{box-shadow:inset 3px 0 0 var(--gold);}
-tr.row-last td{background:rgba(228,72,63,.09);}
-tr.row-last td:first-child{box-shadow:inset 3px 0 0 var(--red);}
-.pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:10.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;}
-.pill.gold{background:rgba(232,182,74,.16);color:var(--gold);}
-.pill.red{background:rgba(228,72,63,.16);color:var(--red);}
-.pill.gray{background:rgba(255,255,255,.06);color:var(--text-dim);}
-.hint{font-size:.82rem;color:var(--text-faint);margin-top:10px;}
-
-/* ---------- AWARDS ---------- */
-.award-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;}
-.award-card{
-  background:var(--bg-card);
-  border:1px solid var(--border);
-  border-radius:12px;
-  padding:16px 16px 14px;
-}
-.award-card .a-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-dim);font-weight:700;margin-bottom:8px;}
-.award-card .a-value{font-size:1.6rem;font-weight:800;font-family:var(--mono);letter-spacing:-0.02em;}
-.award-card .a-sub{color:var(--text-dim);font-size:.86rem;margin-top:6px;line-height:1.4;}
-.award-card.pos{border-color:var(--gold-dim);}
-.award-card.neg{border-color:var(--red-dim);}
-
-/* ---------- WEEK BY WEEK ---------- */
-details.wk{
-  border:1px solid var(--border);
-  border-radius:10px;
-  margin-bottom:8px;
-  background:var(--bg-card);
-  overflow:hidden;
-}
-details.wk summary{
-  padding:12px 16px;
-  cursor:pointer;
-  font-weight:700;
-  list-style:none;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-}
-details.wk summary::-webkit-details-marker{display:none;}
-details.wk summary::after{content:"+";color:var(--text-dim);font-size:1.1rem;font-weight:400;}
-details.wk[open] summary::after{content:"\2212";}
-details.wk summary .wk-hi{color:var(--text-dim);font-weight:500;font-size:.86rem;}
-.wk-games{padding:0 16px 14px;}
-.wk-game{
-  display:grid;
-  grid-template-columns:1fr auto auto auto 1fr;
-  align-items:center;
-  gap:8px;
-  padding:8px 0;
-  border-top:1px solid var(--border-soft);
-  font-size:.9rem;
-}
-.wk-game:first-child{border-top:none;}
-.wk-game .tm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.wk-game .tm.away{text-align:right;}
-.wk-game .sc{font-family:var(--mono);font-weight:700;font-variant-numeric:tabular-nums;}
-.wk-game .vs{color:var(--text-faint);font-size:.72rem;}
-.wk-game .winner{color:var(--gold);}
-
-/* ---------- BRACKETS ---------- */
-.bracket-mobile{display:block;}
-.bracket-desktop{display:none;}
-.round-block{margin-bottom:18px;}
-.round-block h4{
-  font-size:12px;text-transform:uppercase;letter-spacing:.1em;
-  color:var(--text-dim);margin:0 0 8px;font-weight:800;
-}
-.bm-card{
-  border:1px solid var(--border);
-  border-radius:10px;
-  background:var(--bg-card);
-  margin-bottom:8px;
-  overflow:hidden;
-}
-.bm-row{
-  display:flex;justify-content:space-between;align-items:center;
-  padding:9px 12px;font-size:.92rem;
-  border-top:1px solid var(--border-soft);
-}
-.bm-row:first-child{border-top:none;}
-.bm-row.win{color:var(--gold);font-weight:800;}
-.bm-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-right:10px;}
-.bm-row .sc{font-family:var(--mono);font-variant-numeric:tabular-nums;}
-.bm-card.bye{opacity:.6;font-style:italic;}
-
-.bracket-desktop{
-  position:relative;
-  overflow-x:auto;
-  padding-bottom:10px;
-}
-.bx-row{display:flex;gap:56px;min-width:850px;position:relative;height:400px;}
-.bx-col{position:relative;width:240px;flex:0 0 240px;height:100%;}
-.bx-col h5{
-  position:absolute;top:-28px;left:0;right:0;
-  font-size:11px;text-transform:uppercase;letter-spacing:.1em;
-  color:var(--text-dim);font-weight:800;margin:0;text-align:center;
-}
-.bx-match{
-  position:absolute;left:0;right:0;height:60px;
-  border:1px solid var(--border);border-radius:8px;
-  background:var(--bg-card);overflow:hidden;
-}
-.bx-match .bx-team{
-  display:flex;justify-content:space-between;align-items:center;
-  height:30px;padding:0 10px;font-size:.82rem;
-}
-.bx-match .bx-team:first-child{border-bottom:1px solid var(--border-soft);}
-.bx-match .bx-team.win{color:var(--gold);font-weight:800;background:rgba(232,182,74,.08);}
-.bx-match .bx-team .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.bx-match .bx-team .sc{font-family:var(--mono);font-variant-numeric:tabular-nums;padding-left:6px;}
-.bx-match.bye{opacity:.55;}
-.bx-match.bye .bx-team{font-style:italic;}
-.bx-conn{position:absolute;border-right:2px solid var(--border);width:0;}
-.bx-champ-badge{
-  position:absolute;top:-24px;left:50%;transform:translateX(-50%);
-  font-size:10px;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--gold);font-weight:800;white-space:nowrap;
-}
-
-@media (min-width:900px){
-  .bracket-mobile{display:none;}
-  .bracket-desktop{display:block;}
-}
-
-/* ---------- HEAD TO HEAD WIDGET ---------- */
-.h2h-picker{
-  display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;
-}
-.h2h-btn{
-  background:var(--bg-card);
-  border:1px solid var(--border);
-  color:var(--text);
-  padding:8px 14px;
-  border-radius:99px;
-  font-size:.86rem;
-  font-weight:700;
-  cursor:pointer;
-  font-family:inherit;
-}
-.h2h-btn:hover{border-color:var(--text-dim);}
-.h2h-btn.active{
-  background:var(--gold);
-  color:#1a1305;
-  border-color:var(--gold);
-}
-.h2h-panel{
-  background:var(--bg-card);
-  border:1px solid var(--border);
-  border-radius:14px;
-  padding:20px;
-}
-.h2h-summary{
-  display:flex;flex-wrap:wrap;gap:24px;margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border-soft);
-}
-.h2h-summary .h2h-name{font-size:1.4rem;font-weight:800;}
-.h2h-summary .h2h-rec{font-family:var(--mono);font-size:1.2rem;color:var(--gold);font-weight:800;}
-.h2h-summary .h2h-rec-lbl{font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;}
-.h2h-row{
-  display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;
-  padding:10px 0;border-top:1px solid var(--border-soft);font-size:.92rem;
-}
-.h2h-row:first-child{border-top:none;}
-.h2h-row .opp{font-weight:700;}
-.h2h-row .rec{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;min-width:56px;}
-.h2h-row .pts{color:var(--text-faint);font-size:.78rem;font-family:var(--mono);text-align:right;min-width:120px;}
-.h2h-row .bar{grid-column:1/-1;height:5px;border-radius:3px;background:var(--border-soft);overflow:hidden;}
-.h2h-row .bar-fill{height:100%;background:var(--gold);}
-.h2h-row.winning .rec{color:var(--gold);}
-.h2h-row.losing .rec{color:var(--red);}
-
-/* ---------- DYNASTY / HISTORY GENERIC CARDS ---------- */
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;}
-.info-card{
-  background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:16px;
-}
-.info-card h4{margin:0 0 8px;font-size:1.02rem;font-weight:800;}
-.info-card p{margin:0;color:var(--text-dim);font-size:.88rem;line-height:1.55;}
-.info-card .tag{
-  display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;
-  color:var(--text-faint);border:1px solid var(--border);border-radius:6px;padding:2px 6px;margin-bottom:8px;
-}
-.explainer{
-  background:rgba(232,182,74,.05);
-  border:1px solid var(--gold-dim);
-  border-radius:12px;
-  padding:16px 18px;
-  font-size:.9rem;
-  color:var(--text-dim);
-  margin-bottom:20px;
-  line-height:1.6;
-}
-.explainer strong{color:var(--text);}
-.year-block{margin-bottom:22px;}
-.year-block h4{
-  font-size:1.05rem;font-weight:800;margin:0 0 4px;
-  display:flex;align-items:baseline;gap:10px;
-}
-.year-block h4 .yr{color:var(--gold);font-family:var(--mono);}
-.year-block .champ-line{color:var(--text-dim);font-size:.88rem;margin-bottom:10px;}
-
-/* ---------- FOOTER ---------- */
-footer{
-  padding:36px 0 60px;
-  color:var(--text-faint);
-  font-size:.84rem;
-  line-height:1.7;
-}
-footer a{color:var(--text-dim);}
-footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
-
-.jump{
-  position:sticky;top:0;z-index:20;
-  background:rgba(10,10,13,.92);
-  backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--border);
-  overflow-x:auto;
-  white-space:nowrap;
-  -webkit-overflow-scrolling:touch;
-}
-.jump .wrap{display:flex;gap:4px;padding:8px 20px;}
-.jump a{
-  color:var(--text-dim);
-  text-decoration:none;
-  font-size:.78rem;
-  font-weight:700;
-  letter-spacing:.03em;
-  text-transform:uppercase;
-  padding:6px 10px;
-  border-radius:99px;
-  flex:0 0 auto;
-}
-.jump a:hover{background:var(--bg-card);color:var(--text);}
-
-@media (max-width:480px){
-  .wrap{padding:0 14px;}
-  .stat-row{grid-template-columns:repeat(3,1fr);gap:8px;}
-  .stat-tile{padding:10px 6px;}
-  .lh-grid{grid-template-columns:1fr;}
-  .lh-grid dt{padding-top:8px;}
-  .memo-body{padding:8px 16px 28px;}
-  .letterhead{padding:20px 16px 18px;}
-}
-</style>
-
-<div class="jump">
-  <nav class="wrap">
-    <a href="#memo">Memo</a>
-    <a href="#standings">Standings</a>
-    <a href="#brackets">Brackets</a>
-    <a href="#awards">Awards</a>
-    <a href="#allplay">All-Play</a>
-    <a href="#weeks">Weeks</a>
-    <a href="#dynasty">Dynasty</a>
-    <a href="#history">History</a>
-    <a href="#recordbook">Record Book</a>
-  </nav>
-</div>
-
-<header class="hero">
+<nav class="topnav">
   <div class="wrap">
-    <p class="eyebrow">Degenerate GM Dynasty League</p>
-    <h1>League of Degenerates</h1>
-    <p class="sub">2025 SEASON IN REVIEW</p>
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink current" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink" href="./standings.html">Standings</a>
+    <a class="navlink" href="./allplay.html">All-Play</a>
+    <a class="navlink" href="./draft.html">Draft</a>
+    <a class="navlink" href="./dynasty.html">Dynasty</a>
+    <a class="navlink" href="./history.html">History</a>
+    <a class="navlink" href="./record.html">Record Book</a>
+  </div>
+</nav>
 
+<!-- ================= PINNED COUNTDOWN BOARD ================= -->
+<section class="countdown-board" id="countdown-board">
+  <div class="wrap">
+    <p class="cd-eyebrow">2026 Offseason Clock</p>
+    <div class="cd-grid" id="cd-grid"></div>
+    <div class="cd-derivation">
+      <strong>How these dates were figured out:</strong>
+      <ul>
+        <li>The <strong>Rookie/FA Draft</strong> date and time come straight from the league's Sleeper draft room. Confirmed, not a guess.</li>
+        <li>The <strong>Contract Deadline</strong> follows Rule 6.07: contracts are due by the first NFL regular season game after the draft. The 2026 season opens on Wednesday, September 9 (the league opens on a Wednesday this year instead of the usual Thursday), so the deadline lands on a Wednesday too. Past memos used 5:00 PM Central on kickoff day.</li>
+        <li>The <strong>Roster + Franchise Tag Deadline</strong> follows Rule 6.12, which only requires it to land at least one week before the draft. Past memos have run it 3 to 7 days out. This site guesses 7 days before the draft.</li>
+        <li>The <strong>Trade Deadline</strong> has landed on the Wednesday before Thanksgiving every year on record (11/22/23, 11/27/24, 11/26/25). In 2026 that is November 25.</li>
+      </ul>
+      <p style="margin:10px 0 0;">Anything marked <span class="tbc-chip">TBC</span> is a well-reasoned guess, not an announcement. The Commissioner still has to confirm it in an actual memo before you should treat it as final.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SPRAYPAINT HERO ================= -->
+<header class="hero">
+  <svg class="hero-wall-grain" width="100%" height="100%" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise"></feTurbulence>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"></feColorMatrix>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#grain)"></rect>
+  </svg>
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow">Degenerate GM Dynasty League</p>
+    <h1 class="sr-title">League of Degenerates</h1>
+
+    <div class="spray-wrap">
+      <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <defs>
+          <filter id="roughen" x="-25%" y="-25%" width="150%" height="150%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="7" result="noise"></feTurbulence>
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="9" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+          </filter>
+          <filter id="redglow" x="-60%" y="-60%" width="220%" height="220%">
+            <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 -0.6 -0.6 0 0" result="redmask"></feColorMatrix>
+            <feGaussianBlur in="redmask" stdDeviation="7" result="blurmask"></feGaussianBlur>
+            <feFlood flood-color="#ff5a3c" flood-opacity="0.95" result="redcolor"></feFlood>
+            <feComposite in="redcolor" in2="blurmask" operator="in" result="glow"></feComposite>
+            <feMerge>
+              <feMergeNode in="glow"></feMergeNode>
+            </feMerge>
+          </filter>
+        </defs>
+      </svg>
+      <img class="spray-halo" src="./logo.png" alt="" aria-hidden="true">
+      <img class="spray-halo" style="filter:url(#redglow);opacity:.7;" src="./logo.png" alt="" aria-hidden="true">
+      <img class="spray-logo" src="./logo.png" alt="League of Degenerates wordmark, spray-painted in white and red ink on a wall">
+      <div class="drip d1"></div><div class="drip d2"></div><div class="drip d3"></div>
+    </div>
+
+    <p class="sub">2025 SEASON IN REVIEW</p>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= CHAMPION + STAT ROW ================= -->
+<section id="champ">
+  <div class="wrap">
     <div class="champ-callout">
       <div class="ring">&#127942;</div>
       <div class="cc-text">
@@ -481,550 +96,60 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
       <div class="stat-tile"><div class="num tabular">18,053.32</div><div class="lbl">Total Points</div></div>
       <div class="stat-tile"><div class="num tabular">128.95</div><div class="lbl">Avg / Game</div></div>
     </div>
-  </div>
-</header>
-
-<main>
-
-<!-- ================= MEMO ================= -->
-<section id="memo">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">The Centerpiece</p>
-      <h2 class="section-title">The Commissioner's Memo</h2>
-      <p class="section-desc">Rendered in full. Read it the way it was written to be read: on a Sunday, alone, with something to prove.</p>
-    </div>
-
-    <div class="memo-shell">
-      <div class="letterhead">
-        <div class="lh-mark">Memorandum</div>
-        <dl class="lh-grid">
-          <dt>To</dt><dd>Degenerate GMs</dd>
-          <dt>From</dt><dd>Commissioner BlakeBro</dd>
-          <dt>Cc</dt><dd>Co-Commissioner Tony Loff (Chief Resident, Department of Doing What I Say)</dd>
-          <dt>Date</dt><dd>August 2026</dd>
-          <dt>Re</dt><dd>New League Year</dd>
-        </dl>
-      </div>
-      <div class="memo-body">
-        <p><strong>Degenerates, Liars, Losers, Fantasy Scammers - FANTASY SEASON IS BACK.</strong></p>
-
-<p>Before we begin, a brief word about the 2025 campaign.</p>
-
-<p>I finished tenth. Out of ten. Dead last. The Commissioner of this league - the founder, the visionary, the man who WROTE the constitution the rest of you pretend to read - finished behind a team called Stroud Boys.</p>
-
-<p>And folks, I've reviewed the tape. That season was RIGGED. There were irregularities. There were suitcases of points pulled out from under tables in Week 7. I have concepts of a lawsuit. My legal team - Tony Loff, who is a doctor and not a lawyer, but who does whatever I tell him - is looking into it very strongly. Many people are saying it's the biggest fantasy fraud in the history of our country. Possibly any country.</p>
-
-<p>But I'm a gracious man. So let's talk about the champion.</p>
-
-<h3>Irrelevant Levon, Champion of the World (allegedly)</h3>
-
-<p>Levon won the whole thing. Levon. Our guy in Germany. The human embodiment of a 25% import tax finally cleared customs.</p>
-
-<p>And folks, I want you to really sit with this one. He went <strong>7-7</strong>. SEVEN AND SEVEN. He was the FIVE SEED. He backed into the playoffs like a man parallel parking a Fiat, then went out and beat Hannah, beat David, and hung <strong>147.00</strong> on Tony Loff in the Finals to take the belt.</p>
-
-<div class="pullquote">He backed into the playoffs like a man parallel parking a Fiat, then went out and beat Hannah, beat David, and hung 147.00 on Tony Loff in the Finals to take the belt.</div>
-
-<p>By any objective measure it was the most impressive run in league history.</p>
-
-<p>And NOBODY REMEMBERS IT. I polled this league extensively. When asked "who won last year," four owners said David, two said "wait, wasn't it Hannah?", one asked if we played last year, and TB asked if there was money on it.</p>
-
-<p>Levon's championship got memory-holed faster than the Epstein files. Faster than a Signal chat with a journalist accidentally added to it. This man won a title on foreign soil and it registered with the American public roughly as hard as a Belgian election. He is the Jimmy Carter of this league: a good man, a decent man, a man who did the job, and a man nobody will think about again until the funeral.</p>
-
-<p>And now for my favorite statistic in the entire six-year history of this league.</p>
-
-<p>Levon's lifetime regular season record is <strong>32-51</strong>. A .386 winning percentage. That is the WORST RECORD OF ANY OWNER WHO HAS EVER PLAYED IN THIS LEAGUE. Dead last. Not close.</p>
-
-<p>He is also 8-5 in the playoffs, one of the best postseason records we have, and he owns a ring.</p>
-
-<div class="pullquote">Levon is objectively the worst regular season manager in the history of the Degenerate GM League and he has more championships than the Commissioner, the Co-Commissioner, TB, Mikey, Matt, and Team Barbie COMBINED.</div>
-
-<p>Folks, do you understand what this means? Levon is objectively the worst regular season manager in the history of the Degenerate GM League and he has more championships than the Commissioner, the Co-Commissioner, TB, Mikey, Matt, and Team Barbie COMBINED. He spent six years losing on Tuesdays in Germany and then walked in and took the whole thing.</p>
-
-<p>Congratulations, Levon. Please ship the trophy at your own expense. Article 8.05. I don't make the rules.</p>
-
-<p>(I made the rules.)</p>
-
-<h3>Tony "Look at Me" Loff - 11-3, and Still a Loser</h3>
-
-<p>Now here's where it gets DELICIOUS.</p>
-
-<p>Last August I dedicated three paragraphs of this memo to Tony Loff's collapse. I called for a moment of silence over his roster. I said the man had lost his mind to fantasy football.</p>
-
-<p>Tony then went <strong>11-3</strong>. Best record in the league. Number one seed. First-round bye. He led the league in wins and he led the league in reminding everyone that he led the league in wins.</p>
-
-<p>And then he lost the Championship. To Germany.</p>
-
-<p>I want to be careful here, because Tony is Chief Resident at UCLA Medical now - very big job, very prestigious, he tells us about it CONSTANTLY, it is the only thing he discusses besides the dog - and I would never say anything that could jeopardize a young man's career.</p>
-
-<p>So I'll just lay out the facts and let the American people decide.</p>
-
-<p>Tony Loff was the best team of the regular season and lost the only game that mattered. He is a number one seed who peaked in October. He is a man who studied for eleven straight weeks and then failed the practical.</p>
-
-<p>And the numbers, folks. The numbers are BRUTAL. Against the full field every week, Tony was 71-55. He earned about <strong>eight</strong> wins. He was handed <strong>eleven</strong>. That's THREE FREE WINS. Three! He enjoyed the softest schedule since the '07 Patriots toured the NFC. He posted the two lowest scores of any playoff team all season - 80.36 in Week 6 and 82.98 in Week 8 - and still won eleven games.</p>
-
-<div class="pullquote">Against the full field every week, Tony was 71-55. He earned about eight wins. He was handed eleven. That's THREE FREE WINS.</div>
-
-<p>He didn't build a juggernaut. He inherited a favorable map.</p>
-
-<p>And I'll say the quiet part out loud, because somebody has to: Tony is the most aggressive man in the history of this league. He has led the entire league in locked-in contract years <strong>every single season since 2021</strong>. Six straight years of hoarding. He is a party to roughly <strong>twenty of the thirty-seven trades</strong> ever logged in that spreadsheet - he appears in every season's trade log without exception, five separate deals in 2023 alone. The man does not sleep. He is running a sovereign wealth fund out of a group chat.</p>
-
-<p>Oh, and he's slacking. As Co-Commissioner, Tony handles the busy work: the spreadsheet, the contract audits, the reminders nobody reads. Since becoming Chief Resident he has done ABSOLUTELY NONE OF IT. He has DOGE'd his own department. Walked out, turned off the lights, left the sign up. I'd fire him but I've grown attached, like a tariff.</p>
-
-<p>So to summarize the Tony Loff experience: he trades more than anyone, he signs longer than anyone, he won more games than anyone, he does less paperwork than anyone, and he has zero championships. Tremendous operation. Really world class.</p>
-
-<h3>David - Premature in All Things</h3>
-
-<p>Congratulations to David and the family on the arrival of baby <strong>Lyla</strong>, who came a little early.</p>
-
-<p>Which, honestly, tracks. Because David has a well-documented history of announcing things before they have actually occurred.</p>
-
-<p>You will all recall that David - reigning 2024 champion, holder of a first-round bye, owner of a genuinely good roster - declared himself champion of the 2025 season while there were still games left to play. He was measuring the trophy. He was drafting the speech. He was picking out fonts.</p>
-
-<p>He then scored 132.40 and lost to Levon by twenty-one.</p>
-
-<p>Nine months later, same energy: "it's happening, everybody get ready." And then it happened three weeks early.</p>
-
-<p>David, we love you. Lyla is beautiful. But please, for the love of God, wait for the actual result before you announce it. You've now done this twice and only one of them turned out fine.</p>
-
-<p>In fairness: David won <strong>four</strong> weekly high-score prizes in 2025, more than anyone else in the league. Forty American dollars. He is the highest-earning non-champion in league history, which is the most David sentence ever written.</p>
-
-<p>Now for the part that actually worries me. I pulled the contract sheet, folks. David's roster has <strong>two</strong> locked-in contract years on it. Two. Across nineteen players. He has ZERO players signed beyond next season. In 2020 he had thirty-three. He has finished dead last in the league in contract control three years running.</p>
-
-<p>David has spent six years selling the future to buy the present, and the present keeps losing in Round 2. He's running a deficit like it's a personality. At some point, folks, you actually do have to pay it back - and the bill is due at the 2026 draft.</p>
-
-<h3>The Collusion Couple - Hannah & Mathieu</h3>
-
-<p>The league's first and only married trade partnership. A power couple. A cartel. Two franchises, one kitchen table, zero oversight.</p>
-
-<p><strong>Hannah</strong> had, by her own account, a "down year." Let's examine that claim.</p>
-
-<p>Hannah scored <strong>2,028.54</strong> points. That is the most points scored by any team in this league. She was the ONLY team to crack two thousand. Against the entire field every single week she went 87-39, a .690 clip, best in the league and not remotely close.</p>
-
-<p>She finished <strong>fifth</strong>.</p>
-
-<div class="pullquote">Hannah scored 2,028.54 points, the most in the league. She was the only team to crack two thousand. She finished fifth.</div>
-
-<p>Folks, that's not a down year. That's a heist run in reverse. That is what happens when you are the best team in the country and the map is drawn against you. Hannah put up championship numbers, collected a participation ribbon, and earned the right to be described as a disappointment in her own husband's league memo.</p>
-
-<p>She is looking to bounce back. From what, exactly, remains unclear. She's a candidate who won the popular vote by four million and got a concession speech. Very sad. Very familiar.</p>
-
-<p>BUT FOLKS. I have seen the spreadsheet. And I have news that I take absolutely no pleasure in delivering.</p>
-
-<p>Hannah is the most loyal owner in the history of this league. She owns SEVEN of the nineteen players who have never once moved rosters since 2020 - Watson, McCaffery, Jonathan Taylor, Pollard, Sutton, CeeDee Lamb, Justin Jefferson. She retained twenty-one of her twenty-two players last offseason. A five percent turnover rate. She doesn't trade. She doesn't churn. She built a dynasty on loyalty.</p>
-
-<p><strong>And all seven of them are expiring at the same time.</strong></p>
-
-<p>Every cornerstone. Simultaneously. On one tab. She has exactly one player under long-term control on her entire roster. The most stable roster in league history is about to be detonated in a single afternoon, and the only person who can stop it is Hannah, using contract years she does not have, at a 2:1 exchange rate she cannot afford.</p>
-
-<p>It's the biggest mass expiration event this league has ever seen. Call it what it is: <strong>the Hannah Cliff.</strong> Seven cornerstones going into the draft pool at once. It's a fire sale. It's a going-out-of-business sign. It's the greatest transfer of wealth in league history and every single one of you is about to get a piece.</p>
-
-<p>Bring your contract years to the draft, folks. This is the one.</p>
-
-<p><strong>Mathieu</strong>, meanwhile, went <strong>3-11</strong>.</p>
-
-<p>Three and eleven. 1,528 points - dead last in scoring by more than two hundred. Against the full field he was 37-89, a .294 winning percentage, which in baseball is a solid year and in fantasy football is a cry for help.</p>
-
-<p>Matt has never been good. I want to stress that this is not an insult, it's a data point. I pulled every game this league has ever played, going back to 2020. Matt's lifetime record is <strong>36-47</strong>. He has never won a title. He has never played in a Final. He is 3-9 in the playoffs. There is no season in which Matt was good. He is the most consistent owner in league history, and the thing he is consistent at is being bad.</p>
-
-<p>There is exactly one exception to this, and I regret to report it is me. Mathieu is <strong>9-2 against the Commissioner</strong> lifetime. Nine and two. The single most lopsided rivalry in this league that doesn't involve David beating up on Ryan. A man with a losing record against everyone else on earth has spent six years using me as a heat lamp.</p>
-
-<p>This is also the man who, in 2021, handed <strong>Trey Lance a five-year contract.</strong> Five years. Half a decade of team control on a quarterback who lasted two seasons on his roster and was out of this league entirely by 2023. When the bill came due Matt had to liquidate him at a loss. It remains, to this day, the single worst allocation of capital in the history of the Degenerate GM League, and I include my own presidency in that.</p>
-
-<p>He then dropped 174.70 on me in the 9th place game.</p>
-
-<p>We'll get to that.</p>
-
-<h3>Team Barbie - Toilet Bowl Champions and the League's Greatest Victims</h3>
-
-<p>Madison and Pateel finished 7th at 6-8 and won the Consolation Bracket, which means four extra contract years and the 1.01 in the upcoming draft.</p>
-
-<p>But here's what nobody wants to say out loud: <strong>Team Barbie was the second-best team in this league and finished seventh.</strong></p>
-
-<p>76-50 against the full field. 1,939.98 points - third most in the league, more than the number one seed, more than the eventual champion. Expected wins: 8.4. Actual wins: 6. The unluckiest team in the league by a full two and a half games.</p>
-
-<p>They hung <strong>193.34</strong> in Week 7, second-highest score of the entire season, and beat TB by 77.</p>
-
-<p>They also lost a game <strong>149.52 to 148.50</strong>. By one point. Not a figure of speech - 1.02 points.</p>
-
-<div class="pullquote red">They also lost a game 149.52 to 148.50. By one point. Not a figure of speech - 1.02 points.</div>
-
-<p>If there were any justice on this earth, Team Barbie makes the playoffs. Instead they won the Toilet Bowl and got REWARDED with four contract years and the first overall pick. So in the end the system works perfectly. Beautiful system. I designed it.</p>
-
-<p>And one more thing about the "bridge team we found to fill a vacancy." Team Barbie's lifetime postseason record is <strong>6-2</strong>. That is the best playoff winning percentage of any owner in the history of this league. They are also <strong>5-0 lifetime against Tony Busch</strong>, who has never beaten them, not once, not ever.</p>
-
-<p>Two women who joined in 2023 with zero fantasy experience are 6-2 in the playoffs while the men who taught them the game are a combined coin flip. I've reviewed this extensively and I've concluded it's fine and I don't want to talk about it.</p>
-
-<p>Congratulations also to Tony and Pateel on their fur baby, <strong>Marlo</strong> - the first dog in league history to have a better 2025 than her owner.</p>
-
-<h3>Military Mikey Is Back From War</h3>
-
-<p>Folks, our hero has returned.</p>
-
-<p>Mikey Loff is BACK on American soil. He went 8-6, made the playoffs, and did it while - and I cannot stress this enough - being on a different continent for most of it.</p>
-
-<p>He is home. He is safe. He has air conditioning. And I am told he is currently sweating profusely in a dark room doing what our veterans do best: watching animated programming at a volume he genuinely believes is inaudible.</p>
-
-<p>We thank you for your service, Mikey. Both kinds.</p>
-
-<p>He is off auto-draft this year, which frankly strips him of his greatest competitive advantage. His 2025 roster was effectively managed by the United States Navy's internet connection and it finished sixth. Now that he has to make his own decisions I expect a steep and immediate decline.</p>
-
-<h3>Flight Risk Ryan Is Getting Married</h3>
-
-<p>Big news out of the McCusker camp: Ryan M is getting married this year. To a person. A real one. Confirmed.</p>
-
-<p>Ryan also had - and I want to say this carefully, because I have been wrong about him before - a GOOD year. He went 7-7, snuck in as the six seed, and knocked off Mikey in the first round.</p>
-
-<p>Then he ran into Tony Loff and scored 100.94. Then he played for third place and scored <strong>79.52</strong>.</p>
-
-<p>SEVENTY-NINE POINTS. In a playoff game. For money.</p>
-
-<div class="pullquote red">SEVENTY-NINE POINTS. In a playoff game. For money.</div>
-
-<p>That is the lowest score posted by any playoff team in any playoff round all season. Ryan reached the postseason and turned in the fantasy equivalent of a hostage video.</p>
-
-<p>Congratulations on the engagement, Ryan. Marriage is fundamentally about showing up when it counts, so this should be a real adjustment.</p>
-
-<p>I will note one thing in his defense, and it pains me. I went back and pulled the full league record from the very beginning, all the way to 2020, and I rediscovered something this league has collectively agreed to forget:</p>
-
-<p><strong>Ryan M won the first championship in league history.</strong></p>
-
-<p>He did. 2020. 10-3. Our inaugural champion. The founding father. And in the six years since, he has been beaten by David TWELVE TIMES in fifteen meetings, which is the most lopsided rivalry in the history of this league. He also holds the all-time record for lowest score ever recorded by any owner in any week: <strong>54.0 points</strong>, Week 8, 2022.</p>
-
-<p>Ryan M is the only man alive who is simultaneously a founding champion and the worst single performance in league history. That's range, folks.</p>
-
-<h3>Talkin' TB - Third Child Incoming</h3>
-
-<p>Tony Busch is having his THIRD child. Any day now. Possibly during the draft.</p>
-
-<p>TB went 5-9 and lost the 7th place game. His team was named The Fumblin' Faucis, which is a hell of a bit, and unfortunately the bit was the strongest part of the operation.</p>
-
-<p>He did drop <strong>188.52</strong> in Week 8 - third-highest score of the season - on me, personally, in the middle of my collapse. So he had one good day. He's had three good days total and each one produced a child.</p>
-
-<p>Three kids, TB. Three. At what point do we simply acknowledge that you've located the one thing you're better at than the rest of us and it is not fantasy football.</p>
-
-<h3>And Now... The Commissioner</h3>
-
-<p>Tenth place.</p>
-
-<p>Second-worst luck in the league. I was beaten by 82.90 in Week 7, the biggest blowout of the entire season. Then I was beaten by 82.84 in Week 8, the second-biggest blowout of the entire season. Back-to-back weeks. I hold BOTH records. Nobody has ever done that. It's actually historic.</p>
-
-<p>Then, in the 9th place game, with the last shred of my dignity on the table, Mathieu - a man who has never been good, a man who went 3-11 - hung 174.70 on me.</p>
-
-<p>I scored 114.50.</p>
-
-<p>Folks, I've thought long and hard about how to characterize this, and I've landed on the truth: I was the target of a coordinated effort. The schedule was weaponized. The waiver wire was weaponized. My own Co-Commissioner, a physician, refused to intervene. I was, in every meaningful sense, the most persecuted man in the history of this league.</p>
-
-<p>I did win one weekly prize. Week 9. 156.10. Ten dollars. I would like that entered into the record.</p>
-
-<p>And here's the kicker, folks. Here is the beautiful, perfect ending to my 2025 season.</p>
-
-<p>Finishing dead last earns you the fourth overall pick in the draft. Article 4.02. A consolation prize. A small mercy from a merciless system.</p>
-
-<p>I don't own it. I traded it to David in June. For Devon Achane.</p>
-
-<p>So let me be very clear about where we stand. I finished last, I earned the pick, I gave the pick to the reigning premature champion, and then I put two contract years on the running back I got back for it. I have essentially paid a fine for finishing last. I am the only man in America who lost an election and then sent the winner a gift basket.</p>
-
-<div class="pullquote">I finished last, I earned the pick, I gave the pick to the reigning premature champion, and then I put two contract years on the running back I got back for it.</div>
-
-<p>I'm not going anywhere. This is a WITCH HUNT and I will be VINDICATED. The 2026 season begins now and the numbers are looking TREMENDOUS. Baker turns one this month and he already has a better feel for the waiver wire than Ryan.</p>
-
-<p>One final note, and then I'm going to close the laptop and not open it again until the draft.</p>
-
-<p>In the course of building this thing I pulled every game this league has played since 2020. All six seasons. Every score. And I found my own lifetime record.</p>
-
-<p><strong>33-50.</strong></p>
-
-<p>Point three nine eight. Second-worst in league history, ahead of only the reigning champion. I have also allowed more points against than any owner who has ever played in this league - 11,465 - while scoring more than Levon, more than Mathieu, more than Ryan.</p>
-
-<p>I score. I just lose. I am, statistically, the unluckiest man in the history of the Degenerate GM League, and I have spent six years insisting the opposite in writing, annually, in a memo I send to all of you.</p>
-
-<div class="pullquote">I am, statistically, the unluckiest man in the history of the Degenerate GM League, and I have spent six years insisting the opposite in writing, annually, in a memo I send to all of you.</div>
-
-<p>I've decided to release this data anyway. Because unlike SOME administrations, this one believes in transparency.</p>
-
-<p><strong>THE GOLDEN AGE IS BACK. AMERICA IS BACK. AND MOST IMPORTANTLY... I'M BACK.</strong></p>
-
-<p><em>(I said that last year. Let's not dwell on it.)</em></p>
-
-      </div>
-      <div class="memo-sign">HAPPY FANTASY, YOU COWARDS.</div>
-    </div>
+    <p class="hint">League-wide totals across all 70 regular season games of 2025, from analytics.json.</p>
   </div>
 </section>
 
-<!-- ================= STANDINGS ================= -->
-<section id="standings">
+<!-- ================= TEASERS ================= -->
+<section id="teasers">
   <div class="wrap">
     <div class="section-head">
-      <p class="section-kicker">Final Word</p>
-      <h2 class="section-title">Final Standings</h2>
-      <p class="section-desc">Regular-season seed is not where you finish. Playoff-adjusted final order, with the regular season record and points shown alongside so you can see exactly who moved.</p>
+      <p class="section-kicker">Get Into It</p>
+      <h2 class="section-title">The Rest of the Site</h2>
     </div>
-    <div class="table-scroll">
-      <table id="standings-table">
-        <thead>
-          <tr>
-            <th>Final</th><th>Team</th><th>Manager</th><th class="num">Reg. Seed</th>
-            <th class="num">W</th><th class="num">L</th><th class="num">PF</th><th class="num">PA</th><th>Result</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p class="hint">Rows sorted by final playoff-adjusted finish, not regular-season record. Gold = champion. Red = dead last.</p>
-  </div>
-</section>
-
-<!-- ================= BRACKETS ================= -->
-<section id="brackets">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">The Field</p>
-      <h2 class="section-title">The Brackets</h2>
-      <p class="section-desc">Six teams played for the title. Four played for pride, contract years, and draft position in the Toilet Bowl.</p>
-    </div>
-
-    <h3 style="font-size:1.1rem;margin:0 0 14px;">Championship Bracket</h3>
-    <div id="bracket-winners-mobile" class="bracket-mobile"></div>
-    <div id="bracket-winners-desktop" class="bracket-desktop"></div>
-
-    <h3 style="font-size:1.1rem;margin:40px 0 14px;">Toilet Bowl (Consolation Bracket)</h3>
-    <div id="bracket-toilet" class="bracket-mobile" style="display:block;"></div>
-  </div>
-</section>
-
-<!-- ================= AWARDS ================= -->
-<section id="awards">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">Superlatives</p>
-      <h2 class="section-title">Awards</h2>
-      <p class="section-desc">The receipts, pulled straight from analytics.json.</p>
-    </div>
-    <div class="award-grid" id="award-grid"></div>
-  </div>
-</section>
-
-<!-- ================= ALL-PLAY ================= -->
-<section id="allplay">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">The Evidence</p>
-      <h2 class="section-title">All-Play Standings</h2>
-      <p class="section-desc">Every team's record if it had played every other score posted that week, every week. This is the fraud detector. Sorted by all-play record - not the standings you actually got.</p>
-    </div>
-    <div class="table-scroll">
-      <table id="allplay-table">
-        <thead>
-          <tr>
-            <th>Team</th>
-            <th class="num">All-Play</th>
-            <th class="num">All-Play %</th>
-            <th class="num">Exp. W</th>
-            <th class="num">Actual W</th>
-            <th class="num">Luck</th>
-            <th class="num">PF</th>
-            <th class="num">PPG</th>
-            <th class="num">Wkly Prizes</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p class="hint">Luck = actual wins minus expected wins (based on all-play %). Positive = the schedule was kind. Negative = the schedule was not.</p>
-  </div>
-</section>
-
-<!-- ================= WEEK BY WEEK ================= -->
-<section id="weeks">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">The Ledger</p>
-      <h2 class="section-title">Week by Week</h2>
-      <p class="section-desc">All 14 regular season weeks, all 70 games. Tap a week to open it.</p>
-    </div>
-    <div id="week-list"></div>
-  </div>
-</section>
-
-<!-- ================= DYNASTY BOARD ================= -->
-<section id="dynasty">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">Contracts & Rosters</p>
-      <h2 class="section-title">The Dynasty Board</h2>
-      <p class="section-desc">Six years of trades, extensions, and busts, pulled from the contract spreadsheet and computed in storylines.md.</p>
-    </div>
-
-    <div class="explainer">
-      <strong>How to read a contract number:</strong> a number is the years of team control remaining <strong>beyond</strong> the listed season. <strong>0</strong> means the listed season is the last guaranteed year. No number at all means the player is on expiring rights only, no contract security going into next year's draft pool.
-    </div>
-
-    <h3 style="font-size:1.1rem;margin:0 0 14px;">The Iron Men (2020 - 2026, never traded or cut)</h3>
-<p class="section-desc" style="margin-bottom:16px;">Nineteen players have sat on the same roster every single season since the league began. Eight of the ten current owners still have their very first franchise cornerstone. Hannah alone owns seven of the nineteen, more than a third of the league's total loyalty pool, all on one roster.</p>
-<div class="table-scroll">
-  <table class="narrow wrap-col2">
-    <thead><tr><th>Owner</th><th>Cornerstone Player</th><th>Span</th></tr></thead>
-    <tbody>
-      <tr><td>Hannah</td><td>Deshaun Watson, Christian McCaffery, Jonathan Taylor, Tony Pollard, Courtland Sutton, CeeDee Lamb, Justin Jefferson</td><td class="num">2020 - 2026 (7 yrs, x7 players)</td></tr>
-      <tr><td>Anthony (Tony Loff)</td><td>Terry McLaurin</td><td class="num">2020 - 2026 (7 yrs)</td></tr>
-      <tr><td>David</td><td>Josh Allen, Travis Kelce</td><td class="num">2020 - 2026 (7 yrs, x2 players)</td></tr>
-      <tr><td>Matt (Mathieu)</td><td>Chris Godwin, DJ Moore, Jerry Jeudy</td><td class="num">2020 - 2026 (7 yrs, x3 players)</td></tr>
-      <tr><td>Michael (Mikey Loff)</td><td>Lamar Jackson, Brandon Aiyuk</td><td class="num">2020 - 2026 (7 yrs, x2 players)</td></tr>
-      <tr><td>Levon</td><td>Joe Burrow</td><td class="num">2020 - 2026 (7 yrs)</td></tr>
-      <tr><td>Ryan M</td><td>Patrick Mahomes</td><td class="num">2020 - 2026 (7 yrs)</td></tr>
-      <tr><td>TB (Tony Busch)</td><td>Christian Kirk, Michael Pittman</td><td class="num">2020 - 2026 (7 yrs, x2 players)</td></tr>
-      <tr><td>Blake (BlakeBro)</td><td>Amari Cooper</td><td class="num">2020 - 2025 (6 yrs, moved in 2026)</td></tr>
-    </tbody>
-  </table>
-</div>
-<p class="hint">Source: storylines.md, section 1-2, computed from rosters.json's seven season tabs.</p>
-
-<h3 style="font-size:1.1rem;margin:36px 0 14px;">The 2026 Cliff</h3>
-<p class="section-desc" style="margin-bottom:16px;">Total locked-in contract years remaining on each 2026 roster, and how many of those players are on expiring paper right now. The bigger the gap between roster size and locked-in years, the more of that roster hits the draft pool this offseason.</p>
-<div class="table-scroll">
-  <table class="narrow">
-    <thead><tr><th>Owner</th><th class="num">Roster Size</th><th class="num">Expiring</th><th class="num">Long Control (3+ yrs)</th><th class="num">Total Locked-In Years</th></tr></thead>
-    <tbody>
-      <tr class="row-last"><td>Hannah</td><td class="num">23</td><td class="num">20</td><td class="num">1</td><td class="num">7</td></tr>
-      <tr class="row-last"><td>Levon</td><td class="num">23</td><td class="num">20</td><td class="num">0</td><td class="num">5</td></tr>
-      <tr><td>Michael (Mikey Loff)</td><td class="num">23</td><td class="num">19</td><td class="num">0</td><td class="num">7</td></tr>
-      <tr><td>Team Barbie</td><td class="num">20</td><td class="num">17</td><td class="num">1</td><td class="num">6</td></tr>
-      <tr class="row-last"><td>David</td><td class="num">19</td><td class="num">17</td><td class="num">0</td><td class="num">2</td></tr>
-      <tr><td>TB (Tony Busch)</td><td class="num">21</td><td class="num">17</td><td class="num">1</td><td class="num">7</td></tr>
-      <tr><td>Matt (Mathieu)</td><td class="num">21</td><td class="num">16</td><td class="num">1</td><td class="num">9</td></tr>
-      <tr><td>Ryan M</td><td class="num">21</td><td class="num">14</td><td class="num">1</td><td class="num">10</td></tr>
-      <tr><td>Blake (BlakeBro)</td><td class="num">20</td><td class="num">13</td><td class="num">2</td><td class="num">13</td></tr>
-      <tr class="row-champ"><td>Anthony (Tony Loff)</td><td class="num">21</td><td class="num">13</td><td class="num">4</td><td class="num">18</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="award-grid" style="margin-top:16px;">
-  <div class="award-card neg">
-    <div class="a-label">The Hannah Cliff</div>
-    <div class="a-sub">All seven of Hannah's 2020-vintage never-moved cornerstones are expiring at once: Watson, McCaffery, Jonathan Taylor, Pollard, Sutton, CeeDee Lamb, Justin Jefferson. Her only long-term piece is Ashton Jeanty. The most stable roster in league history is about to get detonated in a single draft.</div>
-  </div>
-  <div class="award-card neg">
-    <div class="a-label">The Bare Cupboard</div>
-    <div class="a-sub">David has zero players locked up 3+ years, and only 2 total contract-years locked in across a 19-man roster, the lowest total in the league by a factor of 3. His stockpile rank has finished dead last (10th) three straight seasons: 2024, 2025, 2026.</div>
-  </div>
-  <div class="award-card pos">
-    <div class="a-label">The Best-Positioned</div>
-    <div class="a-sub">Anthony (Tony Loff) has finished #1 in the league in total locked-in contract years every season from 2021 through 2026, six years running. He has 4 players locked 3+ years and 18 total locked-in years, roughly 9x David's total.</div>
-  </div>
-</div>
-
-<h3 style="font-size:1.1rem;margin:36px 0 14px;">Busts</h3>
-<p class="section-desc" style="margin-bottom:16px;">Multi-year contracts that vanished from every roster in the league within a season or two of being signed.</p>
-<div class="card-grid">
-  <div class="info-card"><span class="tag">5-yr deal, 2021</span><h4>Trey Lance - Matt</h4><p>Signed for 5 years in 2021. Liquidated down to 1 remaining year by 2023, gone from the entire league by then. Two seasons of return on a five-year bet. The Commissioner's own memo calls it the worst allocation of capital in league history.</p></div>
-  <div class="info-card"><span class="tag">5-yr deal, 2020</span><h4>Kenny Golladay - Levon</h4><p>Signed for 5 years in 2020. On Levon's roster through 2022, then formally liquidated for 2 years on Singletary instead. Gone from the league after 2022, 3 of 5 committed years delivered.</p></div>
-  <div class="info-card"><span class="tag">4-yr + 3-yr deals</span><h4>Bryce Young - Hannah</h4><p>Given 4 years in 2023, then a fresh 3-year re-sign in 2024. Gone from the entire league by the end of 2024. Two commitments, zero payoff.</p></div>
-  <div class="info-card"><span class="tag">6-yr deal, 2020</span><h4>Kyler Murray - Levon then Anthony</h4><p>Levon spent a 6-year commitment on him in 2020, traded him away after one season. Anthony then spent a fresh 5-year commitment on the return and still lost him a year before that term was up. Two different owners, two different contracts, same player, neither deal paid off in full.</p></div>
-</div>
-
-<h3 style="font-size:1.1rem;margin:36px 0 14px;">Trading Habits</h3>
-<div class="card-grid">
-  <div class="info-card"><h4>Anthony (Tony Loff): the trading addict</h4><p>Party to roughly 20 of the 37 verbatim trades logged across 7 seasons, appearing in every single season's trade log without exception (5 separate deals in the 2023 tab alone). Also #1 in locked-in contract years for six straight years. He upgrades and re-ups constantly rather than churning.</p></div>
-  <div class="info-card"><h4>Hannah: the opposite of Anthony</h4><p>Lowest or second-lowest season-to-season roster turnover almost every year. In 2025 to 2026 she retained 21 of her 22 players, just 5 percent turnover. That extreme loyalty is exactly what set up the 2026 Cliff above: her whole core expires at once because she never diversified when.</p></div>
-  <div class="info-card"><h4>David: the sharpest collapse</h4><p>Total locked-in contract years fell from 33 in 2020 (8th in the league) to 13 in 2023 to just 2 by 2026, three consecutive last-place finishes in the league's contract-stockpile ranking. No other owner shows a decline this steep or this sustained.</p></div>
-  <div class="info-card"><h4>League-wide trend</h4><p>Everyone got more conservative about long-term deals over time. Total locked-in contract years league-wide fell from 328 in 2020 to just 102 in 2026, though part of that is simply that the 2026 season is still in progress and most incoming rookies have not been extended yet.</p></div>
-</div>
-
-
-    <p class="hint">Full player-by-player rosters and contract years live in the spreadsheet, not reproduced in full here. <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Open the roster and contract spreadsheet</a>.</p>
-  </div>
-</section>
-
-<!-- ================= LEAGUE HISTORY ================= -->
-<section id="history">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">2022 - 2025</p>
-      <h2 class="section-title">League History</h2>
-      <p class="section-desc">Final standings from the Commissioner's own memo archive, plus the 2026 draft order and its contract-year bonuses.</p>
-    </div>
-    <div id="history-seasons"></div>
-
-    <h3 style="font-size:1.1rem;margin:36px 0 14px;">2026 Draft Order</h3>
-    <div class="table-scroll">
-      <table id="draft-order-table" class="narrow">
-        <thead><tr><th class="num">Pick</th><th>Owner</th><th>From</th><th>Bonus</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-
-    <h3 style="font-size:1.1rem;margin:36px 0 14px;">Title Count (2022 - 2025, per history.json)</h3>
-    <div id="titles-list" class="card-grid"></div>
-  </div>
-</section>
-
-<!-- ================= RECORD BOOK ================= -->
-<section id="recordbook">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="section-kicker">All-Time, 2020 - 2025</p>
-      <h2 class="section-title">The Record Book</h2>
-      <p class="section-desc">Pulled straight from Sleeper's own API. Every season reconciles exactly against Sleeper's roster records, so this is stated with confidence.</p>
-    </div>
-
-    <h3 style="font-size:1.1rem;margin:0 0 14px;">Lifetime Standings</h3>
-    <div class="table-scroll">
-      <table id="lifetime-table">
-        <thead>
-          <tr>
-            <th>Rank</th><th>Manager</th><th class="num">W</th><th class="num">L</th><th class="num">Pct</th>
-            <th class="num">PF</th><th class="num">PA</th><th>Playoffs</th><th class="num">Titles</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p class="hint">"Mac" owned a roster 2020-2022 and left the league; Team Barbie inherited that seat starting 2023. Ryan M's 2022 team was named "Vivek McCusker" in that year's standings note.</p>
-
-    <h3 style="font-size:1.1rem;margin:40px 0 6px;">Head-to-Head Explorer</h3>
-    <p class="section-desc" style="margin-bottom:18px;">Pick a manager. See their career record against every other manager who has ever played in this league.</p>
-    <div class="h2h-picker" id="h2h-picker"></div>
-    <div class="h2h-panel" id="h2h-panel"></div>
-
-    <h3 style="font-size:1.1rem;margin:40px 0 14px;">Champions by Year</h3>
-    <div class="table-scroll">
-      <table id="champs-table" class="narrow">
-        <thead><tr><th class="num">Year</th><th>Champion</th><th>Runner-Up</th><th>Toilet Bowl Winner</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p class="hint">2020 and 2021 predate the Commissioner's memo archive; these results come from the Sleeper API.</p>
-
-    <h3 style="font-size:1.1rem;margin:40px 0 14px;">All-Time Records</h3>
-    <div class="award-grid">
-      <div class="award-card pos">
-        <div class="a-label">Highest Single Week</div>
-        <div class="a-value tabular">226.28</div>
-        <div class="a-sub">David, Week 13, 2023</div>
-      </div>
-      <div class="award-card neg">
-        <div class="a-label">Lowest Single Week</div>
-        <div class="a-value tabular">54.0</div>
-        <div class="a-sub">Ryan M, Week 8, 2022</div>
-      </div>
-      <div class="award-card">
-        <div class="a-label">Closest Game Ever</div>
-        <div class="a-value tabular">0.36</div>
-        <div class="a-sub">BlakeBro def. Tony Loff, 132.24 to 131.88, Week 4, 2022</div>
-      </div>
-      <div class="award-card pos">
-        <div class="a-label">Longest Win Streak</div>
-        <div class="a-value tabular">11</div>
-        <div class="a-sub">Tied: David (2021 Wk14 - 2022 Wk7) and Ryan M (2020 Wk8 - 2021 Wk3)</div>
-      </div>
-      <div class="award-card neg">
-        <div class="a-label">Longest Losing Streak</div>
-        <div class="a-value tabular">11</div>
-        <div class="a-sub">Mathieu, spanning 2024 Wk13 through 2025 Wk7</div>
-      </div>
+    <div class="teaser-grid">
+      <a class="teaser-card" href="./memo.html">
+        <div class="tc-label">The Centerpiece</div>
+        <h3>The Commissioner's Memo</h3>
+        <p>Levon's title, Tony Loff's 11-3 collapse, the Hannah Cliff, and the news that the champion is moving back to the US.</p>
+        <span class="tc-arrow">Read it &rarr;</span>
+      </a>
+      <a class="teaser-card" href="./standings.html">
+        <div class="tc-label">Final Word</div>
+        <h3>2025 Standings + Awards</h3>
+        <p>Playoff-adjusted final order, regular season records, and the superlatives: biggest blowout, closest game, luckiest team.</p>
+        <span class="tc-arrow">See standings &rarr;</span>
+      </a>
+      <a class="teaser-card" href="./allplay.html">
+        <div class="tc-label">The Evidence</div>
+        <h3>All-Play Standings</h3>
+        <p>The fraud detector. Every team's record against the full field, every week, and who the schedule actually helped.</p>
+        <span class="tc-arrow">See the evidence &rarr;</span>
+      </a>
+      <a class="teaser-card" href="./draft.html">
+        <div class="tc-label">2026 Offseason</div>
+        <h3>The Draft Board</h3>
+        <p>Ryan M holds three straight first round picks. Tony Loff holds none. Real pick ownership, not just the earned order.</p>
+        <span class="tc-arrow">See the board &rarr;</span>
+      </a>
+      <a class="teaser-card" href="./dynasty.html">
+        <div class="tc-label">Contracts &amp; Rosters</div>
+        <h3>The Dynasty Board</h3>
+        <p>The 2026 contract cliff, seven years of busts and hoarding, and the Hannah Cliff bearing down on the draft.</p>
+        <span class="tc-arrow">See the board &rarr;</span>
+      </a>
+      <a class="teaser-card" href="./history.html">
+        <div class="tc-label">2020 - 2025</div>
+        <h3>League History</h3>
+        <p>Six years of final standings, champions by year, and title counts, straight from the memo archive and Sleeper.</p>
+        <span class="tc-arrow">See history &rarr;</span>
+      </a>
+      <a class="teaser-card" href="./record.html">
+        <div class="tc-label">All-Time</div>
+        <h3>The Record Book</h3>
+        <p>Lifetime standings, an interactive head to head explorer, and the all-time records - highest week, longest streaks, closest game ever.</p>
+        <span class="tc-arrow">See the record book &rarr;</span>
+      </a>
     </div>
   </div>
 </section>
@@ -1033,9 +158,9 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
 
 <footer>
   <div class="wrap">
-    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this page traces back to those sources.</p>
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
     <p>
-      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster & contract spreadsheet</a>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
       &nbsp;&middot;&nbsp;
       <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
     </p>
@@ -1043,352 +168,5 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
   </div>
 </footer>
 
-<script>
-const SEASON2025 = {"weeks":[{"week":1,"source_file":"season_15_Screenshot_2026-08-01_at_3.32.03_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":98.08,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":112.64},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":109.42,"home":"Stroud Boys","home_manager":"matthewbuckets","home_score":105.52},{"away":"Team Barbie","away_manager":"MadDawg6969","away_score":121.28,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":124.82},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":116.66,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":145.82},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":164.86,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":115.12}]},{"week":2,"source_file":"season_14_Screenshot_2026-08-01_at_3.31.51_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":116.7,"home":"Band-Aid Brigade","home_manager":"TonyLoff","home_score":145.78},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":134.48,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":152.74},{"away":"Better Bijaness Burrow","away_manager":"levonthelight","away_score":181.64,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":120.4},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":128.52,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":122.54},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":121.5,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":114.98}]},{"week":3,"source_file":"season_13_Screenshot_2026-08-01_at_3.31.41_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":143.32,"home":"Stroud Boys","home_manager":"matthewbuckets","home_score":96.96},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":149.3,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":122.54},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":149.42,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":116.72},{"away":"Team Barbie","away_manager":"MadDawg6969","away_score":122.44,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":148.56},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":129.52,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":108.68}]},{"week":4,"source_file":"season_11_Screenshot_2026-08-01_at_3.30.15_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":157.36,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":107.1},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":106.32,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":156.38},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":134.02,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":114.4},{"away":"Tis The Lamb Season","away_manager":"hannah77808","away_score":195.96,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":164.42},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":142.66,"home":"Brock Hard","home_manager":"Mloffredo10","home_score":114.78}]},{"week":5,"source_file":"season_12_Screenshot_2026-08-01_at_3.31.24_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":144.16,"home":"DavidBeckham","home_manager":"DavidBeckham","home_score":122.32},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":128.56,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":165.3},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":113.94,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":172.42},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":101.3,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":169.68},{"away":"The Fumblin\u2019 Faucis","away_manager":"tbusch74","away_score":100.34,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":128.24}]},{"week":6,"source_file":"season_10_Screenshot_2026-08-01_at_3.29.47_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":144.54,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":156.72},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":96.9,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":104.44},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":80.36,"home":"Brock Hard","home_manager":"Mloffredo10","home_score":108.16},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":162.8,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":117.14},{"away":"Better Bijaness Burrow","away_manager":"levonthelight","away_score":109.5,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":119.38}]},{"week":7,"source_file":"season_09_Screenshot_2026-08-01_at_3.29.36_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":70.22,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":153.12},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":83.52,"home":"Brock Hard","home_manager":"Mloffredo10","home_score":155.98},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":178.8,"home":"DavidBeckham","home_manager":"DavidBeckham","home_score":129.12},{"away":"Tis The Lamb Season","away_manager":"hannah77808","away_score":181.56,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":114.64},{"away":"Team Barbie","away_manager":"MadDawg6969","away_score":193.34,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":115.94}]},{"week":8,"source_file":"season_08_Screenshot_2026-08-01_at_3.29.25_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":105.68,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":188.52},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":112.42,"home":"Stroud Boys","home_manager":"matthewbuckets","home_score":120.92},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":82.98,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":118.36},{"away":"Better Bijaness Burrow","away_manager":"levonthelight","away_score":115.48,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":133.42},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":163.42,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":137.96}]},{"week":9,"source_file":"season_07_Screenshot_2026-08-01_at_3.29.13_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":156.1,"home":"Brock Hard","home_manager":"Mloffredo10","home_score":123.96},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":98.34,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":103.5},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":116.0,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":102.62},{"away":"Team Barbie","away_manager":"MadDawg6969","away_score":149.52,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":148.5},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":138.42,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":83.28}]},{"week":10,"source_file":"season_06_Screenshot_2026-08-01_at_3.29.01_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":126.98,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":167.6},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":149.9,"home":"Stroud Boys","home_manager":"matthewbuckets","home_score":76.22},{"away":"Team Barbie","away_manager":"MadDawg6969","away_score":149.02,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":134.0},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":108.64,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":106.2},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":174.54,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":130.92}]},{"week":11,"source_file":"season_05_Screenshot_2026-08-01_at_3.28.49_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":127.12,"home":"Band-Aid Brigade","home_manager":"TonyLoff","home_score":130.64},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":111.26,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":128.84},{"away":"Better Bijaness Burrow","away_manager":"levonthelight","away_score":116.14,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":103.0},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":187.98,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":109.0},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":68.92,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":108.94}]},{"week":12,"source_file":"season_04_Screenshot_2026-08-01_at_3.28.39_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":99.14,"home":"Stroud Boys","home_manager":"matthewbuckets","home_score":150.06},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":160.78,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":144.26},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":135.72,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":120.94},{"away":"Team Barbie","away_manager":"MadDawg6969","away_score":172.86,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":111.58},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":105.72,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":132.56}]},{"week":13,"source_file":"season_03_Screenshot_2026-08-01_at_3.28.10_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":110.36,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":144.24},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":86.12,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":166.34},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":124.74,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":102.9},{"away":"Tis The Lamb Season","away_manager":"hannah77808","away_score":138.38,"home":"The Fumblin\u2019 Faucis","home_manager":"tbusch74","home_score":120.14},{"away":"DavidBeckham","away_manager":"DavidBeckham","away_score":126.62,"home":"Brock Hard","home_manager":"Mloffredo10","home_score":119.42}]},{"week":14,"source_file":"season_02_Screenshot_2026-08-01_at_3.27.58_PM.png","matchups":[{"away":"Shake & Bake(r)","away_manager":"pangdaddy","away_score":141.58,"home":"DavidBeckham","home_manager":"DavidBeckham","home_score":116.64},{"away":"Stroud Boys","away_manager":"matthewbuckets","away_score":132.86,"home":"Team Barbie","home_manager":"MadDawg6969","home_score":122.7},{"away":"Band-Aid Brigade","away_manager":"TonyLoff","away_score":165.04,"home":"Better Bijaness Burrow","home_manager":"levonthelight","home_score":126.16},{"away":"Brock Hard","away_manager":"Mloffredo10","away_score":131.56,"home":"Tis The Lamb Season","home_manager":"hannah77808","home_score":115.28},{"away":"The Fumblin\u2019 Faucis","away_manager":"tbusch74","away_score":149.36,"home":"Cus Cus","home_manager":"ryanmccusker","home_score":107.2}]}],"playoffs":{"source_file":"season_00_image.png","note":"Bracket displays manager usernames only, not team nicknames. See standings for manager-to-team mapping.","rounds":[{"round":"Round 1","week":15,"matchups":[{"team1":"TonyLoff","team1_score":132.74,"team2":null,"team2_score":null,"note":"BYE"},{"team1":"Mloffredo10","team1_score":95.8,"team2":"ryanmccusker","team2_score":110.26,"winner":"ryanmccusker"},{"team1":"DavidBeckham","team1_score":130.82,"team2":null,"team2_score":null,"note":"BYE"},{"team1":"levonthelight","team1_score":159.0,"team2":"hannah77808","team2_score":139.8,"winner":"levonthelight"}]},{"round":"Round 2","week":16,"matchups":[{"team1":"TonyLoff","team1_score":160.42,"team2":"ryanmccusker","team2_score":100.94,"winner":"TonyLoff"},{"team1":"DavidBeckham","team1_score":132.4,"team2":"levonthelight","team2_score":153.96,"winner":"levonthelight"}]},{"round":"Championship","week":17,"matchups":[{"team1":"TonyLoff","team1_score":117.22,"team2":"levonthelight","team2_score":147.0,"winner":"levonthelight"}]},{"round":"5th Place","week":16,"matchups":[{"team1":"Mloffredo10","team1_score":91.54,"team2":"hannah77808","team2_score":169.8,"winner":"hannah77808"}]},{"round":"3rd Place","week":16,"matchups":[{"team1":"ryanmccusker","team1_score":79.52,"team2":"DavidBeckham","team2_score":172.98,"winner":"DavidBeckham"}]}],"final_order":[{"place":1,"manager":"levonthelight","team":"Better Bijaness Burrow"},{"place":2,"manager":"TonyLoff","team":"Band-Aid Brigade"},{"place":3,"manager":"DavidBeckham","team":"DavidBeckham"},{"place":4,"manager":"ryanmccusker","team":"Cus Cus"},{"place":5,"manager":"hannah77808","team":"Tis The Lamb Season"},{"place":6,"manager":"Mloffredo10","team":"Brock Hard"}]},"toilet_bowl":{"source_file":"season_00_image.png","note":"Consolation bracket, labeled 'CONSOLATION BRACKET' on the same image as the playoff bracket. Displays manager usernames only, not team nicknames.","rounds":[{"round":"Round 1","week":15,"matchups":[{"team1":"MadDawg6969","team1_score":140.3,"team2":"matthewbuckets","team2_score":91.34,"winner":"MadDawg6969"},{"team1":"tbusch74","team1_score":147.72,"team2":"pangdaddy","team2_score":99.38,"winner":"tbusch74"}]},{"round":"7th Place","week":16,"matchups":[{"team1":"MadDawg6969","team1_score":147.1,"team2":"tbusch74","team2_score":137.56,"winner":"MadDawg6969"}]},{"round":"9th Place","week":16,"matchups":[{"team1":"matthewbuckets","team1_score":174.7,"team2":"pangdaddy","team2_score":114.5,"winner":"matthewbuckets"}]}],"final_order":[{"place":7,"manager":"MadDawg6969","team":"Team Barbie"},{"place":8,"manager":"tbusch74","team":"The Fumblin\u2019 Faucis"},{"place":9,"manager":"matthewbuckets","team":"Stroud Boys"},{"place":10,"manager":"pangdaddy","team":"Shake & Bake(r)"}]},"standings":{"source_file":"season_01_image.png","teams":[{"rank":1,"team":"Band-Aid Brigade","manager":"TonyLoff","wins":11,"losses":3,"pf":1841.7,"pa":1666.5,"waiver_budget":"$0","waiver_priority":10},{"rank":2,"team":"Tis The Lamb Season","manager":"hannah77808","wins":9,"losses":5,"pf":2028.54,"pa":1840.74,"waiver_budget":"$200","waiver_priority":5},{"rank":3,"team":"DavidBeckham","manager":"DavidBeckham","wins":9,"losses":5,"pf":1942.14,"pa":1738.9,"waiver_budget":"$17","waiver_priority":8},{"rank":4,"team":"Brock Hard","manager":"Mloffredo10","wins":8,"losses":6,"pf":1719.44,"pa":1725.78,"waiver_budget":"$200","waiver_priority":3},{"rank":5,"team":"Better Bijaness Burrow","manager":"levonthelight","wins":7,"losses":7,"pf":1876.94,"pa":1711.7,"waiver_budget":"$0","waiver_priority":9},{"rank":6,"team":"Cus Cus","manager":"ryanmccusker","wins":7,"losses":7,"pf":1672.76,"pa":1814.92,"waiver_budget":"$200","waiver_priority":4},{"rank":7,"team":"Team Barbie","manager":"MadDawg6969","wins":6,"losses":8,"pf":1939.98,"pa":1928.04,"waiver_budget":"$200","waiver_priority":2},{"rank":8,"team":"The Fumblin\u2019 Faucis","manager":"tbusch74","wins":5,"losses":9,"pf":1762.44,"pa":1840.02,"waiver_budget":"$200","waiver_priority":1},{"rank":9,"team":"Shake & Bake(r)","manager":"pangdaddy","wins":5,"losses":9,"pf":1741.34,"pa":1916.3,"waiver_budget":"$175","waiver_priority":7},{"rank":10,"team":"Stroud Boys","manager":"matthewbuckets","wins":3,"losses":11,"pf":1528.04,"pa":1870.42,"waiver_budget":"$178","waiver_priority":6}]},"uncertain":[]}
-;
-const ANALYTICS = {"top_scores":[{"score":195.96,"team":"Tis The Lamb Season","week":4,"opp":"The Fumblin\u2019 Faucis","opp_score":164.42},{"score":193.34,"team":"Team Barbie","week":7,"opp":"The Fumblin\u2019 Faucis","opp_score":115.94},{"score":188.52,"team":"The Fumblin\u2019 Faucis","week":8,"opp":"Shake & Bake(r)","opp_score":105.68},{"score":187.98,"team":"DavidBeckham","week":11,"opp":"Team Barbie","opp_score":109.0},{"score":181.64,"team":"Better Bijaness Burrow","week":2,"opp":"The Fumblin\u2019 Faucis","opp_score":120.4},{"score":181.56,"team":"Tis The Lamb Season","week":7,"opp":"Cus Cus","opp_score":114.64},{"score":178.8,"team":"Band-Aid Brigade","week":7,"opp":"DavidBeckham","opp_score":129.12},{"score":174.54,"team":"DavidBeckham","week":10,"opp":"Cus Cus","opp_score":130.92},{"score":172.86,"team":"Team Barbie","week":12,"opp":"Cus Cus","opp_score":111.58},{"score":172.42,"team":"Better Bijaness Burrow","week":5,"opp":"Band-Aid Brigade","opp_score":113.94}],"low_scores":[{"score":68.92,"team":"Brock Hard","week":11,"opp":"Cus Cus","opp_score":108.94},{"score":70.22,"team":"Shake & Bake(r)","week":7,"opp":"Better Bijaness Burrow","opp_score":153.12},{"score":76.22,"team":"Stroud Boys","week":10,"opp":"Band-Aid Brigade","opp_score":149.9},{"score":80.36,"team":"Band-Aid Brigade","week":6,"opp":"Brock Hard","opp_score":108.16},{"score":82.98,"team":"Band-Aid Brigade","week":8,"opp":"Cus Cus","opp_score":118.36},{"score":83.28,"team":"Better Bijaness Burrow","week":9,"opp":"DavidBeckham","opp_score":138.42},{"score":83.52,"team":"Stroud Boys","week":7,"opp":"Brock Hard","opp_score":155.98},{"score":86.12,"team":"Stroud Boys","week":13,"opp":"Better Bijaness Burrow","opp_score":166.34}],"advanced":[{"team":"Tis The Lamb Season","manager":"hannah77808","allplay_w":87,"allplay_l":39,"allplay_pct":0.69,"expected_wins":9.67,"actual_wins":9,"luck":-0.67,"pf":2028.54,"pa":1840.74,"ppg":144.9,"weekly_prizes":1},{"team":"Team Barbie","manager":"MadDawg6969","allplay_w":76,"allplay_l":50,"allplay_pct":0.603,"expected_wins":8.44,"actual_wins":6,"luck":-2.44,"pf":1939.98,"pa":1928.04,"ppg":138.57,"weekly_prizes":2},{"team":"DavidBeckham","manager":"DavidBeckham","allplay_w":75,"allplay_l":51,"allplay_pct":0.595,"expected_wins":8.33,"actual_wins":9,"luck":0.67,"pf":1942.14,"pa":1738.9,"ppg":138.72,"weekly_prizes":4},{"team":"Band-Aid Brigade","manager":"TonyLoff","allplay_w":71,"allplay_l":55,"allplay_pct":0.563,"expected_wins":7.89,"actual_wins":11,"luck":3.11,"pf":1841.7,"pa":1666.5,"ppg":131.55,"weekly_prizes":1},{"team":"Better Bijaness Burrow","manager":"levonthelight","allplay_w":71,"allplay_l":55,"allplay_pct":0.563,"expected_wins":7.89,"actual_wins":7,"luck":-0.89,"pf":1876.94,"pa":1711.7,"ppg":134.07,"weekly_prizes":3},{"team":"Brock Hard","manager":"Mloffredo10","allplay_w":58,"allplay_l":68,"allplay_pct":0.46,"expected_wins":6.44,"actual_wins":8,"luck":1.56,"pf":1719.44,"pa":1725.78,"ppg":122.82,"weekly_prizes":1},{"team":"Shake & Bake(r)","manager":"pangdaddy","allplay_w":55,"allplay_l":71,"allplay_pct":0.437,"expected_wins":6.11,"actual_wins":5,"luck":-1.11,"pf":1741.34,"pa":1916.3,"ppg":124.38,"weekly_prizes":1},{"team":"The Fumblin\u2019 Faucis","manager":"tbusch74","allplay_w":53,"allplay_l":73,"allplay_pct":0.421,"expected_wins":5.89,"actual_wins":5,"luck":-0.89,"pf":1762.44,"pa":1840.02,"ppg":125.89,"weekly_prizes":1},{"team":"Cus Cus","manager":"ryanmccusker","allplay_w":47,"allplay_l":79,"allplay_pct":0.373,"expected_wins":5.22,"actual_wins":7,"luck":1.78,"pf":1672.76,"pa":1814.92,"ppg":119.48,"weekly_prizes":0},{"team":"Stroud Boys","manager":"matthewbuckets","allplay_w":37,"allplay_l":89,"allplay_pct":0.294,"expected_wins":4.11,"actual_wins":3,"luck":-1.11,"pf":1528.04,"pa":1870.42,"ppg":109.15,"weekly_prizes":0}],"closest":[{"week":9,"away":"Team Barbie","away_score":149.52,"home":"Tis The Lamb Season","home_score":148.5,"margin":1.02},{"week":10,"away":"Brock Hard","away_score":108.64,"home":"The Fumblin\u2019 Faucis","home_score":106.2,"margin":2.44},{"week":11,"away":"Shake & Bake(r)","away_score":127.12,"home":"Band-Aid Brigade","home_score":130.64,"margin":3.52},{"week":1,"away":"Team Barbie","away_score":121.28,"home":"Better Bijaness Burrow","home_score":124.82,"margin":3.54},{"week":1,"away":"Band-Aid Brigade","away_score":109.42,"home":"Stroud Boys","home_score":105.52,"margin":3.9}],"blowouts":[{"week":7,"away":"Shake & Bake(r)","away_score":70.22,"home":"Better Bijaness Burrow","home_score":153.12,"margin":82.9},{"week":8,"away":"Shake & Bake(r)","away_score":105.68,"home":"The Fumblin\u2019 Faucis","home_score":188.52,"margin":82.84},{"week":13,"away":"Stroud Boys","away_score":86.12,"home":"Better Bijaness Burrow","home_score":166.34,"margin":80.22},{"week":11,"away":"DavidBeckham","away_score":187.98,"home":"Team Barbie","home_score":109.0,"margin":78.98},{"week":7,"away":"Team Barbie","away_score":193.34,"home":"The Fumblin\u2019 Faucis","home_score":115.94,"margin":77.4}],"weekly_high":[{"week":1,"team":"DavidBeckham","score":164.86},{"week":2,"team":"Better Bijaness Burrow","score":181.64},{"week":3,"team":"Brock Hard","score":149.42},{"week":4,"team":"Tis The Lamb Season","score":195.96},{"week":5,"team":"Better Bijaness Burrow","score":172.42},{"week":6,"team":"DavidBeckham","score":162.8},{"week":7,"team":"Team Barbie","score":193.34},{"week":8,"team":"The Fumblin\u2019 Faucis","score":188.52},{"week":9,"team":"Shake & Bake(r)","score":156.1},{"week":10,"team":"DavidBeckham","score":174.54},{"week":11,"team":"DavidBeckham","score":187.98},{"week":12,"team":"Team Barbie","score":172.86},{"week":13,"team":"Better Bijaness Burrow","score":166.34},{"week":14,"team":"Band-Aid Brigade","score":165.04}],"final_order":[{"place":1,"team":"Better Bijaness Burrow","manager":"levonthelight","result":"CHAMPION"},{"place":2,"team":"Band-Aid Brigade","manager":"TonyLoff","result":"Lost Championship"},{"place":3,"team":"DavidBeckham","manager":"DavidBeckham","result":"Won 3rd place game"},{"place":4,"team":"Cus Cus","manager":"ryanmccusker","result":"Lost 3rd place game"},{"place":5,"team":"Tis The Lamb Season","manager":"hannah77808","result":"Won 5th place game"},{"place":6,"team":"Brock Hard","manager":"Mloffredo10","result":"Lost 5th place game"},{"place":7,"team":"Team Barbie","manager":"MadDawg6969","result":"TOILET BOWL CHAMPION (+4 contract yrs)"},{"place":8,"team":"The Fumblin\u2019 Faucis","manager":"tbusch74","result":"Lost 7th place game (+3 contract yrs)"},{"place":9,"team":"Stroud Boys","manager":"matthewbuckets","result":"Won 9th place game (+2 contract yrs)"},{"place":10,"team":"Shake & Bake(r)","manager":"pangdaddy","result":"DEAD LAST (+1 contract yr)"}],"league_totals":{"total_points":18053.32,"games":70,"avg_score":128.95}}
-;
-const HISTORY = {"note":"Final standings 2022-2024 transcribed from Commissioner BlakeBro's annual league memos (8/25/23, 8/19/24, 8/13/25). 2025 from Sleeper screenshots.","seasons":[{"year":2022,"champion":"Hannah","source":"League Memo 8/25/2023","standings":[{"place":1,"owner":"Hannah","record":"8-6","note":"Champion"},{"place":2,"owner":"David Loff","record":"13-1","note":"13-1 and did not win. Read that again."},{"place":3,"owner":"*Vacated*","record":"11-3","note":"Mac's seat. Vacated."},{"place":4,"owner":"Vivek McCusker","record":"7-7","note":""},{"place":5,"owner":"Mikey Loff","record":"7-7","note":""},{"place":6,"owner":"Mathieu","record":"6-8","note":""},{"place":7,"owner":"Levon","record":"4-10","note":"Toilet Bowl"},{"place":8,"owner":"Tony Loff","record":"3-11","note":""},{"place":9,"owner":"BlakeBro","record":"5-9","note":""},{"place":10,"owner":"TB","record":"6-8","note":"yikes"}]},{"year":2023,"champion":"Hannah","source":"League Memo 8/19/2024","standings":[{"place":1,"owner":"Hannah","record":"10-4","note":"2x Champ. Back to back."},{"place":2,"owner":"Dave Loff","record":"10-4","note":"2x runner-up"},{"place":3,"owner":"Team Barbie","record":"7-7","note":"2x 3rd, in their debut era"},{"place":4,"owner":"Tony Busch","record":"8-6","note":""},{"place":5,"owner":"Mikey Loff","record":"7-7","note":""},{"place":6,"owner":"Mathieu","record":"8-6","note":""},{"place":7,"owner":"BlakeBro","record":"4-10","note":"Toilet Bowl"},{"place":8,"owner":"Tony Loff","record":"6-8","note":""},{"place":9,"owner":"Ryan M","record":"4-10","note":""},{"place":10,"owner":"Levon","record":"6-8","note":""}]},{"year":2024,"champion":"David Loff","source":"League Memo 8/13/2025","standings":[{"place":1,"owner":"David Loff","record":"10-4","note":"Champion. The Great Fantasy Robbery."},{"place":2,"owner":"Tony Busch","record":"10-4","note":""},{"place":3,"owner":"Team Barbie","record":"7-7","note":"back-to-back 3rd"},{"place":4,"owner":"Mikey Loff","record":"8-6","note":"deployed most of the year"},{"place":5,"owner":"Levon","record":"7-7","note":""},{"place":6,"owner":"BlakeBro","record":"7-7","note":""},{"place":7,"owner":"Hannah","record":"6-8","note":"Toilet Bowl. The Duchess of the Drain."},{"place":8,"owner":"Tony Loff","record":"5-9","note":"led at week 8, lost 6 straight"},{"place":9,"owner":"Ryan M","record":"5-9","note":"9th place. again."},{"place":10,"owner":"Mathieu","record":"5-9","note":""}]},{"year":2025,"champion":"Levon","source":"Sleeper","standings":[{"place":1,"owner":"Levon","record":"7-7","note":"CHAMPION as the 5 seed"},{"place":2,"owner":"Tony Loff","record":"11-3","note":"1 seed, lost the Final"},{"place":3,"owner":"David","record":"9-5","note":""},{"place":4,"owner":"Ryan M","record":"7-7","note":"scored 79.52 in the 3rd place game"},{"place":5,"owner":"Hannah","record":"9-5","note":"led the league in scoring"},{"place":6,"owner":"Mikey Loff","record":"8-6","note":""},{"place":7,"owner":"Team Barbie","record":"6-8","note":"Toilet Bowl Champion"},{"place":8,"owner":"Tony Busch","record":"5-9","note":""},{"place":9,"owner":"Mathieu","record":"3-11","note":""},{"place":10,"owner":"BlakeBro","record":"5-9","note":"The Commissioner. Dead last."}]}],"draft_order_2026":[{"pick":1,"owner":"Team Barbie","from":"7th place","bonus":"+4 contract years"},{"pick":2,"owner":"Tony Busch","from":"8th place","bonus":"+3 contract years"},{"pick":3,"owner":"Mathieu","from":"9th place","bonus":"+2 contract years"},{"pick":4,"owner":"BlakeBro","from":"10th place","bonus":"+1 contract year"},{"pick":5,"owner":"Hannah","from":"5th place","bonus":""},{"pick":6,"owner":"Mikey Loff","from":"6th place","bonus":""},{"pick":7,"owner":"Ryan M","from":"4th place","bonus":""},{"pick":8,"owner":"David","from":"3rd place","bonus":""},{"pick":9,"owner":"Tony Loff","from":"2nd place","bonus":""},{"pick":10,"owner":"Levon","from":"1st place","bonus":"Champion picks last. Article 4.02."}],"titles_note":"Full title history 2020-2025, confirmed against the Sleeper API. The 2020 and 2021 seasons predate the memo archive.","titles":[{"owner":"Hannah","titles":2,"years":[2022,2023]},{"owner":"David","titles":2,"years":[2021,2024]},{"owner":"Ryan M","titles":1,"years":[2020]},{"owner":"Levon","titles":1,"years":[2025]},{"owner":"BlakeBro","titles":0,"years":[]},{"owner":"Tony Loff","titles":0,"years":[]},{"owner":"Tony Busch","titles":0,"years":[]},{"owner":"Mikey Loff","titles":0,"years":[]},{"owner":"Mathieu","titles":0,"years":[]},{"owner":"Team Barbie","titles":0,"years":[]}],"champions_by_year":[{"year":2020,"champion":"Ryan M","runner_up":"Tony Busch","toilet_bowl":"Mikey Loff"},{"year":2021,"champion":"David","runner_up":"Mac","toilet_bowl":"Mikey Loff"},{"year":2022,"champion":"Hannah","runner_up":"David","toilet_bowl":"Levon"},{"year":2023,"champion":"Hannah","runner_up":"David","toilet_bowl":"BlakeBro"},{"year":2024,"champion":"David","runner_up":"Tony Busch","toilet_bowl":"Hannah"},{"year":2025,"champion":"Levon","runner_up":"Tony Loff","toilet_bowl":"Team Barbie"}]}
-;
-const LIFETIME = [{"manager":"Mac","regular_season":{"wins":27,"losses":14,"ties":0,"pct":0.6585,"pf":5787.62,"pa":5134.02},"playoff":{"wins":4,"losses":4},"best_season":{"year":2022,"record":"11-3","pf":2098.66},"worst_season":{"year":2020,"record":"7-6","pf":1799.26},"highest_week":{"year":2020,"week":3,"points":225.48},"lowest_week":{"year":2022,"week":6,"points":92.4}},{"manager":"David","regular_season":{"wins":54,"losses":29,"ties":0,"pct":0.6506,"pf":11971.82,"pa":10516.82},"playoff":{"wins":9,"losses":4},"best_season":{"year":2022,"record":"13-1","pf":2125.32},"worst_season":{"year":2020,"record":"4-9","pf":1561.28},"highest_week":{"year":2023,"week":13,"points":226.28},"lowest_week":{"year":2020,"week":8,"points":73.22}},{"manager":"Tony Busch","regular_season":{"wins":47,"losses":36,"ties":0,"pct":0.5663,"pf":10587.2,"pa":10570.74},"playoff":{"wins":4,"losses":9},"best_season":{"year":2024,"record":"10-4","pf":1844.62},"worst_season":{"year":2025,"record":"5-9","pf":1762.44},"highest_week":{"year":2020,"week":3,"points":200.78},"lowest_week":{"year":2023,"week":9,"points":72.3}},{"manager":"Hannah","regular_season":{"wins":44,"losses":39,"ties":0,"pct":0.5301,"pf":11179.16,"pa":10990.82},"playoff":{"wins":9,"losses":4},"best_season":{"year":2023,"record":"10-4","pf":1998.8},"worst_season":{"year":2021,"record":"5-9","pf":1789.1},"highest_week":{"year":2025,"week":4,"points":195.96},"lowest_week":{"year":2022,"week":7,"points":70.6}},{"manager":"Mikey Loff","regular_season":{"wins":41,"losses":42,"ties":0,"pct":0.494,"pf":10714.68,"pa":10802.04},"playoff":{"wins":7,"losses":6},"best_season":{"year":2024,"record":"8-6","pf":1870.5},"worst_season":{"year":2020,"record":"5-8","pf":1832.8},"highest_week":{"year":2022,"week":2,"points":187.12},"lowest_week":{"year":2025,"week":11,"points":68.92}},{"manager":"Ryan M","regular_season":{"wins":41,"losses":42,"ties":0,"pct":0.494,"pf":10632.06,"pa":10678.74},"playoff":{"wins":6,"losses":8},"best_season":{"year":2020,"record":"10-3","pf":1965.98},"worst_season":{"year":2023,"record":"4-10","pf":1528.52},"highest_week":{"year":2022,"week":5,"points":214.58},"lowest_week":{"year":2022,"week":8,"points":54.0}},{"manager":"Tony Loff","regular_season":{"wins":40,"losses":43,"ties":0,"pct":0.4819,"pf":10953.6,"pa":10870.24},"playoff":{"wins":5,"losses":7},"best_season":{"year":2025,"record":"11-3","pf":1841.7},"worst_season":{"year":2022,"record":"3-11","pf":1711.68},"highest_week":{"year":2020,"week":5,"points":192.26},"lowest_week":{"year":2025,"week":6,"points":80.36}},{"manager":"Team Barbie","regular_season":{"wins":20,"losses":22,"ties":0,"pct":0.4762,"pf":5647.84,"pa":5622.86},"playoff":{"wins":6,"losses":2},"best_season":{"year":2024,"record":"7-7","pf":1865.76},"worst_season":{"year":2025,"record":"6-8","pf":1939.98},"highest_week":{"year":2024,"week":15,"points":202.44},"lowest_week":{"year":2023,"week":14,"points":86.8}},{"manager":"Mathieu","regular_season":{"wins":36,"losses":47,"ties":0,"pct":0.4337,"pf":10275.04,"pa":11091.72},"playoff":{"wins":3,"losses":9},"best_season":{"year":2023,"record":"8-6","pf":1880.22},"worst_season":{"year":2025,"record":"3-11","pf":1528.04},"highest_week":{"year":2021,"week":2,"points":194.08},"lowest_week":{"year":2020,"week":9,"points":63.72}},{"manager":"BlakeBro","regular_season":{"wins":33,"losses":50,"ties":0,"pct":0.3976,"pf":10755.8,"pa":11465.56},"playoff":{"wins":5,"losses":8},"best_season":{"year":2020,"record":"7-6","pf":1941.94},"worst_season":{"year":2023,"record":"4-10","pf":1818.62},"highest_week":{"year":2020,"week":4,"points":219.18},"lowest_week":{"year":2022,"week":6,"points":62.44}},{"manager":"Levon","regular_season":{"wins":32,"losses":51,"ties":0,"pct":0.3855,"pf":10451.04,"pa":11212.3},"playoff":{"wins":8,"losses":5},"best_season":{"year":2024,"record":"7-7","pf":1885.68},"worst_season":{"year":2021,"record":"3-11","pf":1642.9},"highest_week":{"year":2024,"week":15,"points":182.94},"lowest_week":{"year":2021,"week":11,"points":73.02}}]
-;
-const CHAMPS = [{"year":2020,"champion":"Ryan M","runner_up":"Tony Busch","toilet_bowl_winner":"Mikey Loff"},{"year":2021,"champion":"David","runner_up":"Mac","toilet_bowl_winner":"Mikey Loff"},{"year":2022,"champion":"Hannah","runner_up":"David","toilet_bowl_winner":"Levon"},{"year":2023,"champion":"Hannah","runner_up":"David","toilet_bowl_winner":"BlakeBro"},{"year":2024,"champion":"David","runner_up":"Tony Busch","toilet_bowl_winner":"Hannah"},{"year":2025,"champion":"Levon","runner_up":"Tony Loff","toilet_bowl_winner":"Team Barbie"}]
-;
-const H2H = [{"a":"BlakeBro","b":"David","aw":5,"bw":5,"ap":1355.32,"bp":1381.8},{"a":"BlakeBro","b":"Hannah","aw":5,"bw":7,"ap":1657.48,"bp":1675.8},{"a":"BlakeBro","b":"Levon","aw":6,"bw":7,"ap":1746.34,"bp":1710.86},{"a":"BlakeBro","b":"Mac","aw":2,"bw":2,"ap":545.06,"bp":528.96},{"a":"BlakeBro","b":"Mathieu","aw":2,"bw":9,"ap":1331.12,"bp":1593.66},{"a":"BlakeBro","b":"Mikey Loff","aw":4,"bw":5,"ap":1127.22,"bp":1203.7},{"a":"BlakeBro","b":"Ryan M","aw":6,"bw":4,"ap":1335.36,"bp":1322.98},{"a":"BlakeBro","b":"Team Barbie","aw":1,"bw":4,"ap":637.6,"bp":748.6},{"a":"BlakeBro","b":"Tony Busch","aw":2,"bw":8,"ap":1153.66,"bp":1371.8},{"a":"BlakeBro","b":"Tony Loff","aw":5,"bw":7,"ap":1552.84,"bp":1687.78},{"a":"David","b":"Hannah","aw":5,"bw":6,"ap":1372.92,"bp":1341.02},{"a":"David","b":"Levon","aw":7,"bw":3,"ap":1422.1,"bp":1256.2},{"a":"David","b":"Mac","aw":3,"bw":2,"ap":713.86,"bp":651.12},{"a":"David","b":"Mathieu","aw":4,"bw":3,"ap":1017.86,"bp":908.94},{"a":"David","b":"Mikey Loff","aw":8,"bw":3,"ap":1653.16,"bp":1465.22},{"a":"David","b":"Ryan M","aw":12,"bw":3,"ap":2215.74,"bp":1789.66},{"a":"David","b":"Team Barbie","aw":5,"bw":1,"ap":901.78,"bp":772.88},{"a":"David","b":"Tony Busch","aw":8,"bw":4,"ap":1711.24,"bp":1478.42},{"a":"David","b":"Tony Loff","aw":6,"bw":3,"ap":1342.96,"bp":1142.6},{"a":"Hannah","b":"Levon","aw":6,"bw":4,"ap":1338.64,"bp":1269.06},{"a":"Hannah","b":"Mac","aw":3,"bw":2,"ap":664.92,"bp":625.1},{"a":"Hannah","b":"Mathieu","aw":7,"bw":5,"ap":1696.64,"bp":1618.04},{"a":"Hannah","b":"Mikey Loff","aw":4,"bw":8,"ap":1627.48,"bp":1646.72},{"a":"Hannah","b":"Ryan M","aw":5,"bw":4,"ap":1327.18,"bp":1199.16},{"a":"Hannah","b":"Team Barbie","aw":3,"bw":2,"ap":689.94,"bp":628.26},{"a":"Hannah","b":"Tony Busch","aw":6,"bw":5,"ap":1432.98,"bp":1340.86},{"a":"Hannah","b":"Tony Loff","aw":6,"bw":3,"ap":1333.3,"bp":1271.66},{"a":"Levon","b":"Mac","aw":0,"bw":5,"ap":551.64,"bp":743.08},{"a":"Levon","b":"Mathieu","aw":5,"bw":6,"ap":1382.92,"bp":1479.88},{"a":"Levon","b":"Mikey Loff","aw":3,"bw":8,"ap":1258.72,"bp":1406.48},{"a":"Levon","b":"Ryan M","aw":4,"bw":4,"ap":950.58,"bp":973.82},{"a":"Levon","b":"Team Barbie","aw":4,"bw":3,"ap":972.38,"bp":922.26},{"a":"Levon","b":"Tony Busch","aw":4,"bw":5,"ap":1180.82,"bp":1236.18},{"a":"Levon","b":"Tony Loff","aw":6,"bw":6,"ap":1639.64,"bp":1666.1},{"a":"Mac","b":"Mathieu","aw":6,"bw":2,"ap":1050.32,"bp":883.9},{"a":"Mac","b":"Mikey Loff","aw":4,"bw":2,"ap":909.48,"bp":761.68},{"a":"Mac","b":"Ryan M","aw":4,"bw":2,"ap":783.76,"bp":718.3},{"a":"Mac","b":"Tony Busch","aw":4,"bw":2,"ap":1008.36,"bp":806.94},{"a":"Mac","b":"Tony Loff","aw":2,"bw":2,"ap":526.2,"bp":521.22},{"a":"Mathieu","b":"Mikey Loff","aw":2,"bw":7,"ap":967.82,"bp":1226.76},{"a":"Mathieu","b":"Ryan M","aw":2,"bw":8,"ap":1024.4,"bp":1314.62},{"a":"Mathieu","b":"Team Barbie","aw":3,"bw":5,"ap":1039.0,"bp":1163.92},{"a":"Mathieu","b":"Tony Busch","aw":4,"bw":6,"ap":1194.32,"bp":1271.14},{"a":"Mathieu","b":"Tony Loff","aw":3,"bw":6,"ap":1070.68,"bp":1244.84},{"a":"Mikey Loff","b":"Ryan M","aw":4,"bw":8,"ap":1368.68,"bp":1546.28},{"a":"Mikey Loff","b":"Team Barbie","aw":2,"bw":2,"ap":540.78,"bp":496.44},{"a":"Mikey Loff","b":"Tony Busch","aw":2,"bw":10,"ap":1409.98,"bp":1650.62},{"a":"Mikey Loff","b":"Tony Loff","aw":7,"bw":3,"ap":1342.0,"bp":1223.86},{"a":"Ryan M","b":"Team Barbie","aw":2,"bw":2,"ap":516.6,"bp":543.74},{"a":"Ryan M","b":"Tony Busch","aw":5,"bw":5,"ap":1246.66,"bp":1280.5},{"a":"Ryan M","b":"Tony Loff","aw":7,"bw":6,"ap":1634.38,"bp":1658.54},{"a":"Team Barbie","b":"Tony Busch","aw":5,"bw":0,"ap":735.94,"bp":548.16},{"a":"Team Barbie","b":"Tony Loff","aw":2,"bw":4,"ap":767.72,"bp":799.26},{"a":"Tony Busch","b":"Tony Loff","aw":6,"bw":5,"ap":1298.92,"bp":1338.58}];
-
-// manager handle -> {team, person}
-const MANAGER_INFO = {
-  "pangdaddy":      {person:"BlakeBro",  team:"Shake & Bake(r)"},
-  "TonyLoff":       {person:"Tony Loff", team:"Band-Aid Brigade"},
-  "Mloffredo10":    {person:"Mikey Loff",team:"Brock Hard"},
-  "DavidBeckham":   {person:"David",     team:"DavidBeckham"},
-  "matthewbuckets": {person:"Mathieu",   team:"Stroud Boys"},
-  "hannah77808":    {person:"Hannah",    team:"Tis The Lamb Season"},
-  "levonthelight":  {person:"Levon",     team:"Better Bijaness Burrow"},
-  "ryanmccusker":   {person:"Ryan M",    team:"Cus Cus"},
-  "tbusch74":       {person:"Tony Busch",team:"The Fumblin’ Faucis"},
-  "MadDawg6969":    {person:"Team Barbie",team:"Team Barbie"}
-};
-function personFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].person : handle; }
-function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].team : handle; }
-function fmt(n){ return (typeof n === 'number') ? n.toFixed(2) : n; }
-function fmt1(n){ return (typeof n === 'number') ? n.toFixed(1) : n; }
-function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-
-/* ---------------- HERO ---------------- */
-(function renderHero(){
-  const champRow = SEASON2025.standings.teams.find(t => t.manager === 'levonthelight');
-  const champFinal = SEASON2025.playoffs.rounds.find(r => r.round === 'Championship').matchups[0];
-  const el = document.getElementById('hero-champ-detail');
-  el.textContent = champRow.wins + '-' + champRow.losses + ', 5 seed → hung ' + fmt(champFinal.team2_score) + ' on Tony Loff in the Final';
-})();
-
-/* ---------------- STANDINGS ---------------- */
-(function renderStandings(){
-  const tbody = document.querySelector('#standings-table tbody');
-  const regSeed = {};
-  SEASON2025.standings.teams.forEach(t => regSeed[t.manager] = t.rank);
-  const regRow = {};
-  SEASON2025.standings.teams.forEach(t => regRow[t.manager] = t);
-
-  const order = ANALYTICS.final_order;
-  order.forEach(row => {
-    const reg = regRow[row.manager];
-    const tr = document.createElement('tr');
-    if (row.place === 1) tr.className = 'row-champ';
-    if (row.place === 10) tr.className = 'row-last';
-    tr.innerHTML =
-      '<td class="num">' + row.place + '</td>' +
-      '<td>' + esc(row.team) + '</td>' +
-      '<td>' + esc(personFor(row.manager)) + '</td>' +
-      '<td class="num">' + regSeed[row.manager] + '</td>' +
-      '<td class="num">' + reg.wins + '</td>' +
-      '<td class="num">' + reg.losses + '</td>' +
-      '<td class="num">' + fmt(reg.pf) + '</td>' +
-      '<td class="num">' + fmt(reg.pa) + '</td>' +
-      '<td>' + esc(row.result) + '</td>';
-    tbody.appendChild(tr);
-  });
-})();
-
-/* ---------------- BRACKETS ---------------- */
-function bxTeam(handle, score, isWinner, isBye){
-  if (isBye) return '<div class="bx-team"><span class="nm">' + esc(teamFor(handle)) + '</span><span class="sc">BYE</span></div>';
-  return '<div class="bx-team' + (isWinner ? ' win' : '') + '"><span class="nm">' + esc(teamFor(handle)) + '</span><span class="sc tabular">' + fmt(score) + '</span></div>';
-}
-
-function renderBracketMobile(containerId, rounds){
-  const el = document.getElementById(containerId);
-  let html = '';
-  rounds.forEach(r => {
-    html += '<div class="round-block"><h4>' + esc(r.round) + '</h4>';
-    r.matchups.forEach(m => {
-      const isBye = !m.team2;
-      html += '<div class="bm-card' + (isBye ? ' bye' : '') + '">';
-      if (isBye){
-        html += '<div class="bm-row">' + esc(teamFor(m.team1)) + ' - ' + fmt(m.team1_score) + ' (BYE)</div>';
-      } else {
-        const w = m.winner;
-        html += '<div class="bm-row' + (w===m.team1?' win':'') + '"><span class="nm">' + esc(teamFor(m.team1)) + '</span><span class="sc tabular">' + fmt(m.team1_score) + '</span></div>';
-        html += '<div class="bm-row' + (w===m.team2?' win':'') + '"><span class="nm">' + esc(teamFor(m.team2)) + '</span><span class="sc tabular">' + fmt(m.team2_score) + '</span></div>';
-      }
-      html += '</div>';
-    });
-    html += '</div>';
-  });
-  el.innerHTML = html;
-}
-renderBracketMobile('bracket-winners-mobile', SEASON2025.playoffs.rounds);
-renderBracketMobile('bracket-toilet', SEASON2025.toilet_bowl.rounds);
-
-(function renderWinnersDesktop(){
-  const el = document.getElementById('bracket-winners-desktop');
-  const rounds = SEASON2025.playoffs.rounds;
-  const r1 = rounds.find(r=>r.round==='Round 1').matchups;
-  const r2 = rounds.find(r=>r.round==='Round 2').matchups;
-  const champ = rounds.find(r=>r.round==='Championship').matchups[0];
-
-  // fixed geometry
-  const MH = 60, GAP1 = 36, PAIRGAP = 64;
-  const pair1Top = 0, m1Top = pair1Top, m2Top = pair1Top + MH + GAP1;
-  const pair2Top = m2Top + MH + PAIRGAP, m3Top = pair2Top, m4Top = pair2Top + MH + GAP1;
-  const pair1Center = (m1Top + MH/2 + m2Top + MH/2)/2;
-  const pair2Center = (m3Top + MH/2 + m4Top + MH/2)/2;
-  const r2m1Top = pair1Center - MH/2;
-  const r2m2Top = pair2Center - MH/2;
-  const champCenter = ((r2m1Top+MH/2) + (r2m2Top+MH/2))/2;
-  const champTop = champCenter - MH/2;
-
-  function matchHtml(m, top, standalone){
-    const isBye = !m.team2;
-    const cls = 'bx-match' + (isBye ? ' bye' : '');
-    let inner;
-    if (isBye){
-      inner = bxTeam(m.team1, m.team1_score, false, true);
-    } else {
-      inner = bxTeam(m.team1, m.team1_score, m.winner===m.team1, false) + bxTeam(m.team2, m.team2_score, m.winner===m.team2, false);
-    }
-    const posStyle = standalone ? 'position:relative;' : ('top:' + top + 'px;');
-    return '<div class="' + cls + '" style="' + posStyle + '">' + inner + '</div>';
-  }
-
-  function connector(top, height, left){
-    return '<div class="bx-conn" style="top:' + top + 'px;height:' + height + 'px;left:' + left + 'px;"></div>';
-  }
-
-  const COLW = 240, GAP = 56;
-  const bar1X = COLW + GAP/2;
-  const bar2X = COLW + GAP + COLW + GAP/2;
-
-  let html = '<div class="bx-row">';
-  html += '<div class="bx-col"><h5>Round 1</h5>' + matchHtml(r1[0], m1Top) + matchHtml(r1[1], m2Top) + matchHtml(r1[2], m3Top) + matchHtml(r1[3], m4Top) + '</div>';
-  html += '<div class="bx-col"><h5>Round 2</h5>' + matchHtml(r2[0], r2m1Top) + matchHtml(r2[1], r2m2Top) + '</div>';
-  html += '<div class="bx-col"><h5>Championship</h5><div class="bx-champ-badge">&#127942; Champion</div>' + matchHtml(champ, champTop) + '</div>';
-  html += connector(m1Top+MH/2, (m2Top+MH/2)-(m1Top+MH/2), bar1X);
-  html += connector(m3Top+MH/2, (m4Top+MH/2)-(m3Top+MH/2), bar1X);
-  html += connector(r2m1Top+MH/2, (r2m2Top+MH/2)-(r2m1Top+MH/2), bar2X);
-  html += '</div>';
-
-  // placement games row
-  const p5 = rounds.find(r=>r.round==='5th Place').matchups[0];
-  const p3 = rounds.find(r=>r.round==='3rd Place').matchups[0];
-  html += '<div style="margin-top:32px;display:flex;gap:56px;min-width:850px;">';
-  html += '<div style="width:240px;"><h5 style="position:static;margin-bottom:10px;">3rd Place Game</h5>' + matchHtml(p3, 0, true) + '</div>';
-  html += '<div style="width:240px;"><h5 style="position:static;margin-bottom:10px;">5th Place Game</h5>' + matchHtml(p5, 0, true) + '</div>';
-  html += '</div>';
-
-  el.innerHTML = html;
-})();
-
-/* ---------------- AWARDS ---------------- */
-(function renderAwards(){
-  const el = document.getElementById('award-grid');
-  const top = ANALYTICS.top_scores[0];
-  const low = ANALYTICS.low_scores[0];
-  const blow = ANALYTICS.blowouts[0];
-  const close = ANALYTICS.closest[0];
-  const adv = ANALYTICS.advanced;
-  let mostPrizesTeam = adv.slice().sort((a,b)=>b.weekly_prizes-a.weekly_prizes)[0];
-  let luckiest = adv.slice().sort((a,b)=>b.luck-a.luck)[0];
-  let unluckiest = adv.slice().sort((a,b)=>a.luck-b.luck)[0];
-
-  const cards = [
-    {label:'Highest Single Week', value: fmt(top.score), sub: esc(top.team) + ' - Week ' + top.week + ' vs ' + esc(top.opp) + ' (' + fmt(top.opp_score) + ')', pos:true},
-    {label:'Lowest Single Week', value: fmt(low.score), sub: esc(low.team) + ' - Week ' + low.week + ' vs ' + esc(low.opp) + ' (' + fmt(low.opp_score) + ')', neg:true},
-    {label:'Biggest Blowout', value: fmt(blow.margin), sub: esc(blow.home) + ' ' + fmt(blow.home_score) + ' def. ' + esc(blow.away) + ' ' + fmt(blow.away_score) + ' - Week ' + blow.week, neg:true},
-    {label:'Closest Game', value: fmt(close.margin), sub: esc(close.away) + ' ' + fmt(close.away_score) + ' vs ' + esc(close.home) + ' ' + fmt(close.home_score) + ' - Week ' + close.week},
-    {label:'Most Weekly High-Score Prizes', value: mostPrizesTeam.weekly_prizes, sub: esc(mostPrizesTeam.team) + ' won the weekly prize ' + mostPrizesTeam.weekly_prizes + ' times', pos:true},
-    {label:'Luckiest Team', value: (luckiest.luck>0?'+':'') + fmt(luckiest.luck), sub: esc(luckiest.team) + ' - ' + fmt1(luckiest.expected_wins) + ' expected wins, ' + luckiest.actual_wins + ' actual', pos:true},
-    {label:'Unluckiest Team', value: fmt(unluckiest.luck), sub: esc(unluckiest.team) + ' - ' + fmt1(unluckiest.expected_wins) + ' expected wins, only ' + unluckiest.actual_wins + ' actual', neg:true}
-  ];
-  el.innerHTML = cards.map(c => '<div class="award-card ' + (c.pos?'pos':c.neg?'neg':'') + '"><div class="a-label">' + c.label + '</div><div class="a-value tabular">' + c.value + '</div><div class="a-sub">' + c.sub + '</div></div>').join('');
-})();
-
-/* ---------------- ALL-PLAY ---------------- */
-(function renderAllPlay(){
-  const tbody = document.querySelector('#allplay-table tbody');
-  const rows = ANALYTICS.advanced.slice().sort((a,b) => b.allplay_pct - a.allplay_pct);
-  rows.forEach(r => {
-    const tr = document.createElement('tr');
-    const luckStr = (r.luck > 0 ? '+' : '') + fmt(r.luck);
-    tr.innerHTML =
-      '<td>' + esc(r.team) + '</td>' +
-      '<td class="num">' + r.allplay_w + '-' + r.allplay_l + '</td>' +
-      '<td class="num">' + r.allplay_pct.toFixed(3) + '</td>' +
-      '<td class="num">' + fmt1(r.expected_wins) + '</td>' +
-      '<td class="num">' + r.actual_wins + '</td>' +
-      '<td class="num" style="color:' + (r.luck>=0?'var(--gold)':'var(--red)') + '">' + luckStr + '</td>' +
-      '<td class="num">' + fmt(r.pf) + '</td>' +
-      '<td class="num">' + fmt(r.ppg) + '</td>' +
-      '<td class="num">' + r.weekly_prizes + '</td>';
-    tbody.appendChild(tr);
-  });
-})();
-
-/* ---------------- WEEK BY WEEK ---------------- */
-(function renderWeeks(){
-  const el = document.getElementById('week-list');
-  let html = '';
-  SEASON2025.weeks.forEach(w => {
-    const scores = [];
-    w.matchups.forEach(m => { scores.push(m.away_score); scores.push(m.home_score); });
-    const hi = Math.max.apply(null, scores);
-    html += '<details class="wk"><summary><span>Week ' + w.week + '</span><span class="wk-hi">High: ' + fmt(hi) + '</span></summary><div class="wk-games">';
-    w.matchups.forEach(m => {
-      const awayWin = m.away_score > m.home_score;
-      html += '<div class="wk-game">' +
-        '<span class="tm away' + (awayWin?' winner':'') + '">' + esc(m.away) + '</span>' +
-        '<span class="sc' + (awayWin?' winner':'') + ' tabular">' + fmt(m.away_score) + '</span>' +
-        '<span class="vs">vs</span>' +
-        '<span class="sc' + (!awayWin?' winner':'') + ' tabular">' + fmt(m.home_score) + '</span>' +
-        '<span class="tm' + (!awayWin?' winner':'') + '">' + esc(m.home) + '</span>' +
-        '</div>';
-    });
-    html += '</div></details>';
-  });
-  el.innerHTML = html;
-})();
-
-/* ---------------- LEAGUE HISTORY ---------------- */
-(function renderHistorySeasons(){
-  const el = document.getElementById('history-seasons');
-  let html = '';
-  HISTORY.seasons.slice().reverse().forEach(s => {
-    html += '<div class="year-block"><h4><span class="yr">' + s.year + '</span> Champion: ' + esc(s.champion) + '</h4>';
-    html += '<div class="champ-line">Source: ' + esc(s.source) + '</div>';
-    html += '<div class="table-scroll"><table class="narrow"><thead><tr><th class="num">Place</th><th>Owner</th><th>Record</th><th>Note</th></tr></thead><tbody>';
-    s.standings.forEach(row => {
-      html += '<tr' + (row.place===1?' class="row-champ"':'') + (row.place===10?' class="row-last"':'') + '>' +
-        '<td class="num">' + row.place + '</td><td>' + esc(row.owner) + '</td><td class="num">' + esc(row.record) + '</td><td>' + esc(row.note) + '</td></tr>';
-    });
-    html += '</tbody></table></div></div>';
-  });
-  el.innerHTML = html;
-})();
-
-(function renderDraftOrder(){
-  const tbody = document.querySelector('#draft-order-table tbody');
-  HISTORY.draft_order_2026.forEach(p => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = '<td class="num">' + p.pick + '</td><td>' + esc(p.owner) + '</td><td>' + esc(p.from) + '</td><td>' + esc(p.bonus) + '</td>';
-    tbody.appendChild(tr);
-  });
-})();
-
-(function renderTitles(){
-  const el = document.getElementById('titles-list');
-  const rows = HISTORY.titles.slice().sort((a,b)=>b.titles-a.titles);
-  el.innerHTML = rows.map(t => '<div class="info-card"><h4>' + esc(t.owner) + '</h4><p>' + t.titles + ' title' + (t.titles===1?'':'s') + (t.years.length ? ' (' + t.years.join(', ') + ')' : '') + '</p></div>').join('');
-})();
-
-/* ---------------- RECORD BOOK: LIFETIME ---------------- */
-(function renderLifetime(){
-  const tbody = document.querySelector('#lifetime-table tbody');
-  const rows = LIFETIME.slice().sort((a,b) => b.regular_season.pct - a.regular_season.pct);
-  const titleMap = {};
-  CHAMPS.forEach(c => { titleMap[c.champion] = (titleMap[c.champion]||0) + 1; });
-  rows.forEach((m, i) => {
-    const tr = document.createElement('tr');
-    if (i===0) tr.className='row-champ';
-    if (i===rows.length-1) tr.className='row-last';
-    const rs = m.regular_season, po = m.playoff;
-    tr.innerHTML =
-      '<td class="num">' + (i+1) + '</td>' +
-      '<td>' + esc(m.manager) + '</td>' +
-      '<td class="num">' + rs.wins + '</td>' +
-      '<td class="num">' + rs.losses + '</td>' +
-      '<td class="num">' + rs.pct.toFixed(3) + '</td>' +
-      '<td class="num">' + fmt(rs.pf) + '</td>' +
-      '<td class="num">' + fmt(rs.pa) + '</td>' +
-      '<td class="num">' + po.wins + '-' + po.losses + '</td>' +
-      '<td class="num">' + (titleMap[m.manager]||0) + '</td>';
-    tbody.appendChild(tr);
-  });
-})();
-
-/* ---------------- RECORD BOOK: CHAMPIONS ---------------- */
-(function renderChamps(){
-  const tbody = document.querySelector('#champs-table tbody');
-  CHAMPS.forEach(c => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = '<td class="num">' + c.year + '</td><td>' + esc(c.champion) + '</td><td>' + esc(c.runner_up) + '</td><td>' + esc(c.toilet_bowl_winner) + '</td>';
-    tbody.appendChild(tr);
-  });
-})();
-
-/* ---------------- HEAD TO HEAD WIDGET ---------------- */
-(function h2hWidget(){
-  const managers = LIFETIME.map(m => m.manager).sort();
-  const picker = document.getElementById('h2h-picker');
-  const panel = document.getElementById('h2h-panel');
-
-  picker.innerHTML = managers.map(m => '<button class="h2h-btn" data-m="' + esc(m) + '">' + esc(m) + '</button>').join('');
-
-  function recordsFor(name){
-    const out = [];
-    H2H.forEach(p => {
-      if (p.a === name){
-        out.push({opp:p.b, w:p.aw, l:p.bw, pf:p.ap, pa:p.bp});
-      } else if (p.b === name){
-        out.push({opp:p.a, w:p.bw, l:p.aw, pf:p.bp, pa:p.ap});
-      }
-    });
-    return out;
-  }
-
-  function show(name){
-    Array.from(picker.children).forEach(b => b.classList.toggle('active', b.dataset.m === name));
-    const recs = recordsFor(name).sort((a,b) => (b.w+b.l) - (a.w+a.l));
-    let totalW = 0, totalL = 0, totalPF = 0, totalPA = 0;
-    recs.forEach(r => { totalW += r.w; totalL += r.l; totalPF += r.pf; totalPA += r.pa; });
-
-    let html = '<div class="h2h-summary">' +
-      '<div><div class="h2h-name">' + esc(name) + '</div></div>' +
-      '<div><div class="h2h-rec">' + totalW + '-' + totalL + '</div><div class="h2h-rec-lbl">Lifetime H2H Record</div></div>' +
-      '<div><div class="h2h-rec">' + fmt(totalPF) + '</div><div class="h2h-rec-lbl">Points For</div></div>' +
-      '<div><div class="h2h-rec">' + fmt(totalPA) + '</div><div class="h2h-rec-lbl">Points Against</div></div>' +
-      '</div>';
-
-    recs.forEach(r => {
-      const g = r.w + r.l;
-      const pct = g ? r.w / g : 0;
-      const cls = r.w > r.l ? 'winning' : (r.w < r.l ? 'losing' : '');
-      html += '<div class="h2h-row ' + cls + '">' +
-        '<span class="opp">' + esc(r.opp) + '</span>' +
-        '<span class="rec tabular">' + r.w + '-' + r.l + '</span>' +
-        '<span class="pts tabular">' + fmt(r.pf) + ' - ' + fmt(r.pa) + '</span>' +
-        '<span class="bar"><span class="bar-fill" style="width:' + (pct*100).toFixed(0) + '%"></span></span>' +
-        '</div>';
-    });
-    panel.innerHTML = html;
-  }
-
-  picker.addEventListener('click', e => {
-    const btn = e.target.closest('.h2h-btn');
-    if (!btn) return;
-    show(btn.dataset.m);
-  });
-
-  show('Levon');
-})();
-</script>
+<script src="./data.js"></script>
+<script src="./app.js"></script>

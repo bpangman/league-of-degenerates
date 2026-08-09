@@ -1,0 +1,39 @@
+{
+ "slots": {
+  "1": "Team Barbie",
+  "9": "Tony Loff",
+  "4": "BlakeBro",
+  "8": "David",
+  "3": "Mathieu",
+  "6": "Mikey Loff",
+  "10": "Levon",
+  "5": "Hannah",
+  "2": "Tony Busch",
+  "7": "Ryan M"
+ },
+ "rid2name": {
+  "1": "Tony Loff",
+  "2": "BlakeBro",
+  "3": "David",
+  "4": "Mathieu",
+  "5": "Mikey Loff",
+  "6": "Team Barbie",
+  "7": "Levon",
+  "8": "Hannah",
+  "9": "Tony Busch",
+  "10": "Ryan M"
+ },
+ "moved": {
+  "1|1": 10,
+  "2|1": 2,
+  "5|1": 3,
+  "1|2": 3,
+  "1|3": 10,
+  "2|3": 10,
+  "4|3": 1,
+  "5|10": 3
+ },
+ "draft_start_ms": 1788652846000,
+ "status": "pre_draft",
+ "rounds": 10
+}

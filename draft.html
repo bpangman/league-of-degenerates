@@ -1,0 +1,101 @@
+<meta charset="utf-8">
+<title>Draft Board - League of Degenerates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The 2026 draft board with real pick ownership, plus the key offseason dates.">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink" href="./standings.html">Standings</a>
+    <a class="navlink" href="./allplay.html">All-Play</a>
+    <a class="navlink current" href="./draft.html">Draft</a>
+    <a class="navlink" href="./dynasty.html">Dynasty</a>
+    <a class="navlink" href="./history.html">History</a>
+    <a class="navlink" href="./record.html">Record Book</a>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <h1>2026 Draft Board</h1>
+  <p class="sub">Real pick ownership, straight from the league's Sleeper draft room - not just the order each manager earned by finishing where they finished.</p>
+</div>
+
+<main>
+<section id="key-dates">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">Mark Your Calendar</p>
+      <h2 class="section-title">Key Dates</h2>
+      <p class="section-desc">The draft date is confirmed. The other three are the Commissioner's best guess until he says otherwise - see the home page for the live countdown and the full explanation of how each date was worked out.</p>
+    </div>
+    <div class="key-dates-list" id="key-dates-list"></div>
+  </div>
+</section>
+
+<section id="round1">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">Round 1</p>
+      <h2 class="section-title">Who Actually Holds Each Pick</h2>
+      <p class="section-desc">Every manager's finish in 2025 earned them a slot in the draft order. Some of those slots have since been traded away. "Earned" means the pick still belongs to the manager whose finish created it. "Acquired" means it moved.</p>
+    </div>
+
+    <div class="draft-callouts">
+      <div class="award-card pos">
+        <div class="a-label">Back to Back to Back</div>
+        <div class="a-sub"><strong>Ryan M holds picks 1.07, 1.08, and 1.09</strong> - three of the top nine picks in the entire draft, in a row. He kept his own earned pick (1.07) and acquired both David's (1.08) and Tony Loff's (1.09).</div>
+      </div>
+      <div class="award-card neg">
+        <div class="a-label">Zero First-Rounders</div>
+        <div class="a-sub"><strong>Tony Loff and BlakeBro</strong> both hold zero picks in Round 1. Tony Loff traded his earned first (1.09) to Ryan M. BlakeBro traded his earned first (1.04) to David in the Devon Achane deal. Neither acquired a first-round pick in return.</div>
+      </div>
+    </div>
+
+    <div class="draft-round1" id="draft-round1"></div>
+    <p class="hint">Gray "Earned" badge = still held by the manager whose 2025 finish created the slot. Red "Acquired" badge = the pick moved via trade. Source: <span class="mono">sleeper/draft2026.json</span>, cross-checked field by field.</p>
+
+    <div class="explainer" style="margin-top:20px;">
+      <strong>A correction to keep this page honest:</strong> earlier planning notes for this site claimed Tony Loff and David would both have zero first-round picks. That is not what the draft data actually shows. David traded away his own earned pick (1.08) to Ryan M, but separately acquired BlakeBro's earned pick (1.04) in the trade that sent Devon Achane to David. Those two moves net out to David holding exactly <strong>one</strong> first-round pick, 1.04, not zero. The two managers who genuinely hold zero first-round picks are <strong>Tony Loff and BlakeBro</strong>. This page reflects the real data in <span class="mono">sleeper/draft2026.json</span>, not the earlier claim.
+    </div>
+  </div>
+</section>
+
+<section id="other-moves">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">Rounds 2, 4, and 5</p>
+      <h2 class="section-title">Other Picks That Have Moved</h2>
+      <p class="section-desc">Rounds 3, 6, 7, 8, 9, and 10 show no movement in the draft data - every manager holds their own natural pick in those rounds.</p>
+    </div>
+    <ul id="draft-moved-other" style="color:var(--text-dim);line-height:1.9;padding-left:20px;"></ul>
+  </div>
+</section>
+
+<section id="manager-summary">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">The Full Picture</p>
+      <h2 class="section-title">What Each Manager Holds vs. What They Started With</h2>
+    </div>
+    <div class="manager-summary-grid" id="draft-manager-summary"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
+    <p>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
+    </p>
+    <p class="fine">League of Degenerates / Degenerate GM Dynasty League. Not affiliated with the NFL, Sleeper, or any team's actual front office.</p>
+  </div>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>

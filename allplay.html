@@ -1,0 +1,68 @@
+<meta charset="utf-8">
+<title>All-Play Standings - League of Degenerates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Every team's all-play record and luck differential for the 2025 season.">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink" href="./standings.html">Standings</a>
+    <a class="navlink current" href="./allplay.html">All-Play</a>
+    <a class="navlink" href="./draft.html">Draft</a>
+    <a class="navlink" href="./dynasty.html">Dynasty</a>
+    <a class="navlink" href="./history.html">History</a>
+    <a class="navlink" href="./record.html">Record Book</a>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <h1>All-Play Standings</h1>
+  <p class="sub">Every team's record if it had played every other score posted that week, every week. This is the fraud detector. Sorted by all-play record, not the standings you actually got.</p>
+</div>
+
+<main>
+<section id="allplay">
+  <div class="wrap">
+    <div class="explainer">
+      <strong>How to read this table:</strong> "All-Play" is the record each team would have if it played every other team's score every single week, all season. "Exp. W" converts that all-play winning percentage into an expected win total over the real 14-week schedule. "Luck" is actual wins minus expected wins - positive means the schedule was kind to that team, negative means it was not. This is the table that proves Tony Loff's 11-3 was a product of the schedule, and that Team Barbie got robbed.
+    </div>
+    <div class="table-scroll">
+      <table id="allplay-table">
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th class="num">All-Play</th>
+            <th class="num">All-Play %</th>
+            <th class="num">Exp. W</th>
+            <th class="num">Actual W</th>
+            <th class="num">Luck</th>
+            <th class="num">PF</th>
+            <th class="num">PPG</th>
+            <th class="num">Wkly Prizes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="hint">Luck = actual wins minus expected wins (based on all-play %). Positive = the schedule was kind. Negative = the schedule was not.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
+    <p>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
+    </p>
+    <p class="fine">League of Degenerates / Degenerate GM Dynasty League. Not affiliated with the NFL, Sleeper, or any team's actual front office.</p>
+  </div>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>

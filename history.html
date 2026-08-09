@@ -1,0 +1,72 @@
+<meta charset="utf-8">
+<title>League History - League of Degenerates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="2020 through 2025 final standings, champions by year, and title counts.">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink" href="./standings.html">Standings</a>
+    <a class="navlink" href="./allplay.html">All-Play</a>
+    <a class="navlink" href="./draft.html">Draft</a>
+    <a class="navlink" href="./dynasty.html">Dynasty</a>
+    <a class="navlink current" href="./history.html">History</a>
+    <a class="navlink" href="./record.html">Record Book</a>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <h1>League History</h1>
+  <p class="sub">Final standings from the Commissioner's own memo archive (2022 - 2025), plus champions and title counts back to the league's founding season in 2020.</p>
+</div>
+
+<main>
+<section id="history">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">2022 - 2025</p>
+      <h2 class="section-title">Season by Season</h2>
+      <p class="section-desc">2020 and 2021 predate the Commissioner's written memo archive, so full per-manager standings for those two years are not reproduced here - see the Champions by Year table below for what is known about them, and the Record Book for full lifetime stats going all the way back to 2020.</p>
+    </div>
+    <div id="history-seasons"></div>
+  </div>
+</section>
+
+<section id="champs-by-year">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">2020 - 2025</p>
+      <h2 class="section-title">Champions by Year</h2>
+      <p class="section-desc">Pulled straight from the Sleeper API, which reaches back to the league's founding season in 2020 - further than the memo archive does.</p>
+    </div>
+    <div class="table-scroll">
+      <table id="champs-table" class="narrow">
+        <thead><tr><th class="num">Year</th><th>Champion</th><th>Runner-Up</th><th>Toilet Bowl Winner</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h3 style="font-size:1.1rem;margin:36px 0 14px;">Title Count</h3>
+    <div id="titles-list" class="card-grid"></div>
+    <p class="hint">Titles counted 2020 - 2025, reconciled against the Sleeper API: Hannah 2 (2022, 2023), David 2 (2021, 2024), Ryan M 1 (2020), Levon 1 (2025).</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
+    <p>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
+    </p>
+    <p class="fine">League of Degenerates / Degenerate GM Dynasty League. Not affiliated with the NFL, Sleeper, or any team's actual front office.</p>
+  </div>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>

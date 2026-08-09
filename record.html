@@ -1,0 +1,111 @@
+<meta charset="utf-8">
+<title>The Record Book - League of Degenerates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="All-time lifetime standings, an interactive head to head explorer, and the league's all-time records, 2020 through 2025.">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink" href="./standings.html">Standings</a>
+    <a class="navlink" href="./allplay.html">All-Play</a>
+    <a class="navlink" href="./draft.html">Draft</a>
+    <a class="navlink" href="./dynasty.html">Dynasty</a>
+    <a class="navlink" href="./history.html">History</a>
+    <a class="navlink current" href="./record.html">Record Book</a>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <h1>The Record Book</h1>
+  <p class="sub">All-time, 2020 - 2025. Pulled straight from Sleeper's own API. Every season reconciles exactly against Sleeper's roster records, so this is stated with confidence.</p>
+</div>
+
+<main>
+<section id="lifetime">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">All-Time</p>
+      <h2 class="section-title">Lifetime Standings</h2>
+    </div>
+    <div class="table-scroll">
+      <table id="lifetime-table">
+        <thead>
+          <tr>
+            <th>Rank</th><th>Manager</th><th class="num">W</th><th class="num">L</th><th class="num">Pct</th>
+            <th class="num">PF</th><th class="num">PA</th><th>Playoffs</th><th class="num">Titles</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="hint">"Mac" owned a roster 2020 - 2022 and left the league; Team Barbie inherited that seat starting 2023. Ryan M's 2022 team was named "Vivek McCusker" in that year's standings note.</p>
+  </div>
+</section>
+
+<section id="h2h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">Who Owns Who</p>
+      <h2 class="section-title">Head-to-Head Explorer</h2>
+      <p class="section-desc">Pick a manager. See their career record against every other manager who has ever played in this league.</p>
+    </div>
+    <select class="h2h-select" id="h2h-select" aria-label="Choose a manager"></select>
+    <div class="h2h-panel" id="h2h-panel"></div>
+  </div>
+</section>
+
+<section id="all-time-records">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">All-Time</p>
+      <h2 class="section-title">Records</h2>
+    </div>
+    <div class="award-grid">
+      <div class="award-card pos">
+        <div class="a-label">Highest Single Week</div>
+        <div class="a-value tabular">226.28</div>
+        <div class="a-sub">David, Week 13, 2023</div>
+      </div>
+      <div class="award-card neg">
+        <div class="a-label">Lowest Single Week</div>
+        <div class="a-value tabular">54.0</div>
+        <div class="a-sub">Ryan M, Week 8, 2022</div>
+      </div>
+      <div class="award-card">
+        <div class="a-label">Closest Game Ever</div>
+        <div class="a-value tabular">0.36</div>
+        <div class="a-sub">BlakeBro def. Tony Loff, 132.24 to 131.88, Week 4, 2022</div>
+      </div>
+      <div class="award-card pos">
+        <div class="a-label">Longest Win Streak</div>
+        <div class="a-value tabular">11</div>
+        <div class="a-sub">Tied: David (2021 Wk14 - 2022 Wk7) and Ryan M (2020 Wk8 - 2021 Wk3)</div>
+      </div>
+      <div class="award-card neg">
+        <div class="a-label">Longest Losing Streak</div>
+        <div class="a-value tabular">11</div>
+        <div class="a-sub">Mathieu, spanning 2024 Wk13 through 2025 Wk7</div>
+      </div>
+    </div>
+    <p class="hint">Source: sleeper/lifetime.json and sleeper/FINDINGS.md, reconciled exactly against Sleeper's own roster W-L-T for all 60 manager-seasons.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
+    <p>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
+    </p>
+    <p class="fine">League of Degenerates / Degenerate GM Dynasty League. Not affiliated with the NFL, Sleeper, or any team's actual front office.</p>
+  </div>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>

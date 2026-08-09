@@ -1,0 +1,70 @@
+<meta charset="utf-8">
+<title>Standings - League of Degenerates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="2025 final standings, playoff-adjusted, plus the season's awards and superlatives.">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink current" href="./standings.html">Standings</a>
+    <a class="navlink" href="./allplay.html">All-Play</a>
+    <a class="navlink" href="./draft.html">Draft</a>
+    <a class="navlink" href="./dynasty.html">Dynasty</a>
+    <a class="navlink" href="./history.html">History</a>
+    <a class="navlink" href="./record.html">Record Book</a>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <h1>2025 Final Standings</h1>
+  <p class="sub">Regular-season seed is not where you finish. Playoff-adjusted final order, with the regular season record and points shown alongside so you can see exactly who moved.</p>
+</div>
+
+<main>
+<section id="standings">
+  <div class="wrap">
+    <div class="table-scroll">
+      <table id="standings-table">
+        <thead>
+          <tr>
+            <th>Final</th><th>Team</th><th>Manager</th><th class="num">Reg. Seed</th>
+            <th class="num">W</th><th class="num">L</th><th class="num">PF</th><th class="num">PA</th><th>Result</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="hint">Rows sorted by final playoff-adjusted finish, not regular-season record. Gold = champion. Red = dead last. "Result" carries the bracket outcome (championship, Toilet Bowl, and placement games) since the full bracket views themselves have been retired from this site.</p>
+  </div>
+</section>
+
+<!-- ================= AWARDS ================= -->
+<section id="awards">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="section-kicker">Superlatives</p>
+      <h2 class="section-title">Awards</h2>
+      <p class="section-desc">The receipts, pulled straight from analytics.json.</p>
+    </div>
+    <div class="award-grid" id="award-grid"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
+    <p>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
+    </p>
+    <p class="fine">League of Degenerates / Degenerate GM Dynasty League. Not affiliated with the NFL, Sleeper, or any team's actual front office.</p>
+  </div>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>

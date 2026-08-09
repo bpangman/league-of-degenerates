@@ -1,0 +1,124 @@
+<meta charset="utf-8">
+<title>Dynasty Board - League of Degenerates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Six years of trades, extensions, and busts. The 2026 contract cliff, dynasty storylines, and links to the roster spreadsheet and rulebook.">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="./index.html">LEAGUE OF <span class="lod-red">DEGENERATES</span></a>
+    <a class="navlink" href="./index.html">Home</a>
+    <a class="navlink" href="./memo.html">Memo</a>
+    <a class="navlink" href="./standings.html">Standings</a>
+    <a class="navlink" href="./allplay.html">All-Play</a>
+    <a class="navlink" href="./draft.html">Draft</a>
+    <a class="navlink current" href="./dynasty.html">Dynasty</a>
+    <a class="navlink" href="./history.html">History</a>
+    <a class="navlink" href="./record.html">Record Book</a>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <h1>The Dynasty Board</h1>
+  <p class="sub">Six years of trades, extensions, and busts, pulled from the contract spreadsheet and computed in storylines.md.</p>
+</div>
+
+<main>
+<section id="dynasty">
+  <div class="wrap">
+
+    <div class="explainer">
+      <strong>How to read a contract number:</strong> a number is the years of team control remaining <strong>beyond</strong> the listed season. <strong>0</strong> means the listed season is the last guaranteed year. No number at all means the player is on expiring rights only, no contract security going into next year's draft pool.
+    </div>
+
+    <h3 style="font-size:1.1rem;margin:0 0 14px;">The Iron Men (2020 - 2026, never traded or cut)</h3>
+    <p class="section-desc" style="margin-bottom:16px;">Nineteen players have sat on the same roster every single season since the league began. Eight of the ten current owners still have their very first franchise cornerstone. Hannah alone owns seven of the nineteen, more than a third of the league's total loyalty pool, all on one roster.</p>
+    <div class="table-scroll">
+      <table class="narrow wrap-col2">
+        <thead><tr><th>Owner</th><th>Cornerstone Player</th><th>Span</th></tr></thead>
+        <tbody>
+          <tr><td>Hannah</td><td>Deshaun Watson, Christian McCaffery, Jonathan Taylor, Tony Pollard, Courtland Sutton, CeeDee Lamb, Justin Jefferson</td><td class="num">2020 - 2026 (7 yrs, x7 players)</td></tr>
+          <tr><td>Anthony (Tony Loff)</td><td>Terry McLaurin</td><td class="num">2020 - 2026 (7 yrs)</td></tr>
+          <tr><td>David</td><td>Josh Allen, Travis Kelce</td><td class="num">2020 - 2026 (7 yrs, x2 players)</td></tr>
+          <tr><td>Matt (Mathieu)</td><td>Chris Godwin, DJ Moore, Jerry Jeudy</td><td class="num">2020 - 2026 (7 yrs, x3 players)</td></tr>
+          <tr><td>Michael (Mikey Loff)</td><td>Lamar Jackson, Brandon Aiyuk</td><td class="num">2020 - 2026 (7 yrs, x2 players)</td></tr>
+          <tr><td>Levon</td><td>Joe Burrow</td><td class="num">2020 - 2026 (7 yrs)</td></tr>
+          <tr><td>Ryan M</td><td>Patrick Mahomes</td><td class="num">2020 - 2026 (7 yrs)</td></tr>
+          <tr><td>TB (Tony Busch)</td><td>Christian Kirk, Michael Pittman</td><td class="num">2020 - 2026 (7 yrs, x2 players)</td></tr>
+          <tr><td>Blake (BlakeBro)</td><td>Amari Cooper</td><td class="num">2020 - 2025 (6 yrs, moved in 2026)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="hint">Source: storylines.md, sections 1-2, computed from rosters.json's seven season tabs.</p>
+
+    <h3 style="font-size:1.1rem;margin:36px 0 14px;">The 2026 Cliff</h3>
+    <p class="section-desc" style="margin-bottom:16px;">Total locked-in contract years remaining on each 2026 roster, and how many of those players are on expiring paper right now. The bigger the gap between roster size and locked-in years, the more of that roster hits the draft pool this offseason.</p>
+    <div class="table-scroll">
+      <table class="narrow">
+        <thead><tr><th>Owner</th><th class="num">Roster Size</th><th class="num">Expiring</th><th class="num">Long Control (3+ yrs)</th><th class="num">Total Locked-In Years</th></tr></thead>
+        <tbody>
+          <tr class="row-last"><td>Hannah</td><td class="num">23</td><td class="num">20</td><td class="num">1</td><td class="num">7</td></tr>
+          <tr class="row-last"><td>Levon</td><td class="num">23</td><td class="num">20</td><td class="num">0</td><td class="num">5</td></tr>
+          <tr><td>Michael (Mikey Loff)</td><td class="num">23</td><td class="num">19</td><td class="num">0</td><td class="num">7</td></tr>
+          <tr><td>Team Barbie</td><td class="num">20</td><td class="num">17</td><td class="num">1</td><td class="num">6</td></tr>
+          <tr class="row-last"><td>David</td><td class="num">19</td><td class="num">17</td><td class="num">0</td><td class="num">2</td></tr>
+          <tr><td>TB (Tony Busch)</td><td class="num">21</td><td class="num">17</td><td class="num">1</td><td class="num">7</td></tr>
+          <tr><td>Matt (Mathieu)</td><td class="num">21</td><td class="num">16</td><td class="num">1</td><td class="num">9</td></tr>
+          <tr><td>Ryan M</td><td class="num">21</td><td class="num">14</td><td class="num">1</td><td class="num">10</td></tr>
+          <tr><td>Blake (BlakeBro)</td><td class="num">20</td><td class="num">13</td><td class="num">2</td><td class="num">13</td></tr>
+          <tr class="row-champ"><td>Anthony (Tony Loff)</td><td class="num">21</td><td class="num">13</td><td class="num">4</td><td class="num">18</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="award-grid" style="margin-top:16px;">
+      <div class="award-card neg">
+        <div class="a-label">The Hannah Cliff</div>
+        <div class="a-sub">All seven of Hannah's 2020-vintage never-moved cornerstones are expiring at once: Watson, McCaffery, Jonathan Taylor, Pollard, Sutton, CeeDee Lamb, Justin Jefferson. Her only long-term piece is Ashton Jeanty. The most stable roster in league history is about to get detonated in a single draft.</div>
+      </div>
+      <div class="award-card neg">
+        <div class="a-label">The Bare Cupboard</div>
+        <div class="a-sub">David has zero players locked up 3+ years, and only 2 total contract years locked in across a 19-man roster, the lowest total in the league by a factor of 3. His stockpile rank has finished dead last (10th) three straight seasons: 2024, 2025, 2026.</div>
+      </div>
+      <div class="award-card pos">
+        <div class="a-label">The Best-Positioned</div>
+        <div class="a-sub">Anthony (Tony Loff) has finished #1 in the league in total locked-in contract years every season from 2021 through 2026, six years running. He has 4 players locked 3+ years and 18 total locked-in years, roughly 9x David's total.</div>
+      </div>
+    </div>
+
+    <h3 style="font-size:1.1rem;margin:36px 0 14px;">Busts</h3>
+    <p class="section-desc" style="margin-bottom:16px;">Multi-year contracts that vanished from every roster in the league within a season or two of being signed.</p>
+    <div class="card-grid">
+      <div class="info-card"><span class="tag">5-yr deal, 2021</span><h4>Trey Lance - Matt</h4><p>Signed for 5 years in 2021. Liquidated down to 1 remaining year by 2023, gone from the entire league by then. Two seasons of return on a five-year bet. The Commissioner's own memo calls it the worst allocation of capital in league history.</p></div>
+      <div class="info-card"><span class="tag">5-yr deal, 2020</span><h4>Kenny Golladay - Levon</h4><p>Signed for 5 years in 2020. On Levon's roster through 2022, then formally liquidated for 2 years on Singletary instead. Gone from the league after 2022, 3 of 5 committed years delivered.</p></div>
+      <div class="info-card"><span class="tag">4-yr + 3-yr deals</span><h4>Bryce Young - Hannah</h4><p>Given 4 years in 2023, then a fresh 3-year re-sign in 2024. Gone from the entire league by the end of 2024. Two commitments, zero payoff.</p></div>
+      <div class="info-card"><span class="tag">6-yr deal, 2020</span><h4>Kyler Murray - Levon then Anthony</h4><p>Levon spent a 6-year commitment on him in 2020, traded him away after one season. Anthony then spent a fresh 5-year commitment on the return and still lost him a year before that term was up. Two different owners, two different contracts, same player, neither deal paid off in full.</p></div>
+    </div>
+
+    <h3 style="font-size:1.1rem;margin:36px 0 14px;">Trading Habits</h3>
+    <div class="card-grid">
+      <div class="info-card"><h4>Anthony (Tony Loff): the trading addict</h4><p>Party to roughly 20 of the 37 verbatim trades logged across 7 seasons, appearing in every single season's trade log without exception (5 separate deals in the 2023 tab alone). Also #1 in locked-in contract years for six straight years. He upgrades and re-ups constantly rather than churning.</p></div>
+      <div class="info-card"><h4>Hannah: the opposite of Anthony</h4><p>Lowest or second-lowest season-to-season roster turnover almost every year. In 2025 to 2026 she retained 21 of her 22 players, just 5 percent turnover. That extreme loyalty is exactly what set up the 2026 Cliff above: her whole core expires at once because she never diversified when.</p></div>
+      <div class="info-card"><h4>David: the sharpest collapse</h4><p>Total locked-in contract years fell from 33 in 2020 (8th in the league) to 13 in 2023 to just 2 by 2026, three consecutive last-place finishes in the league's contract-stockpile ranking. No other owner shows a decline this steep or this sustained.</p></div>
+      <div class="info-card"><h4>League-wide trend</h4><p>Everyone got more conservative about long-term deals over time. Total locked-in contract years league-wide fell from 328 in 2020 to just 102 in 2026, though part of that is simply that the 2026 season is still in progress and most incoming rookies have not been extended yet.</p></div>
+    </div>
+
+    <p class="hint" style="margin-top:20px;">Full player-by-player rosters and contract years live in the spreadsheet, not reproduced in full here. <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Open the roster and contract spreadsheet</a>, or read the <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built from the Commissioner's memo archive, six years of Sleeper screenshots, and the Sleeper public API. Every number on this site traces back to those sources.</p>
+    <p>
+      <a href="https://docs.google.com/spreadsheets/d/1sHKHy68gdvJ45d9gZ9Q1zn-PsI_kiX2Ry_26Z_AW55A/edit" target="_blank" rel="noopener">Roster &amp; contract spreadsheet</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://docs.google.com/document/d/1vWsTgE6UTYll9OBmeRURIGGkpWI1rGUtr29fbQknX2A/edit" target="_blank" rel="noopener">Be A GM League Manual (rulebook)</a>
+    </p>
+    <p class="fine">League of Degenerates / Degenerate GM Dynasty League. Not affiliated with the NFL, Sleeper, or any team's actual front office.</p>
+  </div>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>
