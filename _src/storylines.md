@@ -6,16 +6,13 @@ All figures below are computed directly from `rosters.json`, which was parsed fr
 
 ## 1. Longest-Tenured Players (same player, same owner, consecutive seasons)
 
-The dynasty has only run 7 seasons (2020–2026), so the maximum possible streak is 7 years — "on the roster since the very first tab, never traded or cut." **19 different players are tied at that maximum.** Rather than force an artificial top-15 ranking inside a 19-way tie, here is the full top tier, followed by the next tier down for context.
+The dynasty has only run 7 seasons (2020–2026), so the maximum possible streak is 7 years. **16 different players have been on the same roster since the origin 2020 draft, never traded or cut** - the true maximum-tenure tier. Three more players - Lamar Jackson, Josh Allen, and Travis Kelce - have been locked onto their current roster just as long, but not from the draft itself: they changed hands in the flurry of trades that opened that first 2020 season, before Week 1 was ever played, and have sat unmoved with their new owner ever since. See **Section 10 (Caveats)** for how the previously-ambiguous "Tab 1" was identified as the origin draft board that makes this distinction possible.
 
-### Tier 1 — 7 straight seasons, 2020–2026 (never moved), 19 players tied
+### Tier 1 - 7 straight seasons, 2020-2026, never moved since the origin draft (16 players)
 | Player | Owner |
 |---|---|
 | Terry Mclaurin | Anthony |
-| Lamar Jackson | Michael |
 | Brandon Aiyuk | Michael |
-| Josh Allen | David |
-| Travis Kelce | David |
 | Chris Godwin | Matt |
 | DJ Moore | Matt |
 | Jerry Jeudy | Matt |
@@ -31,7 +28,16 @@ The dynasty has only run 7 seasons (2020–2026), so the maximum possible streak
 | Christian Kirk | TB |
 | Michael Pittman | TB |
 
-**Hannah owns 7 of these 19 (37%)** — more than a third of every player in the league who has never left a roster belongs to one team. See Section 9 and Section 6 for why that's about to matter a lot.
+### Acquired in the 2020 opening trades, held ever since (3 players)
+| Player | Owner | Acquired from |
+|---|---|---|
+| Lamar Jackson | Michael | David |
+| Josh Allen | David | Michael |
+| Travis Kelce | David | Michael |
+
+Verified by diffing the origin draft board against the confirmed 2020 tab, and corroborated by the 2020 trade log (Section 8): *"David gets Josh Allen and 4 years; Michael gets Lamar Jackson"* and *"Michael gets Chase Claypool and 2 contract years. David Gets Travis Kelce."* Sleeper's own API only logged 2 trades in 2020 while the sheet records 6, so the spreadsheet - not Sleeper - is the authoritative ledger for these early moves.
+
+**Hannah owns 7 of these 16 true never-movers (44%)** - nearly half of every player in the league who has sat on one roster since the origin draft belongs to one team. See Section 9 and Section 6 for why that's about to matter a lot.
 
 ### Tier 2 — 6 straight seasons (10 players)
 Amari Cooper (Blake, 2020–2025) · Cooper Kupp (David, 2020–2025) · Adam Thielen (Ryan, 2020–2025) · Stefon Diggs (Ryan, 2020–2025) · Travis Etienne (Michael, 2021–2026) · Jaylen Waddle (Michael, 2021–2026) · Jamarr Chase (David, 2021–2026) · Devonta Smith (Hannah, 2021–2026) · Kyle Pitts (Levon, 2021–2026) · Jakobi Myers (Ryan, 2021–2026)
@@ -45,18 +51,18 @@ Streak-length distribution across every player/owner pairing ever recorded: 7yr�
 | Owner | Cornerstone | Span | Streak |
 |---|---|---|---|
 | Anthony | Terry Mclaurin | 2020–2026 | 7 yrs |
-| David | Josh Allen | 2020–2026 | 7 yrs |
+| David | Josh Allen (acquired from Michael in the 2020 opening trades) | 2020-2026 | 7 yrs |
 | Hannah | Deshaun Watson (tied w/ 6 others, see Tier 1) | 2020–2026 | 7 yrs |
 | Levon | Joe Burrow | 2020–2026 | 7 yrs |
 | Matt | Chris Godwin | 2020–2026 | 7 yrs |
-| Michael | Lamar Jackson | 2020–2026 | 7 yrs |
+| Michael | Lamar Jackson (acquired from David in the 2020 opening trades) | 2020-2026 | 7 yrs |
 | Ryan | Patrick Mahomes | 2020–2026 | 7 yrs |
 | TB | Christian Kirk | 2020–2026 | 7 yrs |
 | Blake | Amari Cooper | 2020–2025 | 6 yrs |
 | Mac (2020–2022 only) | Dak Prescott | 2020–2022 | 3 yrs (his whole tenure) |
 | Team Barbie (2023–2026 only) | Jalen Hurts | 2023–2026 | 4 yrs (their whole tenure) |
 
-Eight of the ten "live" owners (everyone except Blake) have never once let go of their original 2020 cornerstone. Mac and Team Barbie's cornerstones simply span their entire time in the league — neither has ever had a chance to lose their guy.
+Eight of the ten "live" owners (everyone except Blake) still have a cornerstone dating back to that very first 2020 season - whether it's the player they originally drafted (Anthony, Hannah, Levon, Matt, Ryan, TB) or one they landed in the flurry of trades that opened the league before Week 1 (David's Josh Allen, Michael's Lamar Jackson - see Section 1). Mac and Team Barbie's cornerstones simply span their entire time in the league - neither has ever had a chance to lose their guy.
 
 ---
 
@@ -87,7 +93,7 @@ The largest single contract-year grants ever recorded in the sheet (N = years re
 | Contract | Player | Owner | Granted | Controlled through | Outcome |
 |---|---|---|---|---|---|
 | 8 yrs | Patrick Mahomes | Ryan | 2020 | 2028 | **Fulfilled to date** — on Ryan's roster every single season 2020–2026, decrementing perfectly (8→7→6→5→4→3→2), never traded. |
-| 7 yrs | Lamar Jackson | Michael | 2020 | 2027 | **Fulfilled to date** — identical perfect decrement (7→6→5→4→3→2→1) on Michael's roster every year 2020–2026, never traded. |
+| 7 yrs | Lamar Jackson | Michael | 2020 | 2027 | **Fulfilled to date** - not a draft-day pick: Michael acquired Lamar Jackson from David in the 2020 opening trades, with this 7-year contract attached (Section 8: *"David gets Josh Allen and 4 years; Michael gets Lamar Jackson"*). Every year since, it has decremented perfectly (7 to 6 to 5 to 4 to 3 to 2 to 1) on Michael's roster through 2026, never moved again. |
 | 6 yrs | Kyler Murray | Levon | 2020 | 2026 | **Broken** — traded to Anthony after just 1 season (2021 note: *"Levon Receives Diontae Johnson... ANTHONY RECEIVES Kyler Murray (5 years remaining)"*). Anthony then carried him 2021–2025 (decrementing 5→4→3→2→1) but Murray is **not** on Anthony's 2026 roster — cut one year short of the fully-committed term. |
 | 6 yrs | Justin Herbert | Anthony | 2023 | 2029 | **Fulfilled to date** — this was actually Herbert's *second* deal. TB originally signed him for 3 years in 2020 (decremented to 0 by 2022); Anthony acquired him in a 2023 three-way trade *("Blake receives Alvin Kamara, Tony receives Justin Herbert and Blake's 2023 1st, and TB gets both of Tony's 2023 1st rounders")* and immediately re-signed him for 6 fresh years. Still Anthony's franchise QB, decrementing on schedule (6→5→4→3) through 2026. |
 | 5 yrs | AJ Brown | David | 2020 | 2025 | **Partially fulfilled, then traded and extended** — David held him 3 of the 5 committed years (2020–2022), then traded him to Michael for 2023 (contract correctly reset to 2 remaining, matching 3 unused years). Michael has renewed him on expiring year-to-year paper every season since (0 in 2025, blank/expiring again in 2026) — 4 straight seasons of not letting him actually hit the market. |
@@ -221,7 +227,7 @@ Using total locked-in contract-years (sum of all non-expiring contract numbers o
 ## 9. Anything Else Statistically Odd or Funny
 
 - **Anthony is a trading addict.** Of the roughly 37 verbatim trades logged across 7 seasons, Anthony (Tony Loff) is named as a party in at least 20 of them — he shows up in every single season's trade log without exception, often multiple times per year (5 separate deals in the 2023 tab alone). Combined with Section 7 (6 straight years leading the league in locked-in contract years), the picture is consistent: Anthony trades constantly *and* signs long, i.e., he's continuously upgrading and re-upping rather than just churning.
-- **Hannah is the opposite of Anthony — and it might cost her.** She owns 7 of the 19 all-time "never moved" iron-men (Section 1), and her season-to-season roster turnover is the lowest or second-lowest in the league nearly every year (2020→21: 46% turned over, 2024→25: 43%, **2025→26: just 5%** — she retained 21 of her 22 2025 players into 2026, only replacing 1 and adding 2 rookies). She simply doesn't trade. That extreme loyalty is exactly what set up the 2026 cliff in Section 6 — her whole core is expiring at once because she never diversified when.
+- **Hannah is the opposite of Anthony - and it might cost her.** She owns 7 of the 16 all-time "never moved since the origin draft" iron-men (Section 1), and her season-to-season roster turnover is the lowest or second-lowest in the league nearly every year (2020 to 21: 46% turned over, 2024 to 25: 43%, **2025 to 26: just 5%** - she retained 21 of her 22 2025 players into 2026, only replacing 1 and adding 2 rookies). She simply doesn't trade. That extreme loyalty is exactly what set up the 2026 cliff in Section 6 - her whole core is expiring at once because she never diversified when.
 - **Michael is close behind Hannah for stability** — his 2025→2026 turnover was also tiny (10%, 19 of 21 players retained), and his career-average turnover (37%) is the second-lowest of any owner with a full 7-year run.
 - **David's collapse is the sharpest in the league.** His total locked-in contract-years fell from 33 (2020, ranked 8th) to 13 (2023) to 5 (2024–2025) to just 2 (2026) — three consecutive last-place finishes in Section 7's stockpile ranking, and zero players under contract 3+ years on his entire 2026 roster (Section 6). No other owner shows a decline this steep or this sustained.
 - **League-wide, everyone got a lot more conservative about long-term deals over time.** Total locked-in contract-years league-wide fell from 328 in 2020 to just 102 in 2026 — partly a function of the 2026 tab being the *current, in-progress season* (its "Paid?" row reads NO for every owner, unlike every prior season which reads YES — this is the only season that hasn't finished), so most of the incoming rookie class hasn't been extended yet.
@@ -232,7 +238,7 @@ Using total locked-in contract-years (sum of all non-expiring contract numbers o
 
 ## 10. Caveats
 
-- **The unlabeled "Tab 1" (raw file lines 1–30) could not be confidently placed in the season sequence and was excluded from all statistics above.** It uses a different, simpler cell format (`Name (N)` combined in one cell, vs. the two-cell Name/Contract format every other tab uses) and the same 10-owner roster as the 2020 and 2021 tabs (Blake…Mac, no Team Barbie). Its "Contracts Used/Remaining" row shows unfilled default-looking values (e.g. most owners simply sitting at "36 remaining," a value that appears nowhere else in the sheet), and its player assignments don't consistently match the confirmed 2020/2021 tabs — for example it has David, not Michael, owning Lamar Jackson, which conflicts with the trade note *"David gets Josh Allen and 4 years; Michael gets Lamar Jackson"* found in the confirmed 2020 tab. Best guess: this is an abandoned early scratch/draft copy that predates or was superseded by the real 2020 tab, but this is not certain. It is preserved in `rosters.json` under `"year": null` with `tab_label` describing this ambiguity, but was left out of every streak/journeyman/contract/cliff calculation in this report.
+- **The unlabeled "Tab 1" (raw file lines 1-30) has been identified as the origin draft board** - the pre-trade snapshot of the league immediately after the 2020 draft, before the flurry of trades that opened that first season. It uses a different, simpler cell format (`Name (N)` combined in one cell, vs. the two-cell Name/Contract format every other tab uses) and the same 10-owner roster as the 2020 and 2021 tabs (Blake…Mac, no Team Barbie). Its player assignments don't match the confirmed 2020 tab for several players - for example it has David, not Michael, owning Lamar Jackson - which at first looked like a data-quality problem but instead matches the 2020 trade log exactly: *"David gets Josh Allen and 4 years; Michael gets Lamar Jackson"* and *"Michael gets Chase Claypool and 2 contract years. David Gets Travis Kelce."* Diffing this board against the confirmed 2020 tab is what surfaced the fact that Lamar Jackson, Josh Allen, and Travis Kelce were traded within that opening window rather than drafted by their current owners (see Sections 1, 2, and 4). Sleeper's own API only logged 2 trades in 2020 while this board plus the trade log together account for 6, so the spreadsheet - not Sleeper - is the authoritative ledger for these early moves. It is preserved in `rosters.json` under `"year": null` with its original `tab_label` still describing the historical ambiguity, and is left out of every streak/journeyman/contract/cliff calculation in this report except as the origin-state comparison point for Sections 1, 2, and 4.
 - **Season-to-tab mapping (2020–2026) was inferred, not explicitly labeled on the sheet.** Each of the 7 real tabs was identified by cross-referencing its "Remaining/New Contracts" notes rows (e.g., a tab containing "2026 New Contracts" must be the 2026 tab) and by verifying that contract-year counts decrement by exactly 1 per season for players who stayed in place (confirmed on multiple players including Deshaun Watson, Lamar Jackson, and Patrick Mahomes). This inference is internally consistent across all 7 tabs but relies on the sheet's contract bookkeeping being accurate.
 - **Owner name normalization**: "Blake" = "BlakeBro"; "Anthony" = "Tony Loff" / "TonyLoff" / "Tony" / "PangDaddy"; "Michael" = "Mikey"; "David" = "Doivid" / "Davids"; "Matt" = "Matt Ice" / "Matty Ice"; "Ryan" = "Ryan M". These are used interchangeably in free-text trade notes but map cleanly to a single roster column per season, so player-ownership tracking itself is not affected — only the verbatim trade quotes in Section 8 retain the nicknames as originally written.
 - **The Mac → Team Barbie transition (2022 → 2023) is a franchise/ownership succession, not a trade**, but the parser (correctly, per the source data) treats them as two different owner labels. This can overcount "distinct owners" by one for any player who was on that specific roster slot across the boundary without changing hands at all — flagged explicitly wherever it affects a number in Section 3.

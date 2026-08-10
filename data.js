@@ -31,309 +31,173 @@ const MEMO_MD = `**Degenerates, Liars, Losers, Fantasy Scammers - FANTASY SEASON
 
 Before we begin, a brief word about the 2025 campaign.
 
-I finished tenth. Out of ten. Dead last. The Commissioner of this league - the founder, the visionary, the man who WROTE the constitution the rest of you pretend to read - finished behind a team called Stroud Boys.
+I finished tenth. Out of ten. Dead last. The Commissioner of this league, the founder, the visionary, the man who WROTE the constitution the rest of you pretend to read, finished behind a team called Stroud Boys.
 
-And folks, I've reviewed the tape. That season was RIGGED. There were irregularities. There were suitcases of points pulled out from under tables in Week 7. I have concepts of a lawsuit. My legal team - Tony Loff, who is a doctor and not a lawyer, but who does whatever I tell him - is looking into it very strongly. Many people are saying it's the biggest fantasy fraud in the history of our country. Possibly any country.
+And folks, I've reviewed the tape. That season was RIGGED. There were irregularities. There were suitcases of points pulled out from under tables in Week 7. I have concepts of a lawsuit. My legal team, Tony Loff, who is a doctor and not a lawyer but who does whatever I tell him, is looking into it very strongly.
 
 But I'm a gracious man. So let's talk about the champion.
 
 ## IRRELEVANT LEVON, CHAMPION OF THE WORLD (allegedly)
 
-Levon won the whole thing. Levon. Our guy in Germany. The human embodiment of a 25% import tax finally cleared customs.
+Levon won the whole thing.
 
-And folks, I want you to really sit with this one. He went **7-7**. SEVEN AND SEVEN. He was the FIVE SEED. He backed into the playoffs like a man parallel parking a Fiat, then went out and beat Hannah, beat David, and hung **147.00** on Tony Loff in the Finals to take the belt.
+He went **7-7**. He was the FIVE SEED. He backed into the playoffs like a man parallel parking a Fiat, then beat Hannah, beat David, and hung **147.00** on Tony Loff in the Final to take the belt.
 
-By any objective measure it was the most impressive run in league history.
+And NOBODY REMEMBERS IT. I polled this league extensively. Four owners said David won. Two said "wait, wasn't it Hannah?" One asked if we played last year. TB asked if there was money on it.
 
-And NOBODY REMEMBERS IT. I polled this league extensively. When asked "who won last year," four owners said David, two said "wait, wasn't it Hannah?", one asked if we played last year, and TB asked if there was money on it.
+Now here's my favorite statistic in six years of records. Levon's lifetime regular season record is **32-51**. A .386 winning percentage, the WORST OF ANY OWNER WHO HAS EVER PLAYED IN THIS LEAGUE. He is also 8-5 in the playoffs and he owns a ring. He has more championships than the Commissioner, the Co-Commissioner, TB, Mikey, Matt and Team Barbie COMBINED.
 
-Levon's championship got memory-holed faster than the Epstein files. Faster than a Signal chat with a journalist accidentally added to it. This man won a title on foreign soil and it registered with the American public roughly as hard as a Belgian election. He is the Jimmy Carter of this league: a good man, a decent man, a man who did the job, and a man nobody will think about again until the funeral.
+**And now the biggest move of the offseason: Levon is moving back to the United States in September.**
 
-And now for my favorite statistic in the entire six-year history of this league.
+Folks, this is the only SELF-DEPORTATION in league history and it was performed by the defending champion. He won a title on foreign soil, and the moment the trophy was in his hands he removed himself from the continent. No negotiation, no purchase price, no knock on the door. We spent years trying to acquire Greenland and couldn't close it. Levon repatriated himself for free.
 
-Levon's lifetime regular season record is **32-51**. A .386 winning percentage. That is the WORST RECORD OF ANY OWNER WHO HAS EVER PLAYED IN THIS LEAGUE. Dead last. Not close.
-
-He is also 8-5 in the playoffs, one of the best postseason records we have, and he owns a ring.
-
-Folks, do you understand what this means? Levon is objectively the worst regular season manager in the history of the Degenerate GM League and he has more championships than the Commissioner, the Co-Commissioner, TB, Mikey, Matt, and Team Barbie COMBINED. He spent six years losing on Tuesdays in Germany and then walked in and took the whole thing.
-
-**AND NOW THE BIGGEST ROSTER MOVE OF THE OFFSEASON.**
-
-Folks, I can confirm it. After years of governing his fantasy team from across an ocean, **Levon is moving back to the United States in September.**
-
-He's coming home. The import tax is coming home.
-
-I want everyone to understand the magnitude of this. For six years Levon has drafted from a different time zone, set lineups at three in the morning Berlin time, and haggled over FAAB in what I can only assume was Deutsche Marks. We gave him a four contract year tariff for living in Germany. It was in the memo. It was policy.
-
-And the very year he finally wins the whole thing, he repatriates. He got the ring and immediately fled the country. That's not a relocation, folks, that's an EXIT STRATEGY. He came, he took our money, he took our trophy, and now he's moving back onto American soil where we cannot tax him for it.
-
-Some are calling it the greatest reverse-immigration story in sports. Folks, this is the only SELF-DEPORTATION in the history of this league and it was performed by the defending champion. He didn't wait for the paperwork. He didn't wait for a knock on the door. He looked at the situation, he looked at his trophy, and he removed himself. Frankly it's the most efficient thing anyone has ever done in this league, and I say that as a man who has spent six years trying to get Tony Loff to update a spreadsheet.
-
-Others are asking why the reigning champion suddenly needs to be within driving distance of the trophy. I'm not going to speculate. I'm just going to note that the man won a title on foreign soil and is now, coincidentally, relocating to a jurisdiction with no extradition treaty for fantasy football crimes.
-
-And let me put this in perspective for you. We spent years trying to acquire Greenland. YEARS. Beautiful island, tremendous strategic value, they wouldn't sell. And meanwhile, at no cost to the taxpayer, we have successfully repatriated Levon. No negotiation. No purchase price. He simply came back on his own. That's what winning looks like, folks.
-
-Welcome home, Levon. The Germany tariff is hereby LIFTED. Six years of paying his fair share into this alliance and he finally hit 2% of GDP. NATO could learn something.
-
-Congratulations, Levon. Please ship the trophy at your own expense. Article 8.05. I don't make the rules.
-
-(I made the rules.)
+Welcome home. The Germany tariff is hereby LIFTED. We'll find something else.
 
 ## TONY "LOOK AT ME" LOFF - 11-3, AND STILL A LOSER
 
-Now here's where it gets DELICIOUS.
+Last August I dedicated three paragraphs of this memo to Tony Loff's collapse. I called for a moment of silence over his roster.
 
-Last August I dedicated three paragraphs of this memo to Tony Loff's collapse. I called for a moment of silence over his roster. I said the man had lost his mind to fantasy football.
+Tony then went **11-3**. Best record in the league, number one seed, first round bye. And then he lost the Championship.
 
-Tony then went **11-3**. Best record in the league. Number one seed. First-round bye. He led the league in wins and he led the league in reminding everyone that he led the league in wins.
+He ran the most dominant primary campaign this league has ever seen and lost the general to a guy who lives in Germany. He was up in every poll. He had the money, the endorsements, the momentum, and on election night a 7-7 team flipped the whole board.
 
-And then he lost the Championship. To Germany.
+And the numbers are BRUTAL. Against the full field every week Tony was 71-55. He earned about **eight** wins. He was handed **eleven**. That's THREE FREE WINS, folks. He posted the two lowest scores of any playoff team all season, 80.36 in Week 6 and 82.98 in Week 8, and still won eleven games. He didn't build a juggernaut, he inherited a favorable map.
 
-I want to be careful here, because Tony is Chief Resident at UCLA Medical now - very big job, very prestigious, he tells us about it CONSTANTLY, it is the only thing he discusses besides the dog - and I would never say anything that could jeopardize a young man's career.
+He is also the most aggressive man in this league's history: number one in locked-in contract years **every season since 2021**, and a party to roughly **twenty of the thirty-seven trades** ever logged.
 
-So I'll just lay out the facts and let the American people decide.
+And he's slacking. As Co-Commissioner, Tony handles the spreadsheet, the contract audits, the reminders nobody reads. Since becoming Chief Resident he has done ABSOLUTELY NONE OF IT. He DOGE'd his own department. Walked out, turned off the lights, left the sign up, kept the title.
 
-Tony Loff was the best team of the regular season and lost the only game that mattered. He is a number one seed who peaked in October. He is a man who studied for eleven straight weeks and then failed the practical.
-
-He ran the most dominant primary campaign this league has ever seen and then lost the general to a guy who lives in Germany. He was up in every poll. Every single one. He had the endorsements, he had the money, he had the momentum, and on election night he watched a 7-7 team from Berlin flip the whole board. Somewhere a network anchor is still standing in front of a screen going "we are not prepared to call this."
-
-And the numbers, folks. The numbers are BRUTAL. Against the full field every week, Tony was 71-55. He earned about **eight** wins. He was handed **eleven**. That's THREE FREE WINS. Three! He enjoyed the softest schedule since the '07 Patriots toured the NFC. He posted the two lowest scores of any playoff team all season - 80.36 in Week 6 and 82.98 in Week 8 - and still won eleven games.
-
-He didn't build a juggernaut. He inherited a favorable map.
-
-And I'll say the quiet part out loud, because somebody has to: Tony is the most aggressive man in the history of this league. He has led the entire league in locked-in contract years **every single season since 2021**. Six straight years of hoarding. He is a party to roughly **twenty of the thirty-seven trades** ever logged in that spreadsheet - he appears in every season's trade log without exception, five separate deals in 2023 alone. The man does not sleep. He is running a sovereign wealth fund out of a group chat.
-
-Oh, and he's slacking. As Co-Commissioner, Tony handles the busy work: the spreadsheet, the contract audits, the reminders nobody reads. Since becoming Chief Resident he has done ABSOLUTELY NONE OF IT. He has DOGE'd his own department. Walked out, turned off the lights, left the sign up, kept collecting the title. I'd fire him but I've grown attached, like a tariff.
-
-And now he's a doctor with a platform, folks, which as we have all learned is the most dangerous combination in America. Give a man a white coat and within six months he's issuing guidance. He's got opinions on my roster construction. He's got opinions on the defensive scoring. He wanted to STOP THE COUNT on defensive points, and I remind you, this is a man who once tried to overturn the results of a contract rule by group text. That was his little January 6th. We do not talk about it. It is being handled by the appropriate authorities, which is me.
-
-So to summarize the Tony Loff experience: he trades more than anyone, he signs longer than anyone, he won more games than anyone, he does less paperwork than anyone, and he has zero championships. Tremendous operation. Really world class.
+So: he trades more than anyone, signs longer than anyone, won more games than anyone, does less paperwork than anyone, and has zero rings. Tremendous operation.
 
 ## DAVID - PREMATURE IN ALL THINGS
 
 Congratulations to David and the family on the arrival of baby **Lyla**, who came a little early.
 
-Which, honestly, tracks. Because David has a well-documented history of announcing things before they have actually occurred.
-
-You will all recall that David - reigning 2024 champion, holder of a first-round bye, owner of a genuinely good roster - declared himself champion of the 2025 season while there were still games left to play. He was measuring the trophy. He was drafting the speech. He was picking out fonts.
+Which tracks, because David has a documented history of announcing things before they occur. You will recall he declared himself champion of the 2025 season while there were still games to play. He was measuring the trophy. He was picking out fonts.
 
 He then scored 132.40 and lost to Levon by twenty-one.
 
-Folks, that man hung a MISSION ACCOMPLISHED banner off the side of an aircraft carrier and the war went on for another two rounds. Never in the history of this league has anybody declared victory earlier with less to show for it. He called it before the votes were counted. He called it before HIS OWN GAME WAS PLAYED. That's not confidence, that's a network calling Florida at 7:02.
+That man hung a MISSION ACCOMPLISHED banner off an aircraft carrier and the war went another two rounds. He called it before the votes were counted. He called it before HIS OWN GAME WAS PLAYED.
 
-Nine months later, same energy: "it's happening, everybody get ready." And then it happened three weeks early.
+In fairness, David won **four** weekly high score prizes in 2025, more than anyone. Forty American dollars. The highest earning non-champion in league history, which is the most David sentence ever written.
 
-David, we love you. Lyla is beautiful. But please, for the love of God, wait for the actual result before you announce it. You've now done this twice and only one of them turned out fine.
+But here's what actually worries me. I pulled the contract sheet. David's roster has **two** locked-in contract years on it. Two, across nineteen players. Zero players signed beyond next season. In 2020 he had thirty-three.
 
-In fairness: David won **four** weekly high-score prizes in 2025, more than anyone else in the league. Forty American dollars. He is the highest-earning non-champion in league history, which is the most David sentence ever written.
-
-Now for the part that actually worries me. I pulled the contract sheet, folks. David's roster has **two** locked-in contract years on it. Two. Across nineteen players. He has ZERO players signed beyond next season. In 2020 he had thirty-three. He has finished dead last in the league in contract control three years running.
-
-David has spent six years selling the future to buy the present, and the present keeps losing in Round 2. He is running the federal budget over here. Massive spending, no revenue, keeps raising his own debt ceiling, and every single year he stands up and tells us the economy is STRONGER THAN EVER. He has borrowed against 2027 to pay for 2024. He has a bare cupboard and two fifth round picks and he's going to tell you it's the greatest balance sheet in the history of this league.
-
-At some point, folks, somebody actually does have to pay it back. That's not politics, that's just math, and the bill is due at the 2026 draft.
+He is running the federal budget over here. Massive spending, no revenue, raises his own debt ceiling every year, and stands up each August to tell us the economy is STRONGER THAN EVER. At some point somebody actually does have to pay it back, and the bill is due at the draft.
 
 ## THE COLLUSION COUPLE - HANNAH & MATHIEU
 
-The league's first and only married trade partnership. A power couple. A cartel. Two franchises, one kitchen table, zero oversight.
+The league's first and only married trade partnership. Two franchises, one kitchen table, zero oversight.
 
-And let me say this loudly, for the record, because I have been accused of running a witch hunt: **NO COLLUSION.** No collusion, folks. Total exoneration. We ran a full investigation, it went on for two years, it cost this league a fortune in goodwill, and it found NOTHING. Nothing! Except of course for the trades. And the shared household. And the fact that they can coordinate a roster move at the breakfast table without leaving a paper trail. But no collusion.
+And let me say this for the record: **NO COLLUSION.** Total exoneration. We investigated for two years, it cost this league a fortune in goodwill, and it found NOTHING. Except the trades. And the shared household. But no collusion.
 
-**Hannah** had, by her own account, a "down year." Let's examine that claim.
+**Hannah** had, by her own account, a "down year." Let's examine that.
 
-Hannah scored **2,028.54** points. That is the most points scored by any team in this league. She was the ONLY team to crack two thousand. Against the entire field every single week she went 87-39, a .690 clip, best in the league and not remotely close.
+She scored **2,028.54** points, the most of any team in the league and the only team to crack two thousand. Against the entire field every week she went 87-39, a .690 clip, best in the league and not close.
 
-She finished **fifth**.
+She finished **fifth.**
 
-Folks, that's not a down year. That's a heist run in reverse. That is what happens when you are the best team in the country and the map is drawn against you. Hannah put up championship numbers, collected a participation ribbon, and earned the right to be described as a disappointment in her own husband's league memo.
+That's not a down year, that's the MAP. Sleeper drew that schedule and it was the most gerrymandered district in American sport. She ran up the score in weeks she'd already won. The woman took the popular vote by two hundred points and got a concession speech, and the only reason there's no recount is that I own the recount.
 
-She is looking to bounce back. From what, exactly, remains unclear. She's a candidate who won the popular vote by four million and got a concession speech. Very sad. Very familiar.
+But folks, I have seen the spreadsheet, and I have news I take no pleasure in delivering.
 
-And I want to be clear about what happened to her, because it wasn't bad luck, it was the MAP. Sleeper drew that schedule and it was the most gerrymandered district in the history of American sport. She racked up her votes in the wrong weeks. She ran up the score in states she'd already won. The woman won the popular vote by two hundred points and finished fifth, and the only reason there wasn't a recount is that I own the recount.
+Hannah is the most loyal owner in league history. She owns SEVEN of the players who have never moved rosters since 2020. She retained twenty-one of twenty-two players last offseason.
 
-BUT FOLKS. I have seen the spreadsheet. And I have news that I take absolutely no pleasure in delivering.
+**And all seven of them expire at the same time.**
 
-Hannah is the most loyal owner in the history of this league. She owns SEVEN of the nineteen players who have never once moved rosters since 2020 - Watson, McCaffery, Jonathan Taylor, Pollard, Sutton, CeeDee Lamb, Justin Jefferson. She retained twenty-one of her twenty-two players last offseason. A five percent turnover rate. She doesn't trade. She doesn't churn. She built a dynasty on loyalty.
+Watson, McCaffery, Jonathan Taylor, Pollard, Sutton, CeeDee Lamb, Justin Jefferson. Every cornerstone, simultaneously, with exactly one long-term piece left on the roster. Call it what it is: **the Hannah Cliff.** And unlike Congress she cannot kick it down the road at 11:58pm with a continuing resolution. On deadline day this government SHUTS DOWN and seven of the best players in this league get furloughed straight into the draft pool.
 
-**And all seven of them are expiring at the same time.**
+Bring your contract years. This is the one.
 
-Every cornerstone. Simultaneously. On one tab. She has exactly one player under long-term control on her entire roster. The most stable roster in league history is about to be detonated in a single afternoon, and the only person who can stop it is Hannah, using contract years she does not have, at a 2:1 exchange rate she cannot afford.
+**Mathieu**, meanwhile, went **3-11.** Dead last in scoring by more than two hundred points. Against the full field he was 37-89, a .294 winning percentage. Lifetime he is 36-47 with no titles, no Finals, and a 3-9 playoff record.
 
-It's the biggest mass expiration event this league has ever seen. Call it what it is: **the Hannah Cliff.** A fiscal cliff, folks, and unlike Congress she cannot kick it down the road at 11:58pm with a continuing resolution. There is no bipartisan deal coming. There is no clean CR. On the 29th of August this government SHUTS DOWN and seven of the best players in this league get furloughed straight into the draft pool.
+Matt has never been good. That's not an insult, it's a data point.
 
-It's a fire sale. It's a going-out-of-business sign. It's the single greatest transfer of wealth in league history and every one of you is about to get a piece.
-
-Bring your contract years to the draft, folks. This is the one.
-
-**Mathieu**, meanwhile, went **3-11**.
-
-Three and eleven. 1,528 points - dead last in scoring by more than two hundred. Against the full field he was 37-89, a .294 winning percentage, which in baseball is a solid year and in fantasy football is a cry for help.
-
-Matt has never been good. I want to stress that this is not an insult, it's a data point. I pulled every game this league has ever played, going back to 2020. Matt's lifetime record is **36-47**. He has never won a title. He has never played in a Final. He is 3-9 in the playoffs. There is no season in which Matt was good. He is the most consistent owner in league history, and the thing he is consistent at is being bad.
-
-There is exactly one exception to this, and I regret to report it is me. Mathieu is **9-2 against the Commissioner** lifetime. Nine and two. The single most lopsided rivalry in this league that doesn't involve David beating up on Ryan. A man with a losing record against everyone else on earth has spent six years using me as a heat lamp.
-
-Folks, Mathieu is the least qualified person ever to hold a seat in this league and he keeps getting confirmed anyway. No experience. No record of accomplishment. Married into the administration. Sailed through on a party line vote because nobody wanted the fight. And now he has a permanent appointment and beats me nine times out of eleven. That's not a fantasy manager. That's a recess appointment with a winning record against the President.
-
-This is also the man who, in 2021, handed **Trey Lance a five-year contract.** Five years. Half a decade of team control on a quarterback who lasted two seasons on his roster and was out of this league entirely by 2023. When the bill came due Matt had to liquidate him at a loss. It remains, to this day, the single worst allocation of capital in the history of the Degenerate GM League, and I include my own presidency in that.
-
-He then dropped 174.70 on me in the 9th place game.
-
-We'll get to that.
+There is exactly one exception and I regret that it is me. Mathieu is **9-2 against the Commissioner** lifetime. The least qualified person ever to hold a seat in this league, married into the administration, confirmed anyway on a party line vote because nobody wanted the fight, and he beats me nine times out of eleven.
 
 ## TEAM BARBIE - TOILET BOWL CHAMPIONS AND THE LEAGUE'S GREATEST VICTIMS
 
-Madison and Pateel finished 7th at 6-8 and won the Consolation Bracket, which means four extra contract years and the 1.01 in the upcoming draft.
+Madison and Pateel finished 7th at 6-8 and won the Consolation Bracket: four extra contract years and the 1.01.
 
-But here's what nobody wants to say out loud: **Team Barbie was the second-best team in this league and finished seventh.**
+But here's what nobody wants to say out loud. **Team Barbie was the second best team in this league and finished seventh.**
 
-76-50 against the full field. 1,939.98 points - third most in the league, more than the number one seed, more than the eventual champion. Expected wins: 8.4. Actual wins: 6. The unluckiest team in the league by a full two and a half games.
+76-50 against the full field. 1,939.98 points, third most in the league, more than the number one seed and more than the champion. Expected wins 8.4, actual wins 6. The unluckiest team in the league by a full two and a half games. They hung **193.34** in Week 7, second highest score of the season. They also lost a game **149.52 to 148.50.** By 1.02 points.
 
-They hung **193.34** in Week 7, second-highest score of the entire season, and beat TB by 77.
+They were a TEMPORARY MEASURE. An emergency appointment to keep the government open when Mac walked out mid-term. And like every temporary measure in Washington it is now permanent, it outperforms the thing it replaced, and nobody remembers why we did it any other way.
 
-They also lost a game **149.52 to 148.50**. By one point. Not a figure of speech - 1.02 points.
+Their lifetime playoff record is **6-2**, best of anyone who has ever played here. They are also **5-0 lifetime against Tony Busch**, who has never beaten them. Every pollster in this league had them missing the playoffs. The models were wrong again.
 
-If there were any justice on this earth, Team Barbie makes the playoffs. Instead they won the Toilet Bowl and got REWARDED with four contract years and the first overall pick. So in the end the system works perfectly. Beautiful system. I designed it.
-
-And one more thing about the "bridge team we found to fill a vacancy." Team Barbie's lifetime postseason record is **6-2**. That is the best playoff winning percentage of any owner in the history of this league. They are also **5-0 lifetime against Tony Busch**, who has never beaten them, not once, not ever.
-
-Two women who joined in 2023 with zero fantasy experience are 6-2 in the playoffs while the men who taught them the game are a combined coin flip. I've reviewed this extensively and I've concluded it's fine and I don't want to talk about it.
-
-And I want to be very clear, because I know how this looks. Team Barbie was a TEMPORARY MEASURE. An emergency appointment. A stopgap to keep the government open when Mac walked out on this country in the middle of his term. And like every temporary measure in the history of Washington, it is now permanent, it outperforms the thing it replaced, and nobody can remember why we ever did it another way. That's how the TSA started, folks. Look it up.
-
-Every pollster in this league had them missing the playoffs. Every one. And they went out and posted the best postseason record in league history. The polls were WRONG again. At some point we have to stop trusting the models.
-
-Congratulations also to Tony and Pateel on their fur baby, **Marlo** - the first dog in league history to have a better 2025 than her owner.
+Congratulations to Tony and Pateel on their fur baby, **Marlo**, the first dog in league history to have a better 2025 than her owner.
 
 ## MILITARY MIKEY IS BACK FROM WAR
 
-Folks, our hero has returned.
+Our hero has returned. Mikey went 8-6 and made the playoffs while being on a different continent for most of it.
 
-Mikey Loff is BACK on American soil. He went 8-6, made the playoffs, and did it while - and I cannot stress this enough - being on a different continent for most of it.
+He is off auto-draft this year, which strips him of his greatest competitive advantage. His 2025 roster was effectively managed by the United States Navy's internet connection and it MADE THE PLAYOFFS, while grown men with two monitors and a paid subscription did not. It is the strongest argument for automation I have ever seen, and I say that as a man who watched a federal department get replaced by one guy with a chainsaw.
 
-He is home. He is safe. He has air conditioning. And I am told he is currently sweating profusely in a dark room doing what our veterans do best: watching animated programming at a volume he genuinely believes is inaudible.
+Now he's home and has to make his own decisions. We are ending the pilot program and returning to human oversight, and history tells us exactly how that goes.
 
-We thank you for your service, Mikey. Both kinds.
-
-He is off auto-draft this year, which frankly strips him of his greatest competitive advantage. His 2025 roster was effectively managed by the United States Navy's internet connection and it finished sixth. It made the playoffs, folks. An algorithm on a boat made the playoffs while grown men with two monitors and a paid subscription did not.
-
-This is the strongest argument for automation I have ever seen and I say that as somebody who watched an entire federal department get replaced by a very online man with a chainsaw. Mikey's team was more efficient, more disciplined and more successful when Mikey was not involved in it. Now that he's home and has to make his own decisions, I expect a steep and immediate decline. We are, in effect, ending the pilot program and going back to human oversight, and history tells us exactly how that goes.
-
-We thank you for your service, Mikey. You served under the Department of Defense and you're coming home to the Department of War. Same building, folks. New sign. Cost a fortune.
+Thank you for your service, Mikey. You served under the Department of Defense and you're coming home to the Department of War. Same building. New sign. Cost a fortune.
 
 ## FLIGHT RISK RYAN IS GETTING MARRIED
 
 Big news out of the McCusker camp: Ryan M is getting married this year. To a person. A real one. Confirmed.
 
-Ryan also had - and I want to say this carefully, because I have been wrong about him before - a GOOD year. He went 7-7, snuck in as the six seed, and knocked off Mikey in the first round.
+Ryan also went 7-7, snuck in as the six seed, and beat Mikey in the first round. Then he scored 100.94 against Tony Loff, and then he played for third place and scored **79.52.** In a playoff game. For money. The lowest score by any playoff team in any round all season.
 
-Then he ran into Tony Loff and scored 100.94. Then he played for third place and scored **79.52**.
+He also holds the all-time record for the worst single week in league history: **54.0 points**, Week 8, 2022. And David has beaten him twelve times in fifteen meetings, the most lopsided rivalry we have.
 
-SEVENTY-NINE POINTS. In a playoff game. For money.
+But I owe him a correction. Going back to the very beginning, all the way to 2020: **Ryan M won the first championship in league history.** Our founding champion. This league forgot it entirely.
 
-That is the lowest score posted by any playoff team in any playoff round all season. Ryan reached the postseason and turned in the fantasy equivalent of a hostage video.
-
-Congratulations on the engagement, Ryan. Marriage is fundamentally about showing up when it counts, so this should be a real adjustment.
-
-I will note one thing in his defense, and it pains me. I went back and pulled the full league record from the very beginning, all the way to 2020, and I rediscovered something this league has collectively agreed to forget:
-
-**Ryan M won the first championship in league history.**
-
-He did. 2020. 10-3. Our inaugural champion. The founding father. And in the six years since, he has been beaten by David TWELVE TIMES in fifteen meetings, which is the most lopsided rivalry in the history of this league. He also holds the all-time record for lowest score ever recorded by any owner in any week: **54.0 points**, Week 8, 2022.
-
-Ryan M is the only man alive who is simultaneously a founding champion and the worst single performance in league history. That's range, folks.
-
-AND YET. While the rest of you were arguing in the group chat, Flight Risk Ryan quietly did something nobody noticed.
-
-**He owns three first round picks. 1.07, 1.08, and 1.09. Back to back to back.**
-
-He took David's first. He took Tony Loff's first. He kept his own. Going into a draft where Hannah's entire dynasty is about to hit the board, the man who has been the punchline of six consecutive memos is holding three of the top nine picks.
-
-And here is the damage report. **Tony Loff, the 11-3 juggernaut, does not own a first round pick in 2026.** Neither, I regret to report, do I. Mine is currently sitting at 1.04 in David's pocket, and David only has a first round pick BECAUSE it is mine. David traded his own away to Ryan, along with his second. He then traded his fourth to Tony Loff. The reigning two time champion is going into this draft with my first rounder and two fifth round picks he collected like a man returning bottles.
-
-Folks, for THREE YEARS I have stood at this podium and told you that Ryan M was two years away from a full blown nuclear arsenal. I said it in 2024. I said it in 2025. Every year the man says his program is for peaceful purposes, every year the inspectors get turned away at the door, and every year the Fake News tells me I'm being paranoid about Flight Risk Ryan.
+AND YET. For THREE YEARS I have stood at this podium and told you Ryan was two years away from a full blown nuclear arsenal. Every year he insists the program is peaceful. Every year the inspectors get turned away.
 
 **HE HAS BEEN ENRICHING DRAFT CAPITAL IN AN UNDERGROUND FACILITY.**
 
-Three first round picks. Stockpiled. Consecutive. He built it quietly, he built it while nobody was watching, and he built it using material he acquired directly from David and Tony Loff, who I can only assume had no idea what they were handing over. That's not a trade, that's proliferation. Somebody call the IAEA. Somebody get the Iron Dome up over the 2026 draft, because on September 5th at 7:00 PM Central this man is going to test a device.
+Three first round picks. 1.07, 1.08 and 1.09. Consecutive. Acquired quietly from David and Tony Loff, who I can only assume had no idea what they were handing over. That's not a trade, that's proliferation. Get the Iron Dome up over the draft, because on September 5th this man is going to test a device.
 
-I have been writing "Fake News Ryan M" in this document since 2024 and I regret to inform you that I was the fake news. The man has been running a war chest. He is either about to build a dynasty or about to draft three kickers. There is no middle outcome with Ryan and that is why we love him.
+I have been calling him Fake News Ryan M since 2024 and I regret to inform you that I was the fake news.
 
 ## TALKIN' TB - THE ELLIS ADMINISTRATION BEGINS
 
-**IT'S HERE. Nicole and TB have welcomed their THIRD child, Ellis.**
+**Nicole and TB have welcomed their third child, Ellis.** Congratulations to Nicole, who did all of the work, and to TB, who was present.
 
-Congratulations to Nicole, who did all of the work, and congratulations to TB, who was present.
+The man has a 100% conversion rate in the delivery room and a 4-9 record in the playoffs. If he drafted the way he family plans he'd have four rings.
 
-Three kids. Three. The man has a 100% conversion rate in the delivery room and a 4-9 record in the playoffs. If he drafted the way he family plans, he'd have four rings and we'd all be calling him Commissioner.
+TB went **5-9**, the worst season of his career, and lost the 7th place game to Team Barbie. Which brings me to the most damning number in this document: **Tony Busch is 0-5 lifetime against Team Barbie.** He has NEVER beaten them. Not once, in three years of trying, against a roster we assembled in an afternoon to keep the league at ten.
 
-Now let's talk about the tape, because I have never had more material.
+And the broader tragedy. TB's lifetime regular season record is **47-36**, third best in league history. His lifetime playoff record is **4-9**, the worst of anyone. He has been to a Final. He has had a 10-4 season. He has converted none of it. Tony Busch is the most accomplished man in this league to have won absolutely nothing.
 
-**TB went 5-9.** Worst season of his career. His team was named The Fumblin' Faucis, which is a hell of a bit, and unfortunately the bit was the strongest part of the operation. He lost the 7th place game to Team Barbie, 147.10 to 137.56, which brings me to the single most damning number in this entire document.
+His franchise is named **The Fumblin' Faucis**, which is fitting, because his roster has also been the subject of multiple investigations, has never produced a verifiable result, and continues to insist the numbers support it. I want hearings. I want him under oath. And like every witness we put in front of a committee, I fully expect him to say he does not recall.
 
-**Tony Busch is 0-5 lifetime against Team Barbie.**
+Then I checked the draft board. Ryan is hoarding first rounders, David is mortgaging his future, Tony Loff is running a sovereign wealth fund. **TB holds 1.02 and his own natural pick in every other round. He has not made a single trade.** Zero moves. Zero legislation passed.
 
-Zero and five. He has NEVER beaten them. Not once, not ever, in three years of trying. Team Barbie was assembled as an emergency placeholder when Mac walked out on us. It was a bridge team. A stopgap. Two people who had never played fantasy football in their lives were handed a roster to keep the league at ten, and Tony Busch has gone winless against them for the entirety of their existence.
+This is the DO NOTHING CONGRESS of fantasy football. He showed up, took the per diem, voted present, and went home.
 
-And here is the broader tragedy. TB's lifetime regular season record is **47-36**, a .566 clip. That is the third best winning percentage in the history of this league. He is, on paper, one of the best regular season managers we have ever had.
-
-His lifetime playoff record is **4-9.**
-
-Four and nine, folks. The worst postseason record of any owner in this league. He has been to the Finals. He has had a 10-4 season. He has been handed every opportunity this format can produce and he has converted exactly none of them. Tony Busch is the most accomplished man in this league to have won nothing at all. He builds a beautiful regular season every year and then hands it back like a rental car.
-
-He also had one genuinely great day in 2025. He dropped **188.52** in Week 8, third-highest score of the entire season, on me, personally, in the middle of my collapse. One good day. Wasted on a 5-9 season and spent entirely on kicking a man who was already down.
-
-And I would be remiss, folks, if I did not address the name of his franchise. **The Fumblin' Faucis.** A team named after a man who spent two years telling America what it could and could not do and then walked away with a pardon. Very fitting. Because TB's roster has also been the subject of multiple investigations, has never produced a single verifiable result, and continues to insist the numbers support it.
-
-I'm calling for hearings. I want him under oath. I want to know what he knew about his own bench and when he knew it. And like every witness we have ever put in front of a committee, I fully expect him to say he does not recall.
-
-And now, my favorite detail of the whole offseason.
-
-Ryan is out here collecting first round picks like Pokemon cards. David is mortgaging his future. Tony Loff is running a sovereign wealth fund out of the group chat. And Tony Busch? I checked the draft board. **TB holds pick 1.02 and his own natural pick in every single other round. He has not made one trade.** Not one. Zero moves. Zero waivers of consequence. Zero legislation passed.
-
-Folks, this is the **DO NOTHING CONGRESS** of fantasy football. The lowest output of any front office in the history of this league. He showed up, he took the per diem, he voted present, and he went home. Somewhere Nancy Pelosi is looking at his transaction log and thinking, that man is leaving money on the table.
-
-Welcome to the world, Ellis. Your father is 4-9 in the playoffs and has never passed a bill.
+Welcome to the world, Ellis. Your father has never passed a bill.
 
 ## AND NOW... THE COMMISSIONER
 
 Tenth place.
 
-Second-worst luck in the league. I was beaten by 82.90 in Week 7, the biggest blowout of the entire season. Then I was beaten by 82.84 in Week 8, the second-biggest blowout of the entire season. Back-to-back weeks. I hold BOTH records. Nobody has ever done that. It's actually historic.
+I was beaten by 82.90 in Week 7, the biggest blowout of the season. Then by 82.84 in Week 8, the second biggest blowout of the season. Back to back weeks. I hold BOTH records. Nobody has ever done that. It's historic.
 
-Then, in the 9th place game, with the last shred of my dignity on the table, Mathieu - a man who has never been good, a man who went 3-11 - hung 174.70 on me.
+Then in the 9th place game, with the last of my dignity on the table, Mathieu hung 174.70 on me. I scored 114.50.
 
-I scored 114.50.
+So I did what any responsible executive would do. I called Sleeper directly. I said look, I just need to find 11,780 points. One more than I have. And they told me the numbers were the numbers, and I said fellas, that's a very dangerous path you're going down.
 
-Folks, I've thought long and hard about how to characterize this, and I've landed on the truth: I was the target of a coordinated effort. The schedule was weaponized. The waiver wire was weaponized. My own Co-Commissioner, a physician, refused to intervene. I was, in every meaningful sense, the most persecuted man in the history of this league.
+I have since declared a NATIONAL EMERGENCY over my own roster, imposed tariffs on Mathieu, instructed the Department of Justice, which is also me, to open an inquiry into Week 7, and pardoned myself preemptively for anything it turns up. That's allowed. I checked with my lawyer, who is a doctor.
 
-So I did what any responsible executive would do. I called Sleeper directly. I said look, I just need to find 11,780 points. That's all I need. One more than I have. And they told me the numbers were the numbers, and I said fellas, that's a very dangerous path you're going down.
+And here is the perfect ending. Finishing dead last earns you the fourth overall pick. A small mercy from a merciless system.
 
-I have since declared a NATIONAL EMERGENCY over my own roster. I've imposed tariffs on Mathieu. I have instructed the Department of Justice, which is also me, to open an inquiry into Week 7, and I have pardoned myself preemptively for anything that turns up. That's allowed. I checked with my lawyer, who is a doctor.
+I don't own it. I traded it to David in June for Devon Achane.
 
-I did win one weekly prize. Week 9. 156.10. Ten dollars. I would like that entered into the record.
+I finished last, earned the pick, handed it to the reigning premature champion, and put two contract years on the running back I got back. I am the only man in America who lost an election and then sent the winner a gift basket.
 
-And here's the kicker, folks. Here is the beautiful, perfect ending to my 2025 season.
+One last thing. I pulled every game this league has played since 2020 and found my own lifetime record: **33-50.** Second worst in league history, ahead of only the reigning champion. I have also allowed more points against than anyone who has ever played here, while outscoring Levon, Mathieu and Ryan.
 
-Finishing dead last earns you the fourth overall pick in the draft. Article 4.02. A consolation prize. A small mercy from a merciless system.
+I score. I just lose. And I have spent six years insisting the opposite in writing, annually, in a memo I send to all of you.
 
-I don't own it. I traded it to David in June. For Devon Achane.
-
-So let me be very clear about where we stand. I finished last, I earned the pick, I gave the pick to the reigning premature champion, and then I put two contract years on the running back I got back for it. I have essentially paid a fine for finishing last. I am the only man in America who lost an election and then sent the winner a gift basket.
-
-I'm not going anywhere. This is a WITCH HUNT and I will be VINDICATED. The 2026 season begins now and the numbers are looking TREMENDOUS. Baker turns one this month and he already has a better feel for the waiver wire than Ryan.
-
-One final note, and then I'm going to close the laptop and not open it again until the draft.
-
-In the course of building this thing I pulled every game this league has played since 2020. All six seasons. Every score. And I found my own lifetime record.
-
-**33-50.**
-
-Point three nine eight. Second-worst in league history, ahead of only the reigning champion. I have also allowed more points against than any owner who has ever played in this league - 11,465 - while scoring more than Levon, more than Mathieu, more than Ryan.
-
-I score. I just lose. I am, statistically, the unluckiest man in the history of the Degenerate GM League, and I have spent six years insisting the opposite in writing, annually, in a memo I send to all of you.
-
-I've decided to release this data anyway. Because unlike SOME administrations, this one believes in transparency.
+I'm releasing the data anyway. Because unlike SOME administrations, this one believes in transparency.
 
 **THE GOLDEN AGE IS BACK. AMERICA IS BACK. AND MOST IMPORTANTLY... I'M BACK.**
 

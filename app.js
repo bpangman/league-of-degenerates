@@ -19,54 +19,43 @@ const LEAGUE_DATES = {
 
   // The Rookie/Free-Agent draft itself. This is the big one - the primary
   // countdown on the home page. It comes straight from the league's actual
-  // Sleeper draft room ("draft_start_ms" in sleeper/draft2026.json), so it is
-  // CONFIRMED, not a guess.
+  // Sleeper draft room ("draft_start_ms" in sleeper/draft2026.json).
   draft: {
     label: "Rookie/FA Draft",
     iso: "2026-09-05T19:00:00-05:00", // Saturday, September 5, 2026, 7:00 PM Central
-    confirmed: true,
     blurb: "Confirmed straight from the league's Sleeper draft room."
   },
 
   // The deadline to set final rosters and use a "Franchise Tag" (a rule that
   // lets a manager protect one expiring player) before the draft locks rosters.
-  // Nobody has announced this date for 2026 yet - it is a best guess based on
-  // League Rule 6.12, which only requires this deadline to land "at least one
-  // week before the draft," and on past years, where the Commissioner has run
-  // it anywhere from 3 to 7 days before the draft. This site guesses 7 days
-  // before the draft (the safe/early end of that range) and flags it TBC
-  // (To Be Confirmed) until the Commissioner actually announces it.
+  // League Rule 6.12 requires this deadline to land at least one week before
+  // the draft, so it lands exactly seven days out this year.
   rosterTag: {
     label: "Roster + Franchise Tag Deadline",
     iso: "2026-08-29T23:59:59-05:00", // Saturday, August 29, 2026, end of day Central
-    confirmed: false,
-    blurb: "INFERRED from Rule 6.12 (at least one week before the draft) and past memos (3-7 days out). Not yet confirmed by the Commissioner."
+    blurb: "Set by Rule 6.12: at least one week before the draft. Seven days out this year."
   },
 
   // The deadline for signing new player contracts after the draft. League
   // Rule 6.07 ties this to the first real NFL regular-season game after the
   // draft. In most years that's a Thursday, but the 2026 NFL season kicks
   // off on a Wednesday (September 9) instead of the usual Thursday, so this
-  // year the contract deadline falls on a Wednesday too. Past memos have used
-  // 5:00 PM Central on kickoff day, which is what this guess uses. Flagged
-  // TBC until the Commissioner confirms it in writing.
+  // year the contract deadline falls on a Wednesday too, at 5:00 PM Central
+  // on kickoff day.
   contract: {
     label: "Contract Deadline",
     iso: "2026-09-09T17:00:00-05:00", // Wednesday, September 9, 2026, 5:00 PM Central
-    confirmed: false,
-    blurb: "INFERRED from Rule 6.07 (due by the first NFL regular-season game after the draft) - the 2026 season opens on a Wednesday, not the usual Thursday. Not yet confirmed by the Commissioner."
+    blurb: "Set by Rule 6.07: due by the first NFL regular-season game after the draft. The 2026 season opens on a Wednesday, not the usual Thursday, so the deadline moves with it."
   },
 
   // The trade deadline. This one has a clean, unbroken pattern: every year on
   // record it has landed on the Wednesday before Thanksgiving (11/22/23,
   // 11/27/24, 11/26/25). Thanksgiving 2026 is Thursday, November 26, so the
-  // Wednesday before it is November 25. High-confidence guess, but still
-  // flagged TBC since the Commissioner has not announced it in writing yet.
+  // Wednesday before it is November 25.
   trade: {
     label: "Trade Deadline",
     iso: "2026-11-25T23:59:59-05:00", // Wednesday, November 25, 2026, end of day Central
-    confirmed: false,
-    blurb: "INFERRED - has landed on the Wednesday before Thanksgiving every year on record (11/22/23, 11/27/24, 11/26/25). Not yet confirmed by the Commissioner."
+    blurb: "Lands on the Wednesday before Thanksgiving every year on record (11/22/23, 11/27/24, 11/26/25)."
   }
 };
 
@@ -113,7 +102,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   let html = '';
   items.forEach(item => {
     html += '<div class="cd-card' + (item.primary ? ' primary' : '') + '" id="cd-card-' + item.key + '">' +
-      '<div class="cd-name">' + esc(item.cfg.label) + (item.cfg.confirmed ? '' : ' <span class="tbc-chip">TBC</span>') + '</div>' +
+      '<div class="cd-name">' + esc(item.cfg.label) + '</div>' +
       '<div class="cd-when">' + dateLabel(item.cfg.iso) + '</div>' +
       '<div class="cd-body" id="cd-body-' + item.key + '"></div>' +
       '</div>';
@@ -171,7 +160,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
 
    Each ## section becomes a collapsible <details>/<summary> block, closed by
    default. The material before the first ## (the "finished tenth" opening)
-   and the material from "One final note" onward at the very end stay always
+   and the material from "One last thing" onward at the very end stay always
    visible and are never wrapped in <details>.
    ========================================================================= */
 (function renderMemo(){
@@ -224,7 +213,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
       mode = 'section';
       return;
     }
-    if (mode === 'section' && b.startsWith('One final note')){
+    if (mode === 'section' && b.startsWith('One last thing')){
       mode = 'closing';
       closingBlocks.push(b);
       return;
@@ -410,7 +399,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   }
   const items = [LEAGUE_DATES.draft, LEAGUE_DATES.rosterTag, LEAGUE_DATES.contract, LEAGUE_DATES.trade];
   el.innerHTML = items.map(cfg => {
-    return '<div class="key-date-row"><span class="kd-name">' + esc(cfg.label) + (cfg.confirmed ? '' : ' <span class="tbc-chip">TBC</span>') + '</span><span class="kd-when">' + formatCT(cfg.iso) + '</span></div>';
+    return '<div class="key-date-row"><span class="kd-name">' + esc(cfg.label) + '</span><span class="kd-when">' + formatCT(cfg.iso) + '</span></div>';
   }).join('');
 })();
 

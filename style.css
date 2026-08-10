@@ -185,18 +185,6 @@ section:last-of-type{border-bottom:none;}
   font-size:1.1rem;padding:10px 0;
 }
 .cd-card.primary .cd-passed{font-size:1.5rem;}
-.tbc-chip{
-  display:inline-block;
-  background:var(--red);
-  color:#2a0906;
-  font-size:9.5px;
-  font-weight:900;
-  letter-spacing:.06em;
-  padding:2px 7px;
-  border-radius:99px;
-  text-transform:uppercase;
-  vertical-align:middle;
-}
 .cd-note{font-size:.72rem;color:var(--text-faint);margin-top:8px;line-height:1.5;}
 .cd-derivation{
   margin-top:16px;
@@ -215,7 +203,7 @@ section:last-of-type{border-bottom:none;}
 /* ---------- SPRAYPAINT HERO ---------- */
 .hero{
   position:relative;
-  padding:44px 0 40px;
+  padding:56px 0;
   border-bottom:1px solid var(--border);
   overflow:hidden;
   background:
@@ -230,15 +218,11 @@ section:last-of-type{border-bottom:none;}
   pointer-events:none;
 }
 .hero-inner{position:relative;z-index:2;}
-.hero-eyebrow{
-  font-size:11px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--text-dim);font-weight:800;margin:0 0 18px;
-}
 .spray-wrap{
   position:relative;
   width:100%;
   max-width:520px;
-  margin:0 auto 22px;
+  margin:0 auto;
   transform:rotate(-2deg);
 }
 .spray-halo{
@@ -269,14 +253,6 @@ section:last-of-type{border-bottom:none;}
 .drip.d3{left:71%;bottom:4%;width:4px;height:44px;background:linear-gradient(180deg, rgba(228,72,63,.8), rgba(228,72,63,0));}
 .hero h1.sr-title{
   position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);
-}
-.hero .sub{
-  text-align:center;
-  font-size:clamp(1rem,3vw,1.2rem);
-  color:var(--text-dim);
-  margin:0 0 22px;
-  font-weight:600;
-  letter-spacing:.04em;
 }
 
 /* ---------- MEMO ---------- */
