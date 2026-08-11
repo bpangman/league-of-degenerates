@@ -147,7 +147,17 @@ Now remember what this was. Team Barbie was a TEMPORARY MEASURE. An emergency ap
 
 Their lifetime playoff record is **6-2.** Best of anybody who has ever played here. And they're **5-0 lifetime against Tony Busch**, who has never beaten them. Not once! Every pollster in this league had them missing the playoffs. Every one. The models were wrong AGAIN. When are we going to stop trusting the models, folks?
 
-Congratulations to Tony and Pateel on their fur baby, **Marlo.** The first dog in league history to have a better 2025 than her owner.
+And congratulations to Pateel, who has become a Momma. She and Tony have welcomed a beautiful puppy, **Marlo.** Handsome boy. Tremendous boy.
+
+And Marlo arrived in 2026, folks, AFTER the season ended, which means he was not present for any of it. He wasn't there for the Toilet Bowl. He wasn't there for the one point loss. He has no record, no losses, no involvement whatsoever. Completely clean. Never been deposed, never been subpoenaed, wasn't in the building. Marlo is the only member of that entire household who cannot be tied to the 2025 season in any way and I think we all understand what that makes him: the most successful person in the franchise.
+
+Now, the other half of that franchise. My own son. **Baker turns ONE this month.**
+
+And folks, I have to tell you about this kid, because this kid is gifted. Truly gifted. Everybody says it. They come up to me, big strong men, tears in their eyes, and they say sir, that boy is special.
+
+He is SO good with the computers. Unbelievable. Nobody has ever seen anything like it. I shut the computer down, folks. I shut it all the way down, I unplug it, I do the whole thing. And he gets it back on. A ONE YEAR OLD! Gets it right back on, every time, like it's nothing.
+
+We're looking into it very strongly. Because frankly, if he can do that, he can run this league better than eight of you.
 
 ## MILITARY MIKEY IS BACK FROM WAR
 
