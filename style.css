@@ -573,3 +573,22 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
   .draft-pick{grid-template-columns:44px 1fr;}
   .draft-pick .dp-right{grid-column:1/-1;}
 }
+
+/* Expiring-player cases: the no-number case is urgent, the 0 case is not */
+.expiring-case{
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-left:3px solid var(--border);
+  border-radius:10px;
+  padding:14px 16px;
+  margin:10px 0;
+  max-width:720px;
+}
+.expiring-case .ec-head{
+  font-size:.95rem;font-weight:800;margin:0 0 6px;letter-spacing:.01em;
+}
+.expiring-case .ec-head.ec-urgent{color:var(--red);}
+.expiring-case p{color:var(--text-dim);font-size:.94rem;line-height:1.65;margin:0 0 8px;}
+.expiring-case ul{color:var(--text-dim);font-size:.94rem;line-height:1.7;padding-left:20px;margin:0;}
+.expiring-case ul li{margin-bottom:6px;}
+.expiring-case:first-of-type{border-left-color:var(--red);}
