@@ -203,7 +203,11 @@ TB went **5-9**, the worst season of his career, and lost the 7th place game to 
 
 And here's the broader tragedy. TB's lifetime regular season record is **47-36.** Third best in league history! His lifetime playoff record is **4-9.** The worst of anybody. He's been to a Final. He's had a 10-4 season. He has converted none of it. Tony Busch is the most accomplished man in this league to have won absolutely nothing.
 
-His franchise is named **The Fumblin' Faucis**, which is very fitting, because that roster has been the subject of multiple investigations, has never produced one verifiable result, and continues to insist the numbers support it. I want hearings. I want subpoenas. I want that man under oath in front of a committee. And like every single witness we have ever put in that chair, I fully expect him to say he does not recall.
+His franchise is named **The Fumblin' Faucis**, which is very fitting, because that roster has been the subject of multiple investigations, has never produced one verifiable result, and continues to insist the numbers support it. I want hearings. I want subpoenas. I want that man under oath in front of a committee.
+
+And we will get NOTHING. Nothing! Because I know exactly how this goes. They'll sit him down, they'll swear him in, and they'll ask him one simple question about his Week 8 lineup, and he'll lean into that microphone and say **"on the advice of counsel, I respectfully decline to answer, and assert my Fifth Amendment right."**
+
+THE FIFTH! On a fantasy roster! Folks, I've said it for years and I'll say it again: the mob takes the Fifth. The mob! If you're innocent, why are you taking the Fifth Amendment?
 
 Then I checked the draft board. Ryan's hoarding first rounders. David's mortgaging his future. Tony Loff is running a hedge fund. And TB? **He holds 1.02 and his own natural pick in every other round. He has not made a single trade.** Zero moves. Zero waivers of consequence. Zero legislation passed.
 
