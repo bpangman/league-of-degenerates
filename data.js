@@ -31,7 +31,7 @@ const MEMO_MD = `**Degenerates, Liars, Losers, Fantasy Scammers - FANTASY SEASON
 
 Before we begin, a brief word about the 2025 campaign.
 
-I finished tenth. Out of ten. Dead last. The Commissioner of this league, the founder, the visionary, the man who WROTE the constitution the rest of you pretend to read, finished behind a team called Stroud Boys.
+I finished tenth. Out of ten. Dead last. The Commissioner of this league, the founder, the visionary, the man who TOLD TONY LOFF TO WRITE the constitution the rest of you pretend to read, finished behind a team called Stroud Boys.
 
 And folks, I've reviewed the tape. That season was RIGGED. There were irregularities. There were suitcases of points pulled out from under tables in Week 7. I have concepts of a lawsuit. My legal team, Tony Loff, who is a doctor and not a lawyer but who does whatever I tell him, is looking into it very strongly.
 

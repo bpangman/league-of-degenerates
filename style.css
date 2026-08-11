@@ -154,7 +154,7 @@ section:last-of-type{border-bottom:none;}
 }
 .cd-grid{display:grid;grid-template-columns:1fr;gap:10px;}
 @media (min-width:720px){
-  .cd-grid{grid-template-columns:1.4fr 1fr 1fr 1fr;}
+  .cd-grid{grid-template-columns:repeat(4,1fr);}
 }
 .cd-card{
   position:relative;
@@ -169,22 +169,18 @@ section:last-of-type{border-bottom:none;}
   background:linear-gradient(135deg, rgba(232,182,74,.12), rgba(232,182,74,.02));
 }
 .cd-card .cd-name{font-size:.86rem;font-weight:800;letter-spacing:.01em;margin-bottom:2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.cd-card.primary .cd-name{font-size:1.02rem;}
 .cd-card .cd-when{font-size:.76rem;color:var(--text-dim);margin-bottom:10px;}
 .cd-timer{display:flex;gap:8px;}
-.cd-card.primary .cd-timer{gap:12px;}
 .cd-unit{flex:1;text-align:center;background:rgba(255,255,255,.03);border-radius:8px;padding:6px 2px;}
 .cd-unit .cd-num{
   font-family:var(--mono);font-weight:800;font-variant-numeric:tabular-nums;
-  font-size:1.1rem;letter-spacing:-0.02em;
+  font-size:1.55rem;letter-spacing:-0.02em;
 }
-.cd-card.primary .cd-unit .cd-num{font-size:1.9rem;}
 .cd-unit .cd-lbl{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);margin-top:2px;}
 .cd-passed{
   font-family:var(--mono);font-weight:800;color:var(--text-dim);
   font-size:1.1rem;padding:10px 0;
 }
-.cd-card.primary .cd-passed{font-size:1.5rem;}
 .cd-note{font-size:.72rem;color:var(--text-faint);margin-top:8px;line-height:1.5;}
 .cd-derivation{
   margin-top:16px;
