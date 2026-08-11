@@ -191,6 +191,14 @@ And for THREE YEARS I have stood at this podium and warned you that Ryan was two
 
 Three first round picks. 1.07, 1.08 and 1.09. Consecutive! Acquired quietly from David and from Tony Loff, who I can only assume had NO IDEA what they were handing over. That's not a trade, folks, that's proliferation. Somebody call the inspectors. Get the Iron Dome up over the draft room, because on September 5th at 7:00 PM Central this man is going to test a device.
 
+And do you understand what 1.07, 1.08 and 1.09 actually IS? Look at a map. That's a CHOKEPOINT. That's the Strait of Hormuz right there in the middle of the first round. Every asset in this draft, every single one, has to sail through Ryan McCusker to get to the other side. He can close the whole waterway any time he likes. One man, three consecutive picks, and the entire league's supply chain runs through him. We should have freedom of navigation operations. I've asked about it. Nobody will give me a straight answer.
+
+And I want the record to reflect that I have declared Ryan's military capability TOTALLY ANNIHILATED. Totally obliterated. Completely and permanently destroyed. We got 'em. It's over.
+
+I have declared this **every four days for three years.**
+
+And every four days it turns out they've rebuilt! Fully rebuilt, better than before, brand new facilities. Nobody's ever seen anything like it. I go on television, I say the program is finished, and by Thursday he's got another first round pick. At a certain point, folks, you have to ask whether the annihilations are working.
+
 I've been calling him Fake News Ryan M since 2024 and I regret to inform you that I was the fake news.
 
 ## TALKIN' TB - THE ELLIS ADMINISTRATION BEGINS
@@ -220,6 +228,20 @@ Welcome to the world, Ellis. Your father has never passed a bill.
 Tenth place.
 
 I was beaten by 82.90 in Week 7, the biggest blowout of the season. Then by 82.84 in Week 8, the second biggest blowout of the season. Back to back weeks! I hold BOTH records. Nobody's ever done that. Nobody. It's historic and I get no credit.
+
+But folks, let's talk about what I have ACTUALLY been through, because nobody in this league wants to talk about it.
+
+**I have been shelled for six straight years.**
+
+I have allowed more points against than any owner in the history of this league. **11,465 points.** Eleven thousand four hundred and sixty five points fired directly at me. Not at Tony. Not at David. At ME. In four of the six seasons we have ever played I have finished in the three most bombarded teams in the league. In 2023 I led the entire league in incoming with 2,072 points against. In 2021 they put over two thousand on me. Last year, 1,916.
+
+Twenty-eight times, folks. TWENTY-EIGHT times out of ninety-six games an opponent has hit me for a hundred and fifty or more. That's nearly one out of every three weeks of my life. I wake up on a Sunday, I check my phone, and the incoming has already started.
+
+And EVERY ONE OF YOU has had a turn. David put **215.76** on me in 2023, the largest score ever recorded against any human being in this league. Ryan hit me for 197.64. Mathieu, a man who has never been good, hit me for 194.08. TB, 188.52. Team Barbie, 186.82. Mikey, 183.30, and he wasn't even in the country.
+
+There is not one owner in this room who has not personally shelled me. Not one. This wasn't a schedule. This was a COALITION.
+
+And in all six years, through all of it, I have never once asked for aid.
 
 Then in the 9th place game, with the last of my dignity on the table, Mathieu hung 174.70 on me. I scored 114.50.
 
