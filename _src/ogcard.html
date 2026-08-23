@@ -1,0 +1,68 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{width:1200px;height:630px;background:#0a0a0d;color:#eceef2;
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+       display:flex;flex-direction:column;overflow:hidden;position:relative}
+  .glow{position:absolute;top:-260px;left:50%;transform:translateX(-50%);
+        width:1000px;height:520px;border-radius:50%;
+        background:radial-gradient(closest-side,rgba(232,182,74,.15),transparent 70%)}
+  header{padding:52px 64px 0;position:relative}
+  .kicker{font-size:19px;letter-spacing:.34em;text-transform:uppercase;color:#8a6a2a;font-weight:700}
+  h1{font-size:70px;line-height:1;letter-spacing:-.018em;margin-top:14px;font-weight:800}
+  h1 .r{color:#e4483f}
+  .rule{height:3px;width:132px;background:#e8b64a;margin-top:22px;border-radius:2px}
+  .hero{margin:32px 64px 0;padding:28px 32px;border:2px solid #e8b64a;border-radius:14px;
+        background:linear-gradient(90deg,rgba(232,182,74,.14),rgba(232,182,74,.03));
+        display:flex;align-items:center;gap:26px;position:relative}
+  .hero .tag{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:#e8b64a;font-weight:800;
+             white-space:nowrap;border-right:2px solid rgba(232,182,74,.4);padding-right:26px}
+  .hero .when{font-size:40px;font-weight:800;letter-spacing:-.01em;white-space:nowrap}
+  .hero .when b{color:#e8b64a}
+  .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin:26px 64px 0}
+  .cell{background:#16161d;border:1px solid #26262f;border-radius:12px;padding:24px 22px}
+  .cell .lab{font-size:14px;letter-spacing:.15em;text-transform:uppercase;color:#9a9ba8;font-weight:700}
+  .cell .val{font-size:27px;font-weight:800;margin-top:8px;letter-spacing:-.01em;white-space:nowrap}
+  .cell .sub{font-size:14px;color:#6c6d7a;margin-top:4px}
+  .band{margin:28px 64px 0;font-size:20px;color:#9a9ba8;line-height:1.45}
+  .band b{color:#eceef2;font-weight:700}
+  footer{margin-top:auto;padding:22px 0 36px;border-top:1px solid #1c1c24;margin:auto 64px 0;display:flex;justify-content:space-between;
+         align-items:flex-end;font-size:16px;color:#6c6d7a}
+  footer .site{color:#9a9ba8;font-weight:700;letter-spacing:.04em}
+</style>
+<div class="glow"></div>
+<header>
+  <div class="kicker">Degenerate GM Dynasty League</div>
+  <h1>LEAGUE OF <span class="r">DEGENERATES</span></h1>
+  <div class="rule"></div>
+</header>
+
+<div class="hero">
+  <div class="tag">Rookie / FA Draft</div>
+  <div class="when">Sat, Sept 5 &nbsp;<b>2:00 PM CT</b></div>
+</div>
+
+<div class="grid">
+  <div class="cell">
+    <div class="lab">Roster + Franchise Tag</div>
+    <div class="val">Sat, Aug 29</div>
+    <div class="sub">End of day CT</div>
+  </div>
+  <div class="cell">
+    <div class="lab">Contract Deadline</div>
+    <div class="val">Wed, Sept 9</div>
+    <div class="sub">5:00 PM CT</div>
+  </div>
+  <div class="cell">
+    <div class="lab">Trade Deadline</div>
+    <div class="val">Wed, Nov 25</div>
+    <div class="sub">End of day CT</div>
+  </div>
+</div>
+
+<div class="band">The <b>2026 Commissioner's Memo</b> is live, plus six seasons of standings,<br>all-play records, the dynasty board and the record book.</div>
+
+<footer>
+  <div>Ten teams. Six seasons. One belt.</div>
+  <div class="site">bpangman.github.io/league-of-degenerates</div>
+</footer>
