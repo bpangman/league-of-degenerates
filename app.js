@@ -22,7 +22,7 @@ const LEAGUE_DATES = {
   // Sleeper draft room ("draft_start_ms" in sleeper/draft2026.json).
   draft: {
     label: "Rookie/FA Draft",
-    iso: "2026-09-05T19:00:00-05:00", // Saturday, September 5, 2026, 7:00 PM Central
+    iso: "2026-09-05T14:00:00-05:00", // Saturday, September 5, 2026, 2:00 PM Central
     blurb: "Confirmed straight from the league's Sleeper draft room."
   },
 
@@ -176,7 +176,16 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   }
 
   function paragraphsHtml(blocks){
-    return blocks.map(b => '<p>' + inline(b) + '</p>').join('');
+    return blocks.map(function(b){
+      // A "## " block that ends up in the intro/closing stream (see
+      // ALWAYS_OPEN_HEADERS below) renders as a plain headline, not a
+      // collapsible <details> summary - reuses the existing .memo-body h3
+      // styling instead of a <p>.
+      if (b.startsWith('## ')){
+        return '<h3>' + inline(b.slice(3).trim()) + '</h3>';
+      }
+      return '<p>' + inline(b) + '</p>';
+    }).join('');
   }
 
   function slugify(s){
@@ -197,8 +206,17 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
     "Finished 10th. Gave his consolation pick away."
   ];
 
+  // Headline sections that read like part of the intro (always visible,
+  // never collapsible) even though they use a "## " header in the markdown
+  // so they still get a visual title. Matched by exact header text.
+  const ALWAYS_OPEN_HEADERS = [
+    "THE BAKER MAYFIELD AFFAIR - A COUP, A COUNTER-COUP, AND THE WILL OF THE PEOPLE"
+  ];
+
   // Split MEMO_MD into: intro (before first ##), named sections, and the
   // always-visible closing block (from "One final note" through the end).
+  // A header listed in ALWAYS_OPEN_HEADERS stays part of the intro stream
+  // instead of starting a new collapsible section.
   const blocks = MEMO_MD.split(/\n\n+/).map(b => b.trim()).filter(Boolean);
   const introBlocks = [];
   const sections = [];
@@ -208,7 +226,12 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
 
   blocks.forEach(b => {
     if (mode !== 'closing' && b.startsWith('## ')){
-      current = { title: b.slice(3).trim(), bodyBlocks: [] };
+      const title = b.slice(3).trim();
+      if (mode === 'intro' && ALWAYS_OPEN_HEADERS.indexOf(title) !== -1){
+        introBlocks.push(b);
+        return;
+      }
+      current = { title: title, bodyBlocks: [] };
       sections.push(current);
       mode = 'section';
       return;

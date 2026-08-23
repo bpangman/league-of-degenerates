@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" width="1200" height="610" role="img" aria-label="The Three Faces of Tony Loff: three black and white propaganda poster panels labeled Josef Loffalin, Adolf Loffler and Tony Jong Un">
+  <defs>
+    <linearGradient id="pan" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#e8e8e8"/><stop offset="0.5" stop-color="#bdbdbd"/><stop offset="1" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="0.62" cy="0.32" r="0.78">
+      <stop offset="0" stop-color="#dcdcdc"/><stop offset="0.45" stop-color="#b3b3b3"/>
+      <stop offset="0.8" stop-color="#7f7f7f"/><stop offset="1" stop-color="#5c5c5c"/>
+    </radialGradient>
+    <linearGradient id="shadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c2c2c" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#2c2c2c" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2c2c2c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#2a2a2a"/><stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="hairg" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/><stop offset="0.5" stop-color="#1a1a1a"/><stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <pattern id="halftone" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.75" fill="#000" opacity="0.16"/>
+    </pattern>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- ===== shared head ===== -->
+    <g id="face">
+      <!-- ears -->
+      <path d="M -62,-34 C -76,-40 -82,-18 -76,0 C -72,14 -62,16 -58,8 Z" fill="#8a8a8a"/>
+      <path d="M -70,-24 C -74,-14 -72,-2 -67,4" fill="none" stroke="#5e5e5e" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 62,-34 C 76,-40 82,-18 76,0 C 72,14 62,16 58,8 Z" fill="#a2a2a2"/>
+      <path d="M 70,-24 C 74,-14 72,-2 67,4" fill="none" stroke="#6e6e6e" stroke-width="3" stroke-linecap="round"/>
+      <!-- head -->
+      <path d="M 0,-104 C 41,-104 64,-79 64,-40 C 64,-13 60,5 53,22 C 46,41 30,60 0,64 C -30,60 -46,41 -53,22 C -60,5 -64,-13 -64,-40 C -64,-79 -41,-104 0,-104 Z" fill="url(#skin)"/>
+      <!-- form shadow, left side -->
+      <path d="M 0,-104 C -41,-104 -64,-79 -64,-40 C -64,-13 -60,5 -53,22 C -46,41 -30,60 0,64 Z" fill="url(#shadeL)"/>
+      <!-- cheekbone + jaw modelling -->
+      <path d="M -50,-6 C -42,10 -34,20 -22,26 C -34,26 -46,16 -52,2 Z" fill="#5f5f5f" opacity="0.5"/>
+      <path d="M 50,-6 C 43,10 35,20 23,26 C 35,26 47,16 53,2 Z" fill="#6d6d6d" opacity="0.35"/>
+      <path d="M -30,48 C -12,58 12,58 30,48 C 14,62 -14,62 -30,48 Z" fill="#4f4f4f" opacity="0.4"/>
+      <!-- temple hollow -->
+      <ellipse cx="-46" cy="-52" rx="14" ry="18" fill="#5a5a5a" opacity="0.28"/>
+    </g>
+
+    <!-- ===== shared eyes ===== -->
+    <g id="eyes">
+      <ellipse cx="-27" cy="-32" rx="20" ry="12" fill="#5a5a5a" opacity="0.35"/>
+      <ellipse cx="27" cy="-32" rx="20" ry="12" fill="#5a5a5a" opacity="0.28"/>
+      <path d="M -45,-33 C -38,-42 -16,-42 -9,-33 C -16,-24 -38,-24 -45,-33 Z" fill="#e0e0e0"/>
+      <path d="M 45,-33 C 38,-42 16,-42 9,-33 C 16,-24 38,-24 45,-33 Z" fill="#e6e6e6"/>
+      <circle cx="-27" cy="-32" r="7" fill="#4a4a4a"/><circle cx="-27" cy="-32" r="3.2" fill="#0a0a0a"/>
+      <circle cx="27" cy="-32" r="7" fill="#4a4a4a"/><circle cx="27" cy="-32" r="3.2" fill="#0a0a0a"/>
+      <circle cx="-24.5" cy="-35" r="1.8" fill="#fff" opacity="0.85"/>
+      <circle cx="29.5" cy="-35" r="1.8" fill="#fff" opacity="0.85"/>
+      <path d="M -46,-34 C -38,-44 -15,-44 -8,-34" fill="none" stroke="#1e1e1e" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 46,-34 C 38,-44 15,-44 8,-34" fill="none" stroke="#1e1e1e" stroke-width="4" stroke-linecap="round"/>
+      <path d="M -44,-24 C -36,-19 -17,-19 -10,-24" fill="none" stroke="#5a5a5a" stroke-width="2" opacity="0.7"/>
+      <path d="M 44,-24 C 36,-19 17,-19 10,-24" fill="none" stroke="#5a5a5a" stroke-width="2" opacity="0.7"/>
+    </g>
+
+    <!-- ===== shared nose ===== -->
+    <g id="nose">
+      <path d="M -4,-28 C -8,-8 -13,4 -17,12 C -12,20 10,20 15,12 C 11,4 6,-8 3,-28 Z" fill="#8f8f8f" opacity="0.45"/>
+      <path d="M -4,-28 C -8,-8 -13,4 -17,12 C -13,16 -8,17 -4,17 Z" fill="#5c5c5c" opacity="0.55"/>
+      <path d="M 2,-14 C 5,0 9,8 12,13" fill="none" stroke="#d2d2d2" stroke-width="3.5" opacity="0.5" stroke-linecap="round"/>
+      <ellipse cx="-12" cy="15" rx="4.5" ry="3" fill="#333"/>
+      <ellipse cx="11" cy="15" rx="4.5" ry="3" fill="#333"/>
+      <path d="M -18,13 C -14,20 -8,22 -2,21" fill="none" stroke="#4e4e4e" stroke-width="2.4" opacity="0.6"/>
+      <path d="M 17,13 C 13,20 7,22 1,21" fill="none" stroke="#4e4e4e" stroke-width="2.4" opacity="0.6"/>
+    </g>
+
+    <!-- ===== shared neck + tunic ===== -->
+    <g id="tunic">
+      <path d="M -30,44 C -30,74 -34,86 -40,96 L 40,96 C 34,86 30,74 30,44 Z" fill="#8a8a8a"/>
+      <path d="M -30,44 C -30,74 -34,86 -40,96 L 0,96 L 0,44 Z" fill="#5a5a5a"/>
+      <path d="M -34,52 C -16,74 16,74 34,52 C 18,84 -18,84 -34,52 Z" fill="#3f3f3f" opacity="0.6"/>
+      <path d="M -150,224 C -150,150 -92,104 -46,92 L 0,140 L 46,92 C 92,104 150,150 150,224 Z" fill="url(#cloth)"/>
+      <path d="M -46,92 L 0,140 L 46,92 L 58,98 L 0,158 L -58,98 Z" fill="#3d3d3d"/>
+      <path d="M -46,92 L 0,140 L 0,158 L -58,98 Z" fill="#2b2b2b"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="610" fill="#f2efe8"/>
+
+  <!-- TITLE BAND -->
+  <rect x="0" y="0" width="1200" height="104" fill="#111"/>
+  <text x="600" y="52" text-anchor="middle" font-family="Impact, 'Arial Black', 'Helvetica Neue', sans-serif" font-size="46" letter-spacing="3" fill="#f2efe8">THE THREE FACES OF TONY LOFF</text>
+  <text x="600" y="82" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="5" fill="#9b9b9b">CO-COMMISSIONER FOR LIFE  &#183;  DEPARTMENT OF DOING WHAT I SAY</text>
+
+  <!-- ============ PANEL 1: JOSEF LOFFALIN ============ -->
+  <rect x="42" y="134" width="356" height="404" fill="url(#pan)"/>
+  <g clip-path="inset(0)">
+    <svg x="42" y="134" width="356" height="404" viewBox="-178 -202 356 404" overflow="hidden">
+      <g transform="translate(0,-6) scale(1.06)">
+        <use href="#tunic"/>
+        <!-- marshal collar + star -->
+        <path d="M -58,98 L 0,158 L 58,98 L 66,108 L 0,172 L -66,108 Z" fill="#4a4a4a"/>
+        <path d="M 0,154 l 8,24 l 25,0 l -20,15 l 8,24 l -21,-15 l -21,15 l 8,-24 l -20,-15 l 25,0 z" fill="#d6d6d6"/>
+        <use href="#face"/>
+        <!-- swept-back hair with strand separation -->
+        <path d="M -66,-52 C -72,-92 -46,-118 0,-120 C 44,-122 72,-100 68,-56 C 62,-78 54,-92 34,-98 C 6,-107 -32,-100 -50,-76 C -58,-66 -63,-58 -66,-52 Z" fill="url(#hairg)"/>
+        <path d="M -52,-74 C -34,-96 4,-104 32,-96" fill="none" stroke="#4d4d4d" stroke-width="2.6" opacity="0.65"/>
+        <path d="M -44,-84 C -26,-100 8,-106 34,-99" fill="none" stroke="#454545" stroke-width="2.2" opacity="0.5"/>
+        <path d="M -60,-60 C -44,-84 -8,-96 22,-92" fill="none" stroke="#565656" stroke-width="2" opacity="0.45"/>
+        <use href="#eyes"/>
+        <!-- heavy brows -->
+        <path d="M -50,-48 C -42,-60 -18,-60 -8,-50 C -20,-54 -40,-54 -50,-48 Z" fill="#191919"/>
+        <path d="M 50,-48 C 42,-60 18,-60 8,-50 C 20,-54 40,-54 50,-48 Z" fill="#191919"/>
+        <use href="#nose"/>
+        <!-- WALRUS MUSTACHE -->
+        <path d="M -56,20 C -40,6 -18,12 0,18 C 18,12 40,6 56,20 C 52,42 36,52 18,46 C 10,43 4,38 0,34 C -4,38 -10,43 -18,46 C -36,52 -52,42 -56,20 Z" fill="url(#hairg)"/>
+        <path d="M -46,20 C -32,12 -14,18 -2,24" fill="none" stroke="#4a4a4a" stroke-width="2.2" opacity="0.6"/>
+        <path d="M 46,20 C 32,12 14,18 2,24" fill="none" stroke="#4a4a4a" stroke-width="2.2" opacity="0.6"/>
+        <path d="M -40,32 C -26,40 -12,40 -2,34" fill="none" stroke="#3d3d3d" stroke-width="2" opacity="0.5"/>
+        <path d="M 40,32 C 26,40 12,40 2,34" fill="none" stroke="#3d3d3d" stroke-width="2" opacity="0.5"/>
+        <path d="M -22,50 C -8,56 8,56 22,50 C 8,60 -8,60 -22,50 Z" fill="#3a3a3a" opacity="0.75"/>
+      </g>
+    </svg>
+  </g>
+  <rect x="42" y="134" width="356" height="404" fill="url(#halftone)"/>
+  <rect x="42" y="134" width="356" height="404" fill="url(#vig)"/>
+  <rect x="42" y="134" width="356" height="404" fill="none" stroke="#111" stroke-width="6"/>
+  <rect x="42" y="466" width="356" height="72" fill="#111"/>
+  <text x="220" y="504" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="38" letter-spacing="2" fill="#f2efe8">JOSEF LOFFALIN</text>
+  <text x="220" y="526" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" letter-spacing="1.8" fill="#8e8e8e">FIVE YEAR CONTRACT PLAN</text>
+
+  <!-- ============ PANEL 2: ADOLF LOFFLER ============ -->
+  <rect x="422" y="134" width="356" height="404" fill="url(#pan)"/>
+  <g clip-path="inset(0)">
+    <svg x="422" y="134" width="356" height="404" viewBox="-178 -202 356 404" overflow="hidden">
+      <g transform="translate(0,-6) scale(1.06)">
+        <use href="#tunic"/>
+        <path d="M -58,98 L 0,156 L 58,98 L 64,107 L 0,168 L -64,107 Z" fill="#464646"/>
+        <!-- arm band -->
+        <path d="M -142,166 L -88,130 L -74,152 L -128,190 Z" fill="#5a5a5a"/>
+        <path d="M -142,166 L -88,130 L -82,140 L -136,176 Z" fill="#6d6d6d"/>
+        <use href="#face"/>
+        <!-- side part, forelock sweeping across the brow -->
+        <path d="M -66,-46 C -74,-96 -42,-120 2,-121 C 46,-122 72,-98 68,-58 C 62,-88 44,-100 16,-100 C -8,-100 -26,-88 -40,-70 C -50,-58 -60,-50 -66,-46 Z" fill="url(#hairg)"/>
+        <path d="M -62,-48 C -46,-74 -16,-92 18,-92 C 34,-92 46,-86 54,-76 C 40,-90 14,-94 -8,-84 C -30,-74 -48,-58 -58,-42 Z" fill="#141414"/>
+        <path d="M -58,-52 C -42,-78 -10,-94 22,-92" fill="none" stroke="#4a4a4a" stroke-width="2.4" opacity="0.55"/>
+        <path d="M -50,-62 C -34,-84 -4,-97 26,-95" fill="none" stroke="#414141" stroke-width="2" opacity="0.45"/>
+        <use href="#eyes"/>
+        <path d="M -48,-50 C -40,-59 -18,-59 -9,-51 C -20,-55 -38,-55 -48,-50 Z" fill="#1c1c1c"/>
+        <path d="M 48,-50 C 40,-59 18,-59 9,-51 C 20,-55 38,-55 48,-50 Z" fill="#1c1c1c"/>
+        <use href="#nose"/>
+        <!-- TOOTHBRUSH MUSTACHE -->
+        <path d="M -17,22 C -17,19 -14,17 0,17 C 14,17 17,19 17,22 L 17,38 C 17,41 12,43 0,43 C -12,43 -17,41 -17,38 Z" fill="url(#hairg)"/>
+        <path d="M -12,21 L -12,40 M -4,20 L -4,41 M 4,20 L 4,41 M 12,21 L 12,40" stroke="#494949" stroke-width="1.6" opacity="0.55"/>
+        <!-- mouth -->
+        <path d="M -19,48 C -8,53 8,53 19,48" fill="none" stroke="#2b2b2b" stroke-width="4" stroke-linecap="round"/>
+        <path d="M -14,53 C -6,58 6,58 14,53" fill="none" stroke="#a5a5a5" stroke-width="3" opacity="0.45" stroke-linecap="round"/>
+      </g>
+    </svg>
+  </g>
+  <rect x="422" y="134" width="356" height="404" fill="url(#halftone)"/>
+  <rect x="422" y="134" width="356" height="404" fill="url(#vig)"/>
+  <rect x="422" y="134" width="356" height="404" fill="none" stroke="#111" stroke-width="6"/>
+  <rect x="422" y="466" width="356" height="72" fill="#111"/>
+  <text x="600" y="504" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="38" letter-spacing="2" fill="#f2efe8">ADOLF LOFFLER</text>
+  <text x="600" y="526" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" letter-spacing="1.8" fill="#8e8e8e">VETOER OF THE PEOPLE'S TRADE</text>
+
+  <!-- ============ PANEL 3: TONY JONG UN ============ -->
+  <rect x="802" y="134" width="356" height="404" fill="url(#pan)"/>
+  <g clip-path="inset(0)">
+    <svg x="802" y="134" width="356" height="404" viewBox="-178 -202 356 404" overflow="hidden">
+      <g transform="translate(0,-4) scale(1.04)">
+        <use href="#tunic"/>
+        <!-- Mao suit collar -->
+        <path d="M -58,96 L 0,150 L 58,96 L 64,105 L 0,162 L -64,105 Z" fill="#464646"/>
+        <path d="M -62,92 C -34,104 34,104 62,92 L 62,102 C 34,114 -34,114 -62,102 Z" fill="#585858"/>
+        <!-- wider, heavier face -->
+        <g transform="scale(1.14,1.02)">
+          <use href="#face"/>
+        </g>
+        <!-- jowls / fuller cheeks -->
+        <path d="M -62,10 C -58,36 -40,56 -14,64 C -40,62 -62,44 -68,18 Z" fill="#6a6a6a" opacity="0.5"/>
+        <path d="M 62,10 C 58,36 40,56 14,64 C 40,62 62,44 68,18 Z" fill="#787878" opacity="0.4"/>
+        <path d="M -40,54 C -16,72 16,72 40,54 C 18,70 -18,70 -40,54 Z" fill="#5b5b5b" opacity="0.55"/>
+        <!-- HIGH FADE: shaved sides (stubble shading) + tall flared top -->
+        <path d="M -72,-40 C -74,-66 -66,-84 -58,-96 C -52,-72 -52,-56 -54,-40 Z" fill="#585858"/>
+        <path d="M 72,-40 C 74,-66 66,-84 58,-96 C 52,-72 52,-56 54,-40 Z" fill="#666"/>
+        <path d="M -58,-56 C -56,-78 -48,-94 -44,-102 L -56,-128 C -56,-138 -30,-143 0,-143 C 30,-143 56,-138 56,-128 L 44,-102 C 48,-94 56,-78 58,-56 C 44,-76 26,-84 0,-84 C -26,-84 -44,-76 -58,-56 Z" fill="url(#hairg)"/>
+        <path d="M -56,-128 C -56,-138 -30,-143 0,-143 C 30,-143 56,-138 56,-128 L 53,-121 C 46,-130 26,-134 0,-134 C -26,-134 -46,-130 -53,-121 Z" fill="#050505"/>
+        <path d="M -46,-100 C -34,-116 -12,-124 12,-124" fill="none" stroke="#464646" stroke-width="2.2" opacity="0.55"/>
+        <path d="M -50,-84 C -36,-104 -10,-114 18,-114" fill="none" stroke="#3d3d3d" stroke-width="2" opacity="0.45"/>
+        <use href="#eyes"/>
+        <path d="M -52,-52 C -42,-60 -18,-60 -9,-52 C -20,-56 -40,-56 -52,-52 Z" fill="#1c1c1c"/>
+        <path d="M 52,-52 C 42,-60 18,-60 9,-52 C 20,-56 40,-56 52,-52 Z" fill="#1c1c1c"/>
+        <use href="#nose"/>
+        <!-- glasses -->
+        <g fill="none" stroke="#141414" stroke-width="5.5">
+          <rect x="-58" y="-48" width="46" height="33" rx="8"/>
+          <rect x="12" y="-48" width="46" height="33" rx="8"/>
+          <path d="M -12,-36 C -6,-40 6,-40 12,-36"/>
+          <path d="M -58,-40 L -74,-34"/>
+          <path d="M 58,-40 L 74,-34"/>
+        </g>
+        <rect x="-58" y="-48" width="46" height="33" rx="8" fill="#cfcfcf" opacity="0.14"/>
+        <rect x="12" y="-48" width="46" height="33" rx="8" fill="#cfcfcf" opacity="0.14"/>
+        <path d="M -54,-44 L -40,-44 L -52,-24 L -54,-24 Z" fill="#fff" opacity="0.3"/>
+        <path d="M 16,-44 L 30,-44 L 18,-24 L 16,-24 Z" fill="#fff" opacity="0.3"/>
+        <!-- mouth -->
+        <path d="M -22,44 C -8,51 8,51 22,44" fill="none" stroke="#2b2b2b" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M -16,50 C -6,56 6,56 16,50" fill="none" stroke="#a5a5a5" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+      </g>
+    </svg>
+  </g>
+  <rect x="802" y="134" width="356" height="404" fill="url(#halftone)"/>
+  <rect x="802" y="134" width="356" height="404" fill="url(#vig)"/>
+  <rect x="802" y="134" width="356" height="404" fill="none" stroke="#111" stroke-width="6"/>
+  <rect x="802" y="466" width="356" height="72" fill="#111"/>
+  <text x="980" y="504" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="38" letter-spacing="2" fill="#f2efe8">TONY JONG UN</text>
+  <text x="980" y="526" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" letter-spacing="1.8" fill="#8e8e8e">KEEPER OF THE SPREADSHEET</text>
+
+  <!-- FOOTER -->
+  <text x="600" y="576" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="2" fill="#3a3a3a">HE STRIPPED THE COMMISSIONER OF HIS POWERS. THE PEOPLE TOOK THEM BACK.</text>
+  <text x="600" y="598" text-anchor="middle" font-family="Georgia, serif" font-size="11" letter-spacing="1" fill="#8a8a8a" font-style="italic">Parody. No actual chief residents were deposed in the making of this league.</text>
+</svg>

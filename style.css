@@ -592,3 +592,25 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
 .expiring-case ul{color:var(--text-dim);font-size:.94rem;line-height:1.7;padding-left:20px;margin:0;}
 .expiring-case ul li{margin-bottom:6px;}
 .expiring-case:first-of-type{border-left-color:var(--red);}
+
+/* Manifesto headline banner - The Three Faces of Tony Loff */
+.tyrant-banner{
+  margin:0 0 28px;
+  padding:0;
+}
+.tyrant-banner img{
+  display:block;
+  width:100%;
+  height:auto;
+  border:3px solid #111;
+  border-radius:2px;
+  box-shadow:0 10px 30px rgba(0,0,0,.45);
+}
+.tyrant-banner figcaption{
+  margin-top:10px;
+  font-size:.82rem;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--text-dim);
+  text-align:center;
+}

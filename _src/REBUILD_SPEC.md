@@ -98,7 +98,7 @@ countdown (days / hours / minutes / seconds), updating every second, computed cl
 | Event | Date/time | Confidence |
 |---|---|---|
 | Roster + Franchise Tag deadline | **Sat Aug 29, 2026, end of day CT** | INFERRED - mark it |
-| **Rookie/FA Draft** | **Sat Sep 5, 2026, 7:00 PM CT** | CONFIRMED from Sleeper |
+| **Rookie/FA Draft** | **Sat Sep 5, 2026, 2:00 PM CT** | CONFIRMED from Sleeper |
 | Contract deadline | **Wed Sep 9, 2026, 5:00 PM CT** | INFERRED - mark it |
 | Trade deadline | **Wed Nov 25, 2026, end of day CT** | INFERRED - mark it |
 
