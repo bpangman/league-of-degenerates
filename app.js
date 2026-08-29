@@ -226,9 +226,9 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
     },
     'team-barbie': {
       src: './memo-photos/team-barbie-legallyblonde.jpg',
-      alt: 'A two-panel Legally Blonde meme. Top panel: Warner looking surprised, captioned "YOU COMPLETED YOUR TIME CARD?" Bottom panel: Elle Woods in glasses, captioned "WHAT, LIKE IT\'S HARD."',
+      alt: 'A Legally Blonde meme. Elle Woods in glasses looking unimpressed, captioned "WHAT, LIKE IT\'S HARD."',
       caption: 'Exhibit F. Every pollster in this league had them golfing by October. Nobody asked Madison and Pateel.',
-      width: 500, height: 405
+      width: 500, height: 195
     },
     'mikey': {
       src: './memo-photos/mikey-navy-computer.jpg',
