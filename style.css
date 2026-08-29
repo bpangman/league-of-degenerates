@@ -282,8 +282,10 @@ section:last-of-type{border-bottom:none;}
 .lh-grid{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem;}
 .lh-grid dt{color:var(--text-faint);text-transform:uppercase;font-size:11px;letter-spacing:.08em;font-weight:700;align-self:start;padding-top:2px;}
 .lh-grid dd{margin:0;color:var(--text);}
-/* Top padding sets the breathing room under the gold letterhead rule. */
-.memo-body{padding:24px 24px 36px;max-width:680px;margin:0 auto;}
+/* Top padding is tuned so the gap BELOW the gold letterhead rule matches the
+   gap above it (the space above measures ~41px desktop / ~35px mobile once the
+   last letterhead line's line-height is included, not just the 24px padding). */
+.memo-body{padding:41px 24px 36px;max-width:680px;margin:0 auto;}
 .memo-body h3{
   font-size:1.15rem;
   font-weight:800;
@@ -577,7 +579,7 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
   .stat-tile{padding:10px 6px;}
   .lh-grid{grid-template-columns:1fr;}
   .lh-grid dt{padding-top:8px;}
-  .memo-body{padding:20px 16px 28px;}
+  .memo-body{padding:35px 16px 28px;}
   .letterhead{padding:20px 16px 18px;}
   .draft-pick{grid-template-columns:44px 1fr;}
   .draft-pick .dp-right{grid-column:1/-1;}
