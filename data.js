@@ -81,7 +81,7 @@ He ran the most dominant primary campaign this league has ever seen and lost the
 
 And the numbers are BRUTAL. Against the full field every week Tony was 71-55. He earned about **eight** wins. He was handed **eleven**. THREE FREE WINS. He posted the two lowest scores of any playoff team all season and still won eleven games. He didn't build a juggernaut. Somebody drew him a district and he cruised.
 
-He's also the most aggressive man in this league's history. Number one in locked-in contract years **every season since 2021**, and a party to roughly **twenty of the thirty-seven trades** ever logged. He is running a sovereign wealth fund out of a group chat and I want it sanctioned.
+He's also the most aggressive man in this league's history. Number one in locked-in contract years **every season since 2021**, and a party to **twenty-four of the forty-six trades** this league has on record, which is more than half of every deal ever made here. He is running a sovereign wealth fund out of a group chat and I want it sanctioned.
 
 And this offseason he added a new line to the resume: first man in league history to remove a sitting Commissioner's powers over a backup quarterback and a one year old's namesake. His actual patients get more due process than I got. The only thing this man finished all year was the paperwork required to take my job.
 
@@ -157,7 +157,7 @@ Our hero has returned. Mikey went 8-6 and made the playoffs while being on a dif
 
 We have spent decades defending everybody else's borders for free. Everybody's! And Mikey was out there doing it while HIS OWN ROSTER went unattended. Terrible deal. Meanwhile this league sat here, protected, contributing NOTHING. Not one of you hit two percent. Not one!
 
-That's the NATO number, folks. And NATO is a bad deal. Very bad deal. The only thing worse was NAFTA, and I remind this group that TB once stood up and called NAFTA the GOLD STANDARD. The gold standard! The worst trade agreement ever signed by anybody, and the one man in this league who has not made a single trade in six years called it the gold standard. He's never made a deal and he's got OPINIONS on deals.
+That's the NATO number, folks. And NATO is a bad deal. Very bad deal. The only thing worse was NAFTA, and I remind this group that TB once stood up and called NAFTA the GOLD STANDARD. The gold standard! The worst trade agreement ever signed by anybody, and it got called the gold standard by a man who has personally made SEVEN trades in this league and has never once come out ahead on any of them. That's the review I'm supposed to take seriously.
 
 And believe me, I've tried to get us out. Every year I try. There's a senator who wrote a whole bill to leave, and he named it the Not A Trusted Organization Act, which spells NATO, and folks, that is tremendous work and it still didn't get it done. Because somebody passed a law saying you need two thirds of the Senate to walk away. Two thirds! I don't have two thirds of anything. I have Tony. And Tony is the man who took my buttons.
 
@@ -201,7 +201,11 @@ It is named **The Fumblin' Faucis**, which is fitting, because that roster has b
 
 I want hearings. I want subpoenas. And we will get NOTHING, because they'll ask one simple question about the Week 8 lineup and that front office will lean into the microphone and assert the FIFTH. On a fantasy roster! The mob takes the Fifth, folks. The mob!
 
-Then I checked the draft board. Ryan's hoarding first rounders. David's mortgaging his future. Tony Loff is running a hedge fund. And that front office holds 1.02, its own natural pick in every other round, and has **not made a single trade.** Zero moves. Zero waivers of consequence. Zero legislation passed. It has never met a deadline it couldn't adjourn. Six straight years in continuous session and the only thing it has ever passed is a continuing resolution to keep doing exactly what it was already doing.
+Then I checked the draft board. Ryan's hoarding first rounders. David's mortgaging his future. Tony Loff is running a hedge fund. And that front office holds 1.02 and its own natural pick in every other round.
+
+Now they will tell you they are ACTIVE. They'll say seven trades in six years. Seven! And folks, I have gone through all seven personally, and I want you to understand what I found. Not one of them worked. Not one! Seven deals, four of them with Tony Loff, who I remind you is running a sovereign wealth fund. That's not a trade history, that's a DONATION SCHEDULE. He's been funding the opposition for six years and calling it a rebuild.
+
+It has never met a deadline it couldn't adjourn. Six straight years in continuous session and the only thing it has ever passed is a continuing resolution to keep doing exactly what it was already doing.
 
 The DO NOTHING CONGRESS of fantasy football. And unlike the real one, we can't even vote it out. There are no term limits in a dynasty league. I've checked. I wrote the rules. Well, Tony wrote the rules, but I TOLD him to.
 
@@ -239,7 +243,7 @@ One last thing, and then I'll let you go.
 
 This summer I thought about walking away. After they took my buttons I sat there and I thought, maybe six years is enough. Let Tony run it. Let him find out what December feels like from this chair.
 
-And then I looked at you people. A man in Germany with the worst record in league history holding a trophy. A married couple in Colorado quietly assembling the best roster in the league while nobody watches. A guy stockpiling three consecutive first round picks like enriched uranium. A front office that has made zero trades in six years and would not survive one season without somebody to lose the seventh place game to.
+And then I looked at you people. A man in Germany with the worst record in league history holding a trophy. A married couple in Colorado quietly assembling the best roster in the league while nobody watches. A guy stockpiling three consecutive first round picks like enriched uranium. A front office that has made seven trades in six years and got worse on every single one of them.
 
 And I realized I cannot leave. Not because I am needed. Because you would not LAST. You would be leaderless inside a month.
 
@@ -247,8 +251,7 @@ So I'm staying. Dead last, no rings, eleven thousand points of incoming, and I a
 
 **THE GOLDEN AGE IS BACK. AMERICA IS BACK. AND MOST IMPORTANTLY... I'M BACK.**
 
-*(I said that last year. Let's not dwell on it.)*
-`;
+*(I said that last year. Let's not dwell on it.)*`;
 // Note: the memo's closing line "HAPPY FANTASY, YOU COWARDS." is rendered
 // separately as the signature block in memo.html, not duplicated here.
 
