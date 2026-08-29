@@ -103,23 +103,37 @@ He is running the federal budget over here. Massive spending, no revenue, raises
 
 That bill comes due September 5th.
 
-## AMERICA'S FIRST FANTASY COUPLE - HANNAH & MATHIEU
+## AMERICA'S ORIGINAL FANTASY COUPLE - HANNAH & MATHIEU
 
-Two franchises. One kitchen table. And I want to say this plainly, because it doesn't get said enough: Hannah and Mathieu are AMERICA'S FIRST FANTASY COUPLE. A beautiful thing. Very classy operation.
+Two franchises. One kitchen table. And I want to say this plainly, because it doesn't get said enough: Hannah and Mathieu are AMERICA'S ORIGINAL FANTASY COUPLE. A beautiful thing. Very classy operation.
 
 They live in Colorado, which once tried to keep me off the ballot entirely. I've never held it against them. I think about it constantly, but I've never held it against them.
 
-**Hannah** had, by her own account, a "down year." Let's take a look at that. She scored **2,028.54** points, the most of any team in this league and the only team to crack two thousand. Against the entire field every week she went 87-39. Best in the league and not close.
+**Hannah** had, by her own account, a "down year." Let's take a look at that. She scored **2,028.54** points. The most of any team in this league, the only team to crack two thousand, and the highest total she has ever posted in six years. Against the entire field every week she went 87-39. Best in the league and not close.
 
 She finished **fifth.**
 
 That's not a down year, that's the MAP. Sleeper drew that schedule and it was the most gerrymandered district in the history of American sport. She won the popular vote by two hundred points and got a concession speech.
 
-And she runs that franchise like the wonderful Melania. Elegant. Composed. Says almost nothing for seventeen weeks and then walks in and outclasses the entire room. She owns SEVEN of the players who have never moved rosters since 2020 and retained twenty-one of twenty-two last offseason.
+And she runs that franchise like the wonderful Melania. Elegant. Composed. Says almost nothing for seventeen weeks and then walks in and outclasses the entire room.
 
-**And all seven of them expire at the same time.**
+And look at the arc, folks, because it is the SAME ARC. First term: back to back titles in 2022 and 2023. Total command. Nobody touched her. Then the brief absence. 2024, six and eight, ninth in scoring, the Toilet Bowl, out of public life entirely. And every one of you said the same thing. She's done. That's over. She's not coming back.
 
-Watson. McCaffery. Jonathan Taylor. Pollard. Sutton. CeeDee Lamb. Justin Jefferson. Every cornerstone, simultaneously. Call it what it is: **the Hannah Cliff.** And unlike Congress she cannot kick it down the road at 11:58pm with a continuing resolution. On September 2nd this government SHUTS DOWN and seven of the best players in this league get furloughed straight into the draft pool. Bring your contract years. This is the one.
+And then she came back. 2025, more points than she has ever scored, more points than anybody in this league has ever scored, and the second term begins. She retained twenty-one of twenty-two players to do it. That's loyalty. You don't see it anymore.
+
+But I've been briefed on the contract sheet, and this is where it gets serious. Hannah has **three players signed.** THREE. Seven total contract years across a twenty-three man roster. **Seventeen of her players are on expiring rights**, and that includes Justin Jefferson, CeeDee Lamb, McCaffery, Jonathan Taylor, Pollard, Sutton and Watson. Every cornerstone of a two-time championship roster. All of them. At once.
+
+Call it what it is: **the Hannah Cliff.** And unlike Congress she cannot kick it down the road at 11:58pm with a continuing resolution. On September 2nd this government SHUTS DOWN.
+
+Now the Fake News in this league will tell you the dynasty is over. I've heard it all summer. And folks, they are WRONG, and it kills me to say it, because I've looked at that roster and it is the smartest thing anybody in this league is doing.
+
+She isn't losing a dynasty. She's HANDING ONE OFF. While the rest of you were arguing about my son, Hannah quietly signed **Ashton Jeanty for four years**, the longest contract on any roster in this league. Then Jayden Higgins for two. Then Trey Benson. Then she stashed young rights on Drake Maye, Bo Nix and Drake London.
+
+She built the next one BEFORE the old one expired. Nobody does that. Nobody in Washington has done that in fifty years.
+
+So on September 2nd she doesn't get evicted. She gets to CHOOSE. She decides which legends walk and the rest of you fight over whatever she throws in the water. Hannah is the only person in this league capable of a peaceful transfer of power, and I want it on the record that I find that deeply suspicious.
+
+Bring your contract years anyway. Somebody great is getting cut loose. It just won't be an accident.
 
 **Mathieu**, meanwhile, went **3-11.** Dead last in scoring by more than two hundred points. Lifetime he's 36-47 with no titles, no Finals, and a 3-9 playoff record.
 

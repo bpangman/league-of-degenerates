@@ -260,7 +260,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
     "Won the title. Nobody noticed. Now he's moving home.",
     '11-3, best record in the league. Lost the Final.',
     'Announced victory early again. Lyla came early too.',
-    "Hannah's best-ever season. Mathieu's worst.",
+    "Led the league in scoring. Finished 5th.",
     'Unluckiest team in the league. Toilet Bowl champs.',
     'Home from deployment. Playoffs on auto-draft.',
     'Getting married. Quietly hoarding 3 first-rounders.',
