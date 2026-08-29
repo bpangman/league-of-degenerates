@@ -168,6 +168,14 @@ section:last-of-type{border-bottom:none;}
   border-color:var(--gold-dim);
   background:linear-gradient(135deg, rgba(232,182,74,.12), rgba(232,182,74,.02));
 }
+/* The roster + franchise tag deadline arrives first and is the one people
+   actually miss, so it gets a red treatment that mirrors the gold .primary
+   card rather than competing with it. */
+.cd-card.urgent{
+  border-color:var(--red-dim);
+  background:linear-gradient(135deg, rgba(228,72,63,.14), rgba(228,72,63,.02));
+}
+.cd-card.urgent .cd-name{color:var(--red);}
 .cd-card .cd-name{font-size:.86rem;font-weight:800;letter-spacing:.01em;margin-bottom:2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
 .cd-card .cd-when{font-size:.76rem;color:var(--text-dim);margin-bottom:10px;}
 .cd-timer{display:flex;gap:8px;}

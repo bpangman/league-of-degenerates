@@ -23,7 +23,7 @@ const LEAGUE_DATES = {
   draft: {
     label: "Rookie/FA Draft",
     iso: "2026-09-05T14:00:00-05:00", // Saturday, September 5, 2026, 2:00 PM Central
-    blurb: "Confirmed straight from the league's Sleeper draft room."
+    blurb: "Straight from the league's Sleeper draft room. Scheduled around high maintenance diva champion Levon."
   },
 
   // The deadline to set final rosters and use a "Franchise Tag" (a rule that
@@ -32,7 +32,7 @@ const LEAGUE_DATES = {
   rosterTag: {
     label: "Roster + Franchise Tag Deadline",
     iso: "2026-09-02T23:59:59-05:00", // Wednesday, September 2, 2026, end of day Central
-    blurb: "The Wednesday before the draft, end of day Central."
+    blurb: "Rule 6.12 says one week before the draft. Your gracious Commissioner extended it to the Wednesday before, at midnight Central."
   },
 
   // The deadline for signing new player contracts after the draft. League
@@ -73,11 +73,13 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   const board = document.getElementById('countdown-board');
   if (!board) return;
 
+  // Roster deadline is listed FIRST because it arrives first (Sept 2 vs Sept 5).
+  // It gets the red "urgent" treatment; the draft keeps the gold "primary" one.
   const items = [
-    { key: 'draft',     cfg: LEAGUE_DATES.draft,     primary: true  },
-    { key: 'rosterTag', cfg: LEAGUE_DATES.rosterTag, primary: false },
-    { key: 'contract',  cfg: LEAGUE_DATES.contract,  primary: false },
-    { key: 'trade',     cfg: LEAGUE_DATES.trade,     primary: false }
+    { key: 'rosterTag', cfg: LEAGUE_DATES.rosterTag, primary: false, urgent: true  },
+    { key: 'draft',     cfg: LEAGUE_DATES.draft,     primary: true,  urgent: false },
+    { key: 'contract',  cfg: LEAGUE_DATES.contract,  primary: false, urgent: false },
+    { key: 'trade',     cfg: LEAGUE_DATES.trade,     primary: false, urgent: false }
   ];
 
   // Formats the wall-clock date/time exactly as written in the ISO string
@@ -100,7 +102,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
 
   let html = '';
   items.forEach(item => {
-    html += '<div class="cd-card' + (item.primary ? ' primary' : '') + '" id="cd-card-' + item.key + '">' +
+    html += '<div class="cd-card' + (item.primary ? ' primary' : '') + (item.urgent ? ' urgent' : '') + '" id="cd-card-' + item.key + '">' +
       '<div class="cd-name">' + esc(item.cfg.label) + '</div>' +
       '<div class="cd-when">' + dateLabel(item.cfg.iso) + '</div>' +
       '<div class="cd-body" id="cd-body-' + item.key + '"></div>' +
@@ -486,7 +488,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
     let hour12 = hour24 % 12; if (hour12 === 0) hour12 = 12;
     return weekday + ', ' + month + ' ' + day + ', ' + year + ', ' + hour12 + ':' + minute + ' ' + ampm + ' CT';
   }
-  const items = [LEAGUE_DATES.draft, LEAGUE_DATES.rosterTag, LEAGUE_DATES.contract, LEAGUE_DATES.trade];
+  const items = [LEAGUE_DATES.rosterTag, LEAGUE_DATES.draft, LEAGUE_DATES.contract, LEAGUE_DATES.trade];
   el.innerHTML = items.map(cfg => {
     return '<div class="key-date-row"><span class="kd-name">' + esc(cfg.label) + '</span><span class="kd-when">' + formatCT(cfg.iso) + '</span></div>';
   }).join('');
