@@ -201,10 +201,10 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   // and licenses for all nine are recorded in _src/memo-photos/SOURCES.md.
   const SECTION_PHOTOS = {
     'levon': {
-      src: './memo-photos/levon-meme.jpg',
-      alt: 'The "Change My Mind" meme: a man sits at a folding table on a sidewalk behind a sign reading "We should trade Denmark Greenland for Puerto Rico."',
-      caption: 'Exhibit B. We could not close on Greenland. Levon came home for free.',
-      width: 577, height: 432
+      src: './memo-photos/levon-map.jpg',
+      alt: 'President Trump in the Oval Office, gesturing toward an easel map of North America shaded entirely in the American flag pattern, including Canada and Greenland, while a group of foreign leaders looks on from nearby chairs.',
+      caption: 'Exhibit B. The map is basically finished. Levon just beat everyone else to it.',
+      width: 1000, height: 666
     },
     'tony-loff': {
       src: './memo-photos/tony-loff-meme.jpg',
@@ -219,16 +219,16 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
       width: 1000, height: 714
     },
     'hannah-mathieu': {
-      src: './memo-photos/hannah-mathieu-meme.jpg',
-      alt: 'The "Barron Chad" meme: Barron Trump shown in profile, stoic and composed, captioned simply "Yes."',
-      caption: 'Exhibit E. Asked whether any of it bothers him. That is Matt, next to Hannah, every Sunday of the season.',
-      width: 770, height: 1000
+      src: './memo-photos/hannah-mathieu-musk.jpg',
+      alt: 'Elon Musk, mouth open and grinning with a thumbs up, standing next to a stone-faced, unimpressed Barron Trump at the January 2025 presidential inauguration.',
+      caption: 'Exhibit E. One of them is thrilled. The other one is Matt, every Sunday of the season.',
+      width: 680, height: 465
     },
     'team-barbie': {
-      src: './memo-photos/team-barbie-meme.jpg',
-      alt: 'Harry Truman smiling and holding up a newspaper with the incorrect headline DEWEY DEFEATS TRUMAN, captioned "When you realize that Dewey Defeats Truman was the original trollface."',
-      caption: 'Exhibit F. Every pollster in this league had them golfing by October.',
-      width: 577, height: 432
+      src: './memo-photos/team-barbie-legallyblonde.jpg',
+      alt: 'A two-panel Legally Blonde meme. Top panel: Warner looking surprised, captioned "YOU COMPLETED YOUR TIME CARD?" Bottom panel: Elle Woods in glasses, captioned "WHAT, LIKE IT\'S HARD."',
+      caption: 'Exhibit F. Every pollster in this league had them golfing by October. Nobody asked Madison and Pateel.',
+      width: 500, height: 405
     },
     'mikey': {
       src: './memo-photos/mikey-navy-computer.jpg',

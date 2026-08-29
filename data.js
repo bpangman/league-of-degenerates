@@ -43,7 +43,7 @@ And then, and this is the part that should chill every single one of you, he wen
 
 That is not a veto, folks. That is a COUP.
 
-But he forgot about YOU. The group chat, and I have never been prouder of a group chat in my life, said no. Ten degenerates, no whip count, no leadership, and the will of the people carried it. The trade went through. Baker came home. Tyranny lost.
+But he forgot about YOU. The group chat said no. And I have never been prouder of a group chat in my life. Ten degenerates, no whip count, no leadership, and the will of the people carried it. The trade went through. Baker came home. Tyranny lost.
 
 And I want to say this, because it matters. Tony and I have made up. We shook hands. For the good of this league and for the good of our degenerate democracy, the Commissioner and the Co-Commissioner are at peace, and I hold no grudge whatsoever.
 
@@ -59,7 +59,7 @@ Levon won the whole thing.
 
 He went **7-7**. SEVEN AND SEVEN. He was the FIVE SEED. He backed into the playoffs like a man parallel parking a Fiat, and then he hung **147.00** on Tony Loff in the Final and took the belt right out of this country.
 
-And nobody remembers it. I polled this league extensively, tremendous polling. Four owners said David won. One asked if we played last year.
+And nobody remembers it. I polled this league extensively, tremendous polling. Four owners said David won. One asked if we played last year (Ryan M).
 
 Here's my favorite statistic in six years of records. Levon's lifetime regular season record is **32-51**, a .386 winning percentage, the WORST OF ANY OWNER WHO HAS EVER PLAYED HERE. And he owns a ring. He has more championships than the Commissioner, the Co-Commissioner, TB, Mikey, Matt and Team Barbie COMBINED.
 
@@ -105,43 +105,23 @@ That bill comes due September 5th.
 
 ## AMERICA'S ORIGINAL FANTASY COUPLE - HANNAH & MATHIEU
 
-Two franchises. One kitchen table. And I want to say this plainly, because it doesn't get said enough: Hannah and Mathieu are AMERICA'S ORIGINAL FANTASY COUPLE. A beautiful thing. Very classy operation.
+Two franchises. One kitchen table. Hannah and Mathieu are AMERICA'S ORIGINAL FANTASY COUPLE. A beautiful thing. Very classy operation. They live in Colorado, which once tried to keep me off the ballot entirely. I've never held it against them. I think about it constantly, but I've never held it against them.
 
-They live in Colorado, which once tried to keep me off the ballot entirely. I've never held it against them. I think about it constantly, but I've never held it against them.
+**Hannah** had, by her own account, a "down year." She scored **2,028.54** points. The most of any team in this league, the only team to crack two thousand, and the highest total she has ever posted. Against the entire field every week she went 87-39.
 
-**Hannah** had, by her own account, a "down year." Let's take a look at that. She scored **2,028.54** points. The most of any team in this league, the only team to crack two thousand, and the highest total she has ever posted in six years. Against the entire field every week she went 87-39. Best in the league and not close.
+She finished **fifth.** That's not a down year, that's the MAP. She won the popular vote by two hundred points and got a concession speech.
 
-She finished **fifth.**
+And she runs that franchise like the wonderful Melania. Elegant. Composed. Says almost nothing for seventeen weeks and then walks in and outclasses the entire room. And it is the SAME ARC, folks. First term, back to back titles in 2022 and 2023, total command, nobody touched her. Then the brief absence: 2024, six and eight, ninth in scoring, the Toilet Bowl, out of public life entirely. And every one of you said the same thing. She's done. Then she came back and outscored the whole league. The second term has begun.
 
-That's not a down year, that's the MAP. Sleeper drew that schedule and it was the most gerrymandered district in the history of American sport. She won the popular vote by two hundred points and got a concession speech.
+But I've seen the contract sheet. Hannah has **three players signed.** THREE. Seven contract years across twenty-three men, and **seventeen of them on expiring rights**, including Justin Jefferson, CeeDee Lamb, McCaffery and Jonathan Taylor. Call it the **Hannah Cliff.** On September 2nd this government SHUTS DOWN.
 
-And she runs that franchise like the wonderful Melania. Elegant. Composed. Says almost nothing for seventeen weeks and then walks in and outclasses the entire room.
+And the Fake News will tell you the dynasty is over. They are WRONG. She isn't losing a dynasty, she's HANDING ONE OFF. While the rest of you argued about my son, Hannah quietly signed **Ashton Jeanty for four years**, the longest contract on any roster in this league, then Higgins, then Benson, then stashed young rights on Maye, Nix and London. She built the next one BEFORE the old one expired. Nobody in Washington has done that in fifty years. So on September 2nd she doesn't get evicted, she gets to CHOOSE. Hannah is the only person in this league capable of a peaceful transfer of power and I want it on the record that I find that deeply suspicious.
 
-And look at the arc, folks, because it is the SAME ARC. First term: back to back titles in 2022 and 2023. Total command. Nobody touched her. Then the brief absence. 2024, six and eight, ninth in scoring, the Toilet Bowl, out of public life entirely. And every one of you said the same thing. She's done. That's over. She's not coming back.
+**Mathieu** went **3-11.** Dead last in scoring by more than two hundred points. Lifetime 36-47, no titles, no Finals, 3-9 in the playoffs.
 
-And then she came back. 2025, more points than she has ever scored, more points than anybody in this league has ever scored, and the second term begins. She retained twenty-one of twenty-two players to do it. That's loyalty. You don't see it anymore.
+Hannah had a bad year. Matt has had a bad DECADE. There is no season in six years of records in which Matt was good. Not one. If Hannah manages like Melania, Matt manages like Barron. Seven feet tall, hands in his pockets, completely unbothered, standing next to greatness with the exact same expression win or lose. You've all seen the photo. And honestly, folks? I respect it. Total peace of mind. I have never had it one day of my life.
 
-But I've been briefed on the contract sheet, and this is where it gets serious. Hannah has **three players signed.** THREE. Seven total contract years across a twenty-three man roster. **Seventeen of her players are on expiring rights**, and that includes Justin Jefferson, CeeDee Lamb, McCaffery, Jonathan Taylor, Pollard, Sutton and Watson. Every cornerstone of a two-time championship roster. All of them. At once.
-
-Call it what it is: **the Hannah Cliff.** And unlike Congress she cannot kick it down the road at 11:58pm with a continuing resolution. On September 2nd this government SHUTS DOWN.
-
-Now the Fake News in this league will tell you the dynasty is over. I've heard it all summer. And folks, they are WRONG, and it kills me to say it, because I've looked at that roster and it is the smartest thing anybody in this league is doing.
-
-She isn't losing a dynasty. She's HANDING ONE OFF. While the rest of you were arguing about my son, Hannah quietly signed **Ashton Jeanty for four years**, the longest contract on any roster in this league. Then Jayden Higgins for two. Then Trey Benson. Then she stashed young rights on Drake Maye, Bo Nix and Drake London.
-
-She built the next one BEFORE the old one expired. Nobody does that. Nobody in Washington has done that in fifty years.
-
-So on September 2nd she doesn't get evicted. She gets to CHOOSE. She decides which legends walk and the rest of you fight over whatever she throws in the water. Hannah is the only person in this league capable of a peaceful transfer of power, and I want it on the record that I find that deeply suspicious.
-
-Bring your contract years anyway. Somebody great is getting cut loose. It just won't be an accident.
-
-**Mathieu**, meanwhile, went **3-11.** Dead last in scoring by more than two hundred points. Lifetime he's 36-47 with no titles, no Finals, and a 3-9 playoff record.
-
-And that's the difference in that household. Hannah had a bad year. Matt has had a bad DECADE. I've reviewed six years of records and there is no season in which Matt was good. Not one.
-
-If Hannah manages like Melania, Matt manages like Barron. Seven feet tall, hands in his pockets, completely unbothered, standing next to greatness with the exact same expression whether the thing wins or loses. You've all seen the photo, the kid stone-faced next to Elon grinning like he just bought another country. That is Matt next to Hannah every single Sunday. And honestly, folks? I respect it. Total peace of mind. I've never had it for one day of my life.
-
-There's exactly one exception and I regret that it's me. Mathieu is **9-2 against the Commissioner** lifetime. He beats me nine times out of eleven. That's not a manager, that's a recess appointment with a winning record against the President.
+One exception, and I regret that it's me. Mathieu is **9-2 against the Commissioner** lifetime. He beats me nine times out of eleven. That's not a manager, that's a recess appointment with a winning record against the President.
 
 ## TEAM BARBIE - TOILET BOWL CHAMPIONS AND THE LEAGUE'S GREATEST VICTIMS
 
@@ -149,17 +129,21 @@ Madison and Pateel finished 7th at 6-8 and won the Consolation Bracket. Four ext
 
 But here's what nobody wants to say out loud. **Team Barbie was the second best team in this league and they finished seventh.** 76-50 against the full field. 1,939.98 points, more than the number one seed, more than the champion. Expected wins 8.4. Actual wins 6. The unluckiest team in the league by two and a half games. They lost a game **149.52 to 148.50.** By 1.02 points. One point!
 
-And remember what this was. Team Barbie was a TEMPORARY MEASURE, an emergency appointment to keep the government open when Mac walked out in the middle of his term. And like every temporary measure in the history of Washington it is now permanent, it outperforms the thing it replaced, and nobody can remember why we ever did it any other way.
+And remember what this was. Team Barbie was a TEMPORARY MEASURE. An emergency appointment to keep the government open when Mac walked out on this country in the middle of his term.
+
+And how did we fill the seat? The way Washington fills every seat. We kept it in the FAMILY. And that is not a scandal, folks, that is TRADITION. Look at Mitch McConnell. In that chair since 1985. His wife ran two entire federal departments, Labor and then Transportation, and when the town started wondering who takes his seat when he finally goes, Kentucky quietly rewrote the law so that HIS OWN SIDE hands over the list of names. That's how you do a temporary appointment. You make certain the temporary part never comes up.
+
+This league did the identical thing, and like every temporary measure in the history of that town it is now permanent, it outperforms the thing it replaced, and nobody can remember why we ever did it any other way.
 
 Their lifetime playoff record is **6-2**, best of anybody who has ever played here, and they're **5-0 lifetime against Tony Busch**, who has never beaten them. Not once! Every pollster in this league had them missing the playoffs. The models were wrong AGAIN.
 
-And congratulations to Pateel, who has become a Momma. She and Tony have welcomed a beautiful puppy, **Marlo.** Marlo arrived in 2026, AFTER the season ended, which means no record, no losses, never been deposed, wasn't in the building. Completely clean. Which makes him the most successful member of that entire household.
+And this front office has been ADDING. Pateel is a dog momma now, she and Tony brought in a beautiful puppy named **Marlo**, and I want the record to show Marlo arrived in 2026, AFTER the season ended. No record. No losses. Never deposed, never subpoenaed, wasn't in the building. A dog is the only clean member of that entire operation and, frankly, the most successful.
 
-And my own son **Baker turns ONE this month.** Folks, this kid is gifted. He is SO good with the computers. I shut the computer down, I unplug it, I do the whole thing. And he gets it back on. A ONE YEAR OLD! Every time, like it's nothing. If he can do that, he can run this league better than eight of you.
+Madison's half of the front office brought in my son, and **Baker turns ONE this month.** Folks, this kid is gifted. He is SO good with the computers. I shut the computer down, I unplug it, I do the whole thing. And he gets it back on. A ONE YEAR OLD! Every time, like it's nothing. Two more years and he's running that franchise. Three and he's running this league.
 
 ## MILITARY MIKEY IS BACK FROM WAR
 
-Our hero has returned. Mikey went 8-6 and made the playoffs while being on a different continent for most of it.
+Our hero has returned. Mikey went 8-6 and made the playoffs while being on a different continent for most of it, and I'm told the journey home included a brief stop in Thailand for what the after action report calls extracurriculars. I have not requested details. This administration does not ask, and it does not tell.
 
 We have spent decades defending everybody else's borders for free. Everybody's! And Mikey was out there doing it while HIS OWN ROSTER went unattended. Terrible deal.
 
@@ -175,7 +159,9 @@ Ryan went 7-7, snuck in as the six seed, beat Mikey in the first round, then pla
 
 But I owe this man a correction, and I'm big enough to give it. All the way back in 2020, **Ryan M won the first championship in league history.** Our founding champion. And this league forgot about it completely. Sad!
 
-Now. For THREE YEARS I have warned you that Ryan was two weeks away from a full-blown nuclear arsenal. Two weeks! Every year the program is "peaceful." Every year the inspectors get turned away at the gate.
+And now he's on his way back.
+
+For THREE YEARS I have warned you that Ryan was two weeks away from a full-blown nuclear arsenal. Two weeks! Every year the program is "peaceful." Every year the inspectors get turned away at the gate.
 
 **HE HAS BEEN ENRICHING DRAFT CAPITAL IN AN UNDERGROUND FACILITY.**
 
@@ -191,11 +177,15 @@ I've been calling him Fake News Ryan M since 2024 and I regret to inform you tha
 
 TB went **5-9**, the worst season that franchise has ever had, and lost the 7th place game to Team Barbie. Which brings me to the most damning number in this document. **Tony Busch is 0-5 lifetime against Team Barbie.** That roster has NEVER beaten them. Not once, in three years of trying, against a team we assembled in an afternoon to keep the league at ten.
 
-And here's the broader tragedy. That franchise's lifetime regular season record is **47-36**, third best in league history. Its lifetime playoff record is **4-9**, the worst of anybody. It's been to a Final. It's had a 10-4 season. It has converted none of it. The most accomplished roster in this league to have won absolutely nothing.
+And here's the broader tragedy. That franchise's lifetime regular season record is **47-36**, third best in league history. Its lifetime playoff record is **4-9**, the worst of anybody. It's been to a Final. It's had a 10-4 season. It has converted none of it. That's a front office polling at sixty and governing at nine.
 
-It is named **The Fumblin' Faucis**, which is fitting, because that roster has been the subject of multiple investigations, has never produced one verifiable result, and continues to insist the numbers support it. I want hearings. I want subpoenas. And we will get NOTHING, because they'll ask one simple question about the Week 8 lineup and that front office will lean into the microphone and assert the FIFTH. On a fantasy roster! The mob takes the Fifth, folks. The mob!
+It is named **The Fumblin' Faucis**, which is fitting, because that roster has been the subject of multiple investigations, has never produced one verifiable result, and continues to insist the numbers support it. And the GUIDANCE changes every week. First the plan was to compete. Then it was to retool. Then it was two weeks to slow the spread, and folks, that was three seasons ago. Nobody in that building has flattened a single curve.
 
-Then I checked the draft board. Ryan's hoarding first rounders. David's mortgaging his future. Tony Loff is running a hedge fund. And that front office holds 1.02, its own natural pick in every other round, and has **not made a single trade.** Zero moves. Zero legislation passed. The DO NOTHING CONGRESS of fantasy football.
+I want hearings. I want subpoenas. And we will get NOTHING, because they'll ask one simple question about the Week 8 lineup and that front office will lean into the microphone and assert the FIFTH. On a fantasy roster! The mob takes the Fifth, folks. The mob!
+
+Then I checked the draft board. Ryan's hoarding first rounders. David's mortgaging his future. Tony Loff is running a hedge fund. And that front office holds 1.02, its own natural pick in every other round, and has **not made a single trade.** Zero moves. Zero waivers of consequence. Zero legislation passed. It has never met a deadline it couldn't adjourn. Six straight years in continuous session and the only thing it has ever passed is a continuing resolution to keep doing exactly what it was already doing.
+
+The DO NOTHING CONGRESS of fantasy football. And unlike the real one, we can't even vote it out. There are no term limits in a dynasty league. I've checked. I wrote the rules. Well, Tony wrote the rules, but I TOLD him to.
 
 Welcome to the world, Ellis. Your father's roster has never passed a bill.
 
@@ -227,19 +217,15 @@ I have since declared a NATIONAL EMERGENCY over my own roster. I've imposed tari
 
 And here's the perfect ending. Finishing dead last earns you the fourth overall pick. I don't own it. I traded it to David in June for Devon Achane. I finished last, I earned the pick, and I handed it to the reigning premature champion. I am the only man in America who lost an election and then sent the winner a gift basket.
 
-One last thing. I pulled every game this league has played since 2020 and found my own lifetime record. **33-50.** Second worst in league history, ahead of only the reigning champion. I have allowed more points against than anybody who has ever played here, while outscoring Levon, Mathieu and Ryan.
+One last thing, and then I'll let you go.
 
-I score. I just lose. And I have spent six years insisting the opposite in writing, annually, in a memo I send to all of you.
+This summer I thought about walking away. After they took my buttons I sat there and I thought, maybe six years is enough. Let Tony run it. Let him find out what December feels like from this chair.
 
-I'm releasing the data anyway. Total transparency. Because unlike SOME administrations, this one has nothing to hide.
+And then I looked at you people. A man in Germany with the worst record in league history holding a trophy. A married couple in Colorado quietly assembling the best roster in the league while nobody watches. A guy stockpiling three consecutive first round picks like enriched uranium. A front office that has made zero trades in six years and would not survive one season without somebody to lose the seventh place game to.
 
-This summer I thought about walking away. After they took my buttons I sat there and thought, maybe six years is enough. Let Tony run it.
+And I realized I cannot leave. Not because I am needed. Because you would not LAST. You would be leaderless inside a month.
 
-And then I looked at you people. A man in Germany with the worst record in league history holding a trophy. A guy stockpiling three consecutive first round picks like enriched uranium. A front office that has made zero trades in six years and would not survive one season without somebody to lose the seventh place game to.
-
-And I realized I cannot leave. Not because I am needed. Because you would not LAST.
-
-So I'm staying. Not for me. For the degenerates. For America.
+So I'm staying. Dead last, no rings, eleven thousand points of incoming, and I am staying. Not for me. For the degenerates. For America.
 
 **THE GOLDEN AGE IS BACK. AMERICA IS BACK. AND MOST IMPORTANTLY... I'M BACK.**
 

@@ -35,13 +35,18 @@ only with league members), not for any commercial purpose.
 
 | Section id | Meme | Source page | Direct image URL | Filename used |
 |---|---|---|---|---|
-| levon | Change My Mind: "We should trade Denmark Greenland for Puerto Rico" | https://imgflip.com/i/ahn7mw | https://i.imgflip.com/ahn7mw.jpg | `levon-meme-original.jpg` |
 | tony-loff | Tom and Jerry, Trump strangling "Democracy," "STOP THE COUNT!" | https://imgflip.com/i/4lbrqi | https://i.imgflip.com/4lbrqi.jpg | `tony-loff-meme-original.jpg` |
-| hannah-mathieu | "Barron Chad": Barron Trump in profile, stoic, captioned "Yes." | https://knowyourmeme.com/memes/people/barron-trump/photos | https://i.kym-cdn.com/photos/images/original/002/867/031/ed0 | `hannah-mathieu-meme-original.jpg` |
-| team-barbie | "Dewey Defeats Truman was the original trollface" | https://imgflip.com/i/6sive8 | https://i.imgflip.com/6sive8.jpg | `team-barbie-meme-original.jpg` |
 | ryan-m | "Trump signs executive order to build an Iron Dome over the US / We ran out of steel" | https://imgflip.com/i/9i5syl | https://i.imgflip.com/9i5syl.jpg | `ryan-m-meme-original.jpg` |
 | tb | Fauci parody, "I drink a fifth, I mean I PLEAD the fifth" | https://imgflip.com/i/ayhgqn | https://i.imgflip.com/ayhgqn.jpg | `tb-meme-original.jpg` |
 | commissioner | "I have the concept of a plan, that's kind of a plan" | https://knowyourmeme.com/memes/i-have-concepts-of-a-plan | https://i.kym-cdn.com/entries/icons/facebook/000/051/277/i_have_the_concept_of_a_plan.jpg | `commissioner-meme-original.jpg` |
+
+## 2026-08-29 photo swaps (levon, hannah-mathieu, team-barbie)
+
+| Section id | Meme | Source page | Direct image URL | Filename used |
+|---|---|---|---|---|
+| levon | Real photo, widely reported: Trump in the Oval Office gesturing at an AI-generated map of North America shaded as US territory (Canada, Greenland included), meeting with European leaders | https://www.newsweek.com/trump-shares-map-of-us-including-greenland-canada-venezuela-11384438 | https://assets.newsweek.com/wp-content/uploads/2026/01/Copy-of-32-image-12.png?w=1600&quality=80&webp=1 (source served as WebP; converted to JPEG for the archived original) | `levon-meme-original.jpg` |
+| hannah-mathieu | "Energetic Elon Musk and Serious Barron Trump": real photo/screenshot from the January 20, 2025 inauguration, Musk grinning with a thumbs up next to a stone-faced Barron Trump | https://imgflip.com/memetemplate/573418970/Energetic-Elon-Musk-and-Serious-Barron-Trump | https://i.imgflip.com/9hecwq.jpg | `hannah-mathieu-meme-original.jpg` |
+| team-barbie | Legally Blonde two-panel meme built on the "You got into Harvard Law? / What, like it's hard?" template, captioned "YOU COMPLETED YOUR TIME CARD? / WHAT, LIKE IT'S HARD." | https://imgflip.com/i/2temsr | https://i.imgflip.com/2temsr.jpg | `team-barbie-meme-original.jpg` |
 
 Web-ready versions (resized to a 1000px longest side, JPEG quality ~82) live in the
 root-level `memo-photos/` folder as `<section-id>-meme.jpg` and are what memo.html actually
@@ -49,11 +54,21 @@ serves for these seven sections.
 
 ## On the hannah-mathieu photo specifically
 
-The bit calls for the viral photo of Barron Trump standing stone-faced next to a grinning
-Elon Musk at the January 2025 inauguration. That exact viral moment (Musk clapping,
-grinning, giving a thumbs up next to an unmoved Barron) was captured mainly on video and
-in wire-service stills (Getty/AP), none of which are freely licensed. No public-domain or
-Creative-Commons still frame of that specific moment could be found.
+Historical note: an earlier hunt (documented in the original text below) could not find a
+freely-licensed still of Barron Trump and Elon Musk together at the January 2025
+inauguration, so the section ran with a cropped public-domain photo of Barron alone plus a
+disclosed substitution in the caption. As of 2026-08-29, that constraint was dropped (this
+page already runs on ordinary internet memes, not licensed stock), and a real photo showing
+both men in the same frame was found and verified by direct visual inspection: Musk
+grinning with a thumbs up, Barron stone-faced beside him. See the 2026-08-29 table above
+for the source. `hannah-mathieu-barron-trump.jpg` (the old Barron-alone crop) is left in
+this folder as a historical record but is no longer used.
+
+Original note (superseded): The bit calls for the viral photo of Barron Trump standing
+stone-faced next to a grinning Elon Musk at the January 2025 inauguration. That exact viral
+moment (Musk clapping, grinning, giving a thumbs up next to an unmoved Barron) was captured
+mainly on video and in wire-service stills (Getty/AP), none of which are freely licensed.
+No public-domain or Creative-Commons still frame of that specific moment could be found.
 
 What IS public domain and confirmed on Wikimedia Commons is the official inauguration
 photo from the Joint Congressional Committee on Inaugural Ceremonies (source:
@@ -62,7 +77,7 @@ Elon Musk does appear elsewhere in that same full photo (annotated in the file's
 but standing in a different part of the crowd, not adjacent to Barron. `hannah-mathieu-barron-trump.jpg`
 is cropped from that full photo to isolate Barron Trump's characteristic stone-faced
 expression. The joke that this is "Elon" is carried entirely by the figcaption text, not
-by the photo itself. This is a disclosed substitution, not the literal Musk+Barron photo.
+by the photo itself. This was a disclosed substitution, not the literal Musk+Barron photo.
 
 ## Regenerating
 
