@@ -220,8 +220,8 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
     },
     'hannah-mathieu': {
       src: './memo-photos/hannah-mathieu-barron-trump.jpg',
-      alt: 'Barron Trump standing with an unbothered, stone-faced expression in a crowd at a formal event.',
-      caption: 'Exhibit E. Pictured is not Barron next to Elon. For the record, that is Matt, standing next to Hannah, every Sunday of the season.',
+      alt: 'Barron Trump standing stone-faced in a crowd at the 2025 presidential inauguration, with Melania Trump in a wide-brimmed hat in the same frame.',
+      caption: 'Exhibit E. That is Matt, standing next to Hannah, every Sunday of the season.',
       width: 807, height: 1000
     },
     'team-barbie': {
