@@ -193,6 +193,69 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
 
   // Stable ids + short teasers for the nine named sections, in memo order.
   const SECTION_IDS = ['levon', 'tony-loff', 'david', 'hannah-mathieu', 'team-barbie', 'mikey', 'ryan-m', 'tb', 'commissioner'];
+
+  // One photo per section, keyed by SECTION_IDS. Rendered as a <figure class="memo-photo">
+  // at the top of each section's body, before the paragraph text. Width/height are the
+  // real pixel dimensions of the web-ready file in ./memo-photos/ (longest side 1000px),
+  // hardcoded so the browser can reserve the right space before the image loads. Sources
+  // and licenses for all nine are recorded in _src/memo-photos/SOURCES.md.
+  const SECTION_PHOTOS = {
+    'levon': {
+      src: './memo-photos/levon-greenland.jpg',
+      alt: 'Aerial view of Nuuk, Greenland, showing the harbor, apartment blocks and surrounding mountains.',
+      caption: 'Exhibit B. The nation we could not buy. Levon got there for free.',
+      width: 1000, height: 656
+    },
+    'tony-loff': {
+      src: './memo-photos/tony-loff-election-map.jpg',
+      alt: 'A shaded red and blue map of United States presidential election results by county.',
+      caption: 'Exhibit C. Every poll had it called by ten. The board said otherwise.',
+      width: 1000, height: 616
+    },
+    'david': {
+      src: './memo-photos/david-mission-accomplished.jpg',
+      alt: 'The banner reading MISSION ACCOMPLISHED hangs above sailors standing in formation on the deck of the USS Abraham Lincoln.',
+      caption: 'Exhibit D. Hung two rounds before the war was actually over. Some things never change.',
+      width: 1000, height: 714
+    },
+    'hannah-mathieu': {
+      src: './memo-photos/hannah-mathieu-barron-trump.jpg',
+      alt: 'Barron Trump standing with an unbothered, stone-faced expression in a crowd at a formal event.',
+      caption: 'Exhibit E. Pictured is not Barron next to Elon. For the record, that is Matt, standing next to Hannah, every Sunday of the season.',
+      width: 807, height: 1000
+    },
+    'team-barbie': {
+      src: './memo-photos/team-barbie-dewey-defeats-truman.jpg',
+      alt: 'Harry Truman smiling and holding up a newspaper with the incorrect headline DEWEY DEFEATS TRUMAN.',
+      caption: 'Exhibit F. The pollsters had Team Barbie golfing by October. The pollsters were wrong again.',
+      width: 1000, height: 768
+    },
+    'mikey': {
+      src: './memo-photos/mikey-navy-computer.jpg',
+      alt: 'A US Navy sailor typing at a computer keyboard aboard a Navy ship.',
+      caption: 'Exhibit G. The operation that made the playoffs without him touching a mouse.',
+      width: 1000, height: 665
+    },
+    'ryan-m': {
+      src: './memo-photos/ryan-m-iron-dome.jpg',
+      alt: 'A military missile defense radar and launcher unit standing in a grassy field.',
+      caption: 'Exhibit H. Declared totally annihilated. Rebuilt by Thursday. Every time.',
+      width: 747, height: 1000
+    },
+    'tb': {
+      src: './memo-photos/tb-witness-table.jpg',
+      alt: 'An empty witness table set up for a Senate committee hearing, with a nameplate, microphone, timer and water bottles.',
+      caption: 'Exhibit I. Reserved for testimony. The Fifth Amendment was invoked before anyone sat down.',
+      width: 1000, height: 840
+    },
+    'commissioner': {
+      src: './memo-photos/commissioner-artillery.jpg',
+      alt: 'Smoke and a shell leaving the barrel of a US Army howitzer during a live fire exercise.',
+      caption: 'Exhibit J. Incoming. Six years running. Nobody has ever once sent aid.',
+      width: 1000, height: 664
+    }
+  };
+
   const SECTION_TEASERS = [
     "Won the title. Nobody noticed. Now he's moving home.",
     '11-3, best record in the league. Lost the Final.',
@@ -253,13 +316,17 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   sections.forEach((sec, i) => {
     const id = SECTION_IDS[i] || slugify(sec.title);
     const teaser = SECTION_TEASERS[i] || '';
+    const photo = SECTION_PHOTOS[id];
+    const photoHtml = photo ?
+      '<figure class="memo-photo"><img src="' + photo.src + '" alt="' + esc(photo.alt) + '" loading="lazy" width="' + photo.width + '" height="' + photo.height + '"><figcaption>' + inline(photo.caption) + '</figcaption></figure>' :
+      '';
     html += '<details class="memo-section" id="' + id + '">' +
       '<summary>' +
         '<span class="ms-title">' + inline(sec.title) + '</span>' +
         '<span class="ms-chevron" aria-hidden="true"></span>' +
         (teaser ? '<span class="ms-teaser">' + inline(teaser) + '</span>' : '') +
       '</summary>' +
-      '<div class="ms-body">' + paragraphsHtml(sec.bodyBlocks) + '</div>' +
+      '<div class="ms-body">' + photoHtml + paragraphsHtml(sec.bodyBlocks) + '</div>' +
     '</details>';
   });
   html += '</div>';

@@ -45,6 +45,10 @@ That is not a veto, folks. That is a COUP.
 
 But he forgot about YOU. The group chat, and I have never been prouder of a group chat in my life, said no. Ten degenerates, no whip count, no leadership, and the will of the people carried it. The trade went through. Baker came home. Tyranny lost.
 
+And I want to say this, because it matters. Tony and I have made up. We shook hands. For the good of this league and for the good of our degenerate democracy, the Commissioner and the Co-Commissioner are at peace, and I hold no grudge whatsoever.
+
+I would be doing you a disservice, though, if I left out one detail. Mere HOURS before the Josh Jacobs news dropped, this man offered me a trade for Marshawn Lloyd. Hours! I'm not accusing anybody of anything. I'm simply entering it into the record. Something to think about.
+
 Am I saying the Co-Commissioner should be removed? I'm not saying it. I'm saying a lot of people are saying it. Very smart people, some of the smartest in this league. And I'll be honest with you, I'm hearing it more every day.
 
 Now let's get into each of you, one at a time, the way the Founders intended.
@@ -119,7 +123,9 @@ Watson. McCaffery. Jonathan Taylor. Pollard. Sutton. CeeDee Lamb. Justin Jeffers
 
 **Mathieu**, meanwhile, went **3-11.** Dead last in scoring by more than two hundred points. Lifetime he's 36-47 with no titles, no Finals, and a 3-9 playoff record.
 
-And that's the difference in that household. Hannah had a bad year. Matt has had a bad DECADE. I've reviewed six years of records and there is no season in which Matt was good. Not one. If Hannah manages like Melania, Matt manages like Barron. Enormous. Silent. Standing in the back of every photo. Nobody is entirely sure what he does and everybody is a little afraid to ask.
+And that's the difference in that household. Hannah had a bad year. Matt has had a bad DECADE. I've reviewed six years of records and there is no season in which Matt was good. Not one.
+
+If Hannah manages like Melania, Matt manages like Barron. Seven feet tall, hands in his pockets, completely unbothered, standing next to greatness with the exact same expression whether the thing wins or loses. You've all seen the photo, the kid stone-faced next to Elon grinning like he just bought another country. That is Matt next to Hannah every single Sunday. And honestly, folks? I respect it. Total peace of mind. I've never had it for one day of my life.
 
 There's exactly one exception and I regret that it's me. Mathieu is **9-2 against the Commissioner** lifetime. He beats me nine times out of eleven. That's not a manager, that's a recess appointment with a winning record against the President.
 
