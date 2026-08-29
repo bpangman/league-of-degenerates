@@ -28,12 +28,11 @@ const LEAGUE_DATES = {
 
   // The deadline to set final rosters and use a "Franchise Tag" (a rule that
   // lets a manager protect one expiring player) before the draft locks rosters.
-  // League Rule 6.12 requires this deadline to land at least one week before
-  // the draft, so it lands exactly seven days out this year.
+  // This lands on the Wednesday before the draft, at midnight Central.
   rosterTag: {
     label: "Roster + Franchise Tag Deadline",
-    iso: "2026-08-29T23:59:59-05:00", // Saturday, August 29, 2026, end of day Central
-    blurb: "Set by Rule 6.12: at least one week before the draft. Seven days out this year."
+    iso: "2026-09-02T23:59:59-05:00", // Wednesday, September 2, 2026, end of day Central
+    blurb: "The Wednesday before the draft, end of day Central."
   },
 
   // The deadline for signing new player contracts after the draft. League
@@ -210,7 +209,7 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   // never collapsible) even though they use a "## " header in the markdown
   // so they still get a visual title. Matched by exact header text.
   const ALWAYS_OPEN_HEADERS = [
-    "THE BAKER MAYFIELD AFFAIR - A COUP, A COUNTER-COUP, AND THE WILL OF THE PEOPLE"
+    "THE BAKER MAYFIELD AFFAIR"
   ];
 
   // Split MEMO_MD into: intro (before first ##), named sections, and the
