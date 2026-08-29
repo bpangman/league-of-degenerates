@@ -201,16 +201,16 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
   // and licenses for all nine are recorded in _src/memo-photos/SOURCES.md.
   const SECTION_PHOTOS = {
     'levon': {
-      src: './memo-photos/levon-greenland.jpg',
-      alt: 'Aerial view of Nuuk, Greenland, showing the harbor, apartment blocks and surrounding mountains.',
-      caption: 'Exhibit B. The nation we could not buy. Levon got there for free.',
-      width: 1000, height: 656
+      src: './memo-photos/levon-meme.jpg',
+      alt: 'The "Change My Mind" meme: a man sits at a folding table on a sidewalk behind a sign reading "We should trade Denmark Greenland for Puerto Rico."',
+      caption: 'Exhibit B. We could not close on Greenland. Levon came home for free.',
+      width: 577, height: 432
     },
     'tony-loff': {
-      src: './memo-photos/tony-loff-election-map.jpg',
-      alt: 'A shaded red and blue map of United States presidential election results by county.',
-      caption: 'Exhibit C. Every poll had it called by ten. The board said otherwise.',
-      width: 1000, height: 616
+      src: './memo-photos/tony-loff-meme.jpg',
+      alt: 'A Tom and Jerry meme. Tom, labeled "Donald Trump," strangles Jerry, labeled "Democracy," with a phone cord. Caption reads "STOP THE COUNT!"',
+      caption: 'Exhibit C. Ninety seconds. That is how fast the count got stopped.',
+      width: 614, height: 500
     },
     'david': {
       src: './memo-photos/david-mission-accomplished.jpg',
@@ -219,16 +219,16 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
       width: 1000, height: 714
     },
     'hannah-mathieu': {
-      src: './memo-photos/hannah-mathieu-barron-trump.jpg',
-      alt: 'Barron Trump standing stone-faced in a crowd at the 2025 presidential inauguration, with Melania Trump in a wide-brimmed hat in the same frame.',
-      caption: 'Exhibit E. That is Matt, standing next to Hannah, every Sunday of the season.',
-      width: 807, height: 1000
+      src: './memo-photos/hannah-mathieu-meme.jpg',
+      alt: 'The "Barron Chad" meme: Barron Trump shown in profile, stoic and composed, captioned simply "Yes."',
+      caption: 'Exhibit E. Asked whether any of it bothers him. That is Matt, next to Hannah, every Sunday of the season.',
+      width: 770, height: 1000
     },
     'team-barbie': {
-      src: './memo-photos/team-barbie-dewey-defeats-truman.jpg',
-      alt: 'Harry Truman smiling and holding up a newspaper with the incorrect headline DEWEY DEFEATS TRUMAN.',
-      caption: 'Exhibit F. The pollsters had Team Barbie golfing by October. The pollsters were wrong again.',
-      width: 1000, height: 768
+      src: './memo-photos/team-barbie-meme.jpg',
+      alt: 'Harry Truman smiling and holding up a newspaper with the incorrect headline DEWEY DEFEATS TRUMAN, captioned "When you realize that Dewey Defeats Truman was the original trollface."',
+      caption: 'Exhibit F. Every pollster in this league had them golfing by October.',
+      width: 577, height: 432
     },
     'mikey': {
       src: './memo-photos/mikey-navy-computer.jpg',
@@ -237,22 +237,22 @@ function teamFor(handle){ return MANAGER_INFO[handle] ? MANAGER_INFO[handle].tea
       width: 1000, height: 665
     },
     'ryan-m': {
-      src: './memo-photos/ryan-m-iron-dome.jpg',
-      alt: 'A military missile defense radar and launcher unit standing in a grassy field.',
-      caption: 'Exhibit H. Declared totally annihilated. Rebuilt by Thursday. Every time.',
-      width: 747, height: 1000
+      src: './memo-photos/ryan-m-meme.jpg',
+      alt: 'A giant dome shaped like an igloo dropped over a map of the continental United States, captioned "Trump signs executive order to build an Iron Dome over the US / We ran out of steel."',
+      caption: 'Exhibit H. Get it up over the draft room before September 5th.',
+      width: 500, height: 555
     },
     'tb': {
-      src: './memo-photos/tb-witness-table.jpg',
-      alt: 'An empty witness table set up for a Senate committee hearing, with a nameplate, microphone, timer and water bottles.',
-      caption: 'Exhibit I. Reserved for testimony. The Fifth Amendment was invoked before anyone sat down.',
-      width: 1000, height: 840
+      src: './memo-photos/tb-meme.jpg',
+      alt: 'A "Most Interesting Man in the World" style parody of Dr. Fauci posed with liquor bottles labeled "American Fifth," captioned "when I am being questioned by Senators in Congress I drink a fifth, I mean, I PLEAD the fifth! / The most dangerous scientist in the world."',
+      caption: 'Exhibit I. On the advice of counsel, that front office respectfully declines to answer.',
+      width: 500, height: 754
     },
     'commissioner': {
-      src: './memo-photos/commissioner-artillery.jpg',
-      alt: 'Smoke and a shell leaving the barrel of a US Army howitzer during a live fire exercise.',
-      caption: 'Exhibit J. Incoming. Six years running. Nobody has ever once sent aid.',
-      width: 1000, height: 664
+      src: './memo-photos/commissioner-meme.jpg',
+      alt: 'Trump\'s face composited onto a Simpsons character, captioned "I have the concept of a plan, that\'s kind of a plan."',
+      caption: 'Exhibit J. My legal team is reviewing Week 7 as we speak.',
+      width: 1000, height: 559
     }
   };
 
