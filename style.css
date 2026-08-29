@@ -594,6 +594,15 @@ footer .fine{margin-top:14px;font-size:.78rem;color:var(--text-faint);}
 .expiring-case:first-of-type{border-left-color:var(--red);}
 
 /* Manifesto headline banner - The Three Faces of Tony Loff */
+/* Memo page only (#memo exists nowhere else). The Tony banner sits directly
+   under the "The Commissioner's Memo" headline with nothing between them, so
+   the generic 44px section top padding leaves too big a hole. Total gap was
+   58px (h1 margin 6 + .page-head padding-bottom 8 + section padding-top 44);
+   this halves it to 29px. Bottom padding is left alone. */
+#memo{
+  padding-top:15px;
+}
+
 .tyrant-banner{
   margin:0 0 28px;
   padding:0;
